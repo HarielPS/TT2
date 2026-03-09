@@ -1,0 +1,27 @@
+import json
+from pathlib import Path
+
+
+def ensure_dir(path: str | Path) -> Path:
+    path = Path(path)
+    path.mkdir(parents=True, exist_ok=True)
+    return path
+
+
+def write_json(path: str | Path, data: dict):
+    path = Path(path)
+    ensure_dir(path.parent)
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+
+
+def read_json(path: str | Path) -> dict:
+    with open(path, "r", encoding="utf-8") as f:
+        return json.load(f)
+
+
+def append_jsonl(path: str | Path, record: dict):
+    path = Path(path)
+    ensure_dir(path.parent)
+    with open(path, "a", encoding="utf-8") as f:
+        f.write(json.dumps(record, ensure_ascii=False) + "\n")

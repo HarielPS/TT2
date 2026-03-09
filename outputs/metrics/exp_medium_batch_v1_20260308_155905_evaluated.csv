@@ -1,0 +1,1141 @@
+experiment_id,run_ts,dataset_name,sample_id,model_name,ruleset_name,prompt_type,source_text,reference_text,generated_text,prompt_text,status,error_message,inference_seconds,input_chars,output_chars,input_words,output_words,flag_artifacts,flag_prompt_leak,flag_truncation,flag_generic,empty_output,compression_ratio,n_flags,src_words,pred_words,ref_words,src_sentences,pred_sentences,ref_sentences,sari,bleu,fernandez_huerta_pred,fernandez_huerta_src,fernandez_huerta_delta,compression_ratio_eval,sentence_splits,levenshtein_similarity,exact_copy,additions_proportion,deletions_proportion,inflesz_pred,inflesz_src,inflesz_delta,rouge1_f,rouge2_f,rougeL_f,bertscore_f1,sbert_similarity
+exp_medium_batch_v1,20260308_155905,FEINA,5350_LibroBAC.pdf,llama3,R0,zero-shot,Yo sé que esto es algo que probablemente preferirían no hacer.,Yo sé que probablemente preferirían no hacer esto.,Yo entiendo que no quieren hacer esto.,"Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+Yo sé que esto es algo que probablemente preferirían no hacer.
+
+Versión simplificada:",success,,13.441,62,38,11,7,False,False,False,False,False,0.6363636363636364,0,11,7,8,1,1,1,36.52777777777778,21.573652645054953,89.41142857142859,83.02181818181819,6.389610389610397,0.6363636363636364,0,0.42,0,0.2857142857142857,0.5454545454545454,93.03500000000003,76.89863636363637,16.136363636363654,0.6250000000000001,0.14285714285714288,0.6250000000000001,0.8634031414985657,
+exp_medium_batch_v1,20260308_155905,FEINA,5350_LibroBAC.pdf,llama3,R2,zero-shot,Yo sé que esto es algo que probablemente preferirían no hacer.,Yo sé que probablemente preferirían no hacer esto.,No quiero que hagan esto.,"Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+Guía interna de simplificación: usa palabras comunes; evita tecnicismos innecesarios; reemplaza palabras difíciles por palabras simples; usa oraciones cortas; expresa una idea por oración; prefiere voz activa; divide oraciones largas.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+Yo sé que esto es algo que probablemente preferirían no hacer.
+
+Versión simplificada:",success,,7.4728,62,25,11,5,False,False,False,False,False,0.4545454545454545,0,11,5,8,1,1,1,30.804612054612054,10.89644800332157,90.44,83.02181818181819,7.418181818181807,0.45454545454545453,0,0.39080459770114945,0,0.4,0.7272727272727273,102.155,76.89863636363637,25.25636363636363,0.42857142857142855,0.0,0.2857142857142857,0.7574537396430969,
+exp_medium_batch_v1,20260308_155905,FEINA,5350_LibroBAC.pdf,mistral,R0,zero-shot,Yo sé que esto es algo que probablemente preferirían no hacer.,Yo sé que probablemente preferirían no hacer esto.,Esto quizás no les guste mucho hacer esto. (This is probably something they wouldn't like to do.),"Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+Yo sé que esto es algo que probablemente preferirían no hacer.
+
+Versión simplificada:",success,,4.8468,62,97,11,17,False,False,False,False,False,1.5454545454545454,0,11,18,8,1,2,1,30.696386946386948,7.2643397661757225,102.17333333333333,83.02181818181819,19.15151515151514,1.6363636363636365,1,0.37735849056603776,0,0.8333333333333334,0.7272727272727273,100.9238888888889,76.89863636363637,24.025252525252526,0.2857142857142857,0.07692307692307691,0.2857142857142857,0.6395886540412903,
+exp_medium_batch_v1,20260308_155905,FEINA,5350_LibroBAC.pdf,mistral,R2,zero-shot,Yo sé que esto es algo que probablemente preferirían no hacer.,Yo sé que probablemente preferirían no hacer esto.,Esto quizás no les guste mucho hacer esto. (This probably isn't something they would like to do.),"Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+Guía interna de simplificación: usa palabras comunes; evita tecnicismos innecesarios; reemplaza palabras difíciles por palabras simples; usa oraciones cortas; expresa una idea por oración; prefiere voz activa; divide oraciones largas.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+Yo sé que esto es algo que probablemente preferirían no hacer.
+
+Versión simplificada:",success,,2.7466,62,97,11,17,False,False,False,False,False,1.5454545454545454,0,11,18,8,1,2,1,30.696386946386948,7.2643397661757225,102.17333333333333,83.02181818181819,19.15151515151514,1.6363636363636365,1,0.36477987421383645,0,0.8333333333333334,0.7272727272727273,100.9238888888889,76.89863636363637,24.025252525252526,0.2857142857142857,0.07692307692307691,0.2857142857142857,0.6378368139266968,
+exp_medium_batch_v1,20260308_155905,FEINA,418_LibroUAC_Sincopyright.pdf,llama3,R0,zero-shot,"Lo calcula el Instituto Nacional de Estadísticas sobre la base de mediciones mensuales a los precios de una canasta familiar que incluye doce categorías de productos, entre ellas, salud, vivienda, vestuario y alimentos.",Lo calcula el Instituto Nacional de Estadísticas sobra la base de las mediciones mensuales a los precios de la canasta familiar.,"El Instituto Nacional de Estadísticas calcula los precios de una canasta familiar que incluye 12 categorías de productos, como la salud, la vivienda, el vestuario y los alimentos, para determinar el costo de vida.","Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+Lo calcula el Instituto Nacional de Estadísticas sobre la base de mediciones mensuales a los precios de una canasta familiar que incluye doce categorías de productos, entre ellas, salud, vivienda, vestuario y alimentos.
+
+Versión simplificada:",success,,10.2968,219,213,33,34,False,False,False,False,False,1.0303030303030305,0,33,34,21,1,1,1,34.31690643249048,10.814410080481558,76.78117647058824,67.38545454545454,9.3957219251337,1.0303030303030303,0,0.5879629629629629,0,0.29411764705882354,0.2727272727272727,40.90558823529412,32.244090909090914,8.661497326203204,0.5172413793103449,0.2857142857142857,0.37931034482758624,0.7834917306900024,
+exp_medium_batch_v1,20260308_155905,FEINA,418_LibroUAC_Sincopyright.pdf,llama3,R2,zero-shot,"Lo calcula el Instituto Nacional de Estadísticas sobre la base de mediciones mensuales a los precios de una canasta familiar que incluye doce categorías de productos, entre ellas, salud, vivienda, vestuario y alimentos.",Lo calcula el Instituto Nacional de Estadísticas sobra la base de las mediciones mensuales a los precios de la canasta familiar.,"El Instituto Nacional de Estadísticas calcula los precios de los productos básicos para una familia promedio, como la salud, la vivienda, la ropa y la comida.","Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+Guía interna de simplificación: usa palabras comunes; evita tecnicismos innecesarios; reemplaza palabras difíciles por palabras simples; usa oraciones cortas; expresa una idea por oración; prefiere voz activa; divide oraciones largas.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+Lo calcula el Instituto Nacional de Estadísticas sobre la base de mediciones mensuales a los precios de una canasta familiar que incluye doce categorías de productos, entre ellas, salud, vivienda, vestuario y alimentos.
+
+Versión simplificada:",success,,4.7092,219,158,33,26,False,False,False,False,False,0.7878787878787878,0,33,26,21,1,1,1,44.5124926407096,12.585217457073275,75.99384615384616,67.38545454545454,8.608391608391628,0.7878787878787878,0,0.5305039787798409,0,0.4230769230769231,0.5454545454545454,49.04653846153846,32.244090909090914,16.802447552447546,0.4799999999999999,0.2916666666666667,0.4,0.7925870418548584,
+exp_medium_batch_v1,20260308_155905,FEINA,418_LibroUAC_Sincopyright.pdf,mistral,R0,zero-shot,"Lo calcula el Instituto Nacional de Estadísticas sobre la base de mediciones mensuales a los precios de una canasta familiar que incluye doce categorías de productos, entre ellas, salud, vivienda, vestuario y alimentos.",Lo calcula el Instituto Nacional de Estadísticas sobra la base de las mediciones mensuales a los precios de la canasta familiar.,"El Instituto Nacional de Estadísticas calcula basándose en mediciones mensuales de precios, una cesta familiar que consta de doce categorías de productos, como salud, vivienda, ropa y alimentos.","Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+Lo calcula el Instituto Nacional de Estadísticas sobre la base de mediciones mensuales a los precios de una canasta familiar que incluye doce categorías de productos, entre ellas, salud, vivienda, vestuario y alimentos.
+
+Versión simplificada:",success,,6.3346,219,194,33,28,False,False,False,False,False,0.8484848484848485,0,33,28,21,1,1,1,34.058873685743464,9.94331256564067,59.6257142857143,67.38545454545454,-7.759740259740234,0.8484848484848485,0,0.7941888619854721,0,0.21428571428571427,0.3333333333333333,29.76000000000002,32.244090909090914,-2.484090909090895,0.4905660377358491,0.23529411764705882,0.3773584905660377,0.7830192446708679,
+exp_medium_batch_v1,20260308_155905,FEINA,418_LibroUAC_Sincopyright.pdf,mistral,R2,zero-shot,"Lo calcula el Instituto Nacional de Estadísticas sobre la base de mediciones mensuales a los precios de una canasta familiar que incluye doce categorías de productos, entre ellas, salud, vivienda, vestuario y alimentos.",Lo calcula el Instituto Nacional de Estadísticas sobra la base de las mediciones mensuales a los precios de la canasta familiar.,"El Instituto Nacional de Estadísticas calcula basándose en mediciones mensuales de precios de una cesta familiar compuesta por doce categorías de productos, como salud, vivienda, ropa y alimentos.","Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+Guía interna de simplificación: usa palabras comunes; evita tecnicismos innecesarios; reemplaza palabras difíciles por palabras simples; usa oraciones cortas; expresa una idea por oración; prefiere voz activa; divide oraciones largas.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+Lo calcula el Instituto Nacional de Estadísticas sobre la base de mediciones mensuales a los precios de una canasta familiar que incluye doce categorías de productos, entre ellas, salud, vivienda, vestuario y alimentos.
+
+Versión simplificada:",success,,3.8185,219,196,33,28,False,False,False,False,False,0.8484848484848485,0,33,28,21,1,1,1,35.37908092864989,10.858943671423319,57.48285714285716,67.38545454545454,-9.902597402597372,0.8484848484848485,0,0.7903614457831325,0,0.25,0.36363636363636365,27.535000000000025,32.244090909090914,-4.7090909090908895,0.4905660377358491,0.27450980392156865,0.41509433962264153,0.7996752858161926,
+exp_medium_batch_v1,20260308_155905,FEINA,16403_LibroBAC.pdf,llama3,R0,zero-shot,Fijar el precio de los activos en el momento de su emisión (mercado primario) o en un momento posterior (mercado secundario).,Fijar el precio de los recursos en su emisión o posteriormente.,Establecer el precio de los activos al venderlos por primera vez (mercado primario) o más tarde (mercado secundario).,"Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+Fijar el precio de los activos en el momento de su emisión (mercado primario) o en un momento posterior (mercado secundario).
+
+Versión simplificada:",success,,6.9503,125,117,21,18,False,False,False,False,False,0.8571428571428571,0,21,18,11,1,1,1,35.17785613270649,11.408424519986962,74.50666666666667,81.98285714285714,-7.476190476190467,0.8571428571428571,0,0.6694214876033058,0,0.4444444444444444,0.5238095238095238,57.3127777777778,61.235000000000014,-3.922222222222217,0.3225806451612903,0.20689655172413793,0.3225806451612903,0.7964063882827759,
+exp_medium_batch_v1,20260308_155905,FEINA,16403_LibroBAC.pdf,llama3,R2,zero-shot,Fijar el precio de los activos en el momento de su emisión (mercado primario) o en un momento posterior (mercado secundario).,Fijar el precio de los recursos en su emisión o posteriormente.,Establecer el precio de los activos cuando se crean o más tarde.,"Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+Guía interna de simplificación: usa palabras comunes; evita tecnicismos innecesarios; reemplaza palabras difíciles por palabras simples; usa oraciones cortas; expresa una idea por oración; prefiere voz activa; divide oraciones largas.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+Fijar el precio de los activos en el momento de su emisión (mercado primario) o en un momento posterior (mercado secundario).
+
+Versión simplificada:",success,,4.9003,125,64,21,12,False,False,False,False,False,0.5714285714285714,0,21,12,11,1,1,1,51.89958097059962,21.401603033752977,98.33999999999999,81.98285714285714,16.357142857142847,0.5714285714285714,0,0.4126984126984127,0,0.5,0.7142857142857143,91.00166666666668,61.235000000000014,29.766666666666666,0.4,0.2608695652173913,0.4,0.8674769401550293,
+exp_medium_batch_v1,20260308_155905,FEINA,16403_LibroBAC.pdf,mistral,R0,zero-shot,Fijar el precio de los activos en el momento de su emisión (mercado primario) o en un momento posterior (mercado secundario).,Fijar el precio de los recursos en su emisión o posteriormente.,Establecer el precio de activos: en el momento de su emisión (mercado primario) o después (mercado secundario). Translation: Set the price of assets: at the time of their issuance (primary market) or later (secondary market).,"Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+Fijar el precio de los activos en el momento de su emisión (mercado primario) o en un momento posterior (mercado secundario).
+
+Versión simplificada:",success,,6.7576,125,226,21,35,False,False,False,False,False,1.6666666666666667,0,21,35,11,1,2,1,25.000011890858747,4.00375921574034,84.44000000000003,81.98285714285714,2.457142857142884,1.6666666666666667,1,0.45714285714285713,0,0.5714285714285714,0.2857142857142857,68.29500000000002,61.235000000000014,7.060000000000002,0.326530612244898,0.1702127659574468,0.326530612244898,0.7161502242088318,
+exp_medium_batch_v1,20260308_155905,FEINA,16403_LibroBAC.pdf,mistral,R2,zero-shot,Fijar el precio de los activos en el momento de su emisión (mercado primario) o en un momento posterior (mercado secundario).,Fijar el precio de los recursos en su emisión o posteriormente.,Establecer el precio de los activos al emitarlos (mercado primario) o más tarde (mercado secundario). (,"Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+Guía interna de simplificación: usa palabras comunes; evita tecnicismos innecesarios; reemplaza palabras difíciles por palabras simples; usa oraciones cortas; expresa una idea por oración; prefiere voz activa; divide oraciones largas.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+Fijar el precio de los activos en el momento de su emisión (mercado primario) o en un momento posterior (mercado secundario).
+
+Versión simplificada:",success,,5.7684,125,104,21,16,False,False,True,False,False,0.7619047619047619,1,21,15,11,1,2,1,35.17785613270649,12.58220555845937,57.24,81.98285714285714,-24.74285714285714,0.7142857142857143,1,0.6929824561403509,0,0.3333333333333333,0.5238095238095238,58.1216666666667,61.235000000000014,-3.1133333333333155,0.35714285714285715,0.23076923076923075,0.35714285714285715,0.7852743268013,
+exp_medium_batch_v1,20260308_155905,FEINA,17252_LibroBAC.pdf,llama3,R0,zero-shot,Desviando su correspondencia hacia otra ubicación con un formulario de cambio de domicilio.,Desviar su correspondencia hacia otra ubicación con un formulario de cambio de domicilio.,Cambie su dirección en otro lugar con un formulario de cambio de dirección.,"Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+Desviando su correspondencia hacia otra ubicación con un formulario de cambio de domicilio.
+
+Versión simplificada:",success,,5.8308,91,75,13,13,False,False,False,False,False,1.0,0,13,13,13,1,1,1,27.478273360626304,37.59663529467017,88.22461538461539,55.91692307692309,32.3076923076923,1.0,0,0.6265060240963856,0,0.46153846153846156,0.46153846153846156,78.81961538461539,45.27346153846156,33.54615384615383,0.5517241379310344,0.3703703703703704,0.5517241379310344,0.8538033366203308,
+exp_medium_batch_v1,20260308_155905,FEINA,17252_LibroBAC.pdf,llama3,R2,zero-shot,Desviando su correspondencia hacia otra ubicación con un formulario de cambio de domicilio.,Desviar su correspondencia hacia otra ubicación con un formulario de cambio de domicilio.,Cambie su dirección en el formulario de cambio de dirección.,"Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+Guía interna de simplificación: usa palabras comunes; evita tecnicismos innecesarios; reemplaza palabras difíciles por palabras simples; usa oraciones cortas; expresa una idea por oración; prefiere voz activa; divide oraciones largas.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+Desviando su correspondencia hacia otra ubicación con un formulario de cambio de domicilio.
+
+Versión simplificada:",success,,3.8141,91,60,13,10,False,False,False,False,False,0.7692307692307693,0,13,10,13,1,1,1,19.073051704630654,19.767437766271104,82.64,55.91692307692309,26.72307692307691,0.7692307692307693,0,0.5960264900662252,0,0.5,0.6153846153846154,78.46500000000002,45.27346153846156,33.19153846153846,0.4615384615384615,0.24999999999999994,0.4615384615384615,0.8158487677574158,
+exp_medium_batch_v1,20260308_155905,FEINA,17252_LibroBAC.pdf,mistral,R0,zero-shot,Desviando su correspondencia hacia otra ubicación con un formulario de cambio de domicilio.,Desviar su correspondencia hacia otra ubicación con un formulario de cambio de domicilio.,Usando un formulario para redirigir tu correo a otro lugar.,"Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+Desviando su correspondencia hacia otra ubicación con un formulario de cambio de domicilio.
+
+Versión simplificada:",success,,6.3261,91,59,13,10,False,False,False,False,False,0.7692307692307693,0,13,10,13,1,1,1,9.748931623931623,6.315134024688132,64.64,55.91692307692309,8.72307692307691,0.7692307692307693,0,0.38666666666666666,0,0.8,0.8461538461538461,59.775000000000006,45.27346153846156,14.501538461538445,0.16666666666666666,0.09090909090909093,0.16666666666666666,0.7710922956466675,
+exp_medium_batch_v1,20260308_155905,FEINA,17252_LibroBAC.pdf,mistral,R2,zero-shot,Desviando su correspondencia hacia otra ubicación con un formulario de cambio de domicilio.,Desviar su correspondencia hacia otra ubicación con un formulario de cambio de domicilio.,Usando un formulario para cambiar la dirección de la correspondencia a otra ubicación.,"Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+Guía interna de simplificación: usa palabras comunes; evita tecnicismos innecesarios; reemplaza palabras difíciles por palabras simples; usa oraciones cortas; expresa una idea por oración; prefiere voz activa; divide oraciones largas.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+Desviando su correspondencia hacia otra ubicación con un formulario de cambio de domicilio.
+
+Versión simplificada:",success,,2.6353,91,86,13,13,False,False,False,False,False,1.0,0,13,13,13,1,1,1,14.357448107448109,9.238430210261097,60.532307692307704,55.91692307692309,4.615384615384613,1.0,0,0.4632768361581921,0,0.5384615384615384,0.5384615384615384,50.06576923076926,45.27346153846156,4.792307692307702,0.4827586206896552,0.22222222222222224,0.2758620689655172,0.8067207932472229,
+exp_medium_batch_v1,20260308_155905,FEINA,1007_LibroUide_Sincopyright.pdf,llama3,R0,zero-shot,"Por esta razón, el financiero suele contar con dos cargos que le brindan soporte en la administración de las mencionadas variables:","Por eso, el financiero tiene dos cargos que le dan soporte en la administración de las variables mencionadas:",El financiero cuenta con dos personas que lo ayudan a manejar las finanzas. (,"Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+Por esta razón, el financiero suele contar con dos cargos que le brindan soporte en la administración de las mencionadas variables:
+
+Versión simplificada:",success,,7.8391,131,78,21,14,False,False,True,False,False,0.6666666666666666,1,21,13,18,1,2,1,28.438506441223833,2.6629879653210753,75.76307692307692,84.84,-9.07692307692308,0.6190476190476191,1,0.5384615384615384,0,0.5384615384615384,0.7142857142857143,80.5273076923077,64.20166666666668,16.32564102564102,0.3125,0.06666666666666667,0.3125,0.7698467969894409,
+exp_medium_batch_v1,20260308_155905,FEINA,1007_LibroUide_Sincopyright.pdf,llama3,R2,zero-shot,"Por esta razón, el financiero suele contar con dos cargos que le brindan soporte en la administración de las mencionadas variables:","Por eso, el financiero tiene dos cargos que le dan soporte en la administración de las variables mencionadas:",El financiero tiene dos ayudantes que lo ayudan a manejar los números. (,"Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+Guía interna de simplificación: usa palabras comunes; evita tecnicismos innecesarios; reemplaza palabras difíciles por palabras simples; usa oraciones cortas; expresa una idea por oración; prefiere voz activa; divide oraciones largas.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+Por esta razón, el financiero suele contar con dos cargos que le brindan soporte en la administración de las mencionadas variables:
+
+Versión simplificada:",success,,5.3633,131,73,21,13,False,False,True,False,False,0.6190476190476191,1,21,12,18,1,2,1,33.83750750055098,7.399927443879033,64.84,84.84,-20.0,0.5714285714285714,1,0.4236453201970443,0,0.6666666666666666,0.8095238095238095,71.04333333333335,64.20166666666668,6.841666666666669,0.37499999999999994,0.2,0.37499999999999994,0.7663813829421997,
+exp_medium_batch_v1,20260308_155905,FEINA,1007_LibroUide_Sincopyright.pdf,mistral,R0,zero-shot,"Por esta razón, el financiero suele contar con dos cargos que le brindan soporte en la administración de las mencionadas variables:","Por eso, el financiero tiene dos cargos que le dan soporte en la administración de las variables mencionadas:",Financieros usan normalmente dos cargos para ayudarlo en el manejo de las variables mencionadas: (,"Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+Por esta razón, el financiero suele contar con dos cargos que le brindan soporte en la administración de las mencionadas variables:
+
+Versión simplificada:",success,,8.9394,131,99,21,15,False,False,True,False,False,0.7142857142857143,1,21,14,18,1,1,1,39.42586117586117,21.837185491444888,58.1257142857143,84.84,-26.7142857142857,0.6666666666666666,0,0.4978165938864629,0,0.42857142857142855,0.6190476190476191,45.985000000000014,64.20166666666668,-18.21666666666667,0.48484848484848486,0.2580645161290323,0.4242424242424242,0.8334452509880066,
+exp_medium_batch_v1,20260308_155905,FEINA,1007_LibroUide_Sincopyright.pdf,mistral,R2,zero-shot,"Por esta razón, el financiero suele contar con dos cargos que le brindan soporte en la administración de las mencionadas variables:","Por eso, el financiero tiene dos cargos que le dan soporte en la administración de las variables mencionadas:","Por este motivo, un financiero a menudo tiene dos cargos que le ayudan a administrar las siguientes variables: (","Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+Guía interna de simplificación: usa palabras comunes; evita tecnicismos innecesarios; reemplaza palabras difíciles por palabras simples; usa oraciones cortas; expresa una idea por oración; prefiere voz activa; divide oraciones largas.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+Por esta razón, el financiero suele contar con dos cargos que le brindan soporte en la administración de las mencionadas variables:
+
+Versión simplificada:",success,,4.5481,131,113,21,19,False,False,True,False,False,0.9047619047619048,1,21,18,18,1,1,1,45.94484040975269,20.705328853752192,77.84000000000002,84.84,-6.999999999999986,0.8571428571428571,0,0.6502057613168725,0,0.5555555555555556,0.6190476190476191,60.773888888888905,64.20166666666668,-3.427777777777777,0.4864864864864865,0.22857142857142856,0.4864864864864865,0.839068591594696,
+exp_medium_batch_v1,20260308_155905,FEINA,754_LibroUAC_Sincopyright.pdf,llama3,R0,zero-shot,"El Código Tributario, por su parte, señala, en su artículo 17, inciso 2.°, que «los libros de contabilidad deben ser conservados por los contribuyentes, junto con la documentación correspondiente, mientras esté pendiente el plazo que tiene el servicio de impuestos internos para la revisión de las declaraciones».",El Código Tributario en el artículo diecisiete establece: Los contribuyentes deben conservar los libros de contabilidad y los documentos durante el plazo de revisión de declaraciones del servicio de impuestos.,Los contribuyentes deben conservar sus libros de contabilidad y documentos relacionados hasta que el servicio de impuestos revise sus declaraciones.,"Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+El Código Tributario, por su parte, señala, en su artículo 17, inciso 2.°, que «los libros de contabilidad deben ser conservados por los contribuyentes, junto con la documentación correspondiente, mientras esté pendiente el plazo que tiene el servicio de impuestos internos para la revisión de las declaraciones».
+
+Versión simplificada:",success,,8.7556,313,148,47,20,False,False,False,False,False,0.425531914893617,0,47,20,30,1,1,1,55.68754554888428,17.90559992758904,51.74,78.28680851063831,-26.546808510638307,0.425531914893617,0,0.48156182212581344,0,0.4,0.7446808510638298,31.085000000000008,28.60734042553193,2.4776595744680776,0.5283018867924527,0.3137254901960784,0.490566037735849,0.8335931301116943,
+exp_medium_batch_v1,20260308_155905,FEINA,754_LibroUAC_Sincopyright.pdf,llama3,R2,zero-shot,"El Código Tributario, por su parte, señala, en su artículo 17, inciso 2.°, que «los libros de contabilidad deben ser conservados por los contribuyentes, junto con la documentación correspondiente, mientras esté pendiente el plazo que tiene el servicio de impuestos internos para la revisión de las declaraciones».",El Código Tributario en el artículo diecisiete establece: Los contribuyentes deben conservar los libros de contabilidad y los documentos durante el plazo de revisión de declaraciones del servicio de impuestos.,Los contribuyentes deben conservar sus libros de contabilidad y documentos relacionados hasta que el servicio de impuestos revise sus declaraciones.,"Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+Guía interna de simplificación: usa palabras comunes; evita tecnicismos innecesarios; reemplaza palabras difíciles por palabras simples; usa oraciones cortas; expresa una idea por oración; prefiere voz activa; divide oraciones largas.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+El Código Tributario, por su parte, señala, en su artículo 17, inciso 2.°, que «los libros de contabilidad deben ser conservados por los contribuyentes, junto con la documentación correspondiente, mientras esté pendiente el plazo que tiene el servicio de impuestos internos para la revisión de las declaraciones».
+
+Versión simplificada:",success,,4.0321,313,148,47,20,False,False,False,False,False,0.425531914893617,0,47,20,30,1,1,1,55.68754554888428,17.90559992758904,51.74,78.28680851063831,-26.546808510638307,0.425531914893617,0,0.48156182212581344,0,0.4,0.7446808510638298,31.085000000000008,28.60734042553193,2.4776595744680776,0.5283018867924527,0.3137254901960784,0.490566037735849,0.8335931301116943,
+exp_medium_batch_v1,20260308_155905,FEINA,754_LibroUAC_Sincopyright.pdf,mistral,R0,zero-shot,"El Código Tributario, por su parte, señala, en su artículo 17, inciso 2.°, que «los libros de contabilidad deben ser conservados por los contribuyentes, junto con la documentación correspondiente, mientras esté pendiente el plazo que tiene el servicio de impuestos internos para la revisión de las declaraciones».",El Código Tributario en el artículo diecisiete establece: Los contribuyentes deben conservar los libros de contabilidad y los documentos durante el plazo de revisión de declaraciones del servicio de impuestos.,"El Código Tributario requiere que los contribuyentes preserven sus libros de contabilidad y documentación relacionados mientras el Servicio de Impuestos Internos puede revisar declaraciones. (Artículo 17, inciso 2.)","Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+El Código Tributario, por su parte, señala, en su artículo 17, inciso 2.°, que «los libros de contabilidad deben ser conservados por los contribuyentes, junto con la documentación correspondiente, mientras esté pendiente el plazo que tiene el servicio de impuestos internos para la revisión de las declaraciones».
+
+Versión simplificada:",success,,12.0589,313,215,47,28,False,False,False,False,False,0.5957446808510638,0,47,28,30,1,2,1,47.300656183108195,11.870579915941967,47.41142857142858,78.28680851063831,-30.87537993920973,0.5957446808510638,1,0.16666666666666666,0,0.25,0.5531914893617021,34.860000000000014,28.60734042553193,6.252659574468083,0.5625,0.3225806451612903,0.4375,0.8107970356941223,
+exp_medium_batch_v1,20260308_155905,FEINA,754_LibroUAC_Sincopyright.pdf,mistral,R2,zero-shot,"El Código Tributario, por su parte, señala, en su artículo 17, inciso 2.°, que «los libros de contabilidad deben ser conservados por los contribuyentes, junto con la documentación correspondiente, mientras esté pendiente el plazo que tiene el servicio de impuestos internos para la revisión de las declaraciones».",El Código Tributario en el artículo diecisiete establece: Los contribuyentes deben conservar los libros de contabilidad y los documentos durante el plazo de revisión de declaraciones del servicio de impuestos.,"El Código Fiscal requiere que contribuyentes guarden sus libros de contabilidad y documentos relacionados mientras el Servicio de Impuestos Internos revisa declaraciones. (Artículo 17, inciso 2.°)","Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+Guía interna de simplificación: usa palabras comunes; evita tecnicismos innecesarios; reemplaza palabras difíciles por palabras simples; usa oraciones cortas; expresa una idea por oración; prefiere voz activa; divide oraciones largas.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+El Código Tributario, por su parte, señala, en su artículo 17, inciso 2.°, que «los libros de contabilidad deben ser conservados por los contribuyentes, junto con la documentación correspondiente, mientras esté pendiente el plazo que tiene el servicio de impuestos internos para la revisión de las declaraciones».
+
+Versión simplificada:",success,,4.2818,313,196,47,26,False,False,False,False,False,0.5531914893617021,0,47,26,30,1,2,1,44.139221821087006,10.26975485988674,51.30153846153848,78.28680851063831,-26.98527004909983,0.5531914893617021,1,0.4911591355599214,0,0.3076923076923077,0.6170212765957447,40.48115384615386,28.60734042553193,11.873813420621929,0.5245901639344263,0.2711864406779661,0.4262295081967213,0.7966850399971008,
+exp_medium_batch_v1,20260308_155905,FEINA,2_LibroBAC.pdf,llama3,R0,zero-shot,"Pero, algo más grave aún, o quizás por eso mismo, es que las personas al no recibir educación económica y financiera terminan construyendo un mito sobre éstas al considerar que ellas no son de su incumbencia, o que son muy difíciles quizás porque implican matemáticas o porque es un terreno del conocimiento propio de especialistas como los economistas, los financieros e incluso los contadores.","Pero, algo más grave aún es que las personas al no recibir educación económica y financiera construyen un mito sobre estas. Consideran que no son de su incumbencia, son muy difíciles porque implican matemáticas o porque es un terreno del conocimiento de especialistas como los economistas, financieros y contadores.","La gente no entiende bien la educación económica y financiera porque piensa que no es importante o que es muy difícil, ya que implica matemáticas y es algo que solo especialistas como economistas y contadores saben.","Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+Pero, algo más grave aún, o quizás por eso mismo, es que las personas al no recibir educación económica y financiera terminan construyendo un mito sobre éstas al considerar que ellas no son de su incumbencia, o que son muy difíciles quizás porque implican matemáticas o porque es un terreno del conocimiento propio de especialistas como los economistas, los financieros e incluso los contadores.
+
+Versión simplificada:",success,,10.1084,395,215,64,36,False,False,False,False,False,0.5625,0,64,36,49,1,1,2,31.380874747476525,7.251889547254204,75.67333333333336,78.68375,-3.010416666666643,0.5625,0,0.16721311475409836,0,0.4444444444444444,0.6875,37.58222222222224,11.420937500000008,26.161284722222234,0.5052631578947367,0.21505376344086022,0.4,0.7856907248497009,
+exp_medium_batch_v1,20260308_155905,FEINA,2_LibroBAC.pdf,llama3,R2,zero-shot,"Pero, algo más grave aún, o quizás por eso mismo, es que las personas al no recibir educación económica y financiera terminan construyendo un mito sobre éstas al considerar que ellas no son de su incumbencia, o que son muy difíciles quizás porque implican matemáticas o porque es un terreno del conocimiento propio de especialistas como los economistas, los financieros e incluso los contadores.","Pero, algo más grave aún es que las personas al no recibir educación económica y financiera construyen un mito sobre estas. Consideran que no son de su incumbencia, son muy difíciles porque implican matemáticas o porque es un terreno del conocimiento de especialistas como los economistas, financieros y contadores.","Muchas personas no entienden la educación económica y financiera porque creen que no es importante para ellos o que es muy difícil. Piensan que solo son para expertos como economistas y contadores, y que involucran matemáticas complicadas.","Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+Guía interna de simplificación: usa palabras comunes; evita tecnicismos innecesarios; reemplaza palabras difíciles por palabras simples; usa oraciones cortas; expresa una idea por oración; prefiere voz activa; divide oraciones largas.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+Pero, algo más grave aún, o quizás por eso mismo, es que las personas al no recibir educación económica y financiera terminan construyendo un mito sobre éstas al considerar que ellas no son de su incumbencia, o que son muy difíciles quizás porque implican matemáticas o porque es un terreno del conocimiento propio de especialistas como los economistas, los financieros e incluso los contadores.
+
+Versión simplificada:",success,,5.0167,395,239,64,37,False,False,False,False,False,0.578125,0,64,37,49,1,2,2,30.930023684297954,7.131015994987677,66.73189189189188,78.68375,-11.951858108108127,0.578125,1,0.15457413249211358,0,0.4594594594594595,0.6875,48.580945945945956,11.420937500000008,37.16000844594595,0.5,0.19148936170212766,0.3333333333333333,0.7780739068984985,
+exp_medium_batch_v1,20260308_155905,FEINA,2_LibroBAC.pdf,mistral,R0,zero-shot,"Pero, algo más grave aún, o quizás por eso mismo, es que las personas al no recibir educación económica y financiera terminan construyendo un mito sobre éstas al considerar que ellas no son de su incumbencia, o que son muy difíciles quizás porque implican matemáticas o porque es un terreno del conocimiento propio de especialistas como los economistas, los financieros e incluso los contadores.","Pero, algo más grave aún es que las personas al no recibir educación económica y financiera construyen un mito sobre estas. Consideran que no son de su incumbencia, son muy difíciles porque implican matemáticas o porque es un terreno del conocimiento de especialistas como los economistas, financieros y contadores.","Pero una cosa still more serious is that people, perhaps for this reason, don't receive economic and financial education. They create a myth about these subjects, considering them not their responsibility or too complicated, maybe because they involve math or because they're the domain of experts like economists, financiers, and even accountants.","Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+Pero, algo más grave aún, o quizás por eso mismo, es que las personas al no recibir educación económica y financiera terminan construyendo un mito sobre éstas al considerar que ellas no son de su incumbencia, o que son muy difíciles quizás porque implican matemáticas o porque es un terreno del conocimiento propio de especialistas como los economistas, los financieros e incluso los contadores.
+
+Versión simplificada:",success,,10.2275,395,348,64,52,False,False,False,False,False,0.8125,0,64,54,49,1,2,2,22.696608946608947,0.9460547950971884,87.50666666666669,78.68375,8.822916666666686,0.84375,1,0.026917900403768506,0,0.9814814814814815,0.984375,59.849814814814835,11.420937500000008,48.42887731481483,0.03669724770642201,0.0,0.03669724770642201,0.7688478827476501,
+exp_medium_batch_v1,20260308_155905,FEINA,2_LibroBAC.pdf,mistral,R2,zero-shot,"Pero, algo más grave aún, o quizás por eso mismo, es que las personas al no recibir educación económica y financiera terminan construyendo un mito sobre éstas al considerar que ellas no son de su incumbencia, o que son muy difíciles quizás porque implican matemáticas o porque es un terreno del conocimiento propio de especialistas como los economistas, los financieros e incluso los contadores.","Pero, algo más grave aún es que las personas al no recibir educación económica y financiera construyen un mito sobre estas. Consideran que no son de su incumbencia, son muy difíciles porque implican matemáticas o porque es un terreno del conocimiento de especialistas como los economistas, financieros y contadores.","Pero una cosa más grave still, or perhaps for that reason, is that people don't get economic and financial education, leading them to believe that these subjects are not their responsibility or too difficult because they involve math or are the expertise of economists, financiers, and even accountants.","Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+Guía interna de simplificación: usa palabras comunes; evita tecnicismos innecesarios; reemplaza palabras difíciles por palabras simples; usa oraciones cortas; expresa una idea por oración; prefiere voz activa; divide oraciones largas.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+Pero, algo más grave aún, o quizás por eso mismo, es que las personas al no recibir educación económica y financiera terminan construyendo un mito sobre éstas al considerar que ellas no son de su incumbencia, o que son muy difíciles quizás porque implican matemáticas o porque es un terreno del conocimiento propio de especialistas como los economistas, los financieros e incluso los contadores.
+
+Versión simplificada:",success,,6.3403,395,303,64,48,False,False,False,False,False,0.75,0,64,49,49,1,1,2,23.78015774192033,1.8426431031261368,92.105306122449,78.68375,13.42155612244899,0.765625,0,0.03724928366762178,0,0.9387755102040817,0.953125,40.86357142857143,11.420937500000008,29.442633928571425,0.0761904761904762,0.03883495145631068,0.0761904761904762,0.7507088780403137,
+exp_medium_batch_v1,20260308_155905,FEINA,3846_LibroBAC.pdf,llama3,R0,zero-shot,"Artículos como los altos hornos, las prensas cortadoras, los edificios, las computadoras, los camiones, los aviones y otras cosas parecidas se consideran capital; la palabra capital, muchas veces se usa para referirse al dinero, en un sentido bastante estrecho.","Artículos como los altos homos, las prensas cortadoras, los edificios, las computadoras, los camiones, los aviones y otros objetos similares se consideran capital. Aunque la palabra capital a veces se usa para referirse al dinero.","Cosas como altos hornos, prensas cortadoras, edificios, computadoras, camiones y aviones se consideran ""capital"". La palabra ""capital"" se utiliza a menudo para referirse al dinero, pero en un sentido más amplio.","Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+Artículos como los altos hornos, las prensas cortadoras, los edificios, las computadoras, los camiones, los aviones y otras cosas parecidas se consideran capital; la palabra capital, muchas veces se usa para referirse al dinero, en un sentido bastante estrecho.
+
+Versión simplificada:",success,,10.0991,261,211,39,31,False,False,False,False,False,0.7948717948717948,0,39,31,35,1,2,2,33.635382083280504,12.462475429961065,57.033548387096786,67.30153846153848,-10.267990074441698,0.7948717948717948,1,0.3177966101694915,0,0.1935483870967742,0.358974358974359,42.61887096774194,25.663205128205163,16.955665839536778,0.6176470588235293,0.24242424242424246,0.5588235294117648,0.8784946203231812,
+exp_medium_batch_v1,20260308_155905,FEINA,3846_LibroBAC.pdf,llama3,R2,zero-shot,"Artículos como los altos hornos, las prensas cortadoras, los edificios, las computadoras, los camiones, los aviones y otras cosas parecidas se consideran capital; la palabra capital, muchas veces se usa para referirse al dinero, en un sentido bastante estrecho.","Artículos como los altos homos, las prensas cortadoras, los edificios, las computadoras, los camiones, los aviones y otros objetos similares se consideran capital. Aunque la palabra capital a veces se usa para referirse al dinero.","Cosas como hornos, prensas, edificios, computadoras, camiones y aviones se consideran importantes. La palabra ""importante"" se suele usar para referirse al dinero, pero en un sentido más amplio.","Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+Guía interna de simplificación: usa palabras comunes; evita tecnicismos innecesarios; reemplaza palabras difíciles por palabras simples; usa oraciones cortas; expresa una idea por oración; prefiere voz activa; divide oraciones largas.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+Artículos como los altos hornos, las prensas cortadoras, los edificios, las computadoras, los camiones, los aviones y otras cosas parecidas se consideran capital; la palabra capital, muchas veces se usa para referirse al dinero, en un sentido bastante estrecho.
+
+Versión simplificada:",success,,6.1773,261,193,39,28,False,False,False,False,False,0.717948717948718,0,39,28,35,1,2,2,30.304309103517777,9.924296747006954,58.1257142857143,67.30153846153848,-9.175824175824182,0.717948717948718,1,0.6651982378854625,0,0.25,0.46153846153846156,45.985000000000014,25.663205128205163,20.32179487179485,0.4923076923076923,0.15873015873015875,0.46153846153846156,0.8446459770202637,
+exp_medium_batch_v1,20260308_155905,FEINA,3846_LibroBAC.pdf,mistral,R0,zero-shot,"Artículos como los altos hornos, las prensas cortadoras, los edificios, las computadoras, los camiones, los aviones y otras cosas parecidas se consideran capital; la palabra capital, muchas veces se usa para referirse al dinero, en un sentido bastante estrecho.","Artículos como los altos homos, las prensas cortadoras, los edificios, las computadoras, los camiones, los aviones y otros objetos similares se consideran capital. Aunque la palabra capital a veces se usa para referirse al dinero.","Artículos como hornos altos, prensas cortadoras, edificios, computadoras, camiones, aviones y similares se clasifican como capital. La palabra ""capital"" a menas se utiliza para referirse principalmente al dinero. (Articles such as high furnaces, cutting presses, buildings, computers, trucks, airplanes and the like are classified as capital. The term ""capital"" is often used to refer specifically to money.)","Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+Artículos como los altos hornos, las prensas cortadoras, los edificios, las computadoras, los camiones, los aviones y otras cosas parecidas se consideran capital; la palabra capital, muchas veces se usa para referirse al dinero, en un sentido bastante estrecho.
+
+Versión simplificada:",success,,10.8772,261,409,39,57,False,False,False,False,False,1.4615384615384617,0,39,57,35,1,4,2,35.65843970125051,5.671337518059672,61.78736842105264,67.30153846153848,-5.514170040485844,1.4615384615384615,3,0.11659192825112108,0,0.631578947368421,0.46153846153846156,49.40429824561406,25.663205128205163,23.741093117408894,0.48936170212765956,0.21739130434782608,0.48936170212765956,0.8184899091720581,
+exp_medium_batch_v1,20260308_155905,FEINA,3846_LibroBAC.pdf,mistral,R2,zero-shot,"Artículos como los altos hornos, las prensas cortadoras, los edificios, las computadoras, los camiones, los aviones y otras cosas parecidas se consideran capital; la palabra capital, muchas veces se usa para referirse al dinero, en un sentido bastante estrecho.","Artículos como los altos homos, las prensas cortadoras, los edificios, las computadoras, los camiones, los aviones y otros objetos similares se consideran capital. Aunque la palabra capital a veces se usa para referirse al dinero.","Artículos como hornos altos, prensas cortadoras, edificios, computadoras, camiones, aviones y similares se llaman inversiones; a menudo, la palabra inversiones se refiere al dinero en un sentido muy específico.","Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+Guía interna de simplificación: usa palabras comunes; evita tecnicismos innecesarios; reemplaza palabras difíciles por palabras simples; usa oraciones cortas; expresa una idea por oración; prefiere voz activa; divide oraciones largas.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+Artículos como los altos hornos, las prensas cortadoras, los edificios, las computadoras, los camiones, los aviones y otras cosas parecidas se consideran capital; la palabra capital, muchas veces se usa para referirse al dinero, en un sentido bastante estrecho.
+
+Versión simplificada:",success,,4.2008,261,210,39,29,False,False,False,False,False,0.7435897435897436,0,39,29,35,1,1,2,32.922476120832926,8.148807742168671,50.2193103448276,67.30153846153848,-17.082228116710887,0.7435897435897436,0,0.2760084925690021,0,0.3103448275862069,0.48717948717948717,18.862586206896566,25.663205128205163,-6.8006189213085975,0.5671641791044777,0.2153846153846154,0.537313432835821,0.8605255484580994,
+exp_medium_batch_v1,20260308_155905,FEINA,5775_LibroBAC.pdf,llama3,R0,zero-shot,"Desde luego en este grupo puede haber categorías, clases o estratos.","Dentro de este grupo hay categorías, clases o estratos.",Hay diferentes niveles dentro de este grupo.,"Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+Desde luego en este grupo puede haber categorías, clases o estratos.
+
+Versión simplificada:",success,,9.3226,68,44,11,7,False,False,False,False,False,0.6363636363636364,0,11,7,9,1,1,1,45.98884503296268,15.181939159382823,63.69714285714288,72.11272727272728,-8.415584415584405,0.6363636363636364,0,0.3392857142857143,0,0.7142857142857143,0.8181818181818182,66.33500000000001,65.57136363636366,0.7636363636363512,0.588235294117647,0.4,0.47058823529411764,0.8399926424026489,
+exp_medium_batch_v1,20260308_155905,FEINA,5775_LibroBAC.pdf,llama3,R2,zero-shot,"Desde luego en este grupo puede haber categorías, clases o estratos.","Dentro de este grupo hay categorías, clases o estratos.",Hay diferentes niveles dentro de este grupo.,"Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+Guía interna de simplificación: usa palabras comunes; evita tecnicismos innecesarios; reemplaza palabras difíciles por palabras simples; usa oraciones cortas; expresa una idea por oración; prefiere voz activa; divide oraciones largas.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+Desde luego en este grupo puede haber categorías, clases o estratos.
+
+Versión simplificada:",success,,2.9539,68,44,11,7,False,False,False,False,False,0.6363636363636364,0,11,7,9,1,1,1,45.98884503296268,15.181939159382823,63.69714285714288,72.11272727272728,-8.415584415584405,0.6363636363636364,0,0.3392857142857143,0,0.7142857142857143,0.8181818181818182,66.33500000000001,65.57136363636366,0.7636363636363512,0.588235294117647,0.4,0.47058823529411764,0.8399926424026489,
+exp_medium_batch_v1,20260308_155905,FEINA,5775_LibroBAC.pdf,mistral,R0,zero-shot,"Desde luego en este grupo puede haber categorías, clases o estratos.","Dentro de este grupo hay categorías, clases o estratos.","En este grupo pueden existir diferentes categorías, clases o niveles. (In this group there may be different categories, classes or levels.)","Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+Desde luego en este grupo puede haber categorías, clases o estratos.
+
+Versión simplificada:",success,,5.3254,68,140,11,21,False,False,False,False,False,1.9090909090909087,0,11,21,9,1,2,1,49.316100566100566,10.738037495669008,74.26857142857145,72.11272727272728,2.1558441558441643,1.9090909090909092,1,0.5024154589371981,0,0.7142857142857143,0.45454545454545453,68.76833333333336,65.57136363636366,3.1969696969697026,0.37499999999999994,0.26666666666666666,0.37499999999999994,0.7357263565063477,
+exp_medium_batch_v1,20260308_155905,FEINA,5775_LibroBAC.pdf,mistral,R2,zero-shot,"Desde luego en este grupo puede haber categorías, clases o estratos.","Dentro de este grupo hay categorías, clases o estratos.","En este grupo hay posiblemente categorías, clases o niveles. (In this group there may be categories, classes or strata.)","Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+Guía interna de simplificación: usa palabras comunes; evita tecnicismos innecesarios; reemplaza palabras difíciles por palabras simples; usa oraciones cortas; expresa una idea por oración; prefiere voz activa; divide oraciones largas.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+Desde luego en este grupo puede haber categorías, clases o estratos.
+
+Versión simplificada:",success,,2.6247,68,121,11,19,False,False,False,False,False,1.7272727272727273,0,11,19,9,1,2,1,51.63333083985257,14.100024578768863,79.26105263157896,72.11272727272728,7.148325358851679,1.7272727272727273,1,0.48936170212765956,0,0.6842105263157895,0.45454545454545453,76.01394736842106,65.57136363636366,10.4425837320574,0.4666666666666667,0.35714285714285715,0.4666666666666667,0.7491099238395691,
+exp_medium_batch_v1,20260308_155905,FEINA,17825_LibroBAC.pdf,llama3,R0,zero-shot,Sistema económico: Forma de organización social y económica que los países adoptan en la solución del problema económico.,"Sistema económico, forma de organización social y económica que los países ponen en práctica para la solución del problema económico.",Un sistema económico es cómo un país organiza su economía para resolver problemas económicos.,"Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+Sistema económico: Forma de organización social y económica que los países adoptan en la solución del problema económico.
+
+Versión simplificada:",success,,6.9221,121,93,18,14,False,False,False,False,False,0.7777777777777778,0,18,14,20,1,1,1,19.980748973883983,2.16884536516529,45.26857142857141,51.17333333333334,-5.904761904761926,0.7777777777777778,0,0.616822429906542,0,0.8571428571428571,0.8888888888888888,32.63499999999999,33.08500000000001,-0.45000000000001705,0.2608695652173913,0.09090909090909093,0.2608695652173913,0.7947731018066406,
+exp_medium_batch_v1,20260308_155905,FEINA,17825_LibroBAC.pdf,llama3,R2,zero-shot,Sistema económico: Forma de organización social y económica que los países adoptan en la solución del problema económico.,"Sistema económico, forma de organización social y económica que los países ponen en práctica para la solución del problema económico.",Sistema económico: Cómo un país organiza su economía para resolver problemas.,"Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+Guía interna de simplificación: usa palabras comunes; evita tecnicismos innecesarios; reemplaza palabras difíciles por palabras simples; usa oraciones cortas; expresa una idea por oración; prefiere voz activa; divide oraciones largas.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+Sistema económico: Forma de organización social y económica que los países adoptan en la solución del problema económico.
+
+Versión simplificada:",success,,2.9149,121,77,18,11,False,False,False,False,False,0.6111111111111112,0,18,11,20,1,1,1,18.052674177674177,3.6766117401867273,39.38545454545457,51.17333333333334,-11.787878787878768,0.6111111111111112,0,0.5858585858585859,0,0.8181818181818182,0.8888888888888888,31.589545454545487,33.08500000000001,-1.4954545454545212,0.23809523809523808,0.1,0.23809523809523808,0.786993145942688,
+exp_medium_batch_v1,20260308_155905,FEINA,17825_LibroBAC.pdf,mistral,R0,zero-shot,Sistema económico: Forma de organización social y económica que los países adoptan en la solución del problema económico.,"Sistema económico, forma de organización social y económica que los países ponen en práctica para la solución del problema económico.",Sistema económico: Forma de solucionar problemas económicos adoptada por países.,"Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+Sistema económico: Forma de organización social y económica que los países adoptan en la solución del problema económico.
+
+Versión simplificada:",success,,4.77,121,80,18,10,False,False,False,False,False,0.5555555555555556,0,18,10,20,1,1,1,16.841092080222513,3.701296068562906,16.640000000000004,51.17333333333334,-34.53333333333333,0.5555555555555556,0,0.5472636815920398,0,0.5,0.7222222222222222,9.93500000000003,33.08500000000001,-23.149999999999977,0.4,0.2631578947368421,0.4,0.7946310043334961,
+exp_medium_batch_v1,20260308_155905,FEINA,17825_LibroBAC.pdf,mistral,R2,zero-shot,Sistema económico: Forma de organización social y económica que los países adoptan en la solución del problema económico.,"Sistema económico, forma de organización social y económica que los países ponen en práctica para la solución del problema económico.",Sistema económico: Forma de solucionar problemas económicos de los países. [,"Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+Guía interna de simplificación: usa palabras comunes; evita tecnicismos innecesarios; reemplaza palabras difíciles por palabras simples; usa oraciones cortas; expresa una idea por oración; prefiere voz activa; divide oraciones largas.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+Sistema económico: Forma de organización social y económica que los países adoptan en la solución del problema económico.
+
+Versión simplificada:",success,,4.0809,121,77,18,11,False,False,False,False,False,0.6111111111111112,0,18,10,20,1,2,1,18.318942689652072,4.838693166975792,24.440000000000005,51.17333333333334,-26.733333333333334,0.5555555555555556,1,0.5786802030456852,0,0.4,0.6666666666666666,33.625,33.08500000000001,0.539999999999992,0.45,0.3157894736842105,0.45,0.776789665222168,
+exp_medium_batch_v1,20260308_155905,FEINA,150_LibroNEFE_Sincopyright.pdf,llama3,R0,zero-shot,"En los supermercados y farmacias, elegir productos propios del establecimiento o marcas genéricas en lugar de las marcas conocidas.","En los supermercados y farmacias, elegir productos fabricados por el propio establecimiento o marcas genéricas en lugar de las marcas conocidas.",Compre productos del supermercado o marcas genéricas en lugar de las marcas famosas.,"Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+En los supermercados y farmacias, elegir productos propios del establecimiento o marcas genéricas en lugar de las marcas conocidas.
+
+Versión simplificada:",success,,6.1457,131,84,19,13,False,False,False,False,False,0.6842105263157895,0,19,13,21,1,1,1,32.873288204170564,28.589343589964543,69.76307692307694,62.5242105263158,7.238866396761139,0.6842105263157895,0,0.586046511627907,0,0.23076923076923078,0.47368421052631576,59.65038461538464,43.561315789473696,16.089068825910942,0.5555555555555556,0.47058823529411764,0.5555555555555556,0.842667818069458,
+exp_medium_batch_v1,20260308_155905,FEINA,150_LibroNEFE_Sincopyright.pdf,llama3,R2,zero-shot,"En los supermercados y farmacias, elegir productos propios del establecimiento o marcas genéricas en lugar de las marcas conocidas.","En los supermercados y farmacias, elegir productos fabricados por el propio establecimiento o marcas genéricas en lugar de las marcas conocidas.","En tiendas de comestibles y farmacias, elige productos del mismo lugar o marcas baratas en lugar de las famosas.","Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+Guía interna de simplificación: usa palabras comunes; evita tecnicismos innecesarios; reemplaza palabras difíciles por palabras simples; usa oraciones cortas; expresa una idea por oración; prefiere voz activa; divide oraciones largas.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+En los supermercados y farmacias, elegir productos propios del establecimiento o marcas genéricas en lugar de las marcas conocidas.
+
+Versión simplificada:",success,,4.8441,131,112,19,19,False,False,False,False,False,1.0,0,19,19,21,1,1,1,26.29513531367751,17.90330496260186,84.62947368421054,62.5242105263158,22.10526315789474,1.0,0,0.6502057613168725,0,0.42105263157894735,0.42105263157894735,66.51394736842106,43.561315789473696,22.95263157894736,0.4878048780487805,0.25641025641025644,0.4878048780487805,0.8369137048721313,
+exp_medium_batch_v1,20260308_155905,FEINA,150_LibroNEFE_Sincopyright.pdf,mistral,R0,zero-shot,"En los supermercados y farmacias, elegir productos propios del establecimiento o marcas genéricas en lugar de las marcas conocidas.","En los supermercados y farmacias, elegir productos fabricados por el propio establecimiento o marcas genéricas en lugar de las marcas conocidas.","En supermercados y farmacias, comprar productos de la marca del lugar o genericos en lugar de las conocidas.","Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+En los supermercados y farmacias, elegir productos propios del establecimiento o marcas genéricas en lugar de las marcas conocidas.
+
+Versión simplificada:",success,,4.3275,131,108,19,18,False,False,False,False,False,0.9473684210526316,0,19,18,21,1,1,1,29.611639578744843,24.210982665568515,81.17333333333333,62.5242105263158,18.649122807017534,0.9473684210526315,0,0.7280334728033473,0,0.3333333333333333,0.3684210526315789,64.23500000000001,43.561315789473696,20.673684210526318,0.55,0.2631578947368421,0.55,0.8811236619949341,
+exp_medium_batch_v1,20260308_155905,FEINA,150_LibroNEFE_Sincopyright.pdf,mistral,R2,zero-shot,"En los supermercados y farmacias, elegir productos propios del establecimiento o marcas genéricas en lugar de las marcas conocidas.","En los supermercados y farmacias, elegir productos fabricados por el propio establecimiento o marcas genéricas en lugar de las marcas conocidas.","En supermercados y farmacias, comprar productos de la marca del lugar o genericos en lugar de las conocidas. (In supermarkets and pharmacies, buy products from the store brand or generics instead of well-known brands.)","Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+Guía interna de simplificación: usa palabras comunes; evita tecnicismos innecesarios; reemplaza palabras difíciles por palabras simples; usa oraciones cortas; expresa una idea por oración; prefiere voz activa; divide oraciones largas.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+En los supermercados y farmacias, elegir productos propios del establecimiento o marcas genéricas en lugar de las marcas conocidas.
+
+Versión simplificada:",success,,3.1351,131,219,19,34,False,False,False,False,False,1.7894736842105263,0,19,35,21,1,2,1,29.611639578744843,13.497563057408893,93.01142857142858,62.5242105263158,30.487218045112783,1.8421052631578947,1,0.18911174785100288,0,0.6571428571428571,0.3684210526315789,77.19500000000001,43.561315789473696,33.63368421052631,0.38596491228070173,0.18181818181818185,0.38596491228070173,0.7460799217224121,
+exp_medium_batch_v1,20260308_155905,FEINA,837_LibroUide_Sincopyright.pdf,llama3,R0,zero-shot,"A través del desarrollo de los once capítulos con los que cuenta este documento, con una combinación de teoría y práctica, el lector podrá comprender la importancia de las finanzas, la relación que tiene con la contabilidad, las formas y aplicación del análisis financiero para la toma de decisiones, las formas de realizar análisis de inversión para aprobación de proyectos, y otros conceptos financieros; para desarrollar las competencias requeridas para la evaluación constante de los negocios y la planificación financiera personal.","En los once capítulos teóricos y prácticos de este documento, el lector entenderá la importancia de las finanzas, su relación con la contabilidad, las formas y aplicación del análisis financiero para decidir. También, cómo realizar un análisis de inversión y otros conceptos financieros. Esto para desarrollar competencias necesarias para la evaluación de los negocios y la planificación financiera personal.","Este documento te enseñará a entender las finanzas, cómo se relacionan con la contabilidad y cómo utilizar el análisis financiero para tomar decisiones. También aprenderás a analizar inversiones y aplanificar financieramente tu negocio y tu vida personal.","Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+A través del desarrollo de los once capítulos con los que cuenta este documento, con una combinación de teoría y práctica, el lector podrá comprender la importancia de las finanzas, la relación que tiene con la contabilidad, las formas y aplicación del análisis financiero para la toma de decisiones, las formas de realizar análisis de inversión para aprobación de proyectos, y otros conceptos financieros; para desarrollar las competencias requeridas para la evaluación constante de los negocios y la planificación financiera personal.
+
+Versión simplificada:",success,,6.8548,536,255,81,37,False,False,False,False,False,0.4567901234567901,0,81,37,59,1,2,3,36.14292815171626,5.428788838069798,47.272432432432424,72.98814814814817,-25.715715715715746,0.4567901234567901,1,0.04804045512010114,0,0.5405405405405406,0.7901234567901234,28.375540540540555,-11.840308641975298,40.21584918251585,0.3859649122807017,0.1607142857142857,0.31578947368421056,0.7808803915977478,
+exp_medium_batch_v1,20260308_155905,FEINA,837_LibroUide_Sincopyright.pdf,llama3,R2,zero-shot,"A través del desarrollo de los once capítulos con los que cuenta este documento, con una combinación de teoría y práctica, el lector podrá comprender la importancia de las finanzas, la relación que tiene con la contabilidad, las formas y aplicación del análisis financiero para la toma de decisiones, las formas de realizar análisis de inversión para aprobación de proyectos, y otros conceptos financieros; para desarrollar las competencias requeridas para la evaluación constante de los negocios y la planificación financiera personal.","En los once capítulos teóricos y prácticos de este documento, el lector entenderá la importancia de las finanzas, su relación con la contabilidad, las formas y aplicación del análisis financiero para decidir. También, cómo realizar un análisis de inversión y otros conceptos financieros. Esto para desarrollar competencias necesarias para la evaluación de los negocios y la planificación financiera personal.","Este documento tiene once capítulos que combinan teoría y práctica. Al leerlo, podrás entender cómo las finanzas se relacionan con la contabilidad y cómo hacer análisis financieros para tomar decisiones. También aprenderás a evaluar inversiones y planificar tu financiación personal.","Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+Guía interna de simplificación: usa palabras comunes; evita tecnicismos innecesarios; reemplaza palabras difíciles por palabras simples; usa oraciones cortas; expresa una idea por oración; prefiere voz activa; divide oraciones largas.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+A través del desarrollo de los once capítulos con los que cuenta este documento, con una combinación de teoría y práctica, el lector podrá comprender la importancia de las finanzas, la relación que tiene con la contabilidad, las formas y aplicación del análisis financiero para la toma de decisiones, las formas de realizar análisis de inversión para aprobación de proyectos, y otros conceptos financieros; para desarrollar las competencias requeridas para la evaluación constante de los negocios y la planificación financiera personal.
+
+Versión simplificada:",success,,6.5723,536,283,81,40,False,False,False,False,False,0.4938271604938271,0,81,40,59,1,3,3,33.200645001762815,4.022067238691474,52.190000000000005,72.98814814814817,-20.798148148148165,0.49382716049382713,2,0.04151404151404151,0,0.45,0.7283950617283951,40.86666666666668,-11.840308641975298,52.70697530864198,0.4132231404958677,0.1680672268907563,0.36363636363636365,0.7823171019554138,
+exp_medium_batch_v1,20260308_155905,FEINA,837_LibroUide_Sincopyright.pdf,mistral,R0,zero-shot,"A través del desarrollo de los once capítulos con los que cuenta este documento, con una combinación de teoría y práctica, el lector podrá comprender la importancia de las finanzas, la relación que tiene con la contabilidad, las formas y aplicación del análisis financiero para la toma de decisiones, las formas de realizar análisis de inversión para aprobación de proyectos, y otros conceptos financieros; para desarrollar las competencias requeridas para la evaluación constante de los negocios y la planificación financiera personal.","En los once capítulos teóricos y prácticos de este documento, el lector entenderá la importancia de las finanzas, su relación con la contabilidad, las formas y aplicación del análisis financiero para decidir. También, cómo realizar un análisis de inversión y otros conceptos financieros. Esto para desarrollar competencias necesarias para la evaluación de los negocios y la planificación financiera personal.","En este documento de once capítulos, teoría y práctica se combinan para que el lector entienda la importancia de las finanzas, su relación con la contabilidad, cómo se utiliza el análisis financiero para tomar decisiones, cómo realizar análisis de inversión para aprobar proyectos y otras conceptos financieros. Esto ayuda a desarrollar las competencias necesarias para evaluar constantemente negocios y planificar financieramente personal.","Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+A través del desarrollo de los once capítulos con los que cuenta este documento, con una combinación de teoría y práctica, el lector podrá comprender la importancia de las finanzas, la relación que tiene con la contabilidad, las formas y aplicación del análisis financiero para la toma de decisiones, las formas de realizar análisis de inversión para aprobación de proyectos, y otros conceptos financieros; para desarrollar las competencias requeridas para la evaluación constante de los negocios y la planificación financiera personal.
+
+Versión simplificada:",success,,8.6634,536,440,81,62,False,False,False,False,False,0.7654320987654321,0,81,62,59,1,2,3,51.81217414540114,31.754124464565535,53.54967741935484,72.98814814814817,-19.438470728793327,0.7654320987654321,1,0.06352459016393443,0,0.3225806451612903,0.48148148148148145,20.085000000000008,-11.840308641975298,31.925308641975306,0.6619718309859155,0.4142857142857143,0.5915492957746479,0.8600602149963379,
+exp_medium_batch_v1,20260308_155905,FEINA,837_LibroUide_Sincopyright.pdf,mistral,R2,zero-shot,"A través del desarrollo de los once capítulos con los que cuenta este documento, con una combinación de teoría y práctica, el lector podrá comprender la importancia de las finanzas, la relación que tiene con la contabilidad, las formas y aplicación del análisis financiero para la toma de decisiones, las formas de realizar análisis de inversión para aprobación de proyectos, y otros conceptos financieros; para desarrollar las competencias requeridas para la evaluación constante de los negocios y la planificación financiera personal.","En los once capítulos teóricos y prácticos de este documento, el lector entenderá la importancia de las finanzas, su relación con la contabilidad, las formas y aplicación del análisis financiero para decidir. También, cómo realizar un análisis de inversión y otros conceptos financieros. Esto para desarrollar competencias necesarias para la evaluación de los negocios y la planificación financiera personal.","En este documento de once capítulos, te teoría y práctica combinados enseñan el valor de las finanzas, su relación con la contabilidad, cómo se utiliza el análisis financiero para tomar decisiones, cómo analizar inversiones para aprobar proyectos y otros conceptos financieros. Esto te ayudará a desarrollar las habilidades necesarias para evaluar constantemente negocios y planificar finanzas personales.","Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+Guía interna de simplificación: usa palabras comunes; evita tecnicismos innecesarios; reemplaza palabras difíciles por palabras simples; usa oraciones cortas; expresa una idea por oración; prefiere voz activa; divide oraciones largas.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+A través del desarrollo de los once capítulos con los que cuenta este documento, con una combinación de teoría y práctica, el lector podrá comprender la importancia de las finanzas, la relación que tiene con la contabilidad, las formas y aplicación del análisis financiero para la toma de decisiones, las formas de realizar análisis de inversión para aprobación de proyectos, y otros conceptos financieros; para desarrollar las competencias requeridas para la evaluación constante de los negocios y la planificación financiera personal.
+
+Versión simplificada:",success,,5.8301,536,405,81,57,False,False,False,False,False,0.7037037037037037,0,81,57,59,1,2,3,48.864981328982914,27.82931651332203,49.57684210526317,72.98814814814817,-23.411306042885002,0.7037037037037037,1,0.03825717321997875,0,0.43859649122807015,0.6049382716049383,18.759561403508798,-11.840308641975298,30.599870045484096,0.5735294117647058,0.34328358208955223,0.48529411764705876,0.8322688937187195,
+exp_medium_batch_v1,20260308_155905,FEINA,284_LibroNEFE_Sincopyright.pdf,llama3,R0,zero-shot,Los acreedores confían en la información crediticia para ver cómo has gestionado tus préstamos en el pasado y determinar qué posibilidades tienes de pagar un nuevo préstamo.,Los fiadores confían en la información crediticia para ver la gestión de tus préstamos y tus posibilidades para pagar un nuevo préstamo.,Los acreedores miran tu historial crediticio para saber cómo has pagado tus deudas pasadas y decidir si puedes pagar otro préstamo.,"Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+Los acreedores confían en la información crediticia para ver cómo has gestionado tus préstamos en el pasado y determinar qué posibilidades tienes de pagar un nuevo préstamo.
+
+Versión simplificada:",success,,6.6539,173,131,27,21,False,False,False,False,False,0.7777777777777778,0,27,21,22,1,1,1,29.372294372294377,4.514970966647375,73.41142857142859,71.95111111111115,1.460317460317441,0.7777777777777778,0,0.6447368421052632,0,0.5714285714285714,0.6666666666666666,52.33500000000001,43.697962962962976,8.637037037037032,0.27999999999999997,0.04166666666666667,0.27999999999999997,0.8137674331665039,
+exp_medium_batch_v1,20260308_155905,FEINA,284_LibroNEFE_Sincopyright.pdf,llama3,R2,zero-shot,Los acreedores confían en la información crediticia para ver cómo has gestionado tus préstamos en el pasado y determinar qué posibilidades tienes de pagar un nuevo préstamo.,Los fiadores confían en la información crediticia para ver la gestión de tus préstamos y tus posibilidades para pagar un nuevo préstamo.,Los acreedores miran tu historial crediticio para saber cómo has pagado tus deudas pasadas y decidir si puedes pagar otro préstamo.,"Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+Guía interna de simplificación: usa palabras comunes; evita tecnicismos innecesarios; reemplaza palabras difíciles por palabras simples; usa oraciones cortas; expresa una idea por oración; prefiere voz activa; divide oraciones largas.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+Los acreedores confían en la información crediticia para ver cómo has gestionado tus préstamos en el pasado y determinar qué posibilidades tienes de pagar un nuevo préstamo.
+
+Versión simplificada:",success,,4.8606,173,131,27,21,False,False,False,False,False,0.7777777777777778,0,27,21,22,1,1,1,29.372294372294377,4.514970966647375,73.41142857142859,71.95111111111115,1.460317460317441,0.7777777777777778,0,0.6447368421052632,0,0.5714285714285714,0.6666666666666666,52.33500000000001,43.697962962962976,8.637037037037032,0.27999999999999997,0.04166666666666667,0.27999999999999997,0.8137674331665039,
+exp_medium_batch_v1,20260308_155905,FEINA,284_LibroNEFE_Sincopyright.pdf,mistral,R0,zero-shot,Los acreedores confían en la información crediticia para ver cómo has gestionado tus préstamos en el pasado y determinar qué posibilidades tienes de pagar un nuevo préstamo.,Los fiadores confían en la información crediticia para ver la gestión de tus préstamos y tus posibilidades para pagar un nuevo préstamo.,Credores confían en tus créditos pasados para evaluar si puedes pagar un préstamo nuevo.,"Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+Los acreedores confían en la información crediticia para ver cómo has gestionado tus préstamos en el pasado y determinar qué posibilidades tienes de pagar un nuevo préstamo.
+
+Versión simplificada:",success,,4.6167,173,88,27,14,False,False,False,False,False,0.5185185185185185,0,27,14,22,1,1,1,34.386001112241644,5.340549350023348,75.26857142857142,71.95111111111115,3.3174603174602737,0.5185185185185185,0,0.49808429118773945,0,0.42857142857142855,0.7037037037037037,63.785,43.697962962962976,20.08703703703702,0.45454545454545453,0.1904761904761905,0.409090909090909,0.8230063915252686,
+exp_medium_batch_v1,20260308_155905,FEINA,284_LibroNEFE_Sincopyright.pdf,mistral,R2,zero-shot,Los acreedores confían en la información crediticia para ver cómo has gestionado tus préstamos en el pasado y determinar qué posibilidades tienes de pagar un nuevo préstamo.,Los fiadores confían en la información crediticia para ver la gestión de tus préstamos y tus posibilidades para pagar un nuevo préstamo.,Creditores confían en tus créditos anteriores para saber cómo manejaste préstamos anteriores y determinar si puedes pagar uno nuevo.,"Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+Guía interna de simplificación: usa palabras comunes; evita tecnicismos innecesarios; reemplaza palabras difíciles por palabras simples; usa oraciones cortas; expresa una idea por oración; prefiere voz activa; divide oraciones largas.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+Los acreedores confían en la información crediticia para ver cómo has gestionado tus préstamos en el pasado y determinar qué posibilidades tienes de pagar un nuevo préstamo.
+
+Versión simplificada:",success,,2.7187,173,132,27,19,False,False,False,False,False,0.7037037037037037,0,27,19,22,1,1,1,31.505449170854273,4.800292512849197,56.20842105263158,71.95111111111115,-15.742690058479567,0.7037037037037037,0,0.6032786885245902,0,0.47368421052631576,0.6296296296296297,37.00342105263161,43.697962962962976,-6.694541910331367,0.39999999999999997,0.12499999999999997,0.36,0.8061806559562683,
+exp_medium_batch_v1,20260308_155905,FEINA,1194_LibroNEFE_Sincopyright.pdf,llama3,R0,zero-shot,"Sin perder el ánimo, el mes siguiente retomaron su plan de ahorros.",El mes siguiente retomaron su plan de ahorros.,No pierden el ánimo y siguen ahorrando.,"Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+Sin perder el ánimo, el mes siguiente retomaron su plan de ahorros.
+
+Versión simplificada:",success,,10.2253,67,39,12,7,False,False,False,False,False,0.5833333333333334,0,12,7,8,1,1,1,20.976307189542485,4.8734989388136185,72.26857142857143,88.34000000000002,-16.071428571428584,0.5833333333333334,0,0.5849056603773585,0,0.7142857142857143,0.8333333333333334,75.23500000000001,80.61833333333335,-5.38333333333334,0.13333333333333333,0.0,0.13333333333333333,0.7449110150337219,
+exp_medium_batch_v1,20260308_155905,FEINA,1194_LibroNEFE_Sincopyright.pdf,llama3,R2,zero-shot,"Sin perder el ánimo, el mes siguiente retomaron su plan de ahorros.",El mes siguiente retomaron su plan de ahorros.,No se rindieron y volvieron a ahorrar.,"Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+Guía interna de simplificación: usa palabras comunes; evita tecnicismos innecesarios; reemplaza palabras difíciles por palabras simples; usa oraciones cortas; expresa una idea por oración; prefiere voz activa; divide oraciones largas.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+Sin perder el ánimo, el mes siguiente retomaron su plan de ahorros.
+
+Versión simplificada:",success,,2.8816,67,38,12,7,False,False,False,False,False,0.5833333333333334,0,12,7,8,1,1,1,21.036220043572985,4.8734989388136185,80.84,88.34000000000002,-7.500000000000014,0.5833333333333334,0,0.41904761904761906,0,1.0,1.0,84.135,80.61833333333335,3.5166666666666515,0.0,0.0,0.0,0.7344255447387695,
+exp_medium_batch_v1,20260308_155905,FEINA,1194_LibroNEFE_Sincopyright.pdf,mistral,R0,zero-shot,"Sin perder el ánimo, el mes siguiente retomaron su plan de ahorros.",El mes siguiente retomaron su plan de ahorros.,"Sin desmayarse, continuaron su plan de ahorros el mes siguiente. (Without losing heart, they resumed their savings plan the following month.)","Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+Sin perder el ánimo, el mes siguiente retomaron su plan de ahorros.
+
+Versión simplificada:",success,,4.9203,67,142,12,21,False,False,False,False,False,1.75,0,12,21,8,1,2,1,44.28250112460639,10.738037495669008,88.55428571428573,88.34000000000002,0.2142857142857082,1.75,1,0.34615384615384615,0,0.6190476190476191,0.3333333333333333,83.60166666666667,80.61833333333335,2.98333333333332,0.48275862068965514,0.37037037037037035,0.27586206896551724,0.7228564620018005,
+exp_medium_batch_v1,20260308_155905,FEINA,1194_LibroNEFE_Sincopyright.pdf,mistral,R2,zero-shot,"Sin perder el ánimo, el mes siguiente retomaron su plan de ahorros.",El mes siguiente retomaron su plan de ahorros.,"Sin desmayarse, volvieron a seguir su plan de ahorrar el mes siguiente. (Translation: Without losing heart, they resumed their saving plan the following month.)","Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+Guía interna de simplificación: usa palabras comunes; evita tecnicismos innecesarios; reemplaza palabras difíciles por palabras simples; usa oraciones cortas; expresa una idea por oración; prefiere voz activa; divide oraciones largas.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+Sin perder el ánimo, el mes siguiente retomaron su plan de ahorros.
+
+Versión simplificada:",success,,2.9855,67,161,12,24,False,False,False,False,False,2.0,0,12,24,8,1,2,1,37.45701058201058,5.875581881262648,90.83999999999999,88.34000000000002,2.4999999999999716,2.0,1,0.3788546255506608,0,0.7083333333333334,0.4166666666666667,83.21416666666667,80.61833333333335,2.5958333333333172,0.375,0.26666666666666666,0.25,0.6832627058029175,
+exp_medium_batch_v1,20260308_155905,FEINA,6553_LibroBAC.pdf,llama3,R0,zero-shot,"Algunas posesiones, como su automóvil, una TV de pantalla gigante o cualquier otro tamaño, un bote y la ropa, son activos, pero no son activos para la creación de riqueza, porque no generan ningún dinero ni incrementan su valor, ya que más bien cuando se adquieren y se ponen en uso, generan un proceso de depreciación.","Algunas posesiones, el carro, una TV, un bote y ropa son activos, pero no son activos para la creación de riqueza. Estos no generan ningún dinero ni incrementan su valor. Por el contrario, al adquirirlos y usarlos, inician un proceso de pérdida de valor.","Algunas cosas como el coche, la TV grande o la ropa no crean riqueza porque no ganan dinero ni aumentan de valor. En realidad, cuando se compran y se usan, pierden valor con el tiempo.","Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+Algunas posesiones, como su automóvil, una TV de pantalla gigante o cualquier otro tamaño, un bote y la ropa, son activos, pero no son activos para la creación de riqueza, porque no generan ningún dinero ni incrementan su valor, ya que más bien cuando se adquieren y se ponen en uso, generan un proceso de depreciación.
+
+Versión simplificada:",success,,8.2747,319,184,56,35,False,False,False,False,False,0.625,0,56,35,44,1,2,3,30.358075546330316,4.393970403379671,99.86857142857141,90.37571428571428,9.492857142857133,0.625,1,0.4850894632206759,0,0.42857142857142855,0.6428571428571429,84.31500000000001,31.797500000000014,52.5175,0.36585365853658536,0.049999999999999996,0.2926829268292683,0.8069931268692017,
+exp_medium_batch_v1,20260308_155905,FEINA,6553_LibroBAC.pdf,llama3,R2,zero-shot,"Algunas posesiones, como su automóvil, una TV de pantalla gigante o cualquier otro tamaño, un bote y la ropa, son activos, pero no son activos para la creación de riqueza, porque no generan ningún dinero ni incrementan su valor, ya que más bien cuando se adquieren y se ponen en uso, generan un proceso de depreciación.","Algunas posesiones, el carro, una TV, un bote y ropa son activos, pero no son activos para la creación de riqueza. Estos no generan ningún dinero ni incrementan su valor. Por el contrario, al adquirirlos y usarlos, inician un proceso de pérdida de valor.","Algunas cosas que tienes, como tu coche o una TV grande, no te hacen rico. No ganan dinero ni aumentan de valor. En realidad, cuando las compras y las usas, pierden valor con el tiempo.","Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+Guía interna de simplificación: usa palabras comunes; evita tecnicismos innecesarios; reemplaza palabras difíciles por palabras simples; usa oraciones cortas; expresa una idea por oración; prefiere voz activa; divide oraciones largas.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+Algunas posesiones, como su automóvil, una TV de pantalla gigante o cualquier otro tamaño, un bote y la ropa, son activos, pero no son activos para la creación de riqueza, porque no generan ningún dinero ni incrementan su valor, ya que más bien cuando se adquieren y se ponen en uso, generan un proceso de depreciación.
+
+Versión simplificada:",success,,5.8018,319,185,56,35,False,False,False,False,False,0.625,0,56,35,44,1,3,3,31.624604442194695,4.656315463814173,96.9542857142857,90.37571428571428,6.578571428571422,0.625,2,0.42063492063492064,0,0.5714285714285714,0.7321428571428571,90.14833333333334,31.797500000000014,58.35083333333333,0.2926829268292683,0.075,0.24390243902439024,0.7714821100234985,
+exp_medium_batch_v1,20260308_155905,FEINA,6553_LibroBAC.pdf,mistral,R0,zero-shot,"Algunas posesiones, como su automóvil, una TV de pantalla gigante o cualquier otro tamaño, un bote y la ropa, son activos, pero no son activos para la creación de riqueza, porque no generan ningún dinero ni incrementan su valor, ya que más bien cuando se adquieren y se ponen en uso, generan un proceso de depreciación.","Algunas posesiones, el carro, una TV, un bote y ropa son activos, pero no son activos para la creación de riqueza. Estos no generan ningún dinero ni incrementan su valor. Por el contrario, al adquirirlos y usarlos, inician un proceso de pérdida de valor.","Algunas cosas como un coche, una TV grande o cualquier otra tamaño, una lancha y ropa son activos, pero no crean riqueza porque no generan dinero ni aumentan en valor, en realidad se desvalorizan al ser adquiridas y usadas. (Some things like a car, a big TV or any other size, a boat and clothes are assets, but they don't create wealth because they don't generate money or increase in value, instead they depreciate when acquired and used.)","Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+Algunas posesiones, como su automóvil, una TV de pantalla gigante o cualquier otro tamaño, un bote y la ropa, son activos, pero no son activos para la creación de riqueza, porque no generan ningún dinero ni incrementan su valor, ya que más bien cuando se adquieren y se ponen en uso, generan un proceso de depreciación.
+
+Versión simplificada:",success,,19.0128,319,442,56,78,False,False,False,False,False,1.3928571428571428,0,56,80,44,1,2,3,39.928802342382966,10.04355673526599,97.79,90.37571428571428,7.414285714285725,1.4285714285714286,1,0.08947368421052632,0,0.7,0.5714285714285714,56.25250000000001,31.797500000000014,24.455,0.28125,0.126984126984127,0.265625,0.7240843176841736,
+exp_medium_batch_v1,20260308_155905,FEINA,6553_LibroBAC.pdf,mistral,R2,zero-shot,"Algunas posesiones, como su automóvil, una TV de pantalla gigante o cualquier otro tamaño, un bote y la ropa, son activos, pero no son activos para la creación de riqueza, porque no generan ningún dinero ni incrementan su valor, ya que más bien cuando se adquieren y se ponen en uso, generan un proceso de depreciación.","Algunas posesiones, el carro, una TV, un bote y ropa son activos, pero no son activos para la creación de riqueza. Estos no generan ningún dinero ni incrementan su valor. Por el contrario, al adquirirlos y usarlos, inician un proceso de pérdida de valor.","Algunas cosas como tu carro, una TV grande o cualquier tamaño, una lancha y ropa son activos, pero no crean riqueza porque no generan dinero ni se valoran más. En realidad, se depreciaban cuando se compran y usan. (Some things like your car, a big TV or any size, a boat and clothes are assets, but they don't create wealth because they don't make money or increase in value. Instead, they depreciate when bought and used.)","Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+Guía interna de simplificación: usa palabras comunes; evita tecnicismos innecesarios; reemplaza palabras difíciles por palabras simples; usa oraciones cortas; expresa una idea por oración; prefiere voz activa; divide oraciones largas.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+Algunas posesiones, como su automóvil, una TV de pantalla gigante o cualquier otro tamaño, un bote y la ropa, son activos, pero no son activos para la creación de riqueza, porque no generan ningún dinero ni incrementan su valor, ya que más bien cuando se adquieren y se ponen en uso, generan un proceso de depreciación.
+
+Versión simplificada:",success,,5.234,319,424,56,76,False,False,False,False,False,1.3571428571428572,0,56,78,44,1,4,3,39.07206008641144,11.192872955370982,101.60923076923076,90.37571428571428,11.233516483516482,1.3928571428571428,3,0.18867924528301888,0,0.6794871794871795,0.5535714285714286,83.50166666666668,31.797500000000014,51.704166666666666,0.25196850393700787,0.144,0.25196850393700787,0.7156890034675598,
+exp_medium_batch_v1,20260308_155905,FEINA,583_LibroNEFE_Sincopyright.pdf,llama3,R0,zero-shot,"Cuando depositas dinero en una cuenta de ahorros que genera intereses, el monto que ahorras es el capital.",El monto ahorrado cuando depositas dinero en una cuenta de ahorro generadora de intereses es el capital.,El dinero que guardas en una cuenta de ahorros que paga intereses es tu ahorro.,"Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+Cuando depositas dinero en una cuenta de ahorros que genera intereses, el monto que ahorras es el capital.
+
+Versión simplificada:",success,,6.9061,106,79,18,15,False,False,False,False,False,0.8333333333333334,0,18,15,17,1,1,1,38.63169375381651,18.256395227183354,88.04000000000002,74.50666666666667,13.533333333333346,0.8333333333333334,0,0.6594594594594595,0,0.26666666666666666,0.3888888888888889,75.54166666666667,57.3127777777778,18.228888888888875,0.5625,0.26666666666666666,0.5,0.8231868147850037,
+exp_medium_batch_v1,20260308_155905,FEINA,583_LibroNEFE_Sincopyright.pdf,llama3,R2,zero-shot,"Cuando depositas dinero en una cuenta de ahorros que genera intereses, el monto que ahorras es el capital.",El monto ahorrado cuando depositas dinero en una cuenta de ahorro generadora de intereses es el capital.,"Cuando pones dinero en una cuenta de ahorros que paga intereses, lo que ahorras es el capital.","Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+Guía interna de simplificación: usa palabras comunes; evita tecnicismos innecesarios; reemplaza palabras difíciles por palabras simples; usa oraciones cortas; expresa una idea por oración; prefiere voz activa; divide oraciones largas.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+Cuando depositas dinero en una cuenta de ahorros que genera intereses, el monto que ahorras es el capital.
+
+Versión simplificada:",success,,3.3497,106,94,18,17,False,False,False,False,False,0.9444444444444444,0,18,17,17,1,1,1,38.51641414141414,32.59481888833584,84.36941176470589,74.50666666666667,9.862745098039213,0.9444444444444444,0,0.9,0,0.17647058823529413,0.2222222222222222,68.89970588235296,57.3127777777778,11.586928104575165,0.5882352941176471,0.375,0.5882352941176471,0.8469089269638062,
+exp_medium_batch_v1,20260308_155905,FEINA,583_LibroNEFE_Sincopyright.pdf,mistral,R0,zero-shot,"Cuando depositas dinero en una cuenta de ahorros que genera intereses, el monto que ahorras es el capital.",El monto ahorrado cuando depositas dinero en una cuenta de ahorro generadora de intereses es el capital.,"Cuando depositas dinero en una cuenta de ahorros, el dinero que guardas es tu capital.","Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+Cuando depositas dinero en una cuenta de ahorros que genera intereses, el monto que ahorras es el capital.
+
+Versión simplificada:",success,,5.3924,106,86,18,15,False,False,False,False,False,0.8333333333333334,0,18,15,17,1,1,1,50.95717624607784,31.592888895794278,80.04,74.50666666666667,5.533333333333331,0.8333333333333334,0,0.7291666666666666,0,0.2,0.3333333333333333,67.23500000000001,57.3127777777778,9.922222222222217,0.625,0.39999999999999997,0.5625,0.8493173718452454,
+exp_medium_batch_v1,20260308_155905,FEINA,583_LibroNEFE_Sincopyright.pdf,mistral,R2,zero-shot,"Cuando depositas dinero en una cuenta de ahorros que genera intereses, el monto que ahorras es el capital.",El monto ahorrado cuando depositas dinero en una cuenta de ahorro generadora de intereses es el capital.,"Cuando depositas dinero en una cuenta de ahorros, el dinero que guardas es tu capital.","Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+Guía interna de simplificación: usa palabras comunes; evita tecnicismos innecesarios; reemplaza palabras difíciles por palabras simples; usa oraciones cortas; expresa una idea por oración; prefiere voz activa; divide oraciones largas.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+Cuando depositas dinero en una cuenta de ahorros que genera intereses, el monto que ahorras es el capital.
+
+Versión simplificada:",success,,2.5112,106,86,18,15,False,False,False,False,False,0.8333333333333334,0,18,15,17,1,1,1,50.95717624607784,31.592888895794278,80.04,74.50666666666667,5.533333333333331,0.8333333333333334,0,0.7291666666666666,0,0.2,0.3333333333333333,67.23500000000001,57.3127777777778,9.922222222222217,0.625,0.39999999999999997,0.5625,0.8493173718452454,
+exp_medium_batch_v1,20260308_155905,FEINA,1103_LibroUAC_Sincopyright.pdf,llama3,R0,zero-shot,"De este modo, para saber el monto que se tendrá en cinco meses, ahorrando $150.000 cada mes, a una tasa de interés de 5 % mensual, hay que usar la siguiente fórmula: M = R [( 1 + I)t - 1]/ I R = AHORRO","Así, puede calcular el monto obtenido tras cinco meses por ahorrar ciento cincuenta mil dólares mensuales con una tasa de interés de cinco por ciento. Utilice la siguiente fórmula para esto. Se suma uno al interés compuesto y se le multiplica por el tiempo. Luego, se le resta uno a este dato. Finalmente, se multiplica por el ahorro y se divide entre el interés compuesto.","Para saber cuánto tendrás en cinco meses, ahorrando $150.000 cada mes a un interés del 5% al mes, necesitas usar la siguiente fórmula: M = R [(1 + I)t - 1]/I.","Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+De este modo, para saber el monto que se tendrá en cinco meses, ahorrando $150.000 cada mes, a una tasa de interés de 5 % mensual, hay que usar la siguiente fórmula: M = R [( 1 + I)t - 1]/ I R = AHORRO
+
+Versión simplificada:",success,,7.8,201,158,45,31,False,False,False,False,False,0.6888888888888889,0,41,31,65,1,1,5,24.619962540212388,2.454103480454257,114.51741935483872,116.54731707317075,-2.0298977183320233,0.7560975609756098,0,0.7799442896935933,0,0.22580645161290322,0.4146341463414634,83.38983870967743,74.66426829268295,8.725570416994486,0.22857142857142862,0.09708737864077668,0.15238095238095237,0.6723756194114685,
+exp_medium_batch_v1,20260308_155905,FEINA,1103_LibroUAC_Sincopyright.pdf,llama3,R2,zero-shot,"De este modo, para saber el monto que se tendrá en cinco meses, ahorrando $150.000 cada mes, a una tasa de interés de 5 % mensual, hay que usar la siguiente fórmula: M = R [( 1 + I)t - 1]/ I R = AHORRO","Así, puede calcular el monto obtenido tras cinco meses por ahorrar ciento cincuenta mil dólares mensuales con una tasa de interés de cinco por ciento. Utilice la siguiente fórmula para esto. Se suma uno al interés compuesto y se le multiplica por el tiempo. Luego, se le resta uno a este dato. Finalmente, se multiplica por el ahorro y se divide entre el interés compuesto.","Para saber cuánto tendrás en 5 meses, ahorrando $150.000 cada mes y ganando un 5% de interés al mes, necesitas usar la siguiente fórmula: M = R [(1 + I)t - 1]/I.","Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+Guía interna de simplificación: usa palabras comunes; evita tecnicismos innecesarios; reemplaza palabras difíciles por palabras simples; usa oraciones cortas; expresa una idea por oración; prefiere voz activa; divide oraciones largas.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+De este modo, para saber el monto que se tendrá en cinco meses, ahorrando $150.000 cada mes, a una tasa de interés de 5 % mensual, hay que usar la siguiente fórmula: M = R [( 1 + I)t - 1]/ I R = AHORRO
+
+Versión simplificada:",success,,5.0403,201,161,45,32,False,False,False,False,False,0.7111111111111111,0,41,32,65,1,1,5,25.515607917028063,2.4876975265993657,115.5275,116.54731707317075,-1.019817073170742,0.7804878048780488,0,0.7403314917127072,0,0.28125,0.43902439024390244,83.33187500000001,74.66426829268295,8.667606707317063,0.22641509433962265,0.09615384615384616,0.1509433962264151,0.6664544939994812,
+exp_medium_batch_v1,20260308_155905,FEINA,1103_LibroUAC_Sincopyright.pdf,mistral,R0,zero-shot,"De este modo, para saber el monto que se tendrá en cinco meses, ahorrando $150.000 cada mes, a una tasa de interés de 5 % mensual, hay que usar la siguiente fórmula: M = R [( 1 + I)t - 1]/ I R = AHORRO","Así, puede calcular el monto obtenido tras cinco meses por ahorrar ciento cincuenta mil dólares mensuales con una tasa de interés de cinco por ciento. Utilice la siguiente fórmula para esto. Se suma uno al interés compuesto y se le multiplica por el tiempo. Luego, se le resta uno a este dato. Finalmente, se multiplica por el ahorro y se divide entre el interés compuesto.","Para saber cuánto tendrás en cinco meses ahorrando $150.000 mensually with a 5% monthly interest rate, use this formula: M = R [(1 + I)²-1]/ I Donde: M = total amount, R = monthly savings ($150.000), I = interest rate (0.05) and t = number of months (5).","Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+De este modo, para saber el monto que se tendrá en cinco meses, ahorrando $150.000 cada mes, a una tasa de interés de 5 % mensual, hay que usar la siguiente fórmula: M = R [( 1 + I)t - 1]/ I R = AHORRO
+
+Versión simplificada:",success,,10.6117,201,254,45,48,False,False,False,False,False,1.0666666666666669,0,41,47,65,1,1,5,27.29754573714745,1.3523258075994178,128.07404255319148,116.54731707317075,11.52672548002073,1.146341463414634,0,0.15824175824175823,0,0.6170212765957447,0.5609756097560976,80.30308510638298,74.66426829268295,5.638816813700032,0.0847457627118644,0.017241379310344827,0.05084745762711865,0.649601936340332,
+exp_medium_batch_v1,20260308_155905,FEINA,1103_LibroUAC_Sincopyright.pdf,mistral,R2,zero-shot,"De este modo, para saber el monto que se tendrá en cinco meses, ahorrando $150.000 cada mes, a una tasa de interés de 5 % mensual, hay que usar la siguiente fórmula: M = R [( 1 + I)t - 1]/ I R = AHORRO","Así, puede calcular el monto obtenido tras cinco meses por ahorrar ciento cincuenta mil dólares mensuales con una tasa de interés de cinco por ciento. Utilice la siguiente fórmula para esto. Se suma uno al interés compuesto y se le multiplica por el tiempo. Luego, se le resta uno a este dato. Finalmente, se multiplica por el ahorro y se divide entre el interés compuesto.","Para saber cuánto tendrás en cinco meses ahorrando $150.000 cada mes con un interés del 5% mensual, usa esta fórmula: M = A [(1 + I)³ - 1] Donde: M = cantidad total A = ahorro mensual I = tasa de interés mensual (","Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+Guía interna de simplificación: usa palabras comunes; evita tecnicismos innecesarios; reemplaza palabras difíciles por palabras simples; usa oraciones cortas; expresa una idea por oración; prefiere voz activa; divide oraciones largas.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+De este modo, para saber el monto que se tendrá en cinco meses, ahorrando $150.000 cada mes, a una tasa de interés de 5 % mensual, hay que usar la siguiente fórmula: M = R [( 1 + I)t - 1]/ I R = AHORRO
+
+Versión simplificada:",success,,7.0566,201,215,45,44,False,False,True,False,False,0.9777777777777776,1,41,39,65,1,1,5,29.58822067247051,2.6372706997944406,110.37846153846155,116.54731707317075,-6.168855534709195,0.9512195121951219,0,0.34782608695652173,0,0.41025641025641024,0.43902439024390244,70.39141025641027,74.66426829268295,-4.27285803627268,0.26548672566371684,0.1081081081081081,0.19469026548672566,0.6967450380325317,
+exp_medium_batch_v1,20260308_155905,FEINA,1267_LibroUide_Sincopyright.pdf,llama3,R0,zero-shot,De esta forma se comprueba que el estado financiero se encuentre correctamente elaborado.,Así comprobamos que el estado financiero está bien elaborado.,Verifica que el estado financiero esté bien hecho.,"Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+De esta forma se comprueba que el estado financiero se encuentre correctamente elaborado.
+
+Versión simplificada:",success,,8.294,89,50,13,8,False,False,False,False,False,0.6153846153846154,0,13,8,9,1,1,1,65.87315548228861,29.5580130165708,59.09,51.30153846153848,7.788461538461526,0.6153846153846154,0,0.5611510791366906,0,0.5,0.6923076923076923,58.660000000000025,40.48115384615386,18.178846153846166,0.7058823529411765,0.6666666666666666,0.7058823529411765,0.8569982647895813,
+exp_medium_batch_v1,20260308_155905,FEINA,1267_LibroUide_Sincopyright.pdf,llama3,R2,zero-shot,De esta forma se comprueba que el estado financiero se encuentre correctamente elaborado.,Así comprobamos que el estado financiero está bien elaborado.,Se verifica que el estado financiero está bien hecho.,"Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+Guía interna de simplificación: usa palabras comunes; evita tecnicismos innecesarios; reemplaza palabras difíciles por palabras simples; usa oraciones cortas; expresa una idea por oración; prefiere voz activa; divide oraciones largas.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+De esta forma se comprueba que el estado financiero se encuentre correctamente elaborado.
+
+Versión simplificada:",success,,2.869,89,53,13,9,False,False,False,False,False,0.6923076923076923,0,13,9,9,1,1,1,75.3595636819321,53.7284965911771,68.84000000000002,51.30153846153848,17.53846153846154,0.6923076923076923,0,0.5774647887323944,0,0.4444444444444444,0.6153846153846154,66.3127777777778,40.48115384615386,25.831623931623938,0.6666666666666666,0.625,0.6666666666666666,0.8831799030303955,
+exp_medium_batch_v1,20260308_155905,FEINA,1267_LibroUide_Sincopyright.pdf,mistral,R0,zero-shot,De esta forma se comprueba que el estado financiero se encuentre correctamente elaborado.,Así comprobamos que el estado financiero está bien elaborado.,Se verifica que los libros contables estén bien hechos financieramente.,"Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+De esta forma se comprueba que el estado financiero se encuentre correctamente elaborado.
+
+Versión simplificada:",success,,4.8539,89,71,13,10,False,False,False,False,False,0.7692307692307693,0,13,10,9,1,1,1,33.5633908002329,4.9323515694897075,58.64000000000003,51.30153846153848,7.3384615384615515,0.7692307692307693,0,0.425,0,0.8,0.8461538461538461,53.545000000000016,40.48115384615386,13.063846153846157,0.3,0.0,0.3,0.803025484085083,
+exp_medium_batch_v1,20260308_155905,FEINA,1267_LibroUide_Sincopyright.pdf,mistral,R2,zero-shot,De esta forma se comprueba que el estado financiero se encuentre correctamente elaborado.,Así comprobamos que el estado financiero está bien elaborado.,Se verifica que los libros estén bien hechos financieramente.,"Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+Guía interna de simplificación: usa palabras comunes; evita tecnicismos innecesarios; reemplaza palabras difíciles por palabras simples; usa oraciones cortas; expresa una idea por oración; prefiere voz activa; divide oraciones largas.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+De esta forma se comprueba que el estado financiero se encuentre correctamente elaborado.
+
+Versión simplificada:",success,,2.0491,89,61,13,9,False,False,False,False,False,0.6923076923076923,0,13,9,9,1,1,1,33.68965342649553,5.522397783539471,62.173333333333325,51.30153846153848,10.871794871794847,0.6923076923076923,0,0.4533333333333333,0,0.7777777777777778,0.8461538461538461,59.39055555555555,40.48115384615386,18.909401709401692,0.3157894736842105,0.0,0.3157894736842105,0.8035055994987488,
+exp_medium_batch_v1,20260308_155905,FEINA,77_LibroBAC.pdf,llama3,R0,zero-shot,"Para la elaboración del documento se integró un equipo profesional interdisciplinario de trabajo con énfasis en administración de empresas, economía, planificación y educación, que tuvo a su cargo la investigación previa sobre el tema, la caracterización de la población meta o destinataria de la capacitación, la construcción de la estructura de contenidos y finalmente el desarrollo de los mismos.","Se integró un equipo profesional interdisciplinario para la elaboración del documento. Este grupo se especializa en administración de empresas, economía, planificación y educación. También, tuvo a su cargo la investigación previa sobre el tema, la caracterización de la población destinataria de la capacitación, la elaboración de la estructura de contenidos y el desarrollo de estos.","Un equipo de expertos con experiencia en administración, economía, planificación y educación trabajó juntos para crear un documento. Ellos investigaron sobre el tema, analizaron quiénes serían los destinatarios de la capacitación, diseñaron el contenido y lo crearon.","Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+Para la elaboración del documento se integró un equipo profesional interdisciplinario de trabajo con énfasis en administración de empresas, economía, planificación y educación, que tuvo a su cargo la investigación previa sobre el tema, la caracterización de la población meta o destinataria de la capacitación, la construcción de la estructura de contenidos y finalmente el desarrollo de los mismos.
+
+Versión simplificada:",success,,8.881,399,267,59,37,False,False,False,False,False,0.6271186440677966,0,59,37,55,1,2,3,32.92272307208589,16.165829951044227,50.51567567567568,62.73830508474579,-12.222629409070109,0.6271186440677966,1,0.042042042042042045,0,0.43243243243243246,0.6440677966101694,31.743108108108117,0.004491525423759413,31.738616582684358,0.43243243243243246,0.2568807339449541,0.3603603603603604,0.7776051163673401,
+exp_medium_batch_v1,20260308_155905,FEINA,77_LibroBAC.pdf,llama3,R2,zero-shot,"Para la elaboración del documento se integró un equipo profesional interdisciplinario de trabajo con énfasis en administración de empresas, economía, planificación y educación, que tuvo a su cargo la investigación previa sobre el tema, la caracterización de la población meta o destinataria de la capacitación, la construcción de la estructura de contenidos y finalmente el desarrollo de los mismos.","Se integró un equipo profesional interdisciplinario para la elaboración del documento. Este grupo se especializa en administración de empresas, economía, planificación y educación. También, tuvo a su cargo la investigación previa sobre el tema, la caracterización de la población destinataria de la capacitación, la elaboración de la estructura de contenidos y el desarrollo de estos.","Un equipo de expertos con experiencia en administración, economía y educación trabajó juntos para crear un documento. Ellos investigaron sobre el tema, analizaron quiénes serían los beneficiarios de la capacitación, diseñaron el contenido y lo crearon.","Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+Guía interna de simplificación: usa palabras comunes; evita tecnicismos innecesarios; reemplaza palabras difíciles por palabras simples; usa oraciones cortas; expresa una idea por oración; prefiere voz activa; divide oraciones largas.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+Para la elaboración del documento se integró un equipo profesional interdisciplinario de trabajo con énfasis en administración de empresas, economía, planificación y educación, que tuvo a su cargo la investigación previa sobre el tema, la caracterización de la población meta o destinataria de la capacitación, la construcción de la estructura de contenidos y finalmente el desarrollo de los mismos.
+
+Versión simplificada:",success,,6.2816,399,252,59,36,False,False,False,False,False,0.6101694915254238,0,59,36,55,1,2,3,28.551367235107563,9.699411379250886,54.50666666666668,62.73830508474579,-8.231638418079108,0.6101694915254238,1,0.039938556067588324,0,0.4444444444444444,0.6610169491525424,36.54611111111112,0.004491525423759413,36.54161958568736,0.4036697247706422,0.205607476635514,0.33027522935779813,0.768088698387146,
+exp_medium_batch_v1,20260308_155905,FEINA,77_LibroBAC.pdf,mistral,R0,zero-shot,"Para la elaboración del documento se integró un equipo profesional interdisciplinario de trabajo con énfasis en administración de empresas, economía, planificación y educación, que tuvo a su cargo la investigación previa sobre el tema, la caracterización de la población meta o destinataria de la capacitación, la construcción de la estructura de contenidos y finalmente el desarrollo de los mismos.","Se integró un equipo profesional interdisciplinario para la elaboración del documento. Este grupo se especializa en administración de empresas, economía, planificación y educación. También, tuvo a su cargo la investigación previa sobre el tema, la caracterización de la población destinataria de la capacitación, la elaboración de la estructura de contenidos y el desarrollo de estos.","Un equipo profesional interdisciplinario trabajó juntos en la creación del documento, con énfasis en administración de empresas, economía, planificación y educación. Ellos lideraron la investigación inicial sobre el tema, identificaron la audiencia meta o objetivo de la capacitación y diseñaron la estructura de contenidos, terminando con su desarrollo.","Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+Para la elaboración del documento se integró un equipo profesional interdisciplinario de trabajo con énfasis en administración de empresas, economía, planificación y educación, que tuvo a su cargo la investigación previa sobre el tema, la caracterización de la población meta o destinataria de la capacitación, la construcción de la estructura de contenidos y finalmente el desarrollo de los mismos.
+
+Versión simplificada:",success,,10.183,399,354,59,48,False,False,False,False,False,0.8135593220338984,0,59,48,55,1,2,3,40.342322690692555,30.216899065240614,45.09,62.73830508474579,-17.648305084745786,0.8135593220338984,1,0.0398406374501992,0,0.2708333333333333,0.4067796610169492,19.297500000000014,0.004491525423759413,19.293008474576254,0.6229508196721312,0.4333333333333333,0.5901639344262296,0.8328805565834045,
+exp_medium_batch_v1,20260308_155905,FEINA,77_LibroBAC.pdf,mistral,R2,zero-shot,"Para la elaboración del documento se integró un equipo profesional interdisciplinario de trabajo con énfasis en administración de empresas, economía, planificación y educación, que tuvo a su cargo la investigación previa sobre el tema, la caracterización de la población meta o destinataria de la capacitación, la construcción de la estructura de contenidos y finalmente el desarrollo de los mismos.","Se integró un equipo profesional interdisciplinario para la elaboración del documento. Este grupo se especializa en administración de empresas, economía, planificación y educación. También, tuvo a su cargo la investigación previa sobre el tema, la caracterización de la población destinataria de la capacitación, la elaboración de la estructura de contenidos y el desarrollo de estos.","Un equipo profesional multidisciplinario trabajó en la creación de este documento, con énfasis en administración de empresas, economía, planificación y educación. Anteriormente investigaron el tema y identificaron a nuestra audiencia objetivo o destinataria. Luego, diseñamos la estructura de contenidos y finalmente creamos los contenidos mismos.","Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+Guía interna de simplificación: usa palabras comunes; evita tecnicismos innecesarios; reemplaza palabras difíciles por palabras simples; usa oraciones cortas; expresa una idea por oración; prefiere voz activa; divide oraciones largas.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+Para la elaboración del documento se integró un equipo profesional interdisciplinario de trabajo con énfasis en administración de empresas, economía, planificación y educación, que tuvo a su cargo la investigación previa sobre el tema, la caracterización de la población meta o destinataria de la capacitación, la construcción de la estructura de contenidos y finalmente el desarrollo de los mismos.
+
+Versión simplificada:",success,,4.6534,399,347,59,45,False,False,False,False,False,0.7627118644067796,0,59,45,55,1,3,3,34.96523344998628,24.62464164563086,36.040000000000035,62.73830508474579,-26.698305084745755,0.7627118644067796,2,0.05361930294906166,0,0.35555555555555557,0.5084745762711864,21.548333333333346,0.004491525423759413,21.543841807909587,0.4957264957264957,0.3304347826086957,0.4444444444444444,0.812860369682312,
+exp_medium_batch_v1,20260308_155905,FEINA,102_LibroNEFE_Sincopyright.pdf,llama3,R0,zero-shot,'Mis padres no se lo podían permitir'.,"""Mis padres no se lo podían permitir"".",Mis padres no tenían dinero.,"Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+'Mis padres no se lo podían permitir'.
+
+Versión simplificada:",success,,6.9366,38,28,7,5,False,False,False,False,False,0.7142857142857143,0,7,5,7,1,1,1,37.49338624338625,16.669006580554246,78.44,97.98285714285716,-19.54285714285716,0.7142857142857143,0,0.6666666666666666,0,0.4,0.5714285714285714,89.69500000000001,101.93500000000002,-12.240000000000009,0.5714285714285715,0.3333333333333333,0.5714285714285715,0.8192630410194397,
+exp_medium_batch_v1,20260308_155905,FEINA,102_LibroNEFE_Sincopyright.pdf,llama3,R2,zero-shot,'Mis padres no se lo podían permitir'.,"""Mis padres no se lo podían permitir"".",Mis padres no tenían dinero.,"Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+Guía interna de simplificación: usa palabras comunes; evita tecnicismos innecesarios; reemplaza palabras difíciles por palabras simples; usa oraciones cortas; expresa una idea por oración; prefiere voz activa; divide oraciones largas.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+'Mis padres no se lo podían permitir'.
+
+Versión simplificada:",success,,2.8499,38,28,7,5,False,False,False,False,False,0.7142857142857143,0,7,5,7,1,1,1,37.49338624338625,16.669006580554246,78.44,97.98285714285716,-19.54285714285716,0.7142857142857143,0,0.6666666666666666,0,0.4,0.5714285714285714,89.69500000000001,101.93500000000002,-12.240000000000009,0.5714285714285715,0.3333333333333333,0.5714285714285715,0.8192630410194397,
+exp_medium_batch_v1,20260308_155905,FEINA,102_LibroNEFE_Sincopyright.pdf,mistral,R0,zero-shot,'Mis padres no se lo podían permitir'.,"""Mis padres no se lo podían permitir"".","""Ellos no pudieron permitirlo a mis padres."" (They couldn't allow it to my parents.)","Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+'Mis padres no se lo podían permitir'.
+
+Versión simplificada:",success,,5.5982,38,85,7,14,False,False,False,False,False,2.0,0,7,15,7,1,1,1,29.669312169312168,2.862999365766888,104.04,97.98285714285716,6.05714285714285,2.142857142857143,0,0.3114754098360656,0,0.8,0.5714285714285714,92.155,101.93500000000002,-9.780000000000015,0.26086956521739135,0.09523809523809523,0.1739130434782609,0.705498456954956,
+exp_medium_batch_v1,20260308_155905,FEINA,102_LibroNEFE_Sincopyright.pdf,mistral,R2,zero-shot,'Mis padres no se lo podían permitir'.,"""Mis padres no se lo podían permitir"".",Mi familia no pudo permitirlo. (Literally: My parents couldn't afford it.),"Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+Guía interna de simplificación: usa palabras comunes; evita tecnicismos innecesarios; reemplaza palabras difíciles por palabras simples; usa oraciones cortas; expresa una idea por oración; prefiere voz activa; divide oraciones largas.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+'Mis padres no se lo podían permitir'.
+
+Versión simplificada:",success,,2.1621,38,74,7,11,False,False,False,False,False,1.5714285714285714,0,7,12,7,1,2,1,25.138888888888886,2.908317710573757,79.84000000000002,97.98285714285716,-18.14285714285714,1.7142857142857142,1,0.35714285714285715,0,0.9166666666666666,0.8571428571428571,86.61833333333335,101.93500000000002,-15.316666666666663,0.1,0.0,0.1,0.6719694137573242,
+exp_medium_batch_v1,20260308_155905,FEINA,577_LibroUAC_Sincopyright.pdf,llama3,R0,zero-shot,en la situación inversa los precios suben.,Los precios suben en la situación inversa.,Los precios aumentan.,"Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+en la situación inversa los precios suben.
+
+Versión simplificada:",success,,6.354,42,21,7,3,False,False,False,True,False,0.4285714285714285,1,7,3,7,1,1,1,24.45286195286195,13.006502375572222,52.84000000000001,80.84,-27.999999999999993,0.42857142857142855,0,0.47619047619047616,0,0.3333333333333333,0.7142857142857143,79.23500000000001,84.135,-4.8999999999999915,0.36363636363636365,0.22222222222222224,0.36363636363636365,0.8496066331863403,
+exp_medium_batch_v1,20260308_155905,FEINA,577_LibroUAC_Sincopyright.pdf,llama3,R2,zero-shot,en la situación inversa los precios suben.,Los precios suben en la situación inversa.,Los precios aumentan cuando la situación se invierte.,"Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+Guía interna de simplificación: usa palabras comunes; evita tecnicismos innecesarios; reemplaza palabras difíciles por palabras simples; usa oraciones cortas; expresa una idea por oración; prefiere voz activa; divide oraciones largas.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+en la situación inversa los precios suben.
+
+Versión simplificada:",success,,3.7034,42,53,7,8,False,False,False,False,False,1.1428571428571428,0,7,8,7,1,1,1,28.8970288970289,14.25876976452075,74.09,80.84,-6.75,1.1428571428571428,0,0.4842105263157895,0,0.5,0.42857142857142855,74.23500000000001,84.135,-9.899999999999991,0.5882352941176471,0.39999999999999997,0.5882352941176471,0.8508722186088562,
+exp_medium_batch_v1,20260308_155905,FEINA,577_LibroUAC_Sincopyright.pdf,mistral,R0,zero-shot,en la situación inversa los precios suben.,Los precios suben en la situación inversa.,"Cuando esto sucede, los precios aumentan.","Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+en la situación inversa los precios suben.
+
+Versión simplificada:",success,,4.688,42,41,7,6,False,False,False,False,False,0.8571428571428571,0,7,6,7,1,1,1,24.45286195286195,6.567274736060395,59.84,80.84,-21.0,0.8571428571428571,0,0.5542168674698795,0,0.6666666666666666,0.7142857142857143,65.85166666666669,84.135,-18.283333333333317,0.28571428571428575,0.16666666666666666,0.28571428571428575,0.8166168928146362,
+exp_medium_batch_v1,20260308_155905,FEINA,577_LibroUAC_Sincopyright.pdf,mistral,R2,zero-shot,en la situación inversa los precios suben.,Los precios suben en la situación inversa.,"Cuando esto sucede, los precios aumentan.","Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+Guía interna de simplificación: usa palabras comunes; evita tecnicismos innecesarios; reemplaza palabras difíciles por palabras simples; usa oraciones cortas; expresa una idea por oración; prefiere voz activa; divide oraciones largas.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+en la situación inversa los precios suben.
+
+Versión simplificada:",success,,1.9625,42,41,7,6,False,False,False,False,False,0.8571428571428571,0,7,6,7,1,1,1,24.45286195286195,6.567274736060395,59.84,80.84,-21.0,0.8571428571428571,0,0.5542168674698795,0,0.6666666666666666,0.7142857142857143,65.85166666666669,84.135,-18.283333333333317,0.28571428571428575,0.16666666666666666,0.28571428571428575,0.8166168928146362,
+exp_medium_batch_v1,20260308_155905,FEINA,1316_LibroUAC_Sincopyright.pdf,llama3,R0,zero-shot,"En cuanto a las remuneraciones de los trabajadores independientes, se denominan «honorarios», están afectas solo a una retención de impuesto a la renta a cuenta del impuesto anual (tasa de 10,75 % desde enero de 2020) y no están sujetas a descuentos previsionales como las remuneraciones de los trabajadores dependientes.","Las remuneraciones de los trabajadores independientes se denominan ""honorarios"". Están sujetas solo a una retención de impuesto a la renta a cuenta del impuesto anual. Asimismo, no están sujetas a descuentos previsionales como las remuneraciones de los trabajadores dependientes.","Los honorarios de los trabajadores independientes se pagan sin deducciones previsionales. Solo se retiene un impuesto a la renta del 10,75% y no hay descuentos previsionales como con los trabajadores dependientes.","Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+En cuanto a las remuneraciones de los trabajadores independientes, se denominan «honorarios», están afectas solo a una retención de impuesto a la renta a cuenta del impuesto anual (tasa de 10,75 % desde enero de 2020) y no están sujetas a descuentos previsionales como las remuneraciones de los trabajadores dependientes.
+
+Versión simplificada:",success,,9.074,321,213,50,31,False,False,False,False,False,0.62,0,50,32,39,1,2,3,39.05799162188004,20.854853072204783,71.09,76.39999999999999,-5.309999999999988,0.64,1,0.13108614232209737,0,0.3125,0.56,56.500625000000014,23.513000000000005,32.98762500000001,0.5135135135135135,0.3055555555555556,0.4864864864864864,0.8177295327186584,
+exp_medium_batch_v1,20260308_155905,FEINA,1316_LibroUAC_Sincopyright.pdf,llama3,R2,zero-shot,"En cuanto a las remuneraciones de los trabajadores independientes, se denominan «honorarios», están afectas solo a una retención de impuesto a la renta a cuenta del impuesto anual (tasa de 10,75 % desde enero de 2020) y no están sujetas a descuentos previsionales como las remuneraciones de los trabajadores dependientes.","Las remuneraciones de los trabajadores independientes se denominan ""honorarios"". Están sujetas solo a una retención de impuesto a la renta a cuenta del impuesto anual. Asimismo, no están sujetas a descuentos previsionales como las remuneraciones de los trabajadores dependientes.","Los honorarios de los trabajadores independientes se pagan sin deducciones previsionales. Solo se retiene un 10,75% para impuestos y no hay descuentos adicionales.","Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+Guía interna de simplificación: usa palabras comunes; evita tecnicismos innecesarios; reemplaza palabras difíciles por palabras simples; usa oraciones cortas; expresa una idea por oración; prefiere voz activa; divide oraciones largas.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+En cuanto a las remuneraciones de los trabajadores independientes, se denominan «honorarios», están afectas solo a una retención de impuesto a la renta a cuenta del impuesto anual (tasa de 10,75 % desde enero de 2020) y no están sujetas a descuentos previsionales como las remuneraciones de los trabajadores dependientes.
+
+Versión simplificada:",success,,3.8657,321,163,50,23,False,False,False,False,False,0.46,0,50,24,39,1,2,3,29.296126793663387,7.930833431814404,65.84,76.39999999999999,-10.559999999999988,0.48,1,0.3925619834710744,0,0.4166666666666667,0.72,57.25583333333333,23.513000000000005,33.74283333333332,0.33333333333333337,0.12500000000000003,0.24242424242424246,0.769108235836029,
+exp_medium_batch_v1,20260308_155905,FEINA,1316_LibroUAC_Sincopyright.pdf,mistral,R0,zero-shot,"En cuanto a las remuneraciones de los trabajadores independientes, se denominan «honorarios», están afectas solo a una retención de impuesto a la renta a cuenta del impuesto anual (tasa de 10,75 % desde enero de 2020) y no están sujetas a descuentos previsionales como las remuneraciones de los trabajadores dependientes.","Las remuneraciones de los trabajadores independientes se denominan ""honorarios"". Están sujetas solo a una retención de impuesto a la renta a cuenta del impuesto anual. Asimismo, no están sujetas a descuentos previsionales como las remuneraciones de los trabajadores dependientes.","Independientemente pagados se llaman ""honorarios"". Solo se retiene impuesto sobre la renta anual (10,75% desde enero de 2020), sin aplicar descuentos previsionales como suelen hacerse con los salarios de trabajadores dependientes. (Independent payments are called ""honoraries"". Only annual income tax is withheld (10.75% since January 2020), without applying the usual pension contributions as with dependent workers' salaries.)","Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+En cuanto a las remuneraciones de los trabajadores independientes, se denominan «honorarios», están afectas solo a una retención de impuesto a la renta a cuenta del impuesto anual (tasa de 10,75 % desde enero de 2020) y no están sujetas a descuentos previsionales como las remuneraciones de los trabajadores dependientes.
+
+Versión simplificada:",success,,7.7551,321,429,50,57,False,False,False,False,False,1.14,0,50,59,39,1,4,3,26.12463134940607,6.843967027879845,73.82305084745762,76.39999999999999,-2.576949152542369,1.18,3,0.10947930574098798,0,0.6610169491525424,0.6,61.14940677966101,23.513000000000005,37.636406779661,0.297029702970297,0.08080808080808081,0.25742574257425743,0.7298319935798645,
+exp_medium_batch_v1,20260308_155905,FEINA,1316_LibroUAC_Sincopyright.pdf,mistral,R2,zero-shot,"En cuanto a las remuneraciones de los trabajadores independientes, se denominan «honorarios», están afectas solo a una retención de impuesto a la renta a cuenta del impuesto anual (tasa de 10,75 % desde enero de 2020) y no están sujetas a descuentos previsionales como las remuneraciones de los trabajadores dependientes.","Las remuneraciones de los trabajadores independientes se denominan ""honorarios"". Están sujetas solo a una retención de impuesto a la renta a cuenta del impuesto anual. Asimismo, no están sujetas a descuentos previsionales como las remuneraciones de los trabajadores dependientes.","Sobre el pago a trabajadores independientes, se les conoce como ""honorarios"". Solo se retiene impuesto sobre la renta anual (10,75% desde enero de 2020), sin descuentos previos como los salarios de trabajadores dependientes.","Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+Guía interna de simplificación: usa palabras comunes; evita tecnicismos innecesarios; reemplaza palabras difíciles por palabras simples; usa oraciones cortas; expresa una idea por oración; prefiere voz activa; divide oraciones largas.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+En cuanto a las remuneraciones de los trabajadores independientes, se denominan «honorarios», están afectas solo a una retención de impuesto a la renta a cuenta del impuesto anual (tasa de 10,75 % desde enero de 2020) y no están sujetas a descuentos previsionales como las remuneraciones de los trabajadores dependientes.
+
+Versión simplificada:",success,,3.7986,321,224,50,33,False,False,False,False,False,0.66,0,50,34,39,1,2,3,27.27165759626512,10.538994468729735,75.54588235294118,76.39999999999999,-0.8541176470588141,0.68,1,0.2018348623853211,0,0.35294117647058826,0.56,59.7379411764706,23.513000000000005,36.224941176470594,0.4473684210526316,0.1081081081081081,0.36842105263157887,0.7944605946540833,
+exp_medium_batch_v1,20260308_155905,FEINA,11507_LibroBAC.pdf,llama3,R0,zero-shot,La importancia de un historial de crédito impecable y algunos consejos en caso de que sea necesario corregirlo.,La importancia de un historial crediticio limpio y algunos consejos si es necesario corregirlo.,"Tener un historial de crédito perfecto es importante. Si necesita corregirlo, sigue estos consejos.","Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+La importancia de un historial de crédito impecable y algunos consejos en caso de que sea necesario corregirlo.
+
+Versión simplificada:",success,,6.8288,111,99,18,14,False,False,False,False,False,0.7777777777777778,0,18,14,14,1,2,1,34.44558017546523,6.256118460580956,46.55428571428574,71.17333333333333,-24.619047619047592,0.7777777777777778,1,0.44761904761904764,0,0.5714285714285714,0.6666666666666666,48.535000000000025,53.85166666666669,-5.316666666666663,0.4827586206896552,0.07407407407407408,0.2758620689655172,0.7734665274620056,
+exp_medium_batch_v1,20260308_155905,FEINA,11507_LibroBAC.pdf,llama3,R2,zero-shot,La importancia de un historial de crédito impecable y algunos consejos en caso de que sea necesario corregirlo.,La importancia de un historial crediticio limpio y algunos consejos si es necesario corregirlo.,"Importar un buen historial de crédito es importante. Si necesita corregirlo, sigue estos consejos.","Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+Guía interna de simplificación: usa palabras comunes; evita tecnicismos innecesarios; reemplaza palabras difíciles por palabras simples; usa oraciones cortas; expresa una idea por oración; prefiere voz activa; divide oraciones largas.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+La importancia de un historial de crédito impecable y algunos consejos en caso de que sea necesario corregirlo.
+
+Versión simplificada:",success,,4.3656,111,98,18,14,False,False,False,False,False,0.7777777777777778,0,18,14,14,1,2,1,33.4065934065934,3.7199102928113716,50.84000000000002,71.17333333333333,-20.333333333333314,0.7777777777777778,1,0.49760765550239233,0,0.5714285714285714,0.6666666666666666,52.985000000000014,53.85166666666669,-0.8666666666666742,0.4827586206896552,0.0,0.2758620689655172,0.7614673376083374,
+exp_medium_batch_v1,20260308_155905,FEINA,11507_LibroBAC.pdf,mistral,R0,zero-shot,La importancia de un historial de crédito impecable y algunos consejos en caso de que sea necesario corregirlo.,La importancia de un historial crediticio limpio y algunos consejos si es necesario corregirlo.,Importante haber un buen historial de crédito. Aquí algunas sugerencias si es necesario mejorarlo. (,"Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+La importancia de un historial de crédito impecable y algunos consejos en caso de que sea necesario corregirlo.
+
+Versión simplificada:",success,,6.8601,111,101,18,15,False,False,True,False,False,0.8333333333333334,1,18,14,14,1,3,1,34.71631309866604,10.521495173810226,39.26857142857145,71.17333333333333,-31.904761904761884,0.7777777777777778,2,0.5971563981042654,0,0.6428571428571429,0.7222222222222222,50.86833333333336,53.85166666666669,-2.983333333333327,0.4137931034482759,0.14814814814814817,0.3448275862068965,0.7456884384155273,
+exp_medium_batch_v1,20260308_155905,FEINA,11507_LibroBAC.pdf,mistral,R2,zero-shot,La importancia de un historial de crédito impecable y algunos consejos en caso de que sea necesario corregirlo.,La importancia de un historial crediticio limpio y algunos consejos si es necesario corregirlo.,Importante haber un buen historial de crédito. Aquí algunos consejos si es necesario mejorarlo. [Translation: The importance of a spotless credit history and some advice if necessary to correct it. Simplified version: It's important to have a good credit history. Here are some tips if you need to improve it.],"Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+Guía interna de simplificación: usa palabras comunes; evita tecnicismos innecesarios; reemplaza palabras difíciles por palabras simples; usa oraciones cortas; expresa una idea por oración; prefiere voz activa; divide oraciones largas.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+La importancia de un historial de crédito impecable y algunos consejos en caso de que sea necesario corregirlo.
+
+Versión simplificada:",success,,3.8244,111,311,18,50,False,False,False,False,False,2.7777777777777777,0,18,51,14,1,5,1,36.38199235408758,6.668493248636374,82.72235294117648,71.17333333333333,11.54901960784315,2.8333333333333335,4,0.12351543942992874,0,0.8627450980392157,0.6111111111111112,78.14284313725491,53.85166666666669,24.291176470588226,0.24242424242424246,0.125,0.21212121212121213,0.6278789043426514,
+exp_medium_batch_v1,20260308_155905,FEINA,14081_LibroBAC.pdf,llama3,R0,zero-shot,"Por todo lo anterior, este capítulo plantea el concepto y los propósitos de la tributación o de los impuestos, así como los criterios para formular una estructura impositiva.","Por todo lo anterior, este capítulo plantea el concepto y los propósitos de la tributación o los impuestos, y los criterios para formular una estructura impositiva.","Este capítulo explica qué son los impuestos y por qué se pagan, y cómo se pueden organizar.","Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+Por todo lo anterior, este capítulo plantea el concepto y los propósitos de la tributación o de los impuestos, así como los criterios para formular una estructura impositiva.
+
+Versión simplificada:",success,,8.6334,174,91,28,17,False,False,False,False,False,0.6071428571428571,0,28,17,26,1,1,1,17.607321773988442,3.890762456472506,91.42823529411766,72.48285714285717,18.945378151260485,0.6071428571428571,0,0.3622641509433962,0,0.6470588235294118,0.7857142857142857,76.22911764705884,43.110000000000014,33.11911764705883,0.3333333333333333,0.17391304347826086,0.25,0.760588526725769,
+exp_medium_batch_v1,20260308_155905,FEINA,14081_LibroBAC.pdf,llama3,R2,zero-shot,"Por todo lo anterior, este capítulo plantea el concepto y los propósitos de la tributación o de los impuestos, así como los criterios para formular una estructura impositiva.","Por todo lo anterior, este capítulo plantea el concepto y los propósitos de la tributación o los impuestos, y los criterios para formular una estructura impositiva.","Este capítulo explica qué son los impuestos y por qué se pagan, y cómo se deben organizar.","Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+Guía interna de simplificación: usa palabras comunes; evita tecnicismos innecesarios; reemplaza palabras difíciles por palabras simples; usa oraciones cortas; expresa una idea por oración; prefiere voz activa; divide oraciones largas.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+Por todo lo anterior, este capítulo plantea el concepto y los propósitos de la tributación o de los impuestos, así como los criterios para formular una estructura impositiva.
+
+Versión simplificada:",success,,5.1249,174,90,28,17,False,False,False,False,False,0.6071428571428571,0,28,17,26,1,1,1,17.607321773988442,3.890762456472506,91.42823529411766,72.48285714285717,18.945378151260485,0.6071428571428571,0,0.3560606060606061,0,0.6470588235294118,0.7857142857142857,76.22911764705884,43.110000000000014,33.11911764705883,0.3333333333333333,0.17391304347826086,0.25,0.7602452635765076,
+exp_medium_batch_v1,20260308_155905,FEINA,14081_LibroBAC.pdf,mistral,R0,zero-shot,"Por todo lo anterior, este capítulo plantea el concepto y los propósitos de la tributación o de los impuestos, así como los criterios para formular una estructura impositiva.","Por todo lo anterior, este capítulo plantea el concepto y los propósitos de la tributación o los impuestos, y los criterios para formular una estructura impositiva.",Este capítulo explica concepto y objetivos de la impositiva (tributación) y cómo establecer su estructura. (,"Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+Por todo lo anterior, este capítulo plantea el concepto y los propósitos de la tributación o de los impuestos, así como los criterios para formular una estructura impositiva.
+
+Versión simplificada:",success,,6.2899,174,109,28,16,False,False,True,False,False,0.5714285714285714,1,28,15,26,1,2,1,18.153973992789783,4.253634860246454,33.24000000000003,72.48285714285717,-39.24285714285714,0.5357142857142857,1,0.3546099290780142,0,0.4,0.6785714285714286,33.20166666666668,43.110000000000014,-9.908333333333331,0.5106382978723404,0.22222222222222224,0.46808510638297873,0.8111324906349182,
+exp_medium_batch_v1,20260308_155905,FEINA,14081_LibroBAC.pdf,mistral,R2,zero-shot,"Por todo lo anterior, este capítulo plantea el concepto y los propósitos de la tributación o de los impuestos, así como los criterios para formular una estructura impositiva.","Por todo lo anterior, este capítulo plantea el concepto y los propósitos de la tributación o los impuestos, y los criterios para formular una estructura impositiva.","Este capítulo explica concepto y objetivos de las impuestos o tributaciones, así como cómo crear una estructura fiscal. (","Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+Guía interna de simplificación: usa palabras comunes; evita tecnicismos innecesarios; reemplaza palabras difíciles por palabras simples; usa oraciones cortas; expresa una idea por oración; prefiere voz activa; divide oraciones largas.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+Por todo lo anterior, este capítulo plantea el concepto y los propósitos de la tributación o de los impuestos, así como los criterios para formular una estructura impositiva.
+
+Versión simplificada:",success,,4.584,174,122,28,19,False,False,True,False,False,0.6785714285714286,1,28,18,26,1,2,1,15.509725753628189,4.4128649449899315,52.17333333333335,72.48285714285717,-20.309523809523817,0.6428571428571429,1,0.6033898305084746,0,0.3888888888888889,0.6071428571428571,49.00722222222225,43.110000000000014,5.89722222222224,0.40816326530612246,0.1702127659574468,0.3673469387755102,0.8365853428840637,
+exp_medium_batch_v1,20260308_155905,FEINA,17585_LibroBAC.pdf,llama3,R0,zero-shot,"Dinero mercancía: Uso de algunos bienes como dinero, ejemplo: ganado, cuentas, etc.","El dinero mercancía es el uso de algunos bienes como dinero, por ejemplo, ganado, cuentas, entre otros.","Dinero mercancía: Algunos bienes se usan como dinero, como ganado o cuentas.","Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+Dinero mercancía: Uso de algunos bienes como dinero, ejemplo: ganado, cuentas, etc.
+
+Versión simplificada:",success,,8.5834,83,76,12,12,False,False,False,False,False,1.0,0,12,12,17,1,1,1,33.76681205056491,7.8390920699331295,63.34,58.34,5.0,1.0,0,0.7924528301886793,0,0.3333333333333333,0.3333333333333333,54.660000000000025,49.468333333333334,5.191666666666691,0.5806451612903226,0.27586206896551724,0.5806451612903226,0.836076557636261,
+exp_medium_batch_v1,20260308_155905,FEINA,17585_LibroBAC.pdf,llama3,R2,zero-shot,"Dinero mercancía: Uso de algunos bienes como dinero, ejemplo: ganado, cuentas, etc.","El dinero mercancía es el uso de algunos bienes como dinero, por ejemplo, ganado, cuentas, entre otros.","Usamos algunos bienes como si fueran dinero, como el ganado o las cuentas.","Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+Guía interna de simplificación: usa palabras comunes; evita tecnicismos innecesarios; reemplaza palabras difíciles por palabras simples; usa oraciones cortas; expresa una idea por oración; prefiere voz activa; divide oraciones largas.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+Dinero mercancía: Uso de algunos bienes como dinero, ejemplo: ganado, cuentas, etc.
+
+Versión simplificada:",success,,4.7084,83,74,12,13,False,False,False,False,False,1.0833333333333333,0,12,13,17,1,1,1,35.560116212290126,8.934632846765401,78.99384615384616,58.34,20.65384615384616,1.0833333333333333,0,0.6369426751592356,0,0.5384615384615384,0.5,69.23500000000001,49.468333333333334,19.76666666666668,0.45161290322580644,0.13793103448275862,0.3870967741935484,0.7945389151573181,
+exp_medium_batch_v1,20260308_155905,FEINA,17585_LibroBAC.pdf,mistral,R0,zero-shot,"Dinero mercancía: Uso de algunos bienes como dinero, ejemplo: ganado, cuentas, etc.","El dinero mercancía es el uso de algunos bienes como dinero, por ejemplo, ganado, cuentas, entre otros.","Usar bienes como dinero, por ejemplo: ganado, joyas, etc.","Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+Dinero mercancía: Uso de algunos bienes como dinero, ejemplo: ganado, cuentas, etc.
+
+Versión simplificada:",success,,5.5018,83,57,12,9,False,False,False,False,False,0.75,0,12,9,17,1,1,1,38.22767912441825,23.496518591811427,68.84000000000002,58.34,10.500000000000014,0.75,0,0.7,0,0.3333333333333333,0.5,66.3127777777778,49.468333333333334,16.844444444444463,0.4444444444444444,0.4,0.4444444444444444,0.814928412437439,
+exp_medium_batch_v1,20260308_155905,FEINA,17585_LibroBAC.pdf,mistral,R2,zero-shot,"Dinero mercancía: Uso de algunos bienes como dinero, ejemplo: ganado, cuentas, etc.","El dinero mercancía es el uso de algunos bienes como dinero, por ejemplo, ganado, cuentas, entre otros.","Usar bienes como dinero: Por ejemplo, ganados y cuentas. (Using goods as money: For example, livestock and accounts.)","Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+Guía interna de simplificación: usa palabras comunes; evita tecnicismos innecesarios; reemplaza palabras difíciles por palabras simples; usa oraciones cortas; expresa una idea por oración; prefiere voz activa; divide oraciones largas.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+Dinero mercancía: Uso de algunos bienes como dinero, ejemplo: ganado, cuentas, etc.
+
+Versión simplificada:",success,,2.6043,83,118,12,18,False,False,False,False,False,1.5,0,12,18,17,1,2,1,32.205981382451974,7.6047020452233385,78.84000000000002,58.34,20.500000000000014,1.5,1,0.51,0,0.7222222222222222,0.5833333333333334,76.69611111111112,49.468333333333334,27.22777777777779,0.3333333333333333,0.23529411764705882,0.3333333333333333,0.687250018119812,
+exp_medium_batch_v1,20260308_155905,FEINA,15741_LibroBAC.pdf,llama3,R0,zero-shot,"En este marco de asuntos surgen los Seguros, como una forma o modalidad financiera, que permite a las personas visualizar el futuro contingencial y tener los recursos económicos para enfrentarlo.","En este marco, surgen los seguros. Son una modalidad financiera que permite a las personas visualizar el futuro probable y tener los recursos económicos para enfrentarlo.","Los seguros son una forma de ahorrar dinero para el futuro, lo que te permite estar preparado para cualquier situación inesperada.","Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+En este marco de asuntos surgen los Seguros, como una forma o modalidad financiera, que permite a las personas visualizar el futuro contingencial y tener los recursos económicos para enfrentarlo.
+
+Versión simplificada:",success,,8.6589,195,130,30,21,False,False,False,False,False,0.7,0,30,21,26,1,1,2,28.192783094098882,3.695251195167949,70.5542857142857,65.44000000000003,5.114285714285671,0.7,0,0.38769230769230767,0,0.5238095238095238,0.6666666666666666,49.36833333333334,33.545000000000016,15.823333333333323,0.36734693877551017,0.1702127659574468,0.2857142857142857,0.7563235759735107,
+exp_medium_batch_v1,20260308_155905,FEINA,15741_LibroBAC.pdf,llama3,R2,zero-shot,"En este marco de asuntos surgen los Seguros, como una forma o modalidad financiera, que permite a las personas visualizar el futuro contingencial y tener los recursos económicos para enfrentarlo.","En este marco, surgen los seguros. Son una modalidad financiera que permite a las personas visualizar el futuro probable y tener los recursos económicos para enfrentarlo.",Los seguros son una forma de ahorrar dinero para el futuro. Permiten a las personas prepararse para lo que pueda suceder y tener los recursos necesarios para enfrentar cualquier situación.,"Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+Guía interna de simplificación: usa palabras comunes; evita tecnicismos innecesarios; reemplaza palabras difíciles por palabras simples; usa oraciones cortas; expresa una idea por oración; prefiere voz activa; divide oraciones largas.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+En este marco de asuntos surgen los Seguros, como una forma o modalidad financiera, que permite a las personas visualizar el futuro contingencial y tener los recursos económicos para enfrentarlo.
+
+Versión simplificada:",success,,5.2487,195,188,30,30,False,False,False,False,False,1.0,0,30,30,26,1,2,2,38.43018984817653,13.299435570305864,72.04,65.44000000000003,6.59999999999998,1.0,1,0.5221932114882507,0,0.4666666666666667,0.4666666666666667,58.92833333333334,33.545000000000016,25.383333333333326,0.5172413793103449,0.32142857142857145,0.41379310344827586,0.8123695850372314,
+exp_medium_batch_v1,20260308_155905,FEINA,15741_LibroBAC.pdf,mistral,R0,zero-shot,"En este marco de asuntos surgen los Seguros, como una forma o modalidad financiera, que permite a las personas visualizar el futuro contingencial y tener los recursos económicos para enfrentarlo.","En este marco, surgen los seguros. Son una modalidad financiera que permite a las personas visualizar el futuro probable y tener los recursos económicos para enfrentarlo.","Seguros son una forma financiera que permite a las personas prepararse para situaciones imprevistas del futuro, brindándoles recursos económicos para enfrentarlas.","Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+En este marco de asuntos surgen los Seguros, como una forma o modalidad financiera, que permite a las personas visualizar el futuro contingencial y tener los recursos económicos para enfrentarlo.
+
+Versión simplificada:",success,,6.0119,195,163,30,21,False,False,False,False,False,0.7,0,30,21,26,1,1,2,42.95218089150733,21.80916299887582,39.12571428571429,65.44000000000003,-26.314285714285738,0.7,0,0.6368715083798883,0,0.38095238095238093,0.5666666666666667,16.735000000000014,33.545000000000016,-16.810000000000002,0.5599999999999999,0.41666666666666663,0.5599999999999999,0.8186327815055847,
+exp_medium_batch_v1,20260308_155905,FEINA,15741_LibroBAC.pdf,mistral,R2,zero-shot,"En este marco de asuntos surgen los Seguros, como una forma o modalidad financiera, que permite a las personas visualizar el futuro contingencial y tener los recursos económicos para enfrentarlo.","En este marco, surgen los seguros. Son una modalidad financiera que permite a las personas visualizar el futuro probable y tener los recursos económicos para enfrentarlo.","Seguros son una forma de financiar que permite a las personas prepararse para un futuro inesperado, ofreciendo recursos económicos necesarios.","Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+Guía interna de simplificación: usa palabras comunes; evita tecnicismos innecesarios; reemplaza palabras difíciles por palabras simples; usa oraciones cortas; expresa una idea por oración; prefiere voz activa; divide oraciones largas.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+En este marco de asuntos surgen los Seguros, como una forma o modalidad financiera, que permite a las personas visualizar el futuro contingencial y tener los recursos económicos para enfrentarlo.
+
+Versión simplificada:",success,,2.5732,195,142,30,20,False,False,False,False,False,0.6666666666666666,0,30,20,26,1,1,2,38.5854159258033,15.480487187363776,45.74,65.44000000000003,-19.700000000000024,0.6666666666666666,0,0.5875370919881305,0,0.35,0.5666666666666667,24.855000000000018,33.545000000000016,-8.689999999999998,0.5416666666666666,0.34782608695652173,0.5,0.790810227394104,
+exp_medium_batch_v1,20260308_155905,FEINA,3826_LibroBAC.pdf,llama3,R0,zero-shot,"El beneficio de los minerales y especialmente de los metales; la transformación de la madera y demás productos forestales, la agricultura con sus cultivos, la cría y levante de animales domésticos, el aprovechamiento de la navegación o energía; la pesca, la transformación industrial, la distribución, el transporte y el comercio de los artículos elaborados, todo ello es lo que constituye la riqueza o economía del país.","La riqueza o economía del país se constituye por el beneficio de los minerales. La transformación de la madera y de los productos forestales, la agricultura, el aprovechamiento de la navegación o energía. La pesca, la transformación industrial, la distribución, el transporte y el comercio de los productos.","La riqueza de un país se basa en la extracción de minerales y metales, la transformación de madera y productos forestales, la agricultura, la cría de animales, el aprovechamiento de la energía, la pesca, la industria, la distribución, el transporte y el comercio.","Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+El beneficio de los minerales y especialmente de los metales; la transformación de la madera y demás productos forestales, la agricultura con sus cultivos, la cría y levante de animales domésticos, el aprovechamiento de la navegación o energía; la pesca, la transformación industrial, la distribución, el transporte y el comercio de los artículos elaborados, todo ello es lo que constituye la riqueza o economía del país.
+
+Versión simplificada:",success,,9.3601,421,263,66,43,False,False,False,False,False,0.6515151515151515,0,66,43,48,1,1,3,50.68673464868602,36.46609336199366,83.07255813953489,75.29454545454546,7.778012684989434,0.6515151515151515,0,0.26608187134502925,0,0.13953488372093023,0.4393939393939394,37.78616279069769,5.851666666666688,31.934496124031,0.75,0.47058823529411764,0.6538461538461539,0.877507746219635,
+exp_medium_batch_v1,20260308_155905,FEINA,3826_LibroBAC.pdf,llama3,R2,zero-shot,"El beneficio de los minerales y especialmente de los metales; la transformación de la madera y demás productos forestales, la agricultura con sus cultivos, la cría y levante de animales domésticos, el aprovechamiento de la navegación o energía; la pesca, la transformación industrial, la distribución, el transporte y el comercio de los artículos elaborados, todo ello es lo que constituye la riqueza o economía del país.","La riqueza o economía del país se constituye por el beneficio de los minerales. La transformación de la madera y de los productos forestales, la agricultura, el aprovechamiento de la navegación o energía. La pesca, la transformación industrial, la distribución, el transporte y el comercio de los productos.","La riqueza de un país se basa en la extracción de minerales y metales, la transformación de madera y productos forestales, la agricultura, la cría de animales, la energía, la pesca, la industria, la distribución, el transporte y el comercio.","Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+Guía interna de simplificación: usa palabras comunes; evita tecnicismos innecesarios; reemplaza palabras difíciles por palabras simples; usa oraciones cortas; expresa una idea por oración; prefiere voz activa; divide oraciones largas.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+El beneficio de los minerales y especialmente de los metales; la transformación de la madera y demás productos forestales, la agricultura con sus cultivos, la cría y levante de animales domésticos, el aprovechamiento de la navegación o energía; la pesca, la transformación industrial, la distribución, el transporte y el comercio de los artículos elaborados, todo ello es lo que constituye la riqueza o economía del país.
+
+Versión simplificada:",success,,5.7996,421,241,66,40,False,False,False,False,False,0.6060606060606061,0,66,40,48,1,1,3,47.481951877008974,30.659027361415603,85.79,75.29454545454546,10.49545454545455,0.6060606060606061,0,0.2537764350453172,0,0.15,0.48484848484848486,43.792500000000004,5.851666666666688,37.940833333333316,0.7128712871287128,0.42424242424242425,0.6336633663366337,0.8609144687652588,
+exp_medium_batch_v1,20260308_155905,FEINA,3826_LibroBAC.pdf,mistral,R0,zero-shot,"El beneficio de los minerales y especialmente de los metales; la transformación de la madera y demás productos forestales, la agricultura con sus cultivos, la cría y levante de animales domésticos, el aprovechamiento de la navegación o energía; la pesca, la transformación industrial, la distribución, el transporte y el comercio de los artículos elaborados, todo ello es lo que constituye la riqueza o economía del país.","La riqueza o economía del país se constituye por el beneficio de los minerales. La transformación de la madera y de los productos forestales, la agricultura, el aprovechamiento de la navegación o energía. La pesca, la transformación industrial, la distribución, el transporte y el comercio de los productos.","La minería y metales, la madera y productos forestales, la agricultura con cultivos, criar animales domésticos, navegación o energía utilizada, pesca, industria, distribución, transporte y comercio de artículos fabricados, son lo que forma la riqueza o economía de un país.","Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+El beneficio de los minerales y especialmente de los metales; la transformación de la madera y demás productos forestales, la agricultura con sus cultivos, la cría y levante de animales domésticos, el aprovechamiento de la navegación o energía; la pesca, la transformación industrial, la distribución, el transporte y el comercio de los artículos elaborados, todo ello es lo que constituye la riqueza o economía del país.
+
+Versión simplificada:",success,,7.2205,421,273,66,40,False,False,False,False,False,0.6060606060606061,0,66,40,48,1,1,3,34.974053466588025,15.548052306329158,63.290000000000006,75.29454545454546,-12.00454545454545,0.6060606060606061,0,0.09221902017291066,0,0.2,0.5151515151515151,20.430000000000007,5.851666666666688,14.578333333333319,0.5436893203883495,0.33663366336633666,0.4077669902912621,0.8085426688194275,
+exp_medium_batch_v1,20260308_155905,FEINA,3826_LibroBAC.pdf,mistral,R2,zero-shot,"El beneficio de los minerales y especialmente de los metales; la transformación de la madera y demás productos forestales, la agricultura con sus cultivos, la cría y levante de animales domésticos, el aprovechamiento de la navegación o energía; la pesca, la transformación industrial, la distribución, el transporte y el comercio de los artículos elaborados, todo ello es lo que constituye la riqueza o economía del país.","La riqueza o economía del país se constituye por el beneficio de los minerales. La transformación de la madera y de los productos forestales, la agricultura, el aprovechamiento de la navegación o energía. La pesca, la transformación industrial, la distribución, el transporte y el comercio de los productos.","La minería y especialmente los metales, la madera y otros productos forestales, la agricultura con sus cultivos, la cría de animales domésticos, el uso de navegación o energía, la pesca, la industria y su transformación, la distribución, transporte y comercio de artículos manufacturados, todo esto es lo que forma la riqueza o economía de un país.","Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+Guía interna de simplificación: usa palabras comunes; evita tecnicismos innecesarios; reemplaza palabras difíciles por palabras simples; usa oraciones cortas; expresa una idea por oración; prefiere voz activa; divide oraciones largas.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+El beneficio de los minerales y especialmente de los metales; la transformación de la madera y demás productos forestales, la agricultura con sus cultivos, la cría y levante de animales domésticos, el aprovechamiento de la navegación o energía; la pesca, la transformación industrial, la distribución, el transporte y el comercio de los artículos elaborados, todo ello es lo que constituye la riqueza o economía del país.
+
+Versión simplificada:",success,,4.9862,421,348,66,56,False,False,False,False,False,0.8484848484848485,0,66,56,48,1,1,3,33.59277732760657,17.833649983475027,77.51857142857143,75.29454545454546,2.2240259740259773,0.8484848484848485,0,0.08322496749024708,0,0.16071428571428573,0.2878787878787879,18.44750000000002,5.851666666666688,12.595833333333331,0.6280991735537191,0.3697478991596639,0.4793388429752066,0.8243058919906616,
+exp_medium_batch_v1,20260308_155905,FEINA,678_LibroBAC.pdf,llama3,R0,zero-shot,También viven en una cultura de prosperidad y simultáneamente se preparan para situaciones temporales de carencia.,También viven en una cultura de prosperidad y se preparan para situación temporales de carencia.,Viven en una cultura próspera y también se preparan para tiempos difíciles.,"Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+También viven en una cultura de prosperidad y simultáneamente se preparan para situaciones temporales de carencia.
+
+Versión simplificada:",success,,7.0269,114,75,16,12,False,False,False,False,False,0.75,0,16,12,15,1,1,1,38.169156551509495,16.49819263539829,68.34,50.465,17.875,0.75,0,0.6455026455026455,0,0.25,0.4375,59.85166666666669,35.08500000000001,24.76666666666668,0.625,0.39999999999999997,0.5,0.8763983845710754,
+exp_medium_batch_v1,20260308_155905,FEINA,678_LibroBAC.pdf,llama3,R2,zero-shot,También viven en una cultura de prosperidad y simultáneamente se preparan para situaciones temporales de carencia.,También viven en una cultura de prosperidad y se preparan para situación temporales de carencia.,"Viven en una cultura próspera, pero también se preparan para momentos difíciles.","Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+Guía interna de simplificación: usa palabras comunes; evita tecnicismos innecesarios; reemplaza palabras difíciles por palabras simples; usa oraciones cortas; expresa una idea por oración; prefiere voz activa; divide oraciones largas.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+También viven en una cultura de prosperidad y simultáneamente se preparan para situaciones temporales de carencia.
+
+Versión simplificada:",success,,4.5854,114,80,16,12,False,False,False,False,False,0.75,0,16,12,15,1,1,1,37.38211951447246,16.017181955319533,58.34,50.465,7.875,0.75,0,0.6082474226804123,0,0.3333333333333333,0.5,49.468333333333334,35.08500000000001,14.383333333333326,0.5625,0.39999999999999997,0.43749999999999994,0.8556927442550659,
+exp_medium_batch_v1,20260308_155905,FEINA,678_LibroBAC.pdf,mistral,R0,zero-shot,También viven en una cultura de prosperidad y simultáneamente se preparan para situaciones temporales de carencia.,También viven en una cultura de prosperidad y se preparan para situación temporales de carencia.,Ellos viven en una cultura rica y a la vez se preparan para carencias temporal. (They live in a rich culture and at the same time prepare for temporary scarcities.),"Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+También viven en una cultura de prosperidad y simultáneamente se preparan para situaciones temporales de carencia.
+
+Versión simplificada:",success,,5.1221,114,165,16,30,False,False,False,False,False,1.875,0,16,30,15,1,2,1,37.38211951447246,10.494392661252757,92.04,50.465,41.575,1.875,1,0.5107913669064749,0,0.7333333333333333,0.5,79.69500000000001,35.08500000000001,44.61,0.3404255319148936,0.22222222222222224,0.3404255319148936,0.7055426836013794,
+exp_medium_batch_v1,20260308_155905,FEINA,678_LibroBAC.pdf,mistral,R2,zero-shot,También viven en una cultura de prosperidad y simultáneamente se preparan para situaciones temporales de carencia.,También viven en una cultura de prosperidad y se preparan para situación temporales de carencia.,Ellos viven en una cultura rica y a la vez se preparan para carencias temporales.,"Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+Guía interna de simplificación: usa palabras comunes; evita tecnicismos innecesarios; reemplaza palabras difíciles por palabras simples; usa oraciones cortas; expresa una idea por oración; prefiere voz activa; divide oraciones largas.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+También viven en una cultura de prosperidad y simultáneamente se preparan para situaciones temporales de carencia.
+
+Versión simplificada:",success,,2.3847,114,81,16,15,False,False,False,False,False,0.9375,0,16,15,15,1,1,1,38.169156551509495,24.207623565172998,84.04,50.465,33.575,0.9375,0,0.6564102564102564,0,0.4,0.4375,71.38833333333335,35.08500000000001,36.30333333333334,0.5625,0.3333333333333333,0.5625,0.8513776659965515,
+exp_medium_batch_v1,20260308_155905,FEINA,3995_LibroBAC.pdf,llama3,R0,zero-shot,"Se demuestra entonces, con este ejemplo, que la productividad, o sea producir más y a menor costo, aumenta las posibilidades de empleo de la población.",Entonces se demuestra que la productividad aumenta las posibilidades de empleo de la población.,"La productividad, que es producir más a un costo menor, hace que sea más probable que la gente tenga trabajo.","Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+Se demuestra entonces, con este ejemplo, que la productividad, o sea producir más y a menor costo, aumenta las posibilidades de empleo de la población.
+
+Versión simplificada:",success,,7.3086,151,109,25,20,False,False,False,False,False,0.8,0,25,20,14,1,1,1,28.686993414387032,3.9164496650022476,96.74000000000001,82.76,13.980000000000004,0.8,0,0.47692307692307695,0,0.5,0.6,77.81000000000002,57.235000000000014,20.575000000000003,0.21621621621621623,0.11428571428571427,0.16216216216216214,0.7667140960693359,
+exp_medium_batch_v1,20260308_155905,FEINA,3995_LibroBAC.pdf,llama3,R2,zero-shot,"Se demuestra entonces, con este ejemplo, que la productividad, o sea producir más y a menor costo, aumenta las posibilidades de empleo de la población.",Entonces se demuestra que la productividad aumenta las posibilidades de empleo de la población.,La productividad es clave para crear más empleos y reducir costos.,"Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+Guía interna de simplificación: usa palabras comunes; evita tecnicismos innecesarios; reemplaza palabras difíciles por palabras simples; usa oraciones cortas; expresa una idea por oración; prefiere voz activa; divide oraciones largas.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+Se demuestra entonces, con este ejemplo, que la productividad, o sea producir más y a menor costo, aumenta las posibilidades de empleo de la población.
+
+Versión simplificada:",success,,3.9716,151,66,25,11,False,False,False,False,False,0.44,0,25,11,14,1,1,1,30.063405797101453,3.1364240458810366,83.02181818181819,82.76,0.2618181818181853,0.44,0,0.34101382488479265,0,0.6363636363636364,0.84,76.89863636363637,57.235000000000014,19.663636363636357,0.14814814814814814,0.08,0.14814814814814814,0.7817557454109192,
+exp_medium_batch_v1,20260308_155905,FEINA,3995_LibroBAC.pdf,mistral,R0,zero-shot,"Se demuestra entonces, con este ejemplo, que la productividad, o sea producir más y a menor costo, aumenta las posibilidades de empleo de la población.",Entonces se demuestra que la productividad aumenta las posibilidades de empleo de la población.,Produciendo más a un menor costo aumenta las oportunidades de empleo para la población.,"Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+Se demuestra entonces, con este ejemplo, que la productividad, o sea producir más y a menor costo, aumenta las posibilidades de empleo de la población.
+
+Versión simplificada:",success,,5.2307,151,87,25,14,False,False,False,False,False,0.56,0,25,14,14,1,1,1,37.0277518627018,14.377919100088198,70.98285714285716,82.76,-11.777142857142849,0.56,0,0.5882352941176471,0,0.2857142857142857,0.6,59.33500000000001,57.235000000000014,2.0999999999999943,0.45161290322580644,0.2758620689655172,0.45161290322580644,0.7989708781242371,
+exp_medium_batch_v1,20260308_155905,FEINA,3995_LibroBAC.pdf,mistral,R2,zero-shot,"Se demuestra entonces, con este ejemplo, que la productividad, o sea producir más y a menor costo, aumenta las posibilidades de empleo de la población.",Entonces se demuestra que la productividad aumenta las posibilidades de empleo de la población.,Esta prueba muestra que producir más con menos gastos mejora las oportunidades de empleo para la gente.,"Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+Guía interna de simplificación: usa palabras comunes; evita tecnicismos innecesarios; reemplaza palabras difíciles por palabras simples; usa oraciones cortas; expresa una idea por oración; prefiere voz activa; divide oraciones largas.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+Se demuestra entonces, con este ejemplo, que la productividad, o sea producir más y a menor costo, aumenta las posibilidades de empleo de la población.
+
+Versión simplificada:",success,,2.385,151,103,25,17,False,False,False,False,False,0.68,0,25,17,14,1,1,1,31.536680911680907,5.653041175801492,80.84,82.76,-1.9200000000000017,0.68,0,0.5511811023622047,0,0.5294117647058824,0.68,65.23500000000001,57.235000000000014,8.0,0.303030303030303,0.06451612903225808,0.303030303030303,0.8334745168685913,
+exp_medium_batch_v1,20260308_155905,FEINA,2238_LibroUide_Sincopyright.pdf,llama3,R0,zero-shot,"Se iniciará con la explicación de la tabla de datos para una variable, para luego continuar con el caso de dos variables (Manrique, 2018).","Explicaremos la tabla de datos para una variable. Luego, continuamos el ejemplo de dos variables.","Comenzaremos explicando cómo leer una tabla de datos para una variable. Luego, veremos cómo hacerlo para dos variables.","Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+Se iniciará con la explicación de la tabla de datos para una variable, para luego continuar con el caso de dos variables (Manrique, 2018).
+
+Versión simplificada:",success,,7.5486,138,119,24,18,False,False,False,False,False,0.75,0,24,18,15,1,2,2,66.82282552391247,44.74935415497118,55.50666666666667,92.59000000000002,-37.08333333333335,0.75,1,0.5603112840466926,0,0.4444444444444444,0.5833333333333334,52.468333333333334,68.61833333333335,-16.15000000000002,0.5142857142857143,0.4242424242424242,0.5142857142857143,0.8457223773002625,
+exp_medium_batch_v1,20260308_155905,FEINA,2238_LibroUide_Sincopyright.pdf,llama3,R2,zero-shot,"Se iniciará con la explicación de la tabla de datos para una variable, para luego continuar con el caso de dos variables (Manrique, 2018).","Explicaremos la tabla de datos para una variable. Luego, continuamos el ejemplo de dos variables.",Explicaremos cómo se presenta la información sobre una variable y luego sobre dos variables.,"Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+Guía interna de simplificación: usa palabras comunes; evita tecnicismos innecesarios; reemplaza palabras difíciles por palabras simples; usa oraciones cortas; expresa una idea por oración; prefiere voz activa; divide oraciones largas.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+Se iniciará con la explicación de la tabla de datos para una variable, para luego continuar con el caso de dos variables (Manrique, 2018).
+
+Versión simplificada:",success,,3.3587,138,92,24,14,False,False,False,False,False,0.5833333333333334,0,24,14,15,1,1,2,40.66491781165694,10.954749601576006,62.41142857142858,92.59000000000002,-30.178571428571438,0.5833333333333334,0,0.4434782608695652,0,0.5,0.7083333333333334,50.43500000000003,68.61833333333335,-18.183333333333323,0.45161290322580644,0.1379310344827586,0.45161290322580644,0.8161250352859497,
+exp_medium_batch_v1,20260308_155905,FEINA,2238_LibroUide_Sincopyright.pdf,mistral,R0,zero-shot,"Se iniciará con la explicación de la tabla de datos para una variable, para luego continuar con el caso de dos variables (Manrique, 2018).","Explicaremos la tabla de datos para una variable. Luego, continuamos el ejemplo de dos variables.","Se explicará primero la tabla de datos de una variable, luego se tratará casos de dos variables (Manrique, 2018). Simplified version: We will first explain the data table for one variable, then we will deal with cases of two variables (Manrique, 2018).","Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+Se iniciará con la explicación de la tabla de datos para una variable, para luego continuar con el caso de dos variables (Manrique, 2018).
+
+Versión simplificada:",success,,6.3516,138,253,24,42,False,False,False,False,False,1.75,0,24,42,15,1,2,2,39.63088777931525,7.445752386546591,99.1257142857143,92.59000000000002,6.535714285714278,1.75,1,0.23076923076923078,0,0.6666666666666666,0.4166666666666667,79.03500000000003,68.61833333333335,10.416666666666671,0.3508771929824562,0.2545454545454546,0.3508771929824562,0.7038364410400391,
+exp_medium_batch_v1,20260308_155905,FEINA,2238_LibroUide_Sincopyright.pdf,mistral,R2,zero-shot,"Se iniciará con la explicación de la tabla de datos para una variable, para luego continuar con el caso de dos variables (Manrique, 2018).","Explicaremos la tabla de datos para una variable. Luego, continuamos el ejemplo de dos variables.","Se explicará primero la tabla de datos de una variable. Luego, se tratará el caso de dos variables (Manrique, 2018). (Explanation will be given first for the table of data of a variable. Then, the case of two variables will be dealt with.)","Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+Guía interna de simplificación: usa palabras comunes; evita tecnicismos innecesarios; reemplaza palabras difíciles por palabras simples; usa oraciones cortas; expresa una idea por oración; prefiere voz activa; divide oraciones largas.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+Se iniciará con la explicación de la tabla de datos para una variable, para luego continuar con el caso de dos variables (Manrique, 2018).
+
+Versión simplificada:",success,,3.6585,138,240,24,43,False,False,False,False,False,1.7916666666666667,0,24,43,15,1,4,2,40.449016532836445,13.147705731889765,98.28186046511628,92.59000000000002,5.691860465116264,1.7916666666666667,3,0.3713527851458886,0,0.627906976744186,0.3333333333333333,93.21755813953489,68.61833333333335,24.599224806201534,0.3793103448275862,0.25,0.3793103448275862,0.7323030233383179,

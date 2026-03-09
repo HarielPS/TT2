@@ -1,0 +1,323 @@
+experiment_id,run_id,timestamp,dataset_name,fold_id,split_name,model_key,model_id,backend,prompt_type,ruleset,few_shot_example_ids,generation_config,sample_id,source_text,reference_text,generated_text,prompt_text,inference_seconds,status,error_message,metrics,generated_len_chars,generated_len_words
+exp_small_batch_v1_20260308_063402,58b5cf8c-678d-4a7d-a315-4615b3e8b30e,2026-03-08T06:34:02.248048,FEINA,,,mistral,mistralai/Mistral-7B-Instruct-v0.2,ollama,zero-shot,R0,[],"{'temperature': 0.2, 'top_p': 0.9, 'max_new_tokens': 256, 'repetition_penalty': 1.05, 'do_sample': False}",sb_001,"Una vez dirimidos estos asuntos, se entra de lleno a algunos aspectos e instrumentos que son propios de las finanzas, pero siempre en la óptica de lo personal y lo familiar.",,"Despues de clarificar estos temas, entramos en detalle de algunos aspectos y herramientas especificas de finanzas, siempre teniendo en cuenta lo personal y familiar.
+
+(Translation: After clarifying these matters, we delve into the details of some specific aspects and tools of finance, always keeping in mind the personal and familiar.)","Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+Una vez dirimidos estos asuntos, se entra de lleno a algunos aspectos e instrumentos que son propios de las finanzas, pero siempre en la óptica de lo personal y lo familiar.
+
+Versión simplificada:",10.4296,success,,{},336,50
+exp_small_batch_v1_20260308_063402,41184bc1-e58d-4948-9746-808d95d184fd,2026-03-08T06:34:13.022415,FEINA,,,mistral,mistralai/Mistral-7B-Instruct-v0.2,ollama,zero-shot,R2,[],"{'temperature': 0.2, 'top_p': 0.9, 'max_new_tokens': 256, 'repetition_penalty': 1.05, 'do_sample': False}",sb_001,"Una vez dirimidos estos asuntos, se entra de lleno a algunos aspectos e instrumentos que son propios de las finanzas, pero siempre en la óptica de lo personal y lo familiar.",,"Despues de clarificar estos temas, entramos en detalle de algunos aspectos y herramientas especificas de las finanzas, siempre desde una perspectiva personal y familiar.","Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+Guía interna de simplificación: usa palabras comunes; evita tecnicismos innecesarios; reemplaza palabras difíciles por palabras simples; usa oraciones cortas; expresa una idea por oración; prefiere voz activa; divide oraciones largas.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+Una vez dirimidos estos asuntos, se entra de lleno a algunos aspectos e instrumentos que son propios de las finanzas, pero siempre en la óptica de lo personal y lo familiar.
+
+Versión simplificada:",6.3032,success,,{},169,24
+exp_small_batch_v1_20260308_063402,cdadac95-09d4-4b68-bcce-37d55108f897,2026-03-08T06:34:19.375337,FEINA,,,llama3,meta-llama/Meta-Llama-3-8B-Instruct,ollama,zero-shot,R0,[],"{'temperature': 0.2, 'top_p': 0.9, 'max_new_tokens': 256, 'repetition_penalty': 1.05, 'do_sample': False}",sb_001,"Una vez dirimidos estos asuntos, se entra de lleno a algunos aspectos e instrumentos que son propios de las finanzas, pero siempre en la óptica de lo personal y lo familiar.",,"Una vez resueltos estos problemas, se puede empezar a hablar sobre temas financieros personales y familiares.","Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+Una vez dirimidos estos asuntos, se entra de lleno a algunos aspectos e instrumentos que son propios de las finanzas, pero siempre en la óptica de lo personal y lo familiar.
+
+Versión simplificada:",8.8989,success,,{},109,16
+exp_small_batch_v1_20260308_063402,6eea1ff6-e2e4-4274-8946-41553af0b65e,2026-03-08T06:34:28.330446,FEINA,,,llama3,meta-llama/Meta-Llama-3-8B-Instruct,ollama,zero-shot,R2,[],"{'temperature': 0.2, 'top_p': 0.9, 'max_new_tokens': 256, 'repetition_penalty': 1.05, 'do_sample': False}",sb_001,"Una vez dirimidos estos asuntos, se entra de lleno a algunos aspectos e instrumentos que son propios de las finanzas, pero siempre en la óptica de lo personal y lo familiar.",,"Una vez resueltos estos problemas, podemos hablar sobre dinero y finanzas personales y familiares.","Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+Guía interna de simplificación: usa palabras comunes; evita tecnicismos innecesarios; reemplaza palabras difíciles por palabras simples; usa oraciones cortas; expresa una idea por oración; prefiere voz activa; divide oraciones largas.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+Una vez dirimidos estos asuntos, se entra de lleno a algunos aspectos e instrumentos que son propios de las finanzas, pero siempre en la óptica de lo personal y lo familiar.
+
+Versión simplificada:",8.6933,success,,{},98,14
+exp_small_batch_v1_20260308_063402,6920c480-2fdc-4e1e-9406-bbd58552a4d6,2026-03-08T06:34:37.072826,FEINA,,,mistral,mistralai/Mistral-7B-Instruct-v0.2,ollama,zero-shot,R0,[],"{'temperature': 0.2, 'top_p': 0.9, 'max_new_tokens': 256, 'repetition_penalty': 1.05, 'do_sample': False}",sb_002,La implementación de estrategias de planificación financiera permite a las familias optimizar la administración de sus recursos y reducir riesgos asociados al endeudamiento.,,La planificación financiera permite a las familias mejorar el uso de sus recursos y minimizar los riesgos de la deuda.,"Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+La implementación de estrategias de planificación financiera permite a las familias optimizar la administración de sus recursos y reducir riesgos asociados al endeudamiento.
+
+Versión simplificada:",5.3467,success,,{},118,20
+exp_small_batch_v1_20260308_063402,2123a01c-3038-4889-94fd-73a1ba633eca,2026-03-08T06:34:42.471374,FEINA,,,mistral,mistralai/Mistral-7B-Instruct-v0.2,ollama,zero-shot,R2,[],"{'temperature': 0.2, 'top_p': 0.9, 'max_new_tokens': 256, 'repetition_penalty': 1.05, 'do_sample': False}",sb_002,La implementación de estrategias de planificación financiera permite a las familias optimizar la administración de sus recursos y reducir riesgos asociados al endeudamiento.,,Familiares pueden mejorar la gestión de sus recursos y minimizar los riesgos de la deuda gracias a las estrategias financieras de planificación.,"Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+Guía interna de simplificación: usa palabras comunes; evita tecnicismos innecesarios; reemplaza palabras difíciles por palabras simples; usa oraciones cortas; expresa una idea por oración; prefiere voz activa; divide oraciones largas.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+La implementación de estrategias de planificación financiera permite a las familias optimizar la administración de sus recursos y reducir riesgos asociados al endeudamiento.
+
+Versión simplificada:",5.7737,success,,{},144,22
+exp_small_batch_v1_20260308_063402,0e821748-6e56-4cf4-ae01-d540f7ed3eed,2026-03-08T06:34:48.294819,FEINA,,,llama3,meta-llama/Meta-Llama-3-8B-Instruct,ollama,zero-shot,R0,[],"{'temperature': 0.2, 'top_p': 0.9, 'max_new_tokens': 256, 'repetition_penalty': 1.05, 'do_sample': False}",sb_002,La implementación de estrategias de planificación financiera permite a las familias optimizar la administración de sus recursos y reducir riesgos asociados al endeudamiento.,,La planificación financiera ayuda a las familias a gestionar mejor sus dinero y reducir el riesgo de endeudamiento.,"Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+La implementación de estrategias de planificación financiera permite a las familias optimizar la administración de sus recursos y reducir riesgos asociados al endeudamiento.
+
+Versión simplificada:",9.3391,success,,{},115,18
+exp_small_batch_v1_20260308_063402,6b7e60f5-66df-4282-9445-01dc150a7e83,2026-03-08T06:34:57.690380,FEINA,,,llama3,meta-llama/Meta-Llama-3-8B-Instruct,ollama,zero-shot,R2,[],"{'temperature': 0.2, 'top_p': 0.9, 'max_new_tokens': 256, 'repetition_penalty': 1.05, 'do_sample': False}",sb_002,La implementación de estrategias de planificación financiera permite a las familias optimizar la administración de sus recursos y reducir riesgos asociados al endeudamiento.,,La planificación financiera ayuda a las familias a gestionar mejor su dinero y a reducir el riesgo de endeudamiento.,"Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+Guía interna de simplificación: usa palabras comunes; evita tecnicismos innecesarios; reemplaza palabras difíciles por palabras simples; usa oraciones cortas; expresa una idea por oración; prefiere voz activa; divide oraciones largas.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+La implementación de estrategias de planificación financiera permite a las familias optimizar la administración de sus recursos y reducir riesgos asociados al endeudamiento.
+
+Versión simplificada:",7.5577,success,,{},116,19
+exp_small_batch_v1_20260308_063402,c392c789-67e4-4f14-b50c-4f9ac7c9258b,2026-03-08T06:35:05.301507,FEINA,,,mistral,mistralai/Mistral-7B-Instruct-v0.2,ollama,zero-shot,R0,[],"{'temperature': 0.2, 'top_p': 0.9, 'max_new_tokens': 256, 'repetition_penalty': 1.05, 'do_sample': False}",sb_003,"El análisis de los instrumentos de ahorro exige considerar variables como liquidez, rendimiento, horizonte temporal y tolerancia al riesgo.",,"Para analizar herramentas de ahorro, es necesario tener en cuenta factores como liquidez, rendimiento, plazo de tiempo y paciencia para el riesgo.
+
+Simplified version: To analyze saving tools, it's important to consider factors like liquidity, return, time horizon and risk tolerance.","Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+El análisis de los instrumentos de ahorro exige considerar variables como liquidez, rendimiento, horizonte temporal y tolerancia al riesgo.
+
+Versión simplificada:",7.0177,success,,{},284,41
+exp_small_batch_v1_20260308_063402,0b406d18-05c4-40da-add7-d553c802b201,2026-03-08T06:35:12.369274,FEINA,,,mistral,mistralai/Mistral-7B-Instruct-v0.2,ollama,zero-shot,R2,[],"{'temperature': 0.2, 'top_p': 0.9, 'max_new_tokens': 256, 'repetition_penalty': 1.05, 'do_sample': False}",sb_003,"El análisis de los instrumentos de ahorro exige considerar variables como liquidez, rendimiento, horizonte temporal y tolerancia al riesgo.",,"Análisis de ahorros: tener en cuenta líquidez, rendimiento, plazo y paciencia para riesgos.
+
+(Analysis of savings: take into account liquidity, yield, term and risk tolerance.)","Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+Guía interna de simplificación: usa palabras comunes; evita tecnicismos innecesarios; reemplaza palabras difíciles por palabras simples; usa oraciones cortas; expresa una idea por oración; prefiere voz activa; divide oraciones largas.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+El análisis de los instrumentos de ahorro exige considerar variables como liquidez, rendimiento, horizonte temporal y tolerancia al riesgo.
+
+Versión simplificada:",5.8697,success,,{},176,25
+exp_small_batch_v1_20260308_063402,6b4ba1bf-4fe3-4781-8955-5ce02c993d41,2026-03-08T06:35:18.290373,FEINA,,,llama3,meta-llama/Meta-Llama-3-8B-Instruct,ollama,zero-shot,R0,[],"{'temperature': 0.2, 'top_p': 0.9, 'max_new_tokens': 256, 'repetition_penalty': 1.05, 'do_sample': False}",sb_003,"El análisis de los instrumentos de ahorro exige considerar variables como liquidez, rendimiento, horizonte temporal y tolerancia al riesgo.",,"Considere las siguientes cosas al elegir un instrumento de ahorro: si puede obtener el dinero rápidamente, cuánto dinero puede ganar, cuánto tiempo tiene para invertir y cómo le afecta el riesgo.","Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+El análisis de los instrumentos de ahorro exige considerar variables como liquidez, rendimiento, horizonte temporal y tolerancia al riesgo.
+
+Versión simplificada:",8.2649,success,,{},195,31
+exp_small_batch_v1_20260308_063402,66d6bfb0-bc03-4d8f-a349-1b8deb33a68a,2026-03-08T06:35:26.604972,FEINA,,,llama3,meta-llama/Meta-Llama-3-8B-Instruct,ollama,zero-shot,R2,[],"{'temperature': 0.2, 'top_p': 0.9, 'max_new_tokens': 256, 'repetition_penalty': 1.05, 'do_sample': False}",sb_003,"El análisis de los instrumentos de ahorro exige considerar variables como liquidez, rendimiento, horizonte temporal y tolerancia al riesgo.",,"Cuando analizamos las opciones para ahorrar dinero, debemos considerar factores como la facilidad para acceder a nuestros ahorros, el interés que ganan, el plazo en que podemos dejar el dinero invertido y nuestro nivel de riesgo.","Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+Guía interna de simplificación: usa palabras comunes; evita tecnicismos innecesarios; reemplaza palabras difíciles por palabras simples; usa oraciones cortas; expresa una idea por oración; prefiere voz activa; divide oraciones largas.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+El análisis de los instrumentos de ahorro exige considerar variables como liquidez, rendimiento, horizonte temporal y tolerancia al riesgo.
+
+Versión simplificada:",8.7889,success,,{},229,36
+exp_small_batch_v1_20260308_063402,5321889d-2070-4ac6-a38f-3b19a7e99e1e,2026-03-08T06:35:35.444636,FEINA,,,mistral,mistralai/Mistral-7B-Instruct-v0.2,ollama,zero-shot,R0,[],"{'temperature': 0.2, 'top_p': 0.9, 'max_new_tokens': 256, 'repetition_penalty': 1.05, 'do_sample': False}",sb_004,La correcta interpretación de las condiciones contractuales evita malentendidos y permite tomar decisiones informadas respecto a productos financieros.,,"Interpretar correctamente las condiciones contractuales evita equivocaciones y permite tomar decisiones informadas sobre productos financieros.
+
+(Interpreting contractual conditions correctly avoids misunderstandings and allows for informed decisions regarding financial products.)","Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+La correcta interpretación de las condiciones contractuales evita malentendidos y permite tomar decisiones informadas respecto a productos financieros.
+
+Versión simplificada:",6.2314,success,,{},281,29
+exp_small_batch_v1_20260308_063402,d57c06c0-3606-484a-a13a-d55b464aad35,2026-03-08T06:35:41.728781,FEINA,,,mistral,mistralai/Mistral-7B-Instruct-v0.2,ollama,zero-shot,R2,[],"{'temperature': 0.2, 'top_p': 0.9, 'max_new_tokens': 256, 'repetition_penalty': 1.05, 'do_sample': False}",sb_004,La correcta interpretación de las condiciones contractuales evita malentendidos y permite tomar decisiones informadas respecto a productos financieros.,,"Entendiendo bien las clausulas contractuales evita equivociones y permite tomar buenas decisiones sobre productos financieros.
+
+(Understanding contractual clauses correctly avoids misunderstandings and allows for informed decisions regarding financial products.)","Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+Guía interna de simplificación: usa palabras comunes; evita tecnicismos innecesarios; reemplaza palabras difíciles por palabras simples; usa oraciones cortas; expresa una idea por oración; prefiere voz activa; divide oraciones largas.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+La correcta interpretación de las condiciones contractuales evita malentendidos y permite tomar decisiones informadas respecto a productos financieros.
+
+Versión simplificada:",6.2265,success,,{},262,29
+exp_small_batch_v1_20260308_063402,d58f0c3d-c771-42f6-9f43-234fa249eba2,2026-03-08T06:35:48.009811,FEINA,,,llama3,meta-llama/Meta-Llama-3-8B-Instruct,ollama,zero-shot,R0,[],"{'temperature': 0.2, 'top_p': 0.9, 'max_new_tokens': 256, 'repetition_penalty': 1.05, 'do_sample': False}",sb_004,La correcta interpretación de las condiciones contractuales evita malentendidos y permite tomar decisiones informadas respecto a productos financieros.,,Entender bien los términos del contrato ayuda a evitar confusiones y tomar decisiones sabias sobre inversiones financieras.,"Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+La correcta interpretación de las condiciones contractuales evita malentendidos y permite tomar decisiones informadas respecto a productos financieros.
+
+Versión simplificada:",8.1159,success,,{},123,17
+exp_small_batch_v1_20260308_063402,eb6ff457-7081-4050-b632-f7d701f6654c,2026-03-08T06:35:56.177798,FEINA,,,llama3,meta-llama/Meta-Llama-3-8B-Instruct,ollama,zero-shot,R2,[],"{'temperature': 0.2, 'top_p': 0.9, 'max_new_tokens': 256, 'repetition_penalty': 1.05, 'do_sample': False}",sb_004,La correcta interpretación de las condiciones contractuales evita malentendidos y permite tomar decisiones informadas respecto a productos financieros.,,Entender bien los términos del contrato ayuda a evitar confusiones y tomar decisiones sabias sobre inversiones financieras.,"Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+Guía interna de simplificación: usa palabras comunes; evita tecnicismos innecesarios; reemplaza palabras difíciles por palabras simples; usa oraciones cortas; expresa una idea por oración; prefiere voz activa; divide oraciones largas.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+La correcta interpretación de las condiciones contractuales evita malentendidos y permite tomar decisiones informadas respecto a productos financieros.
+
+Versión simplificada:",6.9301,success,,{},123,17
+exp_small_batch_v1_20260308_063402,2efb6e97-4de3-47b6-bf70-5c09d75ab429,2026-03-08T06:36:03.156565,FEINA,,,mistral,mistralai/Mistral-7B-Instruct-v0.2,ollama,zero-shot,R0,[],"{'temperature': 0.2, 'top_p': 0.9, 'max_new_tokens': 256, 'repetition_penalty': 1.05, 'do_sample': False}",sb_005,"Los usuarios deben identificar no solo la tasa de interés nominal, sino también las comisiones, penalizaciones y costos adicionales asociados al servicio.",,"Los usuarios deben considerar no solo la tasa de interés, sino también gastos extra como comisiones y penas.
+
+(Users must consider not only the interest rate but also additional costs such as commissions and penalties.)","Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+Los usuarios deben identificar no solo la tasa de interés nominal, sino también las comisiones, penalizaciones y costos adicionales asociados al servicio.
+
+Versión simplificada:",6.0455,success,,{},219,35
+exp_small_batch_v1_20260308_063402,6739b0b8-c650-40fc-8373-de2d8289c90e,2026-03-08T06:36:09.252297,FEINA,,,mistral,mistralai/Mistral-7B-Instruct-v0.2,ollama,zero-shot,R2,[],"{'temperature': 0.2, 'top_p': 0.9, 'max_new_tokens': 256, 'repetition_penalty': 1.05, 'do_sample': False}",sb_005,"Los usuarios deben identificar no solo la tasa de interés nominal, sino también las comisiones, penalizaciones y costos adicionales asociados al servicio.",,"Los usuarios deben identificar no solo la tasa de interés, sino también gastos extras como comisiones, penas y costos asociados al servicio.","Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+Guía interna de simplificación: usa palabras comunes; evita tecnicismos innecesarios; reemplaza palabras difíciles por palabras simples; usa oraciones cortas; expresa una idea por oración; prefiere voz activa; divide oraciones largas.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+Los usuarios deben identificar no solo la tasa de interés nominal, sino también las comisiones, penalizaciones y costos adicionales asociados al servicio.
+
+Versión simplificada:",5.7404,success,,{},140,22
+exp_small_batch_v1_20260308_063402,2ab01489-0a5a-4fc0-b031-0f04585bc3dc,2026-03-08T06:36:15.042474,FEINA,,,llama3,meta-llama/Meta-Llama-3-8B-Instruct,ollama,zero-shot,R0,[],"{'temperature': 0.2, 'top_p': 0.9, 'max_new_tokens': 256, 'repetition_penalty': 1.05, 'do_sample': False}",sb_005,"Los usuarios deben identificar no solo la tasa de interés nominal, sino también las comisiones, penalizaciones y costos adicionales asociados al servicio.",,"Los usuarios deben considerar no solo el interés, sino también las comisiones y otros gastos que se pagan por usar el servicio.","Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+Los usuarios deben identificar no solo la tasa de interés nominal, sino también las comisiones, penalizaciones y costos adicionales asociados al servicio.
+
+Versión simplificada:",7.1831,success,,{},127,22
+exp_small_batch_v1_20260308_063402,5033b080-97ba-4c02-9caf-6931802d749f,2026-03-08T06:36:22.275909,FEINA,,,llama3,meta-llama/Meta-Llama-3-8B-Instruct,ollama,zero-shot,R2,[],"{'temperature': 0.2, 'top_p': 0.9, 'max_new_tokens': 256, 'repetition_penalty': 1.05, 'do_sample': False}",sb_005,"Los usuarios deben identificar no solo la tasa de interés nominal, sino también las comisiones, penalizaciones y costos adicionales asociados al servicio.",,"Los usuarios deben considerar no solo el interés, sino también los demás gastos que se pagan por usar el servicio.","Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+Guía interna de simplificación: usa palabras comunes; evita tecnicismos innecesarios; reemplaza palabras difíciles por palabras simples; usa oraciones cortas; expresa una idea por oración; prefiere voz activa; divide oraciones largas.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+Los usuarios deben identificar no solo la tasa de interés nominal, sino también las comisiones, penalizaciones y costos adicionales asociados al servicio.
+
+Versión simplificada:",6.4271,success,,{},114,20
+exp_small_batch_v1_20260308_063402,63497bfb-3f63-41de-887c-e3099f8928c5,2026-03-08T06:36:28.753037,FEINA,,,mistral,mistralai/Mistral-7B-Instruct-v0.2,ollama,zero-shot,R0,[],"{'temperature': 0.2, 'top_p': 0.9, 'max_new_tokens': 256, 'repetition_penalty': 1.05, 'do_sample': False}",sb_006,"El presupuesto familiar constituye una herramienta fundamental para anticipar gastos, distribuir ingresos y prevenir situaciones de sobreendeudamiento.",,"El presupuesto familiar es una herramienta importante para previsionar gastos, distribuir ingresos y evitar deudas excesivas.","Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+El presupuesto familiar constituye una herramienta fundamental para anticipar gastos, distribuir ingresos y prevenir situaciones de sobreendeudamiento.
+
+Versión simplificada:",5.4349,success,,{},125,16
+exp_small_batch_v1_20260308_063402,1c258f77-11a5-48ce-ae5a-8d8287ba7b39,2026-03-08T06:36:34.238047,FEINA,,,mistral,mistralai/Mistral-7B-Instruct-v0.2,ollama,zero-shot,R2,[],"{'temperature': 0.2, 'top_p': 0.9, 'max_new_tokens': 256, 'repetition_penalty': 1.05, 'do_sample': False}",sb_006,"El presupuesto familiar constituye una herramienta fundamental para anticipar gastos, distribuir ingresos y prevenir situaciones de sobreendeudamiento.",,"Familiares gastos presupuesto importante es para previsionar gastos, pagar ingresos y evitar deuda excesiva.
+
+(","Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+Guía interna de simplificación: usa palabras comunes; evita tecnicismos innecesarios; reemplaza palabras difíciles por palabras simples; usa oraciones cortas; expresa una idea por oración; prefiere voz activa; divide oraciones largas.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+El presupuesto familiar constituye una herramienta fundamental para anticipar gastos, distribuir ingresos y prevenir situaciones de sobreendeudamiento.
+
+Versión simplificada:",7.0418,success,,{},111,15
+exp_small_batch_v1_20260308_063402,72cf3e81-465b-4191-88c9-72e090ff6244,2026-03-08T06:36:41.330148,FEINA,,,llama3,meta-llama/Meta-Llama-3-8B-Instruct,ollama,zero-shot,R0,[],"{'temperature': 0.2, 'top_p': 0.9, 'max_new_tokens': 256, 'repetition_penalty': 1.05, 'do_sample': False}",sb_006,"El presupuesto familiar constituye una herramienta fundamental para anticipar gastos, distribuir ingresos y prevenir situaciones de sobreendeudamiento.",,"El presupuesto familiar es importante porque te ayuda a saber cuánto gastas, cómo repartes tu dinero y a evitar problemas con la deuda.","Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+El presupuesto familiar constituye una herramienta fundamental para anticipar gastos, distribuir ingresos y prevenir situaciones de sobreendeudamiento.
+
+Versión simplificada:",7.0351,success,,{},135,23
+exp_small_batch_v1_20260308_063402,2b8455f4-665f-40d4-8231-84406dd1413c,2026-03-08T06:36:48.414133,FEINA,,,llama3,meta-llama/Meta-Llama-3-8B-Instruct,ollama,zero-shot,R2,[],"{'temperature': 0.2, 'top_p': 0.9, 'max_new_tokens': 256, 'repetition_penalty': 1.05, 'do_sample': False}",sb_006,"El presupuesto familiar constituye una herramienta fundamental para anticipar gastos, distribuir ingresos y prevenir situaciones de sobreendeudamiento.",,"Un presupuesto familiar es importante para saber qué gastar, cómo repartir el dinero y evitar endeudarse demasiado.","Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+Guía interna de simplificación: usa palabras comunes; evita tecnicismos innecesarios; reemplaza palabras difíciles por palabras simples; usa oraciones cortas; expresa una idea por oración; prefiere voz activa; divide oraciones largas.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+El presupuesto familiar constituye una herramienta fundamental para anticipar gastos, distribuir ingresos y prevenir situaciones de sobreendeudamiento.
+
+Versión simplificada:",6.8888,success,,{},115,17
+exp_small_batch_v1_20260308_063402,f8f14f86-0a36-421b-90da-166bca57e3e2,2026-03-08T06:36:55.353899,FEINA,,,mistral,mistralai/Mistral-7B-Instruct-v0.2,ollama,zero-shot,R0,[],"{'temperature': 0.2, 'top_p': 0.9, 'max_new_tokens': 256, 'repetition_penalty': 1.05, 'do_sample': False}",sb_007,"Aunque el crédito puede facilitar el acceso inmediato a bienes y servicios, su uso irresponsable puede comprometer la estabilidad económica del hogar.",,"El crédito puede dar acceso rápido a cosas y servicios, pero usarlo irresponsablemente puede poner en riesgo la economía de tu hogar.
+
+(Credit can give immediate access to goods and services, but using it irresponsibly can put your home economy at risk.)","Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+Aunque el crédito puede facilitar el acceso inmediato a bienes y servicios, su uso irresponsable puede comprometer la estabilidad económica del hogar.
+
+Versión simplificada:",6.8039,success,,{},254,42
+exp_small_batch_v1_20260308_063402,c9e50c6b-95af-4fc0-8f7b-792c7a06bab9,2026-03-08T06:37:02.207445,FEINA,,,mistral,mistralai/Mistral-7B-Instruct-v0.2,ollama,zero-shot,R2,[],"{'temperature': 0.2, 'top_p': 0.9, 'max_new_tokens': 256, 'repetition_penalty': 1.05, 'do_sample': False}",sb_007,"Aunque el crédito puede facilitar el acceso inmediato a bienes y servicios, su uso irresponsable puede comprometer la estabilidad económica del hogar.",,"El crédito puede dar acceso rápido a cosas y servicios, pero usarlo irresponsablemente puede poner en peligro la economía de tu hogar.
+
+(","Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+Guía interna de simplificación: usa palabras comunes; evita tecnicismos innecesarios; reemplaza palabras difíciles por palabras simples; usa oraciones cortas; expresa una idea por oración; prefiere voz activa; divide oraciones largas.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+Aunque el crédito puede facilitar el acceso inmediato a bienes y servicios, su uso irresponsable puede comprometer la estabilidad económica del hogar.
+
+Versión simplificada:",6.303,success,,{},137,23
+exp_small_batch_v1_20260308_063402,7b5e791b-89d0-4a61-9d49-b088560ab6cc,2026-03-08T06:37:08.560207,FEINA,,,llama3,meta-llama/Meta-Llama-3-8B-Instruct,ollama,zero-shot,R0,[],"{'temperature': 0.2, 'top_p': 0.9, 'max_new_tokens': 256, 'repetition_penalty': 1.05, 'do_sample': False}",sb_007,"Aunque el crédito puede facilitar el acceso inmediato a bienes y servicios, su uso irresponsable puede comprometer la estabilidad económica del hogar.",,"El crédito puede hacer que los bienes y servicios sean más fáciles de obtener, pero si no se maneja bien, puede afectar negativamente la economía del hogar.","Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+Aunque el crédito puede facilitar el acceso inmediato a bienes y servicios, su uso irresponsable puede comprometer la estabilidad económica del hogar.
+
+Versión simplificada:",7.6094,success,,{},156,27
+exp_small_batch_v1_20260308_063402,ba10e179-49f2-4519-8a52-6d2441209777,2026-03-08T06:37:16.228480,FEINA,,,llama3,meta-llama/Meta-Llama-3-8B-Instruct,ollama,zero-shot,R2,[],"{'temperature': 0.2, 'top_p': 0.9, 'max_new_tokens': 256, 'repetition_penalty': 1.05, 'do_sample': False}",sb_007,"Aunque el crédito puede facilitar el acceso inmediato a bienes y servicios, su uso irresponsable puede comprometer la estabilidad económica del hogar.",,"El crédito puede hacer que tengas cosas y servicios rápidamente, pero si no lo usas bien, puede afectar la economía de tu casa.","Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+Guía interna de simplificación: usa palabras comunes; evita tecnicismos innecesarios; reemplaza palabras difíciles por palabras simples; usa oraciones cortas; expresa una idea por oración; prefiere voz activa; divide oraciones largas.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+Aunque el crédito puede facilitar el acceso inmediato a bienes y servicios, su uso irresponsable puede comprometer la estabilidad económica del hogar.
+
+Versión simplificada:",6.9855,success,,{},127,23
+exp_small_batch_v1_20260308_063402,43b99be6-f250-4038-bea3-75c5825195ed,2026-03-08T06:37:23.264039,FEINA,,,mistral,mistralai/Mistral-7B-Instruct-v0.2,ollama,zero-shot,R0,[],"{'temperature': 0.2, 'top_p': 0.9, 'max_new_tokens': 256, 'repetition_penalty': 1.05, 'do_sample': False}",sb_008,"En diversos contextos educativos, la simplificación textual puede contribuir a mejorar la comprensión lectora sin alterar el contenido esencial del mensaje.",,"En algunos ambientes educativos, simplificar textos mejora la comprención de lectura sin cambiar el significado original de la información.","Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+En diversos contextos educativos, la simplificación textual puede contribuir a mejorar la comprensión lectora sin alterar el contenido esencial del mensaje.
+
+Versión simplificada:",5.8752,success,,{},139,19
+exp_small_batch_v1_20260308_063402,265ebe0e-8448-46e6-940b-55b06711490b,2026-03-08T06:37:29.193526,FEINA,,,mistral,mistralai/Mistral-7B-Instruct-v0.2,ollama,zero-shot,R2,[],"{'temperature': 0.2, 'top_p': 0.9, 'max_new_tokens': 256, 'repetition_penalty': 1.05, 'do_sample': False}",sb_008,"En diversos contextos educativos, la simplificación textual puede contribuir a mejorar la comprensión lectora sin alterar el contenido esencial del mensaje.",,"En distintas situaciones educativas, simplificar un texto mejora la comprensión al leer sin cambiar el significado original de la información.","Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+Guía interna de simplificación: usa palabras comunes; evita tecnicismos innecesarios; reemplaza palabras difíciles por palabras simples; usa oraciones cortas; expresa una idea por oración; prefiere voz activa; divide oraciones largas.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+En diversos contextos educativos, la simplificación textual puede contribuir a mejorar la comprensión lectora sin alterar el contenido esencial del mensaje.
+
+Versión simplificada:",5.7211,success,,{},142,20
+exp_small_batch_v1_20260308_063402,4ca7d543-87b3-4942-a2e7-88c0e4641af4,2026-03-08T06:37:34.967653,FEINA,,,llama3,meta-llama/Meta-Llama-3-8B-Instruct,ollama,zero-shot,R0,[],"{'temperature': 0.2, 'top_p': 0.9, 'max_new_tokens': 256, 'repetition_penalty': 1.05, 'do_sample': False}",sb_008,"En diversos contextos educativos, la simplificación textual puede contribuir a mejorar la comprensión lectora sin alterar el contenido esencial del mensaje.",,La simplificación de textos puede ayudar a entender mejor lo que se lee sin cambiar lo importante que se quiere decir.,"Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+En diversos contextos educativos, la simplificación textual puede contribuir a mejorar la comprensión lectora sin alterar el contenido esencial del mensaje.
+
+Versión simplificada:",6.649,success,,{},118,21
+exp_small_batch_v1_20260308_063402,4c879ede-8612-4682-9f0e-482c4f5e41ed,2026-03-08T06:37:41.668907,FEINA,,,llama3,meta-llama/Meta-Llama-3-8B-Instruct,ollama,zero-shot,R2,[],"{'temperature': 0.2, 'top_p': 0.9, 'max_new_tokens': 256, 'repetition_penalty': 1.05, 'do_sample': False}",sb_008,"En diversos contextos educativos, la simplificación textual puede contribuir a mejorar la comprensión lectora sin alterar el contenido esencial del mensaje.",,La simplificación de textos ayuda a entender mejor lo que se lee sin cambiar el significado principal.,"Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+Guía interna de simplificación: usa palabras comunes; evita tecnicismos innecesarios; reemplaza palabras difíciles por palabras simples; usa oraciones cortas; expresa una idea por oración; prefiere voz activa; divide oraciones largas.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+En diversos contextos educativos, la simplificación textual puede contribuir a mejorar la comprensión lectora sin alterar el contenido esencial del mensaje.
+
+Versión simplificada:",6.5779,success,,{},102,17

@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Entornos virtuales
+venv/
+.venv/
+.venv-bloom/
+env/
+ENV/
+
+# Archivos de entorno
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Datos
+# data/
+# datasets/
+
+# Resultados / outputs
+# outputs/
+results/
+logs/
+
+# Archivos temporales
+*.log
+*.tmp
+*.swp
+
+# VSCode
+.vscode/
+
+# Mac / Linux
+.DS_Store
+Thumbs.db
+
+# Compilados
+build/
+dist/
+*.egg-info/
+
+# pytest
+.pytest_cache/
+
+# coverage
+.coverage
+htmlcov/
