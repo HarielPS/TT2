@@ -270,6 +270,11 @@ TT2/
 |  │
 |  └── cv_runs/
 |      Resultados de validación cruzada.
+| 
+|  notes/
+|  │
+|  └── Pruebas.docx/
+|      Resultados de primeras pruebas sobre el dataset y modelos probando configuraciones.
 |
 |  README.md
 |      Documentación principal del proyecto.
