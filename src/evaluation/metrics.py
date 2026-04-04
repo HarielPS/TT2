@@ -319,11 +319,52 @@ def compute_sari(source: str, prediction: str, reference: str) -> float | None:
     return _sari_fallback_single(source, prediction, reference)
 
 
+# def compute_bertscore_batch(
+#     references: list[str],
+#     predictions: list[str],
+#     lang: str = "es",
+#     model_type: str | None = None,
+# ) -> list[float | None]:
+#     if not HAS_BERTSCORE:
+#         return [None] * len(predictions)
+
+#     refs = [normalize_spaces(x) for x in references]
+#     preds = [normalize_spaces(x) for x in predictions]
+
+#     valid_mask = [bool(r) and bool(p) for r, p in zip(refs, preds)]
+#     if not any(valid_mask):
+#         return [None] * len(predictions)
+
+#     valid_preds = [p for p, ok in zip(preds, valid_mask) if ok]
+#     valid_refs = [r for r, ok in zip(refs, valid_mask) if ok]
+
+#     try:
+#         _, _, f1 = bertscore_score(
+#             valid_preds,
+#             valid_refs,
+#             lang=lang,
+#             model_type=model_type,
+#             verbose=False,
+#             rescale_with_baseline=False,
+#         )
+
+#         vals = [None] * len(predictions)
+#         j = 0
+#         for i, ok in enumerate(valid_mask):
+#             if ok:
+#                 vals[i] = float(f1[j].item())
+#                 j += 1
+#         return vals
+#     except Exception as e:
+#         print("ERROR EN BERTSCORE:", repr(e))
+#         return [None] * len(predictions)
+
 def compute_bertscore_batch(
     references: list[str],
     predictions: list[str],
     lang: str = "es",
     model_type: str | None = None,
+    batch_size: int = 16,
 ) -> list[float | None]:
     if not HAS_BERTSCORE:
         return [None] * len(predictions)
@@ -335,27 +376,36 @@ def compute_bertscore_batch(
     if not any(valid_mask):
         return [None] * len(predictions)
 
-    valid_preds = [p for p, ok in zip(preds, valid_mask) if ok]
-    valid_refs = [r for r, ok in zip(refs, valid_mask) if ok]
+    vals = [None] * len(predictions)
+
+    valid_indices = [i for i, ok in enumerate(valid_mask) if ok]
+    valid_refs = [refs[i] for i in valid_indices]
+    valid_preds = [preds[i] for i in valid_indices]
 
     try:
-        _, _, f1 = bertscore_score(
-            valid_preds,
-            valid_refs,
-            lang=lang,
-            model_type=model_type,
-            verbose=False,
-            rescale_with_baseline=False,
-        )
+        for start in range(0, len(valid_preds), batch_size):
+            end = start + batch_size
 
-        vals = [None] * len(predictions)
-        j = 0
-        for i, ok in enumerate(valid_mask):
-            if ok:
-                vals[i] = float(f1[j].item())
-                j += 1
+            batch_preds = valid_preds[start:end]
+            batch_refs = valid_refs[start:end]
+            batch_indices = valid_indices[start:end]
+
+            _, _, f1 = bertscore_score(
+                batch_preds,
+                batch_refs,
+                lang=lang,
+                model_type=model_type,
+                verbose=False,
+                rescale_with_baseline=False,
+            )
+
+            for idx_local, idx_global in enumerate(batch_indices):
+                vals[idx_global] = float(f1[idx_local].item())
+
         return vals
-    except Exception:
+
+    except Exception as e:
+        print("ERROR EN compute_bertscore_batch:", repr(e))
         return [None] * len(predictions)
 
 
@@ -392,7 +442,8 @@ def compute_sbert_similarity_batch(
                 vals[i] = float(diag[j])
                 j += 1
         return vals
-    except Exception:
+    except Exception as e:
+        print("ERROR EN SBERT:", repr(e))
         return [None] * len(predictions)
 
 
