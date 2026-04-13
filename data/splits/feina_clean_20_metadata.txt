@@ -1,0 +1,13 @@
+Random state: 42
+Frac subset: 0.2
+Train size: 0.7
+Val size: 0.15
+Test size: 0.15
+Shape subset: (1057, 15)
+Shape train: (739, 15)
+Shape val: (159, 15)
+Shape test: (159, 15)
+Overlap train-val: 0
+Overlap train-test: 0
+Overlap val-test: 0
+Build seconds: 0.0162

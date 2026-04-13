@@ -1,0 +1,11 @@
+{
+  "experiment_id": "exp_prompt_final_test30_prompt_winner_20260412_214814",
+  "split_name": "test30_prompt_winner",
+  "n_rows_split": 238,
+  "n_candidate_configs": 1,
+  "expected_total_runs": 238,
+  "runtime_seconds_total": 1863.7325136500294,
+  "raw_path": "/home/harielpadillasanchez/Documentos/TT/TT2/outputs/prompt_final_eval/exp_prompt_final_test30_prompt_winner_20260412_214814_raw_results.csv",
+  "eval_path": "/home/harielpadillasanchez/Documentos/TT/TT2/outputs/prompt_final_eval/exp_prompt_final_test30_prompt_winner_20260412_214814_evaluated.csv",
+  "summary_path": "/home/harielpadillasanchez/Documentos/TT/TT2/outputs/prompt_final_eval/exp_prompt_final_test30_prompt_winner_20260412_214814_summary.csv"
+}

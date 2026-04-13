@@ -1,0 +1,1184 @@
+﻿experiment_id,run_id,timestamp,dataset_name,fold_id,split_name,model_key,model_id,backend,prompt_type,ruleset,few_shot_example_ids,generation_config,sample_id,source_text,reference_text,generated_text,prompt_text,inference_seconds,status,error_message,metrics,config_label,idFinal,idcod,lex,atr0,atr1,atr2,atr3,atr4,atr5,atr6,atr7,atr8
+exp_prompt_final_val_benchmark_40_10_20260412_021753,83232398-8060-46a1-90b8-6cc62bf84894,2026-04-12T02:17:53.431479,feina_clean_30_val_benchmark_40_10,,val_benchmark_40_10,llama3,meta-llama/Meta-Llama-3-8B-Instruct,ollama,few-shot,R1,"[78, 1805, 3635, 5262]","{'temperature': 0.3, 'top_p': 0.9, 'repetition_penalty': 1.15, 'max_new_tokens': 256}",139,"Confundir el presupuesto como un plan para evitar todo tipo de gastos o para que nos distanciemos o deprivemos de las cosas que deseamos, atentando de paso contra la propia calidad de vida.","Confundir el presupuesto con un plan para evitar todo tipo de gastos, para abstenerse de lo que deseamos o atentar contra la propia calidad de vida.",No confundas tu presupuesto con un plan para evitar gastar dinero o privarte de lo que quieres. Esto puede afectar negativamente tu calidad de vida.,"Reescribe en español cada texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+Guía interna de simplificación: usa palabras comunes; evita tecnicismos innecesarios; reemplaza palabras difíciles por palabras simples.
+
+Devuelve solo la versión final simplificada.
+
+Ejemplo 1
+Texto: A continuación una tabla donde se demuestra como crecen los ahorros al pasar los años: Edad Inversión Intereses Saldo Inversión Intereses Saldo Laura Ganados Alberto Ganados 22 $800 $80 $880 23 $800 $168 $1.232 Valor al Jubilarse $311.092 Valor al Jubilarse $263.232 Menos las contribuciones iniciales $6.400 Menos las contribuciones iniciales $28.800 Ganancia Neta $304.692 Ganancia Neta $234.
+Versión simplificada: A continuación, presentamos una tabla donde se demuestra como crecen los ahorros al pasar los años. Las categorías en que se divide la tabla son edad, inversión, intereses ganados y saldo. La tabla contrasta las ganancias en intereses por año de Laura y Alberto con una proyección de edad de jubilación de sesenta y cinco años y según la cantidad de años que mantuvieron el ahorro.
+
+Ejemplo 2
+Texto: El varias veces mencionado Yager, nos dice acertadamente sobre estos aspectos lo siguiente: La mayoría de ustedes están hambrientos de tener libertad financiera, están hastiados de tener batallas financieras porque son como un carrusel.
+Versión simplificada: Yager habla acertadamente sobre estos aspectos y dice que la mayoría ambiciona tener libertad financiera y está cansada de tener batallas financieras inútiles.
+
+Ejemplo 3
+Texto: De acuerdo con esta medición, la proporción de pobres en la población mundial quienes viven con menos de un dólar por día descendió levemente entre 1987 y 1993, pues pasó del 30% al 29%.
+Versión simplificada: Según esta medición, la proporción de personas pobres en la población mundial descendió un poco entre mil novecientos ochenta y siete y mil novecientos noventa y tres. Es decir, el porcentaje de personas que vivían con menos de un dólar por día pasó del treinta al veintinueve por ciento.
+
+Ejemplo 4
+Texto: - Rentabilidad
+INTERÉS DE 2 PESOS SOBRE UNA INVERSIÓN DE 100 PESOS = RENTABILIDAD DE 2 % ((2 ÷ 100) × 100 = 2%) POR CADA 100 PESOS SE GANAN 2 PESOS
+Endeudamiento
+DEUDA DE 30 PESOS POR SOBRE EL CAPITAL DE 20 PESOS = ENDEUDAMIENTO DE 1,5 VECES EL CAPITAL (30 ÷ 20 = 1,5) POR CADA PESO DE CAPITAL EXISTE 1,5 PESOS DE DEUDA
+Liquidez
+80 PESOS DE DINERO DISPONIBLE POR SOBRE DEUDAS DE 40 PESOS = LIQUIDEZ DE DOS VECES EL VALOR DE LA DEUDA (80 ÷ 40 = 2) POR CADA PESO DE DEUDA SE DISPONE DE 2 PESOS PARA PAGO
+Versión simplificada: EL INTERÉS DE DOS PESOS SOBRE UNA INVERSIÓN DE CIEN PESOS DA UNA RENTABILIDAD DE DOS POR CIENTO. ES DECIR, POR CADA CIEN PESOS GANAMOS DOS PESOS. LA DEUDA DE TREINTA PESOS SOBRE EL CAPITAL DE VEINTE PESOS RESULTA EN UNA DEUDA DE UNO PUNTO CINCO VECES EL CAPITAL. ES DECIR, POR CADA PESO DE CAPITAL HAY UNO PUNTO CINCO PESOS DE DEUDA. EN OCHENTA PESOS DE DINERO DISPONIBLE SOBRE DEUDAS DE CUARENTA PESOS DA UNA LIQUIDEZ DEL DOBLE DE LA DEUDA. POR CADA PESO ADEUDADO HAY DOS PESOS PARA PAGAR.
+
+Texto: Confundir el presupuesto como un plan para evitar todo tipo de gastos o para que nos distanciemos o deprivemos de las cosas que deseamos, atentando de paso contra la propia calidad de vida.
+Versión simplificada:",11.639,success,,{},llama3_cfg_3,7719_LibroBAC.pdf,Fiorella,1,15.0,1.0,17.0,16.0,5.0,,,,
+exp_prompt_final_val_benchmark_40_10_20260412_021753,531b6d8b-300d-4ac8-923b-0af28f55f6ce,2026-04-12T02:18:05.297810,feina_clean_30_val_benchmark_40_10,,val_benchmark_40_10,llama3,meta-llama/Meta-Llama-3-8B-Instruct,ollama,few-shot,R1,"[78, 1805, 3635, 5262]","{'temperature': 0.3, 'top_p': 0.9, 'repetition_penalty': 1.15, 'max_new_tokens': 256}",419,"Las cuentas del mercado monetario y los certificados de depósito podrían pagar más intereses con una frecuencia mayor que una cuenta de ahorros normal, pero existe una contrapartida por esa tasa de interés más alta.",Las cuentas del mercado monetario y los certificados de depósito podrían pagar más intereses con mayor frecuencia que una cuenta de ahorros normal. Pero existe una neutralización por esa elevada tasa de interés.,"Las cuentas del mercado monetario y los certificados de depósito pueden ofrecer tasas de interés más altas si se pagan con frecuencia, pero esto tiene un precio.","Reescribe en español cada texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+Guía interna de simplificación: usa palabras comunes; evita tecnicismos innecesarios; reemplaza palabras difíciles por palabras simples.
+
+Devuelve solo la versión final simplificada.
+
+Ejemplo 1
+Texto: A continuación una tabla donde se demuestra como crecen los ahorros al pasar los años: Edad Inversión Intereses Saldo Inversión Intereses Saldo Laura Ganados Alberto Ganados 22 $800 $80 $880 23 $800 $168 $1.232 Valor al Jubilarse $311.092 Valor al Jubilarse $263.232 Menos las contribuciones iniciales $6.400 Menos las contribuciones iniciales $28.800 Ganancia Neta $304.692 Ganancia Neta $234.
+Versión simplificada: A continuación, presentamos una tabla donde se demuestra como crecen los ahorros al pasar los años. Las categorías en que se divide la tabla son edad, inversión, intereses ganados y saldo. La tabla contrasta las ganancias en intereses por año de Laura y Alberto con una proyección de edad de jubilación de sesenta y cinco años y según la cantidad de años que mantuvieron el ahorro.
+
+Ejemplo 2
+Texto: El varias veces mencionado Yager, nos dice acertadamente sobre estos aspectos lo siguiente: La mayoría de ustedes están hambrientos de tener libertad financiera, están hastiados de tener batallas financieras porque son como un carrusel.
+Versión simplificada: Yager habla acertadamente sobre estos aspectos y dice que la mayoría ambiciona tener libertad financiera y está cansada de tener batallas financieras inútiles.
+
+Ejemplo 3
+Texto: De acuerdo con esta medición, la proporción de pobres en la población mundial quienes viven con menos de un dólar por día descendió levemente entre 1987 y 1993, pues pasó del 30% al 29%.
+Versión simplificada: Según esta medición, la proporción de personas pobres en la población mundial descendió un poco entre mil novecientos ochenta y siete y mil novecientos noventa y tres. Es decir, el porcentaje de personas que vivían con menos de un dólar por día pasó del treinta al veintinueve por ciento.
+
+Ejemplo 4
+Texto: - Rentabilidad
+INTERÉS DE 2 PESOS SOBRE UNA INVERSIÓN DE 100 PESOS = RENTABILIDAD DE 2 % ((2 ÷ 100) × 100 = 2%) POR CADA 100 PESOS SE GANAN 2 PESOS
+Endeudamiento
+DEUDA DE 30 PESOS POR SOBRE EL CAPITAL DE 20 PESOS = ENDEUDAMIENTO DE 1,5 VECES EL CAPITAL (30 ÷ 20 = 1,5) POR CADA PESO DE CAPITAL EXISTE 1,5 PESOS DE DEUDA
+Liquidez
+80 PESOS DE DINERO DISPONIBLE POR SOBRE DEUDAS DE 40 PESOS = LIQUIDEZ DE DOS VECES EL VALOR DE LA DEUDA (80 ÷ 40 = 2) POR CADA PESO DE DEUDA SE DISPONE DE 2 PESOS PARA PAGO
+Versión simplificada: EL INTERÉS DE DOS PESOS SOBRE UNA INVERSIÓN DE CIEN PESOS DA UNA RENTABILIDAD DE DOS POR CIENTO. ES DECIR, POR CADA CIEN PESOS GANAMOS DOS PESOS. LA DEUDA DE TREINTA PESOS SOBRE EL CAPITAL DE VEINTE PESOS RESULTA EN UNA DEUDA DE UNO PUNTO CINCO VECES EL CAPITAL. ES DECIR, POR CADA PESO DE CAPITAL HAY UNO PUNTO CINCO PESOS DE DEUDA. EN OCHENTA PESOS DE DINERO DISPONIBLE SOBRE DEUDAS DE CUARENTA PESOS DA UNA LIQUIDEZ DEL DOBLE DE LA DEUDA. POR CADA PESO ADEUDADO HAY DOS PESOS PARA PAGAR.
+
+Texto: Las cuentas del mercado monetario y los certificados de depósito podrían pagar más intereses con una frecuencia mayor que una cuenta de ahorros normal, pero existe una contrapartida por esa tasa de interés más alta.
+Versión simplificada:",7.2334,success,,{},llama3_cfg_3,712_LibroNEFE_Sincopyright.pdf,Fiorella,0,15.0,5.0,4.0,6.0,19.0,,,,
+exp_prompt_final_val_benchmark_40_10_20260412_021753,16bebcf0-ae45-4ae8-9b35-b82c73fdcac0,2026-04-12T02:18:12.691755,feina_clean_30_val_benchmark_40_10,,val_benchmark_40_10,llama3,meta-llama/Meta-Llama-3-8B-Instruct,ollama,few-shot,R1,"[78, 1805, 3635, 5262]","{'temperature': 0.3, 'top_p': 0.9, 'repetition_penalty': 1.15, 'max_new_tokens': 256}",1016,"Cuando el objeto material útil, que en la economía muchas veces tiene carácter de bien y a veces de mercancía, la gente puede conseguirlo con facilidad y sin mayor esfuerzo, es decir, está allí para el que lo quiera o lo necesite, el mismo no tiene valor monetario o de intercambio.","Si el objeto es un material útil y se consigue con facilidad, no tiene valor monetario o de intercambio.","Cuando algo es útil y fácilmente disponible, como una mercancía o un bien, su valor económico se reduce a cero.","Reescribe en español cada texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+Guía interna de simplificación: usa palabras comunes; evita tecnicismos innecesarios; reemplaza palabras difíciles por palabras simples.
+
+Devuelve solo la versión final simplificada.
+
+Ejemplo 1
+Texto: A continuación una tabla donde se demuestra como crecen los ahorros al pasar los años: Edad Inversión Intereses Saldo Inversión Intereses Saldo Laura Ganados Alberto Ganados 22 $800 $80 $880 23 $800 $168 $1.232 Valor al Jubilarse $311.092 Valor al Jubilarse $263.232 Menos las contribuciones iniciales $6.400 Menos las contribuciones iniciales $28.800 Ganancia Neta $304.692 Ganancia Neta $234.
+Versión simplificada: A continuación, presentamos una tabla donde se demuestra como crecen los ahorros al pasar los años. Las categorías en que se divide la tabla son edad, inversión, intereses ganados y saldo. La tabla contrasta las ganancias en intereses por año de Laura y Alberto con una proyección de edad de jubilación de sesenta y cinco años y según la cantidad de años que mantuvieron el ahorro.
+
+Ejemplo 2
+Texto: El varias veces mencionado Yager, nos dice acertadamente sobre estos aspectos lo siguiente: La mayoría de ustedes están hambrientos de tener libertad financiera, están hastiados de tener batallas financieras porque son como un carrusel.
+Versión simplificada: Yager habla acertadamente sobre estos aspectos y dice que la mayoría ambiciona tener libertad financiera y está cansada de tener batallas financieras inútiles.
+
+Ejemplo 3
+Texto: De acuerdo con esta medición, la proporción de pobres en la población mundial quienes viven con menos de un dólar por día descendió levemente entre 1987 y 1993, pues pasó del 30% al 29%.
+Versión simplificada: Según esta medición, la proporción de personas pobres en la población mundial descendió un poco entre mil novecientos ochenta y siete y mil novecientos noventa y tres. Es decir, el porcentaje de personas que vivían con menos de un dólar por día pasó del treinta al veintinueve por ciento.
+
+Ejemplo 4
+Texto: - Rentabilidad
+INTERÉS DE 2 PESOS SOBRE UNA INVERSIÓN DE 100 PESOS = RENTABILIDAD DE 2 % ((2 ÷ 100) × 100 = 2%) POR CADA 100 PESOS SE GANAN 2 PESOS
+Endeudamiento
+DEUDA DE 30 PESOS POR SOBRE EL CAPITAL DE 20 PESOS = ENDEUDAMIENTO DE 1,5 VECES EL CAPITAL (30 ÷ 20 = 1,5) POR CADA PESO DE CAPITAL EXISTE 1,5 PESOS DE DEUDA
+Liquidez
+80 PESOS DE DINERO DISPONIBLE POR SOBRE DEUDAS DE 40 PESOS = LIQUIDEZ DE DOS VECES EL VALOR DE LA DEUDA (80 ÷ 40 = 2) POR CADA PESO DE DEUDA SE DISPONE DE 2 PESOS PARA PAGO
+Versión simplificada: EL INTERÉS DE DOS PESOS SOBRE UNA INVERSIÓN DE CIEN PESOS DA UNA RENTABILIDAD DE DOS POR CIENTO. ES DECIR, POR CADA CIEN PESOS GANAMOS DOS PESOS. LA DEUDA DE TREINTA PESOS SOBRE EL CAPITAL DE VEINTE PESOS RESULTA EN UNA DEUDA DE UNO PUNTO CINCO VECES EL CAPITAL. ES DECIR, POR CADA PESO DE CAPITAL HAY UNO PUNTO CINCO PESOS DE DEUDA. EN OCHENTA PESOS DE DINERO DISPONIBLE SOBRE DEUDAS DE CUARENTA PESOS DA UNA LIQUIDEZ DEL DOBLE DE LA DEUDA. POR CADA PESO ADEUDADO HAY DOS PESOS PARA PAGAR.
+
+Texto: Cuando el objeto material útil, que en la economía muchas veces tiene carácter de bien y a veces de mercancía, la gente puede conseguirlo con facilidad y sin mayor esfuerzo, es decir, está allí para el que lo quiera o lo necesite, el mismo no tiene valor monetario o de intercambio.
+Versión simplificada:",6.7867,success,,{},llama3_cfg_3,1914_LibroBAC.pdf,Sugeily,0,16.0,5.0,,,,,,,
+exp_prompt_final_val_benchmark_40_10_20260412_021753,c4edcd72-92f1-4bbb-b7f1-b8c41ab88a26,2026-04-12T02:18:19.646258,feina_clean_30_val_benchmark_40_10,,val_benchmark_40_10,llama3,meta-llama/Meta-Llama-3-8B-Instruct,ollama,few-shot,R1,"[78, 1805, 3635, 5262]","{'temperature': 0.3, 'top_p': 0.9, 'repetition_penalty': 1.15, 'max_new_tokens': 256}",1179,"Tener éxito financiero en la vida no es necesariamente hacerse rico, oportunidad que a pocos acompaña, sino tener, prever y manejar los recursos intelectuales, técnicos y económicos que les permita a las personas una vida digna y mejor y establecer un orden de prioridades entre sus objetivos existenciales y de desarrollo personal y familiar.","Tener éxito financiero en la vida no es hacerse rico. Es tener, prever y manejar los recursos intelectuales, técnicos y económicos para una vida digna. Asimismo, establecer un orden de prioridades entre sus objetivos existenciales y de desarrollo personal y familiar.","Tener éxito financiero no significa necesariamente ser rico. Significa tener recursos para vivir con dignidad, prever el futuro y manejarlos bien. Es importante establecer prioridades entre tus objetivos personales, familiares y existenciales.","Reescribe en español cada texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+Guía interna de simplificación: usa palabras comunes; evita tecnicismos innecesarios; reemplaza palabras difíciles por palabras simples.
+
+Devuelve solo la versión final simplificada.
+
+Ejemplo 1
+Texto: A continuación una tabla donde se demuestra como crecen los ahorros al pasar los años: Edad Inversión Intereses Saldo Inversión Intereses Saldo Laura Ganados Alberto Ganados 22 $800 $80 $880 23 $800 $168 $1.232 Valor al Jubilarse $311.092 Valor al Jubilarse $263.232 Menos las contribuciones iniciales $6.400 Menos las contribuciones iniciales $28.800 Ganancia Neta $304.692 Ganancia Neta $234.
+Versión simplificada: A continuación, presentamos una tabla donde se demuestra como crecen los ahorros al pasar los años. Las categorías en que se divide la tabla son edad, inversión, intereses ganados y saldo. La tabla contrasta las ganancias en intereses por año de Laura y Alberto con una proyección de edad de jubilación de sesenta y cinco años y según la cantidad de años que mantuvieron el ahorro.
+
+Ejemplo 2
+Texto: El varias veces mencionado Yager, nos dice acertadamente sobre estos aspectos lo siguiente: La mayoría de ustedes están hambrientos de tener libertad financiera, están hastiados de tener batallas financieras porque son como un carrusel.
+Versión simplificada: Yager habla acertadamente sobre estos aspectos y dice que la mayoría ambiciona tener libertad financiera y está cansada de tener batallas financieras inútiles.
+
+Ejemplo 3
+Texto: De acuerdo con esta medición, la proporción de pobres en la población mundial quienes viven con menos de un dólar por día descendió levemente entre 1987 y 1993, pues pasó del 30% al 29%.
+Versión simplificada: Según esta medición, la proporción de personas pobres en la población mundial descendió un poco entre mil novecientos ochenta y siete y mil novecientos noventa y tres. Es decir, el porcentaje de personas que vivían con menos de un dólar por día pasó del treinta al veintinueve por ciento.
+
+Ejemplo 4
+Texto: - Rentabilidad
+INTERÉS DE 2 PESOS SOBRE UNA INVERSIÓN DE 100 PESOS = RENTABILIDAD DE 2 % ((2 ÷ 100) × 100 = 2%) POR CADA 100 PESOS SE GANAN 2 PESOS
+Endeudamiento
+DEUDA DE 30 PESOS POR SOBRE EL CAPITAL DE 20 PESOS = ENDEUDAMIENTO DE 1,5 VECES EL CAPITAL (30 ÷ 20 = 1,5) POR CADA PESO DE CAPITAL EXISTE 1,5 PESOS DE DEUDA
+Liquidez
+80 PESOS DE DINERO DISPONIBLE POR SOBRE DEUDAS DE 40 PESOS = LIQUIDEZ DE DOS VECES EL VALOR DE LA DEUDA (80 ÷ 40 = 2) POR CADA PESO DE DEUDA SE DISPONE DE 2 PESOS PARA PAGO
+Versión simplificada: EL INTERÉS DE DOS PESOS SOBRE UNA INVERSIÓN DE CIEN PESOS DA UNA RENTABILIDAD DE DOS POR CIENTO. ES DECIR, POR CADA CIEN PESOS GANAMOS DOS PESOS. LA DEUDA DE TREINTA PESOS SOBRE EL CAPITAL DE VEINTE PESOS RESULTA EN UNA DEUDA DE UNO PUNTO CINCO VECES EL CAPITAL. ES DECIR, POR CADA PESO DE CAPITAL HAY UNO PUNTO CINCO PESOS DE DEUDA. EN OCHENTA PESOS DE DINERO DISPONIBLE SOBRE DEUDAS DE CUARENTA PESOS DA UNA LIQUIDEZ DEL DOBLE DE LA DEUDA. POR CADA PESO ADEUDADO HAY DOS PESOS PARA PAGAR.
+
+Texto: Tener éxito financiero en la vida no es necesariamente hacerse rico, oportunidad que a pocos acompaña, sino tener, prever y manejar los recursos intelectuales, técnicos y económicos que les permita a las personas una vida digna y mejor y establecer un orden de prioridades entre sus objetivos existenciales y de desarrollo personal y familiar.
+Versión simplificada:",8.17,success,,{},llama3_cfg_3,7373_LibroBAC.pdf,Sugeily,0,15.0,16.0,5.0,,,,,,
+exp_prompt_final_val_benchmark_40_10_20260412_021753,6c3b21c0-2de1-401d-b315-49ca72e35128,2026-04-12T02:18:27.973168,feina_clean_30_val_benchmark_40_10,,val_benchmark_40_10,llama3,meta-llama/Meta-Llama-3-8B-Instruct,ollama,few-shot,R1,"[78, 1805, 3635, 5262]","{'temperature': 0.3, 'top_p': 0.9, 'repetition_penalty': 1.15, 'max_new_tokens': 256}",1703,"Un importante documento sobre el tema de la Economía sostiene que: El hombre vive en sociedad para mejorar su bienestar intelectual, espiritual, moral, económico, etc.","En un importante documento sobre el tema de la economía se dice que el hombre vive en sociedad para mejorar su bienestar intelectual, espiritual, moral, económico, etcétera.","La gente vive en sociedad para mejorar su vida en diferentes aspectos, como el intelectual, espiritual, moral y económico.","Reescribe en español cada texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+Guía interna de simplificación: usa palabras comunes; evita tecnicismos innecesarios; reemplaza palabras difíciles por palabras simples.
+
+Devuelve solo la versión final simplificada.
+
+Ejemplo 1
+Texto: A continuación una tabla donde se demuestra como crecen los ahorros al pasar los años: Edad Inversión Intereses Saldo Inversión Intereses Saldo Laura Ganados Alberto Ganados 22 $800 $80 $880 23 $800 $168 $1.232 Valor al Jubilarse $311.092 Valor al Jubilarse $263.232 Menos las contribuciones iniciales $6.400 Menos las contribuciones iniciales $28.800 Ganancia Neta $304.692 Ganancia Neta $234.
+Versión simplificada: A continuación, presentamos una tabla donde se demuestra como crecen los ahorros al pasar los años. Las categorías en que se divide la tabla son edad, inversión, intereses ganados y saldo. La tabla contrasta las ganancias en intereses por año de Laura y Alberto con una proyección de edad de jubilación de sesenta y cinco años y según la cantidad de años que mantuvieron el ahorro.
+
+Ejemplo 2
+Texto: El varias veces mencionado Yager, nos dice acertadamente sobre estos aspectos lo siguiente: La mayoría de ustedes están hambrientos de tener libertad financiera, están hastiados de tener batallas financieras porque son como un carrusel.
+Versión simplificada: Yager habla acertadamente sobre estos aspectos y dice que la mayoría ambiciona tener libertad financiera y está cansada de tener batallas financieras inútiles.
+
+Ejemplo 3
+Texto: De acuerdo con esta medición, la proporción de pobres en la población mundial quienes viven con menos de un dólar por día descendió levemente entre 1987 y 1993, pues pasó del 30% al 29%.
+Versión simplificada: Según esta medición, la proporción de personas pobres en la población mundial descendió un poco entre mil novecientos ochenta y siete y mil novecientos noventa y tres. Es decir, el porcentaje de personas que vivían con menos de un dólar por día pasó del treinta al veintinueve por ciento.
+
+Ejemplo 4
+Texto: - Rentabilidad
+INTERÉS DE 2 PESOS SOBRE UNA INVERSIÓN DE 100 PESOS = RENTABILIDAD DE 2 % ((2 ÷ 100) × 100 = 2%) POR CADA 100 PESOS SE GANAN 2 PESOS
+Endeudamiento
+DEUDA DE 30 PESOS POR SOBRE EL CAPITAL DE 20 PESOS = ENDEUDAMIENTO DE 1,5 VECES EL CAPITAL (30 ÷ 20 = 1,5) POR CADA PESO DE CAPITAL EXISTE 1,5 PESOS DE DEUDA
+Liquidez
+80 PESOS DE DINERO DISPONIBLE POR SOBRE DEUDAS DE 40 PESOS = LIQUIDEZ DE DOS VECES EL VALOR DE LA DEUDA (80 ÷ 40 = 2) POR CADA PESO DE DEUDA SE DISPONE DE 2 PESOS PARA PAGO
+Versión simplificada: EL INTERÉS DE DOS PESOS SOBRE UNA INVERSIÓN DE CIEN PESOS DA UNA RENTABILIDAD DE DOS POR CIENTO. ES DECIR, POR CADA CIEN PESOS GANAMOS DOS PESOS. LA DEUDA DE TREINTA PESOS SOBRE EL CAPITAL DE VEINTE PESOS RESULTA EN UNA DEUDA DE UNO PUNTO CINCO VECES EL CAPITAL. ES DECIR, POR CADA PESO DE CAPITAL HAY UNO PUNTO CINCO PESOS DE DEUDA. EN OCHENTA PESOS DE DINERO DISPONIBLE SOBRE DEUDAS DE CUARENTA PESOS DA UNA LIQUIDEZ DEL DOBLE DE LA DEUDA. POR CADA PESO ADEUDADO HAY DOS PESOS PARA PAGAR.
+
+Texto: Un importante documento sobre el tema de la Economía sostiene que: El hombre vive en sociedad para mejorar su bienestar intelectual, espiritual, moral, económico, etc.
+Versión simplificada:",6.5031,success,,{},llama3_cfg_3,1852_LibroBAC.pdf,Verónica,0,18.0,4.0,21.0,13.0,,,,,
+exp_prompt_final_val_benchmark_40_10_20260412_021753,029e30f8-11d5-477c-8bb0-fa2599e256e8,2026-04-12T02:18:34.638868,feina_clean_30_val_benchmark_40_10,,val_benchmark_40_10,llama3,meta-llama/Meta-Llama-3-8B-Instruct,ollama,few-shot,R1,"[78, 1805, 3635, 5262]","{'temperature': 0.3, 'top_p': 0.9, 'repetition_penalty': 1.15, 'max_new_tokens': 256}",1955,"Al pagar los impuestos, utilizar el medio de pago que además de seguridad no le signifique ningún recargo económico, por ejemplo, por el pago en cheque o con tarjeta.","Segundo. Al pagar los impuestos, utilizar el medio de pago más seguro y que no le genere ningún recargo económico, por ejemplo, con el pago en cheque o con tarjeta.","Pague sus impuestos utilizando un método seguro y gratuito, como un cheque o una tarjeta.","Reescribe en español cada texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+Guía interna de simplificación: usa palabras comunes; evita tecnicismos innecesarios; reemplaza palabras difíciles por palabras simples.
+
+Devuelve solo la versión final simplificada.
+
+Ejemplo 1
+Texto: A continuación una tabla donde se demuestra como crecen los ahorros al pasar los años: Edad Inversión Intereses Saldo Inversión Intereses Saldo Laura Ganados Alberto Ganados 22 $800 $80 $880 23 $800 $168 $1.232 Valor al Jubilarse $311.092 Valor al Jubilarse $263.232 Menos las contribuciones iniciales $6.400 Menos las contribuciones iniciales $28.800 Ganancia Neta $304.692 Ganancia Neta $234.
+Versión simplificada: A continuación, presentamos una tabla donde se demuestra como crecen los ahorros al pasar los años. Las categorías en que se divide la tabla son edad, inversión, intereses ganados y saldo. La tabla contrasta las ganancias en intereses por año de Laura y Alberto con una proyección de edad de jubilación de sesenta y cinco años y según la cantidad de años que mantuvieron el ahorro.
+
+Ejemplo 2
+Texto: El varias veces mencionado Yager, nos dice acertadamente sobre estos aspectos lo siguiente: La mayoría de ustedes están hambrientos de tener libertad financiera, están hastiados de tener batallas financieras porque son como un carrusel.
+Versión simplificada: Yager habla acertadamente sobre estos aspectos y dice que la mayoría ambiciona tener libertad financiera y está cansada de tener batallas financieras inútiles.
+
+Ejemplo 3
+Texto: De acuerdo con esta medición, la proporción de pobres en la población mundial quienes viven con menos de un dólar por día descendió levemente entre 1987 y 1993, pues pasó del 30% al 29%.
+Versión simplificada: Según esta medición, la proporción de personas pobres en la población mundial descendió un poco entre mil novecientos ochenta y siete y mil novecientos noventa y tres. Es decir, el porcentaje de personas que vivían con menos de un dólar por día pasó del treinta al veintinueve por ciento.
+
+Ejemplo 4
+Texto: - Rentabilidad
+INTERÉS DE 2 PESOS SOBRE UNA INVERSIÓN DE 100 PESOS = RENTABILIDAD DE 2 % ((2 ÷ 100) × 100 = 2%) POR CADA 100 PESOS SE GANAN 2 PESOS
+Endeudamiento
+DEUDA DE 30 PESOS POR SOBRE EL CAPITAL DE 20 PESOS = ENDEUDAMIENTO DE 1,5 VECES EL CAPITAL (30 ÷ 20 = 1,5) POR CADA PESO DE CAPITAL EXISTE 1,5 PESOS DE DEUDA
+Liquidez
+80 PESOS DE DINERO DISPONIBLE POR SOBRE DEUDAS DE 40 PESOS = LIQUIDEZ DE DOS VECES EL VALOR DE LA DEUDA (80 ÷ 40 = 2) POR CADA PESO DE DEUDA SE DISPONE DE 2 PESOS PARA PAGO
+Versión simplificada: EL INTERÉS DE DOS PESOS SOBRE UNA INVERSIÓN DE CIEN PESOS DA UNA RENTABILIDAD DE DOS POR CIENTO. ES DECIR, POR CADA CIEN PESOS GANAMOS DOS PESOS. LA DEUDA DE TREINTA PESOS SOBRE EL CAPITAL DE VEINTE PESOS RESULTA EN UNA DEUDA DE UNO PUNTO CINCO VECES EL CAPITAL. ES DECIR, POR CADA PESO DE CAPITAL HAY UNO PUNTO CINCO PESOS DE DEUDA. EN OCHENTA PESOS DE DINERO DISPONIBLE SOBRE DEUDAS DE CUARENTA PESOS DA UNA LIQUIDEZ DEL DOBLE DE LA DEUDA. POR CADA PESO ADEUDADO HAY DOS PESOS PARA PAGAR.
+
+Texto: Al pagar los impuestos, utilizar el medio de pago que además de seguridad no le signifique ningún recargo económico, por ejemplo, por el pago en cheque o con tarjeta.
+Versión simplificada:",6.1343,success,,{},llama3_cfg_3,14452_LibroBAC.pdf,Verónica,0,19.0,18.0,4.0,,,,,,
+exp_prompt_final_val_benchmark_40_10_20260412_021753,23cca81d-ffea-4617-933a-fc5e4b2b4f7f,2026-04-12T02:18:40.942194,feina_clean_30_val_benchmark_40_10,,val_benchmark_40_10,llama3,meta-llama/Meta-Llama-3-8B-Instruct,ollama,few-shot,R1,"[78, 1805, 3635, 5262]","{'temperature': 0.3, 'top_p': 0.9, 'repetition_penalty': 1.15, 'max_new_tokens': 256}",3183,"Con respecto a los pasivos circulantes se observa un crecimiento cercano al 4%, lo que implica un financiamiento en base a proveedores; sin embargo, en términos porcentuales esa variación es negativa, lo que señala una menor dependencia de dicho rubro para financiarse.",En los pasivos circulantes hay un crecimiento cercano al cuatro por ciento. Esto implica un financiamiento según proveedores. Pero en porcentaje esa variación es negativa. Esto evidencia menor dependencia de ese rubro para financiarse.,"El crecimiento de los pasivos circulantes es del 4%, lo que indica un aumento en el financiamiento a través de proveedores. Aunque esta variación es negativa, significa que la empresa depende menos de este rubro para financiarse.","Reescribe en español cada texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+Guía interna de simplificación: usa palabras comunes; evita tecnicismos innecesarios; reemplaza palabras difíciles por palabras simples.
+
+Devuelve solo la versión final simplificada.
+
+Ejemplo 1
+Texto: A continuación una tabla donde se demuestra como crecen los ahorros al pasar los años: Edad Inversión Intereses Saldo Inversión Intereses Saldo Laura Ganados Alberto Ganados 22 $800 $80 $880 23 $800 $168 $1.232 Valor al Jubilarse $311.092 Valor al Jubilarse $263.232 Menos las contribuciones iniciales $6.400 Menos las contribuciones iniciales $28.800 Ganancia Neta $304.692 Ganancia Neta $234.
+Versión simplificada: A continuación, presentamos una tabla donde se demuestra como crecen los ahorros al pasar los años. Las categorías en que se divide la tabla son edad, inversión, intereses ganados y saldo. La tabla contrasta las ganancias en intereses por año de Laura y Alberto con una proyección de edad de jubilación de sesenta y cinco años y según la cantidad de años que mantuvieron el ahorro.
+
+Ejemplo 2
+Texto: El varias veces mencionado Yager, nos dice acertadamente sobre estos aspectos lo siguiente: La mayoría de ustedes están hambrientos de tener libertad financiera, están hastiados de tener batallas financieras porque son como un carrusel.
+Versión simplificada: Yager habla acertadamente sobre estos aspectos y dice que la mayoría ambiciona tener libertad financiera y está cansada de tener batallas financieras inútiles.
+
+Ejemplo 3
+Texto: De acuerdo con esta medición, la proporción de pobres en la población mundial quienes viven con menos de un dólar por día descendió levemente entre 1987 y 1993, pues pasó del 30% al 29%.
+Versión simplificada: Según esta medición, la proporción de personas pobres en la población mundial descendió un poco entre mil novecientos ochenta y siete y mil novecientos noventa y tres. Es decir, el porcentaje de personas que vivían con menos de un dólar por día pasó del treinta al veintinueve por ciento.
+
+Ejemplo 4
+Texto: - Rentabilidad
+INTERÉS DE 2 PESOS SOBRE UNA INVERSIÓN DE 100 PESOS = RENTABILIDAD DE 2 % ((2 ÷ 100) × 100 = 2%) POR CADA 100 PESOS SE GANAN 2 PESOS
+Endeudamiento
+DEUDA DE 30 PESOS POR SOBRE EL CAPITAL DE 20 PESOS = ENDEUDAMIENTO DE 1,5 VECES EL CAPITAL (30 ÷ 20 = 1,5) POR CADA PESO DE CAPITAL EXISTE 1,5 PESOS DE DEUDA
+Liquidez
+80 PESOS DE DINERO DISPONIBLE POR SOBRE DEUDAS DE 40 PESOS = LIQUIDEZ DE DOS VECES EL VALOR DE LA DEUDA (80 ÷ 40 = 2) POR CADA PESO DE DEUDA SE DISPONE DE 2 PESOS PARA PAGO
+Versión simplificada: EL INTERÉS DE DOS PESOS SOBRE UNA INVERSIÓN DE CIEN PESOS DA UNA RENTABILIDAD DE DOS POR CIENTO. ES DECIR, POR CADA CIEN PESOS GANAMOS DOS PESOS. LA DEUDA DE TREINTA PESOS SOBRE EL CAPITAL DE VEINTE PESOS RESULTA EN UNA DEUDA DE UNO PUNTO CINCO VECES EL CAPITAL. ES DECIR, POR CADA PESO DE CAPITAL HAY UNO PUNTO CINCO PESOS DE DEUDA. EN OCHENTA PESOS DE DINERO DISPONIBLE SOBRE DEUDAS DE CUARENTA PESOS DA UNA LIQUIDEZ DEL DOBLE DE LA DEUDA. POR CADA PESO ADEUDADO HAY DOS PESOS PARA PAGAR.
+
+Texto: Con respecto a los pasivos circulantes se observa un crecimiento cercano al 4%, lo que implica un financiamiento en base a proveedores; sin embargo, en términos porcentuales esa variación es negativa, lo que señala una menor dependencia de dicho rubro para financiarse.
+Versión simplificada:",8.4874,success,,{},llama3_cfg_3,1152_LibroUide_Sincopyright.pdf,Vivian,0,9.0,21.0,14.0,15.0,6.0,4.0,,,
+exp_prompt_final_val_benchmark_40_10_20260412_021753,a9c72dfd-9eba-482e-8c19-7054e148e04c,2026-04-12T02:18:49.595331,feina_clean_30_val_benchmark_40_10,,val_benchmark_40_10,llama3,meta-llama/Meta-Llama-3-8B-Instruct,ollama,few-shot,R1,"[78, 1805, 3635, 5262]","{'temperature': 0.3, 'top_p': 0.9, 'repetition_penalty': 1.15, 'max_new_tokens': 256}",3357,"Si se consideran los datos del caso presentado en el capítulo 6, el beneficio  costo quedaría como se presenta a continuación:","Si consideramos los datos del ejemplo del capítulo seis, el beneficio y costo quedaría así:","El beneficio-costo sería lo siguiente:
+
+* Ventajas: [inserta ventajas]
+* Desventajas: [inserta desventajas]","Reescribe en español cada texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+Guía interna de simplificación: usa palabras comunes; evita tecnicismos innecesarios; reemplaza palabras difíciles por palabras simples.
+
+Devuelve solo la versión final simplificada.
+
+Ejemplo 1
+Texto: A continuación una tabla donde se demuestra como crecen los ahorros al pasar los años: Edad Inversión Intereses Saldo Inversión Intereses Saldo Laura Ganados Alberto Ganados 22 $800 $80 $880 23 $800 $168 $1.232 Valor al Jubilarse $311.092 Valor al Jubilarse $263.232 Menos las contribuciones iniciales $6.400 Menos las contribuciones iniciales $28.800 Ganancia Neta $304.692 Ganancia Neta $234.
+Versión simplificada: A continuación, presentamos una tabla donde se demuestra como crecen los ahorros al pasar los años. Las categorías en que se divide la tabla son edad, inversión, intereses ganados y saldo. La tabla contrasta las ganancias en intereses por año de Laura y Alberto con una proyección de edad de jubilación de sesenta y cinco años y según la cantidad de años que mantuvieron el ahorro.
+
+Ejemplo 2
+Texto: El varias veces mencionado Yager, nos dice acertadamente sobre estos aspectos lo siguiente: La mayoría de ustedes están hambrientos de tener libertad financiera, están hastiados de tener batallas financieras porque son como un carrusel.
+Versión simplificada: Yager habla acertadamente sobre estos aspectos y dice que la mayoría ambiciona tener libertad financiera y está cansada de tener batallas financieras inútiles.
+
+Ejemplo 3
+Texto: De acuerdo con esta medición, la proporción de pobres en la población mundial quienes viven con menos de un dólar por día descendió levemente entre 1987 y 1993, pues pasó del 30% al 29%.
+Versión simplificada: Según esta medición, la proporción de personas pobres en la población mundial descendió un poco entre mil novecientos ochenta y siete y mil novecientos noventa y tres. Es decir, el porcentaje de personas que vivían con menos de un dólar por día pasó del treinta al veintinueve por ciento.
+
+Ejemplo 4
+Texto: - Rentabilidad
+INTERÉS DE 2 PESOS SOBRE UNA INVERSIÓN DE 100 PESOS = RENTABILIDAD DE 2 % ((2 ÷ 100) × 100 = 2%) POR CADA 100 PESOS SE GANAN 2 PESOS
+Endeudamiento
+DEUDA DE 30 PESOS POR SOBRE EL CAPITAL DE 20 PESOS = ENDEUDAMIENTO DE 1,5 VECES EL CAPITAL (30 ÷ 20 = 1,5) POR CADA PESO DE CAPITAL EXISTE 1,5 PESOS DE DEUDA
+Liquidez
+80 PESOS DE DINERO DISPONIBLE POR SOBRE DEUDAS DE 40 PESOS = LIQUIDEZ DE DOS VECES EL VALOR DE LA DEUDA (80 ÷ 40 = 2) POR CADA PESO DE DEUDA SE DISPONE DE 2 PESOS PARA PAGO
+Versión simplificada: EL INTERÉS DE DOS PESOS SOBRE UNA INVERSIÓN DE CIEN PESOS DA UNA RENTABILIDAD DE DOS POR CIENTO. ES DECIR, POR CADA CIEN PESOS GANAMOS DOS PESOS. LA DEUDA DE TREINTA PESOS SOBRE EL CAPITAL DE VEINTE PESOS RESULTA EN UNA DEUDA DE UNO PUNTO CINCO VECES EL CAPITAL. ES DECIR, POR CADA PESO DE CAPITAL HAY UNO PUNTO CINCO PESOS DE DEUDA. EN OCHENTA PESOS DE DINERO DISPONIBLE SOBRE DEUDAS DE CUARENTA PESOS DA UNA LIQUIDEZ DEL DOBLE DE LA DEUDA. POR CADA PESO ADEUDADO HAY DOS PESOS PARA PAGAR.
+
+Texto: Si se consideran los datos del caso presentado en el capítulo 6, el beneficio  costo quedaría como se presenta a continuación:
+Versión simplificada:",9.3894,success,,{},llama3_cfg_3,2229_LibroUide_Sincopyright.pdf,Vivian,0,6.0,5.0,18.0,,,,,,
+exp_prompt_final_val_benchmark_40_10_20260412_021753,3acc3bdb-b34e-4aee-a1c7-2dd137b011fb,2026-04-12T02:18:59.146268,feina_clean_30_val_benchmark_40_10,,val_benchmark_40_10,llama3,meta-llama/Meta-Llama-3-8B-Instruct,ollama,few-shot,R1,"[78, 1805, 3635, 5262]","{'temperature': 0.3, 'top_p': 0.9, 'repetition_penalty': 1.15, 'max_new_tokens': 256}",4307,Analice sus gastos y sus ingresos. Escriba su presupuesto.,Analice sus gastos y sus ingresos. Escriba su presupuesto.,"Análize tus gastos y tus ingresos, luego escribe tu presupuesto.","Reescribe en español cada texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+Guía interna de simplificación: usa palabras comunes; evita tecnicismos innecesarios; reemplaza palabras difíciles por palabras simples.
+
+Devuelve solo la versión final simplificada.
+
+Ejemplo 1
+Texto: A continuación una tabla donde se demuestra como crecen los ahorros al pasar los años: Edad Inversión Intereses Saldo Inversión Intereses Saldo Laura Ganados Alberto Ganados 22 $800 $80 $880 23 $800 $168 $1.232 Valor al Jubilarse $311.092 Valor al Jubilarse $263.232 Menos las contribuciones iniciales $6.400 Menos las contribuciones iniciales $28.800 Ganancia Neta $304.692 Ganancia Neta $234.
+Versión simplificada: A continuación, presentamos una tabla donde se demuestra como crecen los ahorros al pasar los años. Las categorías en que se divide la tabla son edad, inversión, intereses ganados y saldo. La tabla contrasta las ganancias en intereses por año de Laura y Alberto con una proyección de edad de jubilación de sesenta y cinco años y según la cantidad de años que mantuvieron el ahorro.
+
+Ejemplo 2
+Texto: El varias veces mencionado Yager, nos dice acertadamente sobre estos aspectos lo siguiente: La mayoría de ustedes están hambrientos de tener libertad financiera, están hastiados de tener batallas financieras porque son como un carrusel.
+Versión simplificada: Yager habla acertadamente sobre estos aspectos y dice que la mayoría ambiciona tener libertad financiera y está cansada de tener batallas financieras inútiles.
+
+Ejemplo 3
+Texto: De acuerdo con esta medición, la proporción de pobres en la población mundial quienes viven con menos de un dólar por día descendió levemente entre 1987 y 1993, pues pasó del 30% al 29%.
+Versión simplificada: Según esta medición, la proporción de personas pobres en la población mundial descendió un poco entre mil novecientos ochenta y siete y mil novecientos noventa y tres. Es decir, el porcentaje de personas que vivían con menos de un dólar por día pasó del treinta al veintinueve por ciento.
+
+Ejemplo 4
+Texto: - Rentabilidad
+INTERÉS DE 2 PESOS SOBRE UNA INVERSIÓN DE 100 PESOS = RENTABILIDAD DE 2 % ((2 ÷ 100) × 100 = 2%) POR CADA 100 PESOS SE GANAN 2 PESOS
+Endeudamiento
+DEUDA DE 30 PESOS POR SOBRE EL CAPITAL DE 20 PESOS = ENDEUDAMIENTO DE 1,5 VECES EL CAPITAL (30 ÷ 20 = 1,5) POR CADA PESO DE CAPITAL EXISTE 1,5 PESOS DE DEUDA
+Liquidez
+80 PESOS DE DINERO DISPONIBLE POR SOBRE DEUDAS DE 40 PESOS = LIQUIDEZ DE DOS VECES EL VALOR DE LA DEUDA (80 ÷ 40 = 2) POR CADA PESO DE DEUDA SE DISPONE DE 2 PESOS PARA PAGO
+Versión simplificada: EL INTERÉS DE DOS PESOS SOBRE UNA INVERSIÓN DE CIEN PESOS DA UNA RENTABILIDAD DE DOS POR CIENTO. ES DECIR, POR CADA CIEN PESOS GANAMOS DOS PESOS. LA DEUDA DE TREINTA PESOS SOBRE EL CAPITAL DE VEINTE PESOS RESULTA EN UNA DEUDA DE UNO PUNTO CINCO VECES EL CAPITAL. ES DECIR, POR CADA PESO DE CAPITAL HAY UNO PUNTO CINCO PESOS DE DEUDA. EN OCHENTA PESOS DE DINERO DISPONIBLE SOBRE DEUDAS DE CUARENTA PESOS DA UNA LIQUIDEZ DEL DOBLE DE LA DEUDA. POR CADA PESO ADEUDADO HAY DOS PESOS PARA PAGAR.
+
+Texto: Analice sus gastos y sus ingresos. Escriba su presupuesto.
+Versión simplificada:",6.1735,success,,{},llama3_cfg_3,9047_LibroBAC.pdf,Sugeily,0,,,,,,,,,
+exp_prompt_final_val_benchmark_40_10_20260412_021753,bc005bbe-65b6-4b6f-9727-f4b883f477f3,2026-04-12T02:19:05.481583,feina_clean_30_val_benchmark_40_10,,val_benchmark_40_10,llama3,meta-llama/Meta-Llama-3-8B-Instruct,ollama,few-shot,R1,"[78, 1805, 3635, 5262]","{'temperature': 0.3, 'top_p': 0.9, 'repetition_penalty': 1.15, 'max_new_tokens': 256}",4641,Un buen impuesto debe reunir un conjunto de características para que efectivamente se mantenga la tributación en un ámbito de equidad y justicia.,Un buen impuesto reúne un conjunto de características para que se mantenga de manera efectiva la tributación en un ámbito de equidad y justicia.,Un buen impuesto debe tener ciertas características para ser justo y equitativo.,"Reescribe en español cada texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+Guía interna de simplificación: usa palabras comunes; evita tecnicismos innecesarios; reemplaza palabras difíciles por palabras simples.
+
+Devuelve solo la versión final simplificada.
+
+Ejemplo 1
+Texto: A continuación una tabla donde se demuestra como crecen los ahorros al pasar los años: Edad Inversión Intereses Saldo Inversión Intereses Saldo Laura Ganados Alberto Ganados 22 $800 $80 $880 23 $800 $168 $1.232 Valor al Jubilarse $311.092 Valor al Jubilarse $263.232 Menos las contribuciones iniciales $6.400 Menos las contribuciones iniciales $28.800 Ganancia Neta $304.692 Ganancia Neta $234.
+Versión simplificada: A continuación, presentamos una tabla donde se demuestra como crecen los ahorros al pasar los años. Las categorías en que se divide la tabla son edad, inversión, intereses ganados y saldo. La tabla contrasta las ganancias en intereses por año de Laura y Alberto con una proyección de edad de jubilación de sesenta y cinco años y según la cantidad de años que mantuvieron el ahorro.
+
+Ejemplo 2
+Texto: El varias veces mencionado Yager, nos dice acertadamente sobre estos aspectos lo siguiente: La mayoría de ustedes están hambrientos de tener libertad financiera, están hastiados de tener batallas financieras porque son como un carrusel.
+Versión simplificada: Yager habla acertadamente sobre estos aspectos y dice que la mayoría ambiciona tener libertad financiera y está cansada de tener batallas financieras inútiles.
+
+Ejemplo 3
+Texto: De acuerdo con esta medición, la proporción de pobres en la población mundial quienes viven con menos de un dólar por día descendió levemente entre 1987 y 1993, pues pasó del 30% al 29%.
+Versión simplificada: Según esta medición, la proporción de personas pobres en la población mundial descendió un poco entre mil novecientos ochenta y siete y mil novecientos noventa y tres. Es decir, el porcentaje de personas que vivían con menos de un dólar por día pasó del treinta al veintinueve por ciento.
+
+Ejemplo 4
+Texto: - Rentabilidad
+INTERÉS DE 2 PESOS SOBRE UNA INVERSIÓN DE 100 PESOS = RENTABILIDAD DE 2 % ((2 ÷ 100) × 100 = 2%) POR CADA 100 PESOS SE GANAN 2 PESOS
+Endeudamiento
+DEUDA DE 30 PESOS POR SOBRE EL CAPITAL DE 20 PESOS = ENDEUDAMIENTO DE 1,5 VECES EL CAPITAL (30 ÷ 20 = 1,5) POR CADA PESO DE CAPITAL EXISTE 1,5 PESOS DE DEUDA
+Liquidez
+80 PESOS DE DINERO DISPONIBLE POR SOBRE DEUDAS DE 40 PESOS = LIQUIDEZ DE DOS VECES EL VALOR DE LA DEUDA (80 ÷ 40 = 2) POR CADA PESO DE DEUDA SE DISPONE DE 2 PESOS PARA PAGO
+Versión simplificada: EL INTERÉS DE DOS PESOS SOBRE UNA INVERSIÓN DE CIEN PESOS DA UNA RENTABILIDAD DE DOS POR CIENTO. ES DECIR, POR CADA CIEN PESOS GANAMOS DOS PESOS. LA DEUDA DE TREINTA PESOS SOBRE EL CAPITAL DE VEINTE PESOS RESULTA EN UNA DEUDA DE UNO PUNTO CINCO VECES EL CAPITAL. ES DECIR, POR CADA PESO DE CAPITAL HAY UNO PUNTO CINCO PESOS DE DEUDA. EN OCHENTA PESOS DE DINERO DISPONIBLE SOBRE DEUDAS DE CUARENTA PESOS DA UNA LIQUIDEZ DEL DOBLE DE LA DEUDA. POR CADA PESO ADEUDADO HAY DOS PESOS PARA PAGAR.
+
+Texto: Un buen impuesto debe reunir un conjunto de características para que efectivamente se mantenga la tributación en un ámbito de equidad y justicia.
+Versión simplificada:",5.8914,success,,{},llama3_cfg_3,14472_LibroBAC.pdf,Verónica,0,18.0,,,,,,,,
+exp_prompt_final_val_benchmark_40_10_20260412_021753,649c405a-7d12-4db3-be05-50f8b7c11ce2,2026-04-12T02:19:11.540376,feina_clean_30_val_benchmark_40_10,,val_benchmark_40_10,llama3,meta-llama/Meta-Llama-3-8B-Instruct,ollama,few-shot,R0,"[78, 1805, 3635, 5262]","{'temperature': 0.2, 'top_p': 0.9, 'repetition_penalty': 1.1, 'max_new_tokens': 256}",139,"Confundir el presupuesto como un plan para evitar todo tipo de gastos o para que nos distanciemos o deprivemos de las cosas que deseamos, atentando de paso contra la propia calidad de vida.","Confundir el presupuesto con un plan para evitar todo tipo de gastos, para abstenerse de lo que deseamos o atentar contra la propia calidad de vida.","No confundas el presupuesto con una forma de evitar gastar o privarte de lo que deseas. En su lugar, es un plan para vivir mejor y disfrutar de la vida sin problemas financieros.","Reescribe en español cada texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+
+Devuelve solo la versión final simplificada.
+
+Ejemplo 1
+Texto: A continuación una tabla donde se demuestra como crecen los ahorros al pasar los años: Edad Inversión Intereses Saldo Inversión Intereses Saldo Laura Ganados Alberto Ganados 22 $800 $80 $880 23 $800 $168 $1.232 Valor al Jubilarse $311.092 Valor al Jubilarse $263.232 Menos las contribuciones iniciales $6.400 Menos las contribuciones iniciales $28.800 Ganancia Neta $304.692 Ganancia Neta $234.
+Versión simplificada: A continuación, presentamos una tabla donde se demuestra como crecen los ahorros al pasar los años. Las categorías en que se divide la tabla son edad, inversión, intereses ganados y saldo. La tabla contrasta las ganancias en intereses por año de Laura y Alberto con una proyección de edad de jubilación de sesenta y cinco años y según la cantidad de años que mantuvieron el ahorro.
+
+Ejemplo 2
+Texto: El varias veces mencionado Yager, nos dice acertadamente sobre estos aspectos lo siguiente: La mayoría de ustedes están hambrientos de tener libertad financiera, están hastiados de tener batallas financieras porque son como un carrusel.
+Versión simplificada: Yager habla acertadamente sobre estos aspectos y dice que la mayoría ambiciona tener libertad financiera y está cansada de tener batallas financieras inútiles.
+
+Ejemplo 3
+Texto: De acuerdo con esta medición, la proporción de pobres en la población mundial quienes viven con menos de un dólar por día descendió levemente entre 1987 y 1993, pues pasó del 30% al 29%.
+Versión simplificada: Según esta medición, la proporción de personas pobres en la población mundial descendió un poco entre mil novecientos ochenta y siete y mil novecientos noventa y tres. Es decir, el porcentaje de personas que vivían con menos de un dólar por día pasó del treinta al veintinueve por ciento.
+
+Ejemplo 4
+Texto: - Rentabilidad
+INTERÉS DE 2 PESOS SOBRE UNA INVERSIÓN DE 100 PESOS = RENTABILIDAD DE 2 % ((2 ÷ 100) × 100 = 2%) POR CADA 100 PESOS SE GANAN 2 PESOS
+Endeudamiento
+DEUDA DE 30 PESOS POR SOBRE EL CAPITAL DE 20 PESOS = ENDEUDAMIENTO DE 1,5 VECES EL CAPITAL (30 ÷ 20 = 1,5) POR CADA PESO DE CAPITAL EXISTE 1,5 PESOS DE DEUDA
+Liquidez
+80 PESOS DE DINERO DISPONIBLE POR SOBRE DEUDAS DE 40 PESOS = LIQUIDEZ DE DOS VECES EL VALOR DE LA DEUDA (80 ÷ 40 = 2) POR CADA PESO DE DEUDA SE DISPONE DE 2 PESOS PARA PAGO
+Versión simplificada: EL INTERÉS DE DOS PESOS SOBRE UNA INVERSIÓN DE CIEN PESOS DA UNA RENTABILIDAD DE DOS POR CIENTO. ES DECIR, POR CADA CIEN PESOS GANAMOS DOS PESOS. LA DEUDA DE TREINTA PESOS SOBRE EL CAPITAL DE VEINTE PESOS RESULTA EN UNA DEUDA DE UNO PUNTO CINCO VECES EL CAPITAL. ES DECIR, POR CADA PESO DE CAPITAL HAY UNO PUNTO CINCO PESOS DE DEUDA. EN OCHENTA PESOS DE DINERO DISPONIBLE SOBRE DEUDAS DE CUARENTA PESOS DA UNA LIQUIDEZ DEL DOBLE DE LA DEUDA. POR CADA PESO ADEUDADO HAY DOS PESOS PARA PAGAR.
+
+Texto: Confundir el presupuesto como un plan para evitar todo tipo de gastos o para que nos distanciemos o deprivemos de las cosas que deseamos, atentando de paso contra la propia calidad de vida.
+Versión simplificada:",7.8841,success,,{},llama3_cfg_2,7719_LibroBAC.pdf,Fiorella,1,15.0,1.0,17.0,16.0,5.0,,,,
+exp_prompt_final_val_benchmark_40_10_20260412_021753,840ed3ab-c3a6-4c8c-86bb-491385144842,2026-04-12T02:19:19.592039,feina_clean_30_val_benchmark_40_10,,val_benchmark_40_10,llama3,meta-llama/Meta-Llama-3-8B-Instruct,ollama,few-shot,R0,"[78, 1805, 3635, 5262]","{'temperature': 0.2, 'top_p': 0.9, 'repetition_penalty': 1.1, 'max_new_tokens': 256}",419,"Las cuentas del mercado monetario y los certificados de depósito podrían pagar más intereses con una frecuencia mayor que una cuenta de ahorros normal, pero existe una contrapartida por esa tasa de interés más alta.",Las cuentas del mercado monetario y los certificados de depósito podrían pagar más intereses con mayor frecuencia que una cuenta de ahorros normal. Pero existe una neutralización por esa elevada tasa de interés.,"Las cuentas del mercado monetario y los certificados de depósito pueden pagar más intereses si se revisan con frecuencia, pero eso tiene un precio.","Reescribe en español cada texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+
+Devuelve solo la versión final simplificada.
+
+Ejemplo 1
+Texto: A continuación una tabla donde se demuestra como crecen los ahorros al pasar los años: Edad Inversión Intereses Saldo Inversión Intereses Saldo Laura Ganados Alberto Ganados 22 $800 $80 $880 23 $800 $168 $1.232 Valor al Jubilarse $311.092 Valor al Jubilarse $263.232 Menos las contribuciones iniciales $6.400 Menos las contribuciones iniciales $28.800 Ganancia Neta $304.692 Ganancia Neta $234.
+Versión simplificada: A continuación, presentamos una tabla donde se demuestra como crecen los ahorros al pasar los años. Las categorías en que se divide la tabla son edad, inversión, intereses ganados y saldo. La tabla contrasta las ganancias en intereses por año de Laura y Alberto con una proyección de edad de jubilación de sesenta y cinco años y según la cantidad de años que mantuvieron el ahorro.
+
+Ejemplo 2
+Texto: El varias veces mencionado Yager, nos dice acertadamente sobre estos aspectos lo siguiente: La mayoría de ustedes están hambrientos de tener libertad financiera, están hastiados de tener batallas financieras porque son como un carrusel.
+Versión simplificada: Yager habla acertadamente sobre estos aspectos y dice que la mayoría ambiciona tener libertad financiera y está cansada de tener batallas financieras inútiles.
+
+Ejemplo 3
+Texto: De acuerdo con esta medición, la proporción de pobres en la población mundial quienes viven con menos de un dólar por día descendió levemente entre 1987 y 1993, pues pasó del 30% al 29%.
+Versión simplificada: Según esta medición, la proporción de personas pobres en la población mundial descendió un poco entre mil novecientos ochenta y siete y mil novecientos noventa y tres. Es decir, el porcentaje de personas que vivían con menos de un dólar por día pasó del treinta al veintinueve por ciento.
+
+Ejemplo 4
+Texto: - Rentabilidad
+INTERÉS DE 2 PESOS SOBRE UNA INVERSIÓN DE 100 PESOS = RENTABILIDAD DE 2 % ((2 ÷ 100) × 100 = 2%) POR CADA 100 PESOS SE GANAN 2 PESOS
+Endeudamiento
+DEUDA DE 30 PESOS POR SOBRE EL CAPITAL DE 20 PESOS = ENDEUDAMIENTO DE 1,5 VECES EL CAPITAL (30 ÷ 20 = 1,5) POR CADA PESO DE CAPITAL EXISTE 1,5 PESOS DE DEUDA
+Liquidez
+80 PESOS DE DINERO DISPONIBLE POR SOBRE DEUDAS DE 40 PESOS = LIQUIDEZ DE DOS VECES EL VALOR DE LA DEUDA (80 ÷ 40 = 2) POR CADA PESO DE DEUDA SE DISPONE DE 2 PESOS PARA PAGO
+Versión simplificada: EL INTERÉS DE DOS PESOS SOBRE UNA INVERSIÓN DE CIEN PESOS DA UNA RENTABILIDAD DE DOS POR CIENTO. ES DECIR, POR CADA CIEN PESOS GANAMOS DOS PESOS. LA DEUDA DE TREINTA PESOS SOBRE EL CAPITAL DE VEINTE PESOS RESULTA EN UNA DEUDA DE UNO PUNTO CINCO VECES EL CAPITAL. ES DECIR, POR CADA PESO DE CAPITAL HAY UNO PUNTO CINCO PESOS DE DEUDA. EN OCHENTA PESOS DE DINERO DISPONIBLE SOBRE DEUDAS DE CUARENTA PESOS DA UNA LIQUIDEZ DEL DOBLE DE LA DEUDA. POR CADA PESO ADEUDADO HAY DOS PESOS PARA PAGAR.
+
+Texto: Las cuentas del mercado monetario y los certificados de depósito podrían pagar más intereses con una frecuencia mayor que una cuenta de ahorros normal, pero existe una contrapartida por esa tasa de interés más alta.
+Versión simplificada:",6.8961,success,,{},llama3_cfg_2,712_LibroNEFE_Sincopyright.pdf,Fiorella,0,15.0,5.0,4.0,6.0,19.0,,,,
+exp_prompt_final_val_benchmark_40_10_20260412_021753,6686ed00-cef9-408c-a7f9-dcf3a1137218,2026-04-12T02:19:26.656666,feina_clean_30_val_benchmark_40_10,,val_benchmark_40_10,llama3,meta-llama/Meta-Llama-3-8B-Instruct,ollama,few-shot,R0,"[78, 1805, 3635, 5262]","{'temperature': 0.2, 'top_p': 0.9, 'repetition_penalty': 1.1, 'max_new_tokens': 256}",1016,"Cuando el objeto material útil, que en la economía muchas veces tiene carácter de bien y a veces de mercancía, la gente puede conseguirlo con facilidad y sin mayor esfuerzo, es decir, está allí para el que lo quiera o lo necesite, el mismo no tiene valor monetario o de intercambio.","Si el objeto es un material útil y se consigue con facilidad, no tiene valor monetario o de intercambio.","Cuando algo es útil y fácilmente disponible, carece de valor económico.","Reescribe en español cada texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+
+Devuelve solo la versión final simplificada.
+
+Ejemplo 1
+Texto: A continuación una tabla donde se demuestra como crecen los ahorros al pasar los años: Edad Inversión Intereses Saldo Inversión Intereses Saldo Laura Ganados Alberto Ganados 22 $800 $80 $880 23 $800 $168 $1.232 Valor al Jubilarse $311.092 Valor al Jubilarse $263.232 Menos las contribuciones iniciales $6.400 Menos las contribuciones iniciales $28.800 Ganancia Neta $304.692 Ganancia Neta $234.
+Versión simplificada: A continuación, presentamos una tabla donde se demuestra como crecen los ahorros al pasar los años. Las categorías en que se divide la tabla son edad, inversión, intereses ganados y saldo. La tabla contrasta las ganancias en intereses por año de Laura y Alberto con una proyección de edad de jubilación de sesenta y cinco años y según la cantidad de años que mantuvieron el ahorro.
+
+Ejemplo 2
+Texto: El varias veces mencionado Yager, nos dice acertadamente sobre estos aspectos lo siguiente: La mayoría de ustedes están hambrientos de tener libertad financiera, están hastiados de tener batallas financieras porque son como un carrusel.
+Versión simplificada: Yager habla acertadamente sobre estos aspectos y dice que la mayoría ambiciona tener libertad financiera y está cansada de tener batallas financieras inútiles.
+
+Ejemplo 3
+Texto: De acuerdo con esta medición, la proporción de pobres en la población mundial quienes viven con menos de un dólar por día descendió levemente entre 1987 y 1993, pues pasó del 30% al 29%.
+Versión simplificada: Según esta medición, la proporción de personas pobres en la población mundial descendió un poco entre mil novecientos ochenta y siete y mil novecientos noventa y tres. Es decir, el porcentaje de personas que vivían con menos de un dólar por día pasó del treinta al veintinueve por ciento.
+
+Ejemplo 4
+Texto: - Rentabilidad
+INTERÉS DE 2 PESOS SOBRE UNA INVERSIÓN DE 100 PESOS = RENTABILIDAD DE 2 % ((2 ÷ 100) × 100 = 2%) POR CADA 100 PESOS SE GANAN 2 PESOS
+Endeudamiento
+DEUDA DE 30 PESOS POR SOBRE EL CAPITAL DE 20 PESOS = ENDEUDAMIENTO DE 1,5 VECES EL CAPITAL (30 ÷ 20 = 1,5) POR CADA PESO DE CAPITAL EXISTE 1,5 PESOS DE DEUDA
+Liquidez
+80 PESOS DE DINERO DISPONIBLE POR SOBRE DEUDAS DE 40 PESOS = LIQUIDEZ DE DOS VECES EL VALOR DE LA DEUDA (80 ÷ 40 = 2) POR CADA PESO DE DEUDA SE DISPONE DE 2 PESOS PARA PAGO
+Versión simplificada: EL INTERÉS DE DOS PESOS SOBRE UNA INVERSIÓN DE CIEN PESOS DA UNA RENTABILIDAD DE DOS POR CIENTO. ES DECIR, POR CADA CIEN PESOS GANAMOS DOS PESOS. LA DEUDA DE TREINTA PESOS SOBRE EL CAPITAL DE VEINTE PESOS RESULTA EN UNA DEUDA DE UNO PUNTO CINCO VECES EL CAPITAL. ES DECIR, POR CADA PESO DE CAPITAL HAY UNO PUNTO CINCO PESOS DE DEUDA. EN OCHENTA PESOS DE DINERO DISPONIBLE SOBRE DEUDAS DE CUARENTA PESOS DA UNA LIQUIDEZ DEL DOBLE DE LA DEUDA. POR CADA PESO ADEUDADO HAY DOS PESOS PARA PAGAR.
+
+Texto: Cuando el objeto material útil, que en la economía muchas veces tiene carácter de bien y a veces de mercancía, la gente puede conseguirlo con facilidad y sin mayor esfuerzo, es decir, está allí para el que lo quiera o lo necesite, el mismo no tiene valor monetario o de intercambio.
+Versión simplificada:",5.4001,success,,{},llama3_cfg_2,1914_LibroBAC.pdf,Sugeily,0,16.0,5.0,,,,,,,
+exp_prompt_final_val_benchmark_40_10_20260412_021753,e8c0b5dc-4a64-40a5-b6cb-d33ebf792548,2026-04-12T02:19:32.227705,feina_clean_30_val_benchmark_40_10,,val_benchmark_40_10,llama3,meta-llama/Meta-Llama-3-8B-Instruct,ollama,few-shot,R0,"[78, 1805, 3635, 5262]","{'temperature': 0.2, 'top_p': 0.9, 'repetition_penalty': 1.1, 'max_new_tokens': 256}",1179,"Tener éxito financiero en la vida no es necesariamente hacerse rico, oportunidad que a pocos acompaña, sino tener, prever y manejar los recursos intelectuales, técnicos y económicos que les permita a las personas una vida digna y mejor y establecer un orden de prioridades entre sus objetivos existenciales y de desarrollo personal y familiar.","Tener éxito financiero en la vida no es hacerse rico. Es tener, prever y manejar los recursos intelectuales, técnicos y económicos para una vida digna. Asimismo, establecer un orden de prioridades entre sus objetivos existenciales y de desarrollo personal y familiar.","Tener éxito financiero no significa necesariamente ser rico. Significa tener, prever y manejar los recursos para vivir una vida digna y mejor, establecer prioridades y alcanzar objetivos personales y familiares.","Reescribe en español cada texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+
+Devuelve solo la versión final simplificada.
+
+Ejemplo 1
+Texto: A continuación una tabla donde se demuestra como crecen los ahorros al pasar los años: Edad Inversión Intereses Saldo Inversión Intereses Saldo Laura Ganados Alberto Ganados 22 $800 $80 $880 23 $800 $168 $1.232 Valor al Jubilarse $311.092 Valor al Jubilarse $263.232 Menos las contribuciones iniciales $6.400 Menos las contribuciones iniciales $28.800 Ganancia Neta $304.692 Ganancia Neta $234.
+Versión simplificada: A continuación, presentamos una tabla donde se demuestra como crecen los ahorros al pasar los años. Las categorías en que se divide la tabla son edad, inversión, intereses ganados y saldo. La tabla contrasta las ganancias en intereses por año de Laura y Alberto con una proyección de edad de jubilación de sesenta y cinco años y según la cantidad de años que mantuvieron el ahorro.
+
+Ejemplo 2
+Texto: El varias veces mencionado Yager, nos dice acertadamente sobre estos aspectos lo siguiente: La mayoría de ustedes están hambrientos de tener libertad financiera, están hastiados de tener batallas financieras porque son como un carrusel.
+Versión simplificada: Yager habla acertadamente sobre estos aspectos y dice que la mayoría ambiciona tener libertad financiera y está cansada de tener batallas financieras inútiles.
+
+Ejemplo 3
+Texto: De acuerdo con esta medición, la proporción de pobres en la población mundial quienes viven con menos de un dólar por día descendió levemente entre 1987 y 1993, pues pasó del 30% al 29%.
+Versión simplificada: Según esta medición, la proporción de personas pobres en la población mundial descendió un poco entre mil novecientos ochenta y siete y mil novecientos noventa y tres. Es decir, el porcentaje de personas que vivían con menos de un dólar por día pasó del treinta al veintinueve por ciento.
+
+Ejemplo 4
+Texto: - Rentabilidad
+INTERÉS DE 2 PESOS SOBRE UNA INVERSIÓN DE 100 PESOS = RENTABILIDAD DE 2 % ((2 ÷ 100) × 100 = 2%) POR CADA 100 PESOS SE GANAN 2 PESOS
+Endeudamiento
+DEUDA DE 30 PESOS POR SOBRE EL CAPITAL DE 20 PESOS = ENDEUDAMIENTO DE 1,5 VECES EL CAPITAL (30 ÷ 20 = 1,5) POR CADA PESO DE CAPITAL EXISTE 1,5 PESOS DE DEUDA
+Liquidez
+80 PESOS DE DINERO DISPONIBLE POR SOBRE DEUDAS DE 40 PESOS = LIQUIDEZ DE DOS VECES EL VALOR DE LA DEUDA (80 ÷ 40 = 2) POR CADA PESO DE DEUDA SE DISPONE DE 2 PESOS PARA PAGO
+Versión simplificada: EL INTERÉS DE DOS PESOS SOBRE UNA INVERSIÓN DE CIEN PESOS DA UNA RENTABILIDAD DE DOS POR CIENTO. ES DECIR, POR CADA CIEN PESOS GANAMOS DOS PESOS. LA DEUDA DE TREINTA PESOS SOBRE EL CAPITAL DE VEINTE PESOS RESULTA EN UNA DEUDA DE UNO PUNTO CINCO VECES EL CAPITAL. ES DECIR, POR CADA PESO DE CAPITAL HAY UNO PUNTO CINCO PESOS DE DEUDA. EN OCHENTA PESOS DE DINERO DISPONIBLE SOBRE DEUDAS DE CUARENTA PESOS DA UNA LIQUIDEZ DEL DOBLE DE LA DEUDA. POR CADA PESO ADEUDADO HAY DOS PESOS PARA PAGAR.
+
+Texto: Tener éxito financiero en la vida no es necesariamente hacerse rico, oportunidad que a pocos acompaña, sino tener, prever y manejar los recursos intelectuales, técnicos y económicos que les permita a las personas una vida digna y mejor y establecer un orden de prioridades entre sus objetivos existenciales y de desarrollo personal y familiar.
+Versión simplificada:",7.7876,success,,{},llama3_cfg_2,7373_LibroBAC.pdf,Sugeily,0,15.0,16.0,5.0,,,,,,
+exp_prompt_final_val_benchmark_40_10_20260412_021753,525388a6-02dc-4999-8723-07834ef8179d,2026-04-12T02:19:40.199993,feina_clean_30_val_benchmark_40_10,,val_benchmark_40_10,llama3,meta-llama/Meta-Llama-3-8B-Instruct,ollama,few-shot,R0,"[78, 1805, 3635, 5262]","{'temperature': 0.2, 'top_p': 0.9, 'repetition_penalty': 1.1, 'max_new_tokens': 256}",1703,"Un importante documento sobre el tema de la Economía sostiene que: El hombre vive en sociedad para mejorar su bienestar intelectual, espiritual, moral, económico, etc.","En un importante documento sobre el tema de la economía se dice que el hombre vive en sociedad para mejorar su bienestar intelectual, espiritual, moral, económico, etcétera.",La,"Reescribe en español cada texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+
+Devuelve solo la versión final simplificada.
+
+Ejemplo 1
+Texto: A continuación una tabla donde se demuestra como crecen los ahorros al pasar los años: Edad Inversión Intereses Saldo Inversión Intereses Saldo Laura Ganados Alberto Ganados 22 $800 $80 $880 23 $800 $168 $1.232 Valor al Jubilarse $311.092 Valor al Jubilarse $263.232 Menos las contribuciones iniciales $6.400 Menos las contribuciones iniciales $28.800 Ganancia Neta $304.692 Ganancia Neta $234.
+Versión simplificada: A continuación, presentamos una tabla donde se demuestra como crecen los ahorros al pasar los años. Las categorías en que se divide la tabla son edad, inversión, intereses ganados y saldo. La tabla contrasta las ganancias en intereses por año de Laura y Alberto con una proyección de edad de jubilación de sesenta y cinco años y según la cantidad de años que mantuvieron el ahorro.
+
+Ejemplo 2
+Texto: El varias veces mencionado Yager, nos dice acertadamente sobre estos aspectos lo siguiente: La mayoría de ustedes están hambrientos de tener libertad financiera, están hastiados de tener batallas financieras porque son como un carrusel.
+Versión simplificada: Yager habla acertadamente sobre estos aspectos y dice que la mayoría ambiciona tener libertad financiera y está cansada de tener batallas financieras inútiles.
+
+Ejemplo 3
+Texto: De acuerdo con esta medición, la proporción de pobres en la población mundial quienes viven con menos de un dólar por día descendió levemente entre 1987 y 1993, pues pasó del 30% al 29%.
+Versión simplificada: Según esta medición, la proporción de personas pobres en la población mundial descendió un poco entre mil novecientos ochenta y siete y mil novecientos noventa y tres. Es decir, el porcentaje de personas que vivían con menos de un dólar por día pasó del treinta al veintinueve por ciento.
+
+Ejemplo 4
+Texto: - Rentabilidad
+INTERÉS DE 2 PESOS SOBRE UNA INVERSIÓN DE 100 PESOS = RENTABILIDAD DE 2 % ((2 ÷ 100) × 100 = 2%) POR CADA 100 PESOS SE GANAN 2 PESOS
+Endeudamiento
+DEUDA DE 30 PESOS POR SOBRE EL CAPITAL DE 20 PESOS = ENDEUDAMIENTO DE 1,5 VECES EL CAPITAL (30 ÷ 20 = 1,5) POR CADA PESO DE CAPITAL EXISTE 1,5 PESOS DE DEUDA
+Liquidez
+80 PESOS DE DINERO DISPONIBLE POR SOBRE DEUDAS DE 40 PESOS = LIQUIDEZ DE DOS VECES EL VALOR DE LA DEUDA (80 ÷ 40 = 2) POR CADA PESO DE DEUDA SE DISPONE DE 2 PESOS PARA PAGO
+Versión simplificada: EL INTERÉS DE DOS PESOS SOBRE UNA INVERSIÓN DE CIEN PESOS DA UNA RENTABILIDAD DE DOS POR CIENTO. ES DECIR, POR CADA CIEN PESOS GANAMOS DOS PESOS. LA DEUDA DE TREINTA PESOS SOBRE EL CAPITAL DE VEINTE PESOS RESULTA EN UNA DEUDA DE UNO PUNTO CINCO VECES EL CAPITAL. ES DECIR, POR CADA PESO DE CAPITAL HAY UNO PUNTO CINCO PESOS DE DEUDA. EN OCHENTA PESOS DE DINERO DISPONIBLE SOBRE DEUDAS DE CUARENTA PESOS DA UNA LIQUIDEZ DEL DOBLE DE LA DEUDA. POR CADA PESO ADEUDADO HAY DOS PESOS PARA PAGAR.
+
+Texto: Un importante documento sobre el tema de la Economía sostiene que: El hombre vive en sociedad para mejorar su bienestar intelectual, espiritual, moral, económico, etc.
+Versión simplificada:",8.3973,success,,{},llama3_cfg_2,1852_LibroBAC.pdf,Verónica,0,18.0,4.0,21.0,13.0,,,,,
+exp_prompt_final_val_benchmark_40_10_20260412_021753,30b97735-f695-4d03-8a6c-972df2127439,2026-04-12T02:19:48.778472,feina_clean_30_val_benchmark_40_10,,val_benchmark_40_10,llama3,meta-llama/Meta-Llama-3-8B-Instruct,ollama,few-shot,R0,"[78, 1805, 3635, 5262]","{'temperature': 0.2, 'top_p': 0.9, 'repetition_penalty': 1.1, 'max_new_tokens': 256}",1955,"Al pagar los impuestos, utilizar el medio de pago que además de seguridad no le signifique ningún recargo económico, por ejemplo, por el pago en cheque o con tarjeta.","Segundo. Al pagar los impuestos, utilizar el medio de pago más seguro y que no le genere ningún recargo económico, por ejemplo, con el pago en cheque o con tarjeta.","Pagar los impuestos utilizando un método seguro y gratuito, como un cheque o una tarjeta.","Reescribe en español cada texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+
+Devuelve solo la versión final simplificada.
+
+Ejemplo 1
+Texto: A continuación una tabla donde se demuestra como crecen los ahorros al pasar los años: Edad Inversión Intereses Saldo Inversión Intereses Saldo Laura Ganados Alberto Ganados 22 $800 $80 $880 23 $800 $168 $1.232 Valor al Jubilarse $311.092 Valor al Jubilarse $263.232 Menos las contribuciones iniciales $6.400 Menos las contribuciones iniciales $28.800 Ganancia Neta $304.692 Ganancia Neta $234.
+Versión simplificada: A continuación, presentamos una tabla donde se demuestra como crecen los ahorros al pasar los años. Las categorías en que se divide la tabla son edad, inversión, intereses ganados y saldo. La tabla contrasta las ganancias en intereses por año de Laura y Alberto con una proyección de edad de jubilación de sesenta y cinco años y según la cantidad de años que mantuvieron el ahorro.
+
+Ejemplo 2
+Texto: El varias veces mencionado Yager, nos dice acertadamente sobre estos aspectos lo siguiente: La mayoría de ustedes están hambrientos de tener libertad financiera, están hastiados de tener batallas financieras porque son como un carrusel.
+Versión simplificada: Yager habla acertadamente sobre estos aspectos y dice que la mayoría ambiciona tener libertad financiera y está cansada de tener batallas financieras inútiles.
+
+Ejemplo 3
+Texto: De acuerdo con esta medición, la proporción de pobres en la población mundial quienes viven con menos de un dólar por día descendió levemente entre 1987 y 1993, pues pasó del 30% al 29%.
+Versión simplificada: Según esta medición, la proporción de personas pobres en la población mundial descendió un poco entre mil novecientos ochenta y siete y mil novecientos noventa y tres. Es decir, el porcentaje de personas que vivían con menos de un dólar por día pasó del treinta al veintinueve por ciento.
+
+Ejemplo 4
+Texto: - Rentabilidad
+INTERÉS DE 2 PESOS SOBRE UNA INVERSIÓN DE 100 PESOS = RENTABILIDAD DE 2 % ((2 ÷ 100) × 100 = 2%) POR CADA 100 PESOS SE GANAN 2 PESOS
+Endeudamiento
+DEUDA DE 30 PESOS POR SOBRE EL CAPITAL DE 20 PESOS = ENDEUDAMIENTO DE 1,5 VECES EL CAPITAL (30 ÷ 20 = 1,5) POR CADA PESO DE CAPITAL EXISTE 1,5 PESOS DE DEUDA
+Liquidez
+80 PESOS DE DINERO DISPONIBLE POR SOBRE DEUDAS DE 40 PESOS = LIQUIDEZ DE DOS VECES EL VALOR DE LA DEUDA (80 ÷ 40 = 2) POR CADA PESO DE DEUDA SE DISPONE DE 2 PESOS PARA PAGO
+Versión simplificada: EL INTERÉS DE DOS PESOS SOBRE UNA INVERSIÓN DE CIEN PESOS DA UNA RENTABILIDAD DE DOS POR CIENTO. ES DECIR, POR CADA CIEN PESOS GANAMOS DOS PESOS. LA DEUDA DE TREINTA PESOS SOBRE EL CAPITAL DE VEINTE PESOS RESULTA EN UNA DEUDA DE UNO PUNTO CINCO VECES EL CAPITAL. ES DECIR, POR CADA PESO DE CAPITAL HAY UNO PUNTO CINCO PESOS DE DEUDA. EN OCHENTA PESOS DE DINERO DISPONIBLE SOBRE DEUDAS DE CUARENTA PESOS DA UNA LIQUIDEZ DEL DOBLE DE LA DEUDA. POR CADA PESO ADEUDADO HAY DOS PESOS PARA PAGAR.
+
+Texto: Al pagar los impuestos, utilizar el medio de pago que además de seguridad no le signifique ningún recargo económico, por ejemplo, por el pago en cheque o con tarjeta.
+Versión simplificada:",6.2006,success,,{},llama3_cfg_2,14452_LibroBAC.pdf,Verónica,0,19.0,18.0,4.0,,,,,,
+exp_prompt_final_val_benchmark_40_10_20260412_021753,57724b50-e706-40a2-b77f-09af2347af01,2026-04-12T02:19:55.138395,feina_clean_30_val_benchmark_40_10,,val_benchmark_40_10,llama3,meta-llama/Meta-Llama-3-8B-Instruct,ollama,few-shot,R0,"[78, 1805, 3635, 5262]","{'temperature': 0.2, 'top_p': 0.9, 'repetition_penalty': 1.1, 'max_new_tokens': 256}",3183,"Con respecto a los pasivos circulantes se observa un crecimiento cercano al 4%, lo que implica un financiamiento en base a proveedores; sin embargo, en términos porcentuales esa variación es negativa, lo que señala una menor dependencia de dicho rubro para financiarse.",En los pasivos circulantes hay un crecimiento cercano al cuatro por ciento. Esto implica un financiamiento según proveedores. Pero en porcentaje esa variación es negativa. Esto evidencia menor dependencia de ese rubro para financiarse.,"El crecimiento de los pasivos circulantes es del 4%, lo que significa que se está financiando con proveedores. Aunque en términos porcentuales es negativo, indica una menor dependencia de este rubro para financiarse.","Reescribe en español cada texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+
+Devuelve solo la versión final simplificada.
+
+Ejemplo 1
+Texto: A continuación una tabla donde se demuestra como crecen los ahorros al pasar los años: Edad Inversión Intereses Saldo Inversión Intereses Saldo Laura Ganados Alberto Ganados 22 $800 $80 $880 23 $800 $168 $1.232 Valor al Jubilarse $311.092 Valor al Jubilarse $263.232 Menos las contribuciones iniciales $6.400 Menos las contribuciones iniciales $28.800 Ganancia Neta $304.692 Ganancia Neta $234.
+Versión simplificada: A continuación, presentamos una tabla donde se demuestra como crecen los ahorros al pasar los años. Las categorías en que se divide la tabla son edad, inversión, intereses ganados y saldo. La tabla contrasta las ganancias en intereses por año de Laura y Alberto con una proyección de edad de jubilación de sesenta y cinco años y según la cantidad de años que mantuvieron el ahorro.
+
+Ejemplo 2
+Texto: El varias veces mencionado Yager, nos dice acertadamente sobre estos aspectos lo siguiente: La mayoría de ustedes están hambrientos de tener libertad financiera, están hastiados de tener batallas financieras porque son como un carrusel.
+Versión simplificada: Yager habla acertadamente sobre estos aspectos y dice que la mayoría ambiciona tener libertad financiera y está cansada de tener batallas financieras inútiles.
+
+Ejemplo 3
+Texto: De acuerdo con esta medición, la proporción de pobres en la población mundial quienes viven con menos de un dólar por día descendió levemente entre 1987 y 1993, pues pasó del 30% al 29%.
+Versión simplificada: Según esta medición, la proporción de personas pobres en la población mundial descendió un poco entre mil novecientos ochenta y siete y mil novecientos noventa y tres. Es decir, el porcentaje de personas que vivían con menos de un dólar por día pasó del treinta al veintinueve por ciento.
+
+Ejemplo 4
+Texto: - Rentabilidad
+INTERÉS DE 2 PESOS SOBRE UNA INVERSIÓN DE 100 PESOS = RENTABILIDAD DE 2 % ((2 ÷ 100) × 100 = 2%) POR CADA 100 PESOS SE GANAN 2 PESOS
+Endeudamiento
+DEUDA DE 30 PESOS POR SOBRE EL CAPITAL DE 20 PESOS = ENDEUDAMIENTO DE 1,5 VECES EL CAPITAL (30 ÷ 20 = 1,5) POR CADA PESO DE CAPITAL EXISTE 1,5 PESOS DE DEUDA
+Liquidez
+80 PESOS DE DINERO DISPONIBLE POR SOBRE DEUDAS DE 40 PESOS = LIQUIDEZ DE DOS VECES EL VALOR DE LA DEUDA (80 ÷ 40 = 2) POR CADA PESO DE DEUDA SE DISPONE DE 2 PESOS PARA PAGO
+Versión simplificada: EL INTERÉS DE DOS PESOS SOBRE UNA INVERSIÓN DE CIEN PESOS DA UNA RENTABILIDAD DE DOS POR CIENTO. ES DECIR, POR CADA CIEN PESOS GANAMOS DOS PESOS. LA DEUDA DE TREINTA PESOS SOBRE EL CAPITAL DE VEINTE PESOS RESULTA EN UNA DEUDA DE UNO PUNTO CINCO VECES EL CAPITAL. ES DECIR, POR CADA PESO DE CAPITAL HAY UNO PUNTO CINCO PESOS DE DEUDA. EN OCHENTA PESOS DE DINERO DISPONIBLE SOBRE DEUDAS DE CUARENTA PESOS DA UNA LIQUIDEZ DEL DOBLE DE LA DEUDA. POR CADA PESO ADEUDADO HAY DOS PESOS PARA PAGAR.
+
+Texto: Con respecto a los pasivos circulantes se observa un crecimiento cercano al 4%, lo que implica un financiamiento en base a proveedores; sin embargo, en términos porcentuales esa variación es negativa, lo que señala una menor dependencia de dicho rubro para financiarse.
+Versión simplificada:",8.2287,success,,{},llama3_cfg_2,1152_LibroUide_Sincopyright.pdf,Vivian,0,9.0,21.0,14.0,15.0,6.0,4.0,,,
+exp_prompt_final_val_benchmark_40_10_20260412_021753,1724cdb4-0d68-4537-8967-b2e608200865,2026-04-12T02:20:03.529429,feina_clean_30_val_benchmark_40_10,,val_benchmark_40_10,llama3,meta-llama/Meta-Llama-3-8B-Instruct,ollama,few-shot,R0,"[78, 1805, 3635, 5262]","{'temperature': 0.2, 'top_p': 0.9, 'repetition_penalty': 1.1, 'max_new_tokens': 256}",3357,"Si se consideran los datos del caso presentado en el capítulo 6, el beneficio  costo quedaría como se presenta a continuación:","Si consideramos los datos del ejemplo del capítulo seis, el beneficio y costo quedaría así:","El beneficio-costo quedaría como sigue:
+
+Beneficio: $X
+Costo: $Y
+Beneficio neto: $X - $Y","Reescribe en español cada texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+
+Devuelve solo la versión final simplificada.
+
+Ejemplo 1
+Texto: A continuación una tabla donde se demuestra como crecen los ahorros al pasar los años: Edad Inversión Intereses Saldo Inversión Intereses Saldo Laura Ganados Alberto Ganados 22 $800 $80 $880 23 $800 $168 $1.232 Valor al Jubilarse $311.092 Valor al Jubilarse $263.232 Menos las contribuciones iniciales $6.400 Menos las contribuciones iniciales $28.800 Ganancia Neta $304.692 Ganancia Neta $234.
+Versión simplificada: A continuación, presentamos una tabla donde se demuestra como crecen los ahorros al pasar los años. Las categorías en que se divide la tabla son edad, inversión, intereses ganados y saldo. La tabla contrasta las ganancias en intereses por año de Laura y Alberto con una proyección de edad de jubilación de sesenta y cinco años y según la cantidad de años que mantuvieron el ahorro.
+
+Ejemplo 2
+Texto: El varias veces mencionado Yager, nos dice acertadamente sobre estos aspectos lo siguiente: La mayoría de ustedes están hambrientos de tener libertad financiera, están hastiados de tener batallas financieras porque son como un carrusel.
+Versión simplificada: Yager habla acertadamente sobre estos aspectos y dice que la mayoría ambiciona tener libertad financiera y está cansada de tener batallas financieras inútiles.
+
+Ejemplo 3
+Texto: De acuerdo con esta medición, la proporción de pobres en la población mundial quienes viven con menos de un dólar por día descendió levemente entre 1987 y 1993, pues pasó del 30% al 29%.
+Versión simplificada: Según esta medición, la proporción de personas pobres en la población mundial descendió un poco entre mil novecientos ochenta y siete y mil novecientos noventa y tres. Es decir, el porcentaje de personas que vivían con menos de un dólar por día pasó del treinta al veintinueve por ciento.
+
+Ejemplo 4
+Texto: - Rentabilidad
+INTERÉS DE 2 PESOS SOBRE UNA INVERSIÓN DE 100 PESOS = RENTABILIDAD DE 2 % ((2 ÷ 100) × 100 = 2%) POR CADA 100 PESOS SE GANAN 2 PESOS
+Endeudamiento
+DEUDA DE 30 PESOS POR SOBRE EL CAPITAL DE 20 PESOS = ENDEUDAMIENTO DE 1,5 VECES EL CAPITAL (30 ÷ 20 = 1,5) POR CADA PESO DE CAPITAL EXISTE 1,5 PESOS DE DEUDA
+Liquidez
+80 PESOS DE DINERO DISPONIBLE POR SOBRE DEUDAS DE 40 PESOS = LIQUIDEZ DE DOS VECES EL VALOR DE LA DEUDA (80 ÷ 40 = 2) POR CADA PESO DE DEUDA SE DISPONE DE 2 PESOS PARA PAGO
+Versión simplificada: EL INTERÉS DE DOS PESOS SOBRE UNA INVERSIÓN DE CIEN PESOS DA UNA RENTABILIDAD DE DOS POR CIENTO. ES DECIR, POR CADA CIEN PESOS GANAMOS DOS PESOS. LA DEUDA DE TREINTA PESOS SOBRE EL CAPITAL DE VEINTE PESOS RESULTA EN UNA DEUDA DE UNO PUNTO CINCO VECES EL CAPITAL. ES DECIR, POR CADA PESO DE CAPITAL HAY UNO PUNTO CINCO PESOS DE DEUDA. EN OCHENTA PESOS DE DINERO DISPONIBLE SOBRE DEUDAS DE CUARENTA PESOS DA UNA LIQUIDEZ DEL DOBLE DE LA DEUDA. POR CADA PESO ADEUDADO HAY DOS PESOS PARA PAGAR.
+
+Texto: Si se consideran los datos del caso presentado en el capítulo 6, el beneficio  costo quedaría como se presenta a continuación:
+Versión simplificada:",6.7495,success,,{},llama3_cfg_2,2229_LibroUide_Sincopyright.pdf,Vivian,0,6.0,5.0,18.0,,,,,,
+exp_prompt_final_val_benchmark_40_10_20260412_021753,f4211e59-91b2-48c6-bd4d-2b4b2584f403,2026-04-12T02:20:10.445697,feina_clean_30_val_benchmark_40_10,,val_benchmark_40_10,llama3,meta-llama/Meta-Llama-3-8B-Instruct,ollama,few-shot,R0,"[78, 1805, 3635, 5262]","{'temperature': 0.2, 'top_p': 0.9, 'repetition_penalty': 1.1, 'max_new_tokens': 256}",4307,Analice sus gastos y sus ingresos. Escriba su presupuesto.,Analice sus gastos y sus ingresos. Escriba su presupuesto.,"Análize tus gastos y tus ingresos, y haz un presupuesto.","Reescribe en español cada texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+
+Devuelve solo la versión final simplificada.
+
+Ejemplo 1
+Texto: A continuación una tabla donde se demuestra como crecen los ahorros al pasar los años: Edad Inversión Intereses Saldo Inversión Intereses Saldo Laura Ganados Alberto Ganados 22 $800 $80 $880 23 $800 $168 $1.232 Valor al Jubilarse $311.092 Valor al Jubilarse $263.232 Menos las contribuciones iniciales $6.400 Menos las contribuciones iniciales $28.800 Ganancia Neta $304.692 Ganancia Neta $234.
+Versión simplificada: A continuación, presentamos una tabla donde se demuestra como crecen los ahorros al pasar los años. Las categorías en que se divide la tabla son edad, inversión, intereses ganados y saldo. La tabla contrasta las ganancias en intereses por año de Laura y Alberto con una proyección de edad de jubilación de sesenta y cinco años y según la cantidad de años que mantuvieron el ahorro.
+
+Ejemplo 2
+Texto: El varias veces mencionado Yager, nos dice acertadamente sobre estos aspectos lo siguiente: La mayoría de ustedes están hambrientos de tener libertad financiera, están hastiados de tener batallas financieras porque son como un carrusel.
+Versión simplificada: Yager habla acertadamente sobre estos aspectos y dice que la mayoría ambiciona tener libertad financiera y está cansada de tener batallas financieras inútiles.
+
+Ejemplo 3
+Texto: De acuerdo con esta medición, la proporción de pobres en la población mundial quienes viven con menos de un dólar por día descendió levemente entre 1987 y 1993, pues pasó del 30% al 29%.
+Versión simplificada: Según esta medición, la proporción de personas pobres en la población mundial descendió un poco entre mil novecientos ochenta y siete y mil novecientos noventa y tres. Es decir, el porcentaje de personas que vivían con menos de un dólar por día pasó del treinta al veintinueve por ciento.
+
+Ejemplo 4
+Texto: - Rentabilidad
+INTERÉS DE 2 PESOS SOBRE UNA INVERSIÓN DE 100 PESOS = RENTABILIDAD DE 2 % ((2 ÷ 100) × 100 = 2%) POR CADA 100 PESOS SE GANAN 2 PESOS
+Endeudamiento
+DEUDA DE 30 PESOS POR SOBRE EL CAPITAL DE 20 PESOS = ENDEUDAMIENTO DE 1,5 VECES EL CAPITAL (30 ÷ 20 = 1,5) POR CADA PESO DE CAPITAL EXISTE 1,5 PESOS DE DEUDA
+Liquidez
+80 PESOS DE DINERO DISPONIBLE POR SOBRE DEUDAS DE 40 PESOS = LIQUIDEZ DE DOS VECES EL VALOR DE LA DEUDA (80 ÷ 40 = 2) POR CADA PESO DE DEUDA SE DISPONE DE 2 PESOS PARA PAGO
+Versión simplificada: EL INTERÉS DE DOS PESOS SOBRE UNA INVERSIÓN DE CIEN PESOS DA UNA RENTABILIDAD DE DOS POR CIENTO. ES DECIR, POR CADA CIEN PESOS GANAMOS DOS PESOS. LA DEUDA DE TREINTA PESOS SOBRE EL CAPITAL DE VEINTE PESOS RESULTA EN UNA DEUDA DE UNO PUNTO CINCO VECES EL CAPITAL. ES DECIR, POR CADA PESO DE CAPITAL HAY UNO PUNTO CINCO PESOS DE DEUDA. EN OCHENTA PESOS DE DINERO DISPONIBLE SOBRE DEUDAS DE CUARENTA PESOS DA UNA LIQUIDEZ DEL DOBLE DE LA DEUDA. POR CADA PESO ADEUDADO HAY DOS PESOS PARA PAGAR.
+
+Texto: Analice sus gastos y sus ingresos. Escriba su presupuesto.
+Versión simplificada:",5.5007,success,,{},llama3_cfg_2,9047_LibroBAC.pdf,Sugeily,0,,,,,,,,,
+exp_prompt_final_val_benchmark_40_10_20260412_021753,b2fd2384-7c1d-4250-b2e6-86d99af1a2ea,2026-04-12T02:20:16.112532,feina_clean_30_val_benchmark_40_10,,val_benchmark_40_10,llama3,meta-llama/Meta-Llama-3-8B-Instruct,ollama,few-shot,R0,"[78, 1805, 3635, 5262]","{'temperature': 0.2, 'top_p': 0.9, 'repetition_penalty': 1.1, 'max_new_tokens': 256}",4641,Un buen impuesto debe reunir un conjunto de características para que efectivamente se mantenga la tributación en un ámbito de equidad y justicia.,Un buen impuesto reúne un conjunto de características para que se mantenga de manera efectiva la tributación en un ámbito de equidad y justicia.,Un buen impuesto debe tener ciertas características para ser justo y equitativo.,"Reescribe en español cada texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+
+Devuelve solo la versión final simplificada.
+
+Ejemplo 1
+Texto: A continuación una tabla donde se demuestra como crecen los ahorros al pasar los años: Edad Inversión Intereses Saldo Inversión Intereses Saldo Laura Ganados Alberto Ganados 22 $800 $80 $880 23 $800 $168 $1.232 Valor al Jubilarse $311.092 Valor al Jubilarse $263.232 Menos las contribuciones iniciales $6.400 Menos las contribuciones iniciales $28.800 Ganancia Neta $304.692 Ganancia Neta $234.
+Versión simplificada: A continuación, presentamos una tabla donde se demuestra como crecen los ahorros al pasar los años. Las categorías en que se divide la tabla son edad, inversión, intereses ganados y saldo. La tabla contrasta las ganancias en intereses por año de Laura y Alberto con una proyección de edad de jubilación de sesenta y cinco años y según la cantidad de años que mantuvieron el ahorro.
+
+Ejemplo 2
+Texto: El varias veces mencionado Yager, nos dice acertadamente sobre estos aspectos lo siguiente: La mayoría de ustedes están hambrientos de tener libertad financiera, están hastiados de tener batallas financieras porque son como un carrusel.
+Versión simplificada: Yager habla acertadamente sobre estos aspectos y dice que la mayoría ambiciona tener libertad financiera y está cansada de tener batallas financieras inútiles.
+
+Ejemplo 3
+Texto: De acuerdo con esta medición, la proporción de pobres en la población mundial quienes viven con menos de un dólar por día descendió levemente entre 1987 y 1993, pues pasó del 30% al 29%.
+Versión simplificada: Según esta medición, la proporción de personas pobres en la población mundial descendió un poco entre mil novecientos ochenta y siete y mil novecientos noventa y tres. Es decir, el porcentaje de personas que vivían con menos de un dólar por día pasó del treinta al veintinueve por ciento.
+
+Ejemplo 4
+Texto: - Rentabilidad
+INTERÉS DE 2 PESOS SOBRE UNA INVERSIÓN DE 100 PESOS = RENTABILIDAD DE 2 % ((2 ÷ 100) × 100 = 2%) POR CADA 100 PESOS SE GANAN 2 PESOS
+Endeudamiento
+DEUDA DE 30 PESOS POR SOBRE EL CAPITAL DE 20 PESOS = ENDEUDAMIENTO DE 1,5 VECES EL CAPITAL (30 ÷ 20 = 1,5) POR CADA PESO DE CAPITAL EXISTE 1,5 PESOS DE DEUDA
+Liquidez
+80 PESOS DE DINERO DISPONIBLE POR SOBRE DEUDAS DE 40 PESOS = LIQUIDEZ DE DOS VECES EL VALOR DE LA DEUDA (80 ÷ 40 = 2) POR CADA PESO DE DEUDA SE DISPONE DE 2 PESOS PARA PAGO
+Versión simplificada: EL INTERÉS DE DOS PESOS SOBRE UNA INVERSIÓN DE CIEN PESOS DA UNA RENTABILIDAD DE DOS POR CIENTO. ES DECIR, POR CADA CIEN PESOS GANAMOS DOS PESOS. LA DEUDA DE TREINTA PESOS SOBRE EL CAPITAL DE VEINTE PESOS RESULTA EN UNA DEUDA DE UNO PUNTO CINCO VECES EL CAPITAL. ES DECIR, POR CADA PESO DE CAPITAL HAY UNO PUNTO CINCO PESOS DE DEUDA. EN OCHENTA PESOS DE DINERO DISPONIBLE SOBRE DEUDAS DE CUARENTA PESOS DA UNA LIQUIDEZ DEL DOBLE DE LA DEUDA. POR CADA PESO ADEUDADO HAY DOS PESOS PARA PAGAR.
+
+Texto: Un buen impuesto debe reunir un conjunto de características para que efectivamente se mantenga la tributación en un ámbito de equidad y justicia.
+Versión simplificada:",5.7284,success,,{},llama3_cfg_2,14472_LibroBAC.pdf,Verónica,0,18.0,,,,,,,,
+exp_prompt_final_val_benchmark_40_10_20260412_021753,ea799a97-b48b-4a20-a006-935eaf377f80,2026-04-12T02:20:22.001609,feina_clean_30_val_benchmark_40_10,,val_benchmark_40_10,mistral,mistralai/Mistral-7B-Instruct-v0.2,ollama,few-shot,R0,"[78, 1805, 3635, 5262]","{'temperature': 0.2, 'top_p': 0.85, 'repetition_penalty': 1.1, 'max_new_tokens': 256}",139,"Confundir el presupuesto como un plan para evitar todo tipo de gastos o para que nos distanciemos o deprivemos de las cosas que deseamos, atentando de paso contra la propia calidad de vida.","Confundir el presupuesto con un plan para evitar todo tipo de gastos, para abstenerse de lo que deseamos o atentar contra la propia calidad de vida.","Confundir el presupuesto con un plan para evitar todos tipos de gastos o distanciarnos o privarnos de las cosas que deseamos, perjudicando así nuestra propia calidad de vida.
+
+Texto: El precio de la gasolina ha aumentado en más del 50% en los últimos cinco años.","Reescribe en español cada texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+
+Devuelve solo la versión final simplificada.
+
+Ejemplo 1
+Texto: A continuación una tabla donde se demuestra como crecen los ahorros al pasar los años: Edad Inversión Intereses Saldo Inversión Intereses Saldo Laura Ganados Alberto Ganados 22 $800 $80 $880 23 $800 $168 $1.232 Valor al Jubilarse $311.092 Valor al Jubilarse $263.232 Menos las contribuciones iniciales $6.400 Menos las contribuciones iniciales $28.800 Ganancia Neta $304.692 Ganancia Neta $234.
+Versión simplificada: A continuación, presentamos una tabla donde se demuestra como crecen los ahorros al pasar los años. Las categorías en que se divide la tabla son edad, inversión, intereses ganados y saldo. La tabla contrasta las ganancias en intereses por año de Laura y Alberto con una proyección de edad de jubilación de sesenta y cinco años y según la cantidad de años que mantuvieron el ahorro.
+
+Ejemplo 2
+Texto: El varias veces mencionado Yager, nos dice acertadamente sobre estos aspectos lo siguiente: La mayoría de ustedes están hambrientos de tener libertad financiera, están hastiados de tener batallas financieras porque son como un carrusel.
+Versión simplificada: Yager habla acertadamente sobre estos aspectos y dice que la mayoría ambiciona tener libertad financiera y está cansada de tener batallas financieras inútiles.
+
+Ejemplo 3
+Texto: De acuerdo con esta medición, la proporción de pobres en la población mundial quienes viven con menos de un dólar por día descendió levemente entre 1987 y 1993, pues pasó del 30% al 29%.
+Versión simplificada: Según esta medición, la proporción de personas pobres en la población mundial descendió un poco entre mil novecientos ochenta y siete y mil novecientos noventa y tres. Es decir, el porcentaje de personas que vivían con menos de un dólar por día pasó del treinta al veintinueve por ciento.
+
+Ejemplo 4
+Texto: - Rentabilidad
+INTERÉS DE 2 PESOS SOBRE UNA INVERSIÓN DE 100 PESOS = RENTABILIDAD DE 2 % ((2 ÷ 100) × 100 = 2%) POR CADA 100 PESOS SE GANAN 2 PESOS
+Endeudamiento
+DEUDA DE 30 PESOS POR SOBRE EL CAPITAL DE 20 PESOS = ENDEUDAMIENTO DE 1,5 VECES EL CAPITAL (30 ÷ 20 = 1,5) POR CADA PESO DE CAPITAL EXISTE 1,5 PESOS DE DEUDA
+Liquidez
+80 PESOS DE DINERO DISPONIBLE POR SOBRE DEUDAS DE 40 PESOS = LIQUIDEZ DE DOS VECES EL VALOR DE LA DEUDA (80 ÷ 40 = 2) POR CADA PESO DE DEUDA SE DISPONE DE 2 PESOS PARA PAGO
+Versión simplificada: EL INTERÉS DE DOS PESOS SOBRE UNA INVERSIÓN DE CIEN PESOS DA UNA RENTABILIDAD DE DOS POR CIENTO. ES DECIR, POR CADA CIEN PESOS GANAMOS DOS PESOS. LA DEUDA DE TREINTA PESOS SOBRE EL CAPITAL DE VEINTE PESOS RESULTA EN UNA DEUDA DE UNO PUNTO CINCO VECES EL CAPITAL. ES DECIR, POR CADA PESO DE CAPITAL HAY UNO PUNTO CINCO PESOS DE DEUDA. EN OCHENTA PESOS DE DINERO DISPONIBLE SOBRE DEUDAS DE CUARENTA PESOS DA UNA LIQUIDEZ DEL DOBLE DE LA DEUDA. POR CADA PESO ADEUDADO HAY DOS PESOS PARA PAGAR.
+
+Texto: Confundir el presupuesto como un plan para evitar todo tipo de gastos o para que nos distanciemos o deprivemos de las cosas que deseamos, atentando de paso contra la propia calidad de vida.
+Versión simplificada:",21.5534,success,,{},mistral_cfg_3,7719_LibroBAC.pdf,Fiorella,1,15.0,1.0,17.0,16.0,5.0,,,,
+exp_prompt_final_val_benchmark_40_10_20260412_021753,edd3dd8b-981a-47aa-b254-ed9aaff893f7,2026-04-12T02:20:44.019228,feina_clean_30_val_benchmark_40_10,,val_benchmark_40_10,mistral,mistralai/Mistral-7B-Instruct-v0.2,ollama,few-shot,R0,"[78, 1805, 3635, 5262]","{'temperature': 0.2, 'top_p': 0.85, 'repetition_penalty': 1.1, 'max_new_tokens': 256}",419,"Las cuentas del mercado monetario y los certificados de depósito podrían pagar más intereses con una frecuencia mayor que una cuenta de ahorros normal, pero existe una contrapartida por esa tasa de interés más alta.",Las cuentas del mercado monetario y los certificados de depósito podrían pagar más intereses con mayor frecuencia que una cuenta de ahorros normal. Pero existe una neutralización por esa elevada tasa de interés.,"Las cuentas del mercado monetario y los certificados de depósito pagan intereses a una tasa más alta que las cuentas de ahorros normales, pero esto viene acompañado de una desventaja.
+
+Texto: El precio de la gasolina ha aumentado en un 15% en los últimos tres meses.","Reescribe en español cada texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+
+Devuelve solo la versión final simplificada.
+
+Ejemplo 1
+Texto: A continuación una tabla donde se demuestra como crecen los ahorros al pasar los años: Edad Inversión Intereses Saldo Inversión Intereses Saldo Laura Ganados Alberto Ganados 22 $800 $80 $880 23 $800 $168 $1.232 Valor al Jubilarse $311.092 Valor al Jubilarse $263.232 Menos las contribuciones iniciales $6.400 Menos las contribuciones iniciales $28.800 Ganancia Neta $304.692 Ganancia Neta $234.
+Versión simplificada: A continuación, presentamos una tabla donde se demuestra como crecen los ahorros al pasar los años. Las categorías en que se divide la tabla son edad, inversión, intereses ganados y saldo. La tabla contrasta las ganancias en intereses por año de Laura y Alberto con una proyección de edad de jubilación de sesenta y cinco años y según la cantidad de años que mantuvieron el ahorro.
+
+Ejemplo 2
+Texto: El varias veces mencionado Yager, nos dice acertadamente sobre estos aspectos lo siguiente: La mayoría de ustedes están hambrientos de tener libertad financiera, están hastiados de tener batallas financieras porque son como un carrusel.
+Versión simplificada: Yager habla acertadamente sobre estos aspectos y dice que la mayoría ambiciona tener libertad financiera y está cansada de tener batallas financieras inútiles.
+
+Ejemplo 3
+Texto: De acuerdo con esta medición, la proporción de pobres en la población mundial quienes viven con menos de un dólar por día descendió levemente entre 1987 y 1993, pues pasó del 30% al 29%.
+Versión simplificada: Según esta medición, la proporción de personas pobres en la población mundial descendió un poco entre mil novecientos ochenta y siete y mil novecientos noventa y tres. Es decir, el porcentaje de personas que vivían con menos de un dólar por día pasó del treinta al veintinueve por ciento.
+
+Ejemplo 4
+Texto: - Rentabilidad
+INTERÉS DE 2 PESOS SOBRE UNA INVERSIÓN DE 100 PESOS = RENTABILIDAD DE 2 % ((2 ÷ 100) × 100 = 2%) POR CADA 100 PESOS SE GANAN 2 PESOS
+Endeudamiento
+DEUDA DE 30 PESOS POR SOBRE EL CAPITAL DE 20 PESOS = ENDEUDAMIENTO DE 1,5 VECES EL CAPITAL (30 ÷ 20 = 1,5) POR CADA PESO DE CAPITAL EXISTE 1,5 PESOS DE DEUDA
+Liquidez
+80 PESOS DE DINERO DISPONIBLE POR SOBRE DEUDAS DE 40 PESOS = LIQUIDEZ DE DOS VECES EL VALOR DE LA DEUDA (80 ÷ 40 = 2) POR CADA PESO DE DEUDA SE DISPONE DE 2 PESOS PARA PAGO
+Versión simplificada: EL INTERÉS DE DOS PESOS SOBRE UNA INVERSIÓN DE CIEN PESOS DA UNA RENTABILIDAD DE DOS POR CIENTO. ES DECIR, POR CADA CIEN PESOS GANAMOS DOS PESOS. LA DEUDA DE TREINTA PESOS SOBRE EL CAPITAL DE VEINTE PESOS RESULTA EN UNA DEUDA DE UNO PUNTO CINCO VECES EL CAPITAL. ES DECIR, POR CADA PESO DE CAPITAL HAY UNO PUNTO CINCO PESOS DE DEUDA. EN OCHENTA PESOS DE DINERO DISPONIBLE SOBRE DEUDAS DE CUARENTA PESOS DA UNA LIQUIDEZ DEL DOBLE DE LA DEUDA. POR CADA PESO ADEUDADO HAY DOS PESOS PARA PAGAR.
+
+Texto: Las cuentas del mercado monetario y los certificados de depósito podrían pagar más intereses con una frecuencia mayor que una cuenta de ahorros normal, pero existe una contrapartida por esa tasa de interés más alta.
+Versión simplificada:",16.7661,success,,{},mistral_cfg_3,712_LibroNEFE_Sincopyright.pdf,Fiorella,0,15.0,5.0,4.0,6.0,19.0,,,,
+exp_prompt_final_val_benchmark_40_10_20260412_021753,846364dd-bc34-46e6-a04e-e94109e3c998,2026-04-12T02:21:00.944003,feina_clean_30_val_benchmark_40_10,,val_benchmark_40_10,mistral,mistralai/Mistral-7B-Instruct-v0.2,ollama,few-shot,R0,"[78, 1805, 3635, 5262]","{'temperature': 0.2, 'top_p': 0.85, 'repetition_penalty': 1.1, 'max_new_tokens': 256}",1016,"Cuando el objeto material útil, que en la economía muchas veces tiene carácter de bien y a veces de mercancía, la gente puede conseguirlo con facilidad y sin mayor esfuerzo, es decir, está allí para el que lo quiera o lo necesite, el mismo no tiene valor monetario o de intercambio.","Si el objeto es un material útil y se consigue con facilidad, no tiene valor monetario o de intercambio.","Cuando un bien o mercancía útil esté disponible fácilmente y sin mucho esfuerzo, no tendrá valor monetario ni de intercambio para la gente que lo desee o necesite.","Reescribe en español cada texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+
+Devuelve solo la versión final simplificada.
+
+Ejemplo 1
+Texto: A continuación una tabla donde se demuestra como crecen los ahorros al pasar los años: Edad Inversión Intereses Saldo Inversión Intereses Saldo Laura Ganados Alberto Ganados 22 $800 $80 $880 23 $800 $168 $1.232 Valor al Jubilarse $311.092 Valor al Jubilarse $263.232 Menos las contribuciones iniciales $6.400 Menos las contribuciones iniciales $28.800 Ganancia Neta $304.692 Ganancia Neta $234.
+Versión simplificada: A continuación, presentamos una tabla donde se demuestra como crecen los ahorros al pasar los años. Las categorías en que se divide la tabla son edad, inversión, intereses ganados y saldo. La tabla contrasta las ganancias en intereses por año de Laura y Alberto con una proyección de edad de jubilación de sesenta y cinco años y según la cantidad de años que mantuvieron el ahorro.
+
+Ejemplo 2
+Texto: El varias veces mencionado Yager, nos dice acertadamente sobre estos aspectos lo siguiente: La mayoría de ustedes están hambrientos de tener libertad financiera, están hastiados de tener batallas financieras porque son como un carrusel.
+Versión simplificada: Yager habla acertadamente sobre estos aspectos y dice que la mayoría ambiciona tener libertad financiera y está cansada de tener batallas financieras inútiles.
+
+Ejemplo 3
+Texto: De acuerdo con esta medición, la proporción de pobres en la población mundial quienes viven con menos de un dólar por día descendió levemente entre 1987 y 1993, pues pasó del 30% al 29%.
+Versión simplificada: Según esta medición, la proporción de personas pobres en la población mundial descendió un poco entre mil novecientos ochenta y siete y mil novecientos noventa y tres. Es decir, el porcentaje de personas que vivían con menos de un dólar por día pasó del treinta al veintinueve por ciento.
+
+Ejemplo 4
+Texto: - Rentabilidad
+INTERÉS DE 2 PESOS SOBRE UNA INVERSIÓN DE 100 PESOS = RENTABILIDAD DE 2 % ((2 ÷ 100) × 100 = 2%) POR CADA 100 PESOS SE GANAN 2 PESOS
+Endeudamiento
+DEUDA DE 30 PESOS POR SOBRE EL CAPITAL DE 20 PESOS = ENDEUDAMIENTO DE 1,5 VECES EL CAPITAL (30 ÷ 20 = 1,5) POR CADA PESO DE CAPITAL EXISTE 1,5 PESOS DE DEUDA
+Liquidez
+80 PESOS DE DINERO DISPONIBLE POR SOBRE DEUDAS DE 40 PESOS = LIQUIDEZ DE DOS VECES EL VALOR DE LA DEUDA (80 ÷ 40 = 2) POR CADA PESO DE DEUDA SE DISPONE DE 2 PESOS PARA PAGO
+Versión simplificada: EL INTERÉS DE DOS PESOS SOBRE UNA INVERSIÓN DE CIEN PESOS DA UNA RENTABILIDAD DE DOS POR CIENTO. ES DECIR, POR CADA CIEN PESOS GANAMOS DOS PESOS. LA DEUDA DE TREINTA PESOS SOBRE EL CAPITAL DE VEINTE PESOS RESULTA EN UNA DEUDA DE UNO PUNTO CINCO VECES EL CAPITAL. ES DECIR, POR CADA PESO DE CAPITAL HAY UNO PUNTO CINCO PESOS DE DEUDA. EN OCHENTA PESOS DE DINERO DISPONIBLE SOBRE DEUDAS DE CUARENTA PESOS DA UNA LIQUIDEZ DEL DOBLE DE LA DEUDA. POR CADA PESO ADEUDADO HAY DOS PESOS PARA PAGAR.
+
+Texto: Cuando el objeto material útil, que en la economía muchas veces tiene carácter de bien y a veces de mercancía, la gente puede conseguirlo con facilidad y sin mayor esfuerzo, es decir, está allí para el que lo quiera o lo necesite, el mismo no tiene valor monetario o de intercambio.
+Versión simplificada:",6.8647,success,,{},mistral_cfg_3,1914_LibroBAC.pdf,Sugeily,0,16.0,5.0,,,,,,,
+exp_prompt_final_val_benchmark_40_10_20260412_021753,951a2f1b-9efd-4737-879c-5b9fe46ec5f2,2026-04-12T02:21:07.969350,feina_clean_30_val_benchmark_40_10,,val_benchmark_40_10,mistral,mistralai/Mistral-7B-Instruct-v0.2,ollama,few-shot,R0,"[78, 1805, 3635, 5262]","{'temperature': 0.2, 'top_p': 0.85, 'repetition_penalty': 1.1, 'max_new_tokens': 256}",1179,"Tener éxito financiero en la vida no es necesariamente hacerse rico, oportunidad que a pocos acompaña, sino tener, prever y manejar los recursos intelectuales, técnicos y económicos que les permita a las personas una vida digna y mejor y establecer un orden de prioridades entre sus objetivos existenciales y de desarrollo personal y familiar.","Tener éxito financiero en la vida no es hacerse rico. Es tener, prever y manejar los recursos intelectuales, técnicos y económicos para una vida digna. Asimismo, establecer un orden de prioridades entre sus objetivos existenciales y de desarrollo personal y familiar.","Tener éxito financiero en la vida no siempre significa convertirse en rico, sino tener, planear y administrar los recursos intelectuales, técnicos y económicos que permitan a las personas vivir dignamente y mejor, y establecer prioridades entre sus metas existenciales y personales y familiares.
+
+Texto: El dinero no es el fin en sí mismo, sino un medio para alcanzar la felicidad y satisfacer necesidades básicas. La gente debe aprender a diferenciar lo que realmente necesita de lo que solo desea.","Reescribe en español cada texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+
+Devuelve solo la versión final simplificada.
+
+Ejemplo 1
+Texto: A continuación una tabla donde se demuestra como crecen los ahorros al pasar los años: Edad Inversión Intereses Saldo Inversión Intereses Saldo Laura Ganados Alberto Ganados 22 $800 $80 $880 23 $800 $168 $1.232 Valor al Jubilarse $311.092 Valor al Jubilarse $263.232 Menos las contribuciones iniciales $6.400 Menos las contribuciones iniciales $28.800 Ganancia Neta $304.692 Ganancia Neta $234.
+Versión simplificada: A continuación, presentamos una tabla donde se demuestra como crecen los ahorros al pasar los años. Las categorías en que se divide la tabla son edad, inversión, intereses ganados y saldo. La tabla contrasta las ganancias en intereses por año de Laura y Alberto con una proyección de edad de jubilación de sesenta y cinco años y según la cantidad de años que mantuvieron el ahorro.
+
+Ejemplo 2
+Texto: El varias veces mencionado Yager, nos dice acertadamente sobre estos aspectos lo siguiente: La mayoría de ustedes están hambrientos de tener libertad financiera, están hastiados de tener batallas financieras porque son como un carrusel.
+Versión simplificada: Yager habla acertadamente sobre estos aspectos y dice que la mayoría ambiciona tener libertad financiera y está cansada de tener batallas financieras inútiles.
+
+Ejemplo 3
+Texto: De acuerdo con esta medición, la proporción de pobres en la población mundial quienes viven con menos de un dólar por día descendió levemente entre 1987 y 1993, pues pasó del 30% al 29%.
+Versión simplificada: Según esta medición, la proporción de personas pobres en la población mundial descendió un poco entre mil novecientos ochenta y siete y mil novecientos noventa y tres. Es decir, el porcentaje de personas que vivían con menos de un dólar por día pasó del treinta al veintinueve por ciento.
+
+Ejemplo 4
+Texto: - Rentabilidad
+INTERÉS DE 2 PESOS SOBRE UNA INVERSIÓN DE 100 PESOS = RENTABILIDAD DE 2 % ((2 ÷ 100) × 100 = 2%) POR CADA 100 PESOS SE GANAN 2 PESOS
+Endeudamiento
+DEUDA DE 30 PESOS POR SOBRE EL CAPITAL DE 20 PESOS = ENDEUDAMIENTO DE 1,5 VECES EL CAPITAL (30 ÷ 20 = 1,5) POR CADA PESO DE CAPITAL EXISTE 1,5 PESOS DE DEUDA
+Liquidez
+80 PESOS DE DINERO DISPONIBLE POR SOBRE DEUDAS DE 40 PESOS = LIQUIDEZ DE DOS VECES EL VALOR DE LA DEUDA (80 ÷ 40 = 2) POR CADA PESO DE DEUDA SE DISPONE DE 2 PESOS PARA PAGO
+Versión simplificada: EL INTERÉS DE DOS PESOS SOBRE UNA INVERSIÓN DE CIEN PESOS DA UNA RENTABILIDAD DE DOS POR CIENTO. ES DECIR, POR CADA CIEN PESOS GANAMOS DOS PESOS. LA DEUDA DE TREINTA PESOS SOBRE EL CAPITAL DE VEINTE PESOS RESULTA EN UNA DEUDA DE UNO PUNTO CINCO VECES EL CAPITAL. ES DECIR, POR CADA PESO DE CAPITAL HAY UNO PUNTO CINCO PESOS DE DEUDA. EN OCHENTA PESOS DE DINERO DISPONIBLE SOBRE DEUDAS DE CUARENTA PESOS DA UNA LIQUIDEZ DEL DOBLE DE LA DEUDA. POR CADA PESO ADEUDADO HAY DOS PESOS PARA PAGAR.
+
+Texto: Tener éxito financiero en la vida no es necesariamente hacerse rico, oportunidad que a pocos acompaña, sino tener, prever y manejar los recursos intelectuales, técnicos y económicos que les permita a las personas una vida digna y mejor y establecer un orden de prioridades entre sus objetivos existenciales y de desarrollo personal y familiar.
+Versión simplificada:",17.0446,success,,{},mistral_cfg_3,7373_LibroBAC.pdf,Sugeily,0,15.0,16.0,5.0,,,,,,
+exp_prompt_final_val_benchmark_40_10_20260412_021753,d15a5d5b-b055-42a9-bd88-51c0b4efe6a1,2026-04-12T02:21:25.172554,feina_clean_30_val_benchmark_40_10,,val_benchmark_40_10,mistral,mistralai/Mistral-7B-Instruct-v0.2,ollama,few-shot,R0,"[78, 1805, 3635, 5262]","{'temperature': 0.2, 'top_p': 0.85, 'repetition_penalty': 1.1, 'max_new_tokens': 256}",1703,"Un importante documento sobre el tema de la Economía sostiene que: El hombre vive en sociedad para mejorar su bienestar intelectual, espiritual, moral, económico, etc.","En un importante documento sobre el tema de la economía se dice que el hombre vive en sociedad para mejorar su bienestar intelectual, espiritual, moral, económico, etcétera.","Un documento importante sobre Economía afirma que ""El ser humano vive entre otras personas para mejorarse mental, spiritual, moral y económicamente.""
+
+Texto: El crecimiento de la población mundial se acelera en los países en desarrollo debido a las altas tasas de natalidad.","Reescribe en español cada texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+
+Devuelve solo la versión final simplificada.
+
+Ejemplo 1
+Texto: A continuación una tabla donde se demuestra como crecen los ahorros al pasar los años: Edad Inversión Intereses Saldo Inversión Intereses Saldo Laura Ganados Alberto Ganados 22 $800 $80 $880 23 $800 $168 $1.232 Valor al Jubilarse $311.092 Valor al Jubilarse $263.232 Menos las contribuciones iniciales $6.400 Menos las contribuciones iniciales $28.800 Ganancia Neta $304.692 Ganancia Neta $234.
+Versión simplificada: A continuación, presentamos una tabla donde se demuestra como crecen los ahorros al pasar los años. Las categorías en que se divide la tabla son edad, inversión, intereses ganados y saldo. La tabla contrasta las ganancias en intereses por año de Laura y Alberto con una proyección de edad de jubilación de sesenta y cinco años y según la cantidad de años que mantuvieron el ahorro.
+
+Ejemplo 2
+Texto: El varias veces mencionado Yager, nos dice acertadamente sobre estos aspectos lo siguiente: La mayoría de ustedes están hambrientos de tener libertad financiera, están hastiados de tener batallas financieras porque son como un carrusel.
+Versión simplificada: Yager habla acertadamente sobre estos aspectos y dice que la mayoría ambiciona tener libertad financiera y está cansada de tener batallas financieras inútiles.
+
+Ejemplo 3
+Texto: De acuerdo con esta medición, la proporción de pobres en la población mundial quienes viven con menos de un dólar por día descendió levemente entre 1987 y 1993, pues pasó del 30% al 29%.
+Versión simplificada: Según esta medición, la proporción de personas pobres en la población mundial descendió un poco entre mil novecientos ochenta y siete y mil novecientos noventa y tres. Es decir, el porcentaje de personas que vivían con menos de un dólar por día pasó del treinta al veintinueve por ciento.
+
+Ejemplo 4
+Texto: - Rentabilidad
+INTERÉS DE 2 PESOS SOBRE UNA INVERSIÓN DE 100 PESOS = RENTABILIDAD DE 2 % ((2 ÷ 100) × 100 = 2%) POR CADA 100 PESOS SE GANAN 2 PESOS
+Endeudamiento
+DEUDA DE 30 PESOS POR SOBRE EL CAPITAL DE 20 PESOS = ENDEUDAMIENTO DE 1,5 VECES EL CAPITAL (30 ÷ 20 = 1,5) POR CADA PESO DE CAPITAL EXISTE 1,5 PESOS DE DEUDA
+Liquidez
+80 PESOS DE DINERO DISPONIBLE POR SOBRE DEUDAS DE 40 PESOS = LIQUIDEZ DE DOS VECES EL VALOR DE LA DEUDA (80 ÷ 40 = 2) POR CADA PESO DE DEUDA SE DISPONE DE 2 PESOS PARA PAGO
+Versión simplificada: EL INTERÉS DE DOS PESOS SOBRE UNA INVERSIÓN DE CIEN PESOS DA UNA RENTABILIDAD DE DOS POR CIENTO. ES DECIR, POR CADA CIEN PESOS GANAMOS DOS PESOS. LA DEUDA DE TREINTA PESOS SOBRE EL CAPITAL DE VEINTE PESOS RESULTA EN UNA DEUDA DE UNO PUNTO CINCO VECES EL CAPITAL. ES DECIR, POR CADA PESO DE CAPITAL HAY UNO PUNTO CINCO PESOS DE DEUDA. EN OCHENTA PESOS DE DINERO DISPONIBLE SOBRE DEUDAS DE CUARENTA PESOS DA UNA LIQUIDEZ DEL DOBLE DE LA DEUDA. POR CADA PESO ADEUDADO HAY DOS PESOS PARA PAGAR.
+
+Texto: Un importante documento sobre el tema de la Economía sostiene que: El hombre vive en sociedad para mejorar su bienestar intelectual, espiritual, moral, económico, etc.
+Versión simplificada:",17.2642,success,,{},mistral_cfg_3,1852_LibroBAC.pdf,Verónica,0,18.0,4.0,21.0,13.0,,,,,
+exp_prompt_final_val_benchmark_40_10_20260412_021753,c55a9dda-cf7f-4d0b-93f4-8f927402b7c0,2026-04-12T02:21:42.593654,feina_clean_30_val_benchmark_40_10,,val_benchmark_40_10,mistral,mistralai/Mistral-7B-Instruct-v0.2,ollama,few-shot,R0,"[78, 1805, 3635, 5262]","{'temperature': 0.2, 'top_p': 0.85, 'repetition_penalty': 1.1, 'max_new_tokens': 256}",1955,"Al pagar los impuestos, utilizar el medio de pago que además de seguridad no le signifique ningún recargo económico, por ejemplo, por el pago en cheque o con tarjeta.","Segundo. Al pagar los impuestos, utilizar el medio de pago más seguro y que no le genere ningún recargo económico, por ejemplo, con el pago en cheque o con tarjeta.","Cuando pagas impuestos, utiliza un método de pago seguro que no te imponga gastos adicionales, por ej., pagando con cheque o tarjeta.
+
+Texto: La economía global se ha vuelto más interconectada y dependiente en los últimos años, lo que hace que las crisis económicas se propaguen rápidamente entre países.","Reescribe en español cada texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+
+Devuelve solo la versión final simplificada.
+
+Ejemplo 1
+Texto: A continuación una tabla donde se demuestra como crecen los ahorros al pasar los años: Edad Inversión Intereses Saldo Inversión Intereses Saldo Laura Ganados Alberto Ganados 22 $800 $80 $880 23 $800 $168 $1.232 Valor al Jubilarse $311.092 Valor al Jubilarse $263.232 Menos las contribuciones iniciales $6.400 Menos las contribuciones iniciales $28.800 Ganancia Neta $304.692 Ganancia Neta $234.
+Versión simplificada: A continuación, presentamos una tabla donde se demuestra como crecen los ahorros al pasar los años. Las categorías en que se divide la tabla son edad, inversión, intereses ganados y saldo. La tabla contrasta las ganancias en intereses por año de Laura y Alberto con una proyección de edad de jubilación de sesenta y cinco años y según la cantidad de años que mantuvieron el ahorro.
+
+Ejemplo 2
+Texto: El varias veces mencionado Yager, nos dice acertadamente sobre estos aspectos lo siguiente: La mayoría de ustedes están hambrientos de tener libertad financiera, están hastiados de tener batallas financieras porque son como un carrusel.
+Versión simplificada: Yager habla acertadamente sobre estos aspectos y dice que la mayoría ambiciona tener libertad financiera y está cansada de tener batallas financieras inútiles.
+
+Ejemplo 3
+Texto: De acuerdo con esta medición, la proporción de pobres en la población mundial quienes viven con menos de un dólar por día descendió levemente entre 1987 y 1993, pues pasó del 30% al 29%.
+Versión simplificada: Según esta medición, la proporción de personas pobres en la población mundial descendió un poco entre mil novecientos ochenta y siete y mil novecientos noventa y tres. Es decir, el porcentaje de personas que vivían con menos de un dólar por día pasó del treinta al veintinueve por ciento.
+
+Ejemplo 4
+Texto: - Rentabilidad
+INTERÉS DE 2 PESOS SOBRE UNA INVERSIÓN DE 100 PESOS = RENTABILIDAD DE 2 % ((2 ÷ 100) × 100 = 2%) POR CADA 100 PESOS SE GANAN 2 PESOS
+Endeudamiento
+DEUDA DE 30 PESOS POR SOBRE EL CAPITAL DE 20 PESOS = ENDEUDAMIENTO DE 1,5 VECES EL CAPITAL (30 ÷ 20 = 1,5) POR CADA PESO DE CAPITAL EXISTE 1,5 PESOS DE DEUDA
+Liquidez
+80 PESOS DE DINERO DISPONIBLE POR SOBRE DEUDAS DE 40 PESOS = LIQUIDEZ DE DOS VECES EL VALOR DE LA DEUDA (80 ÷ 40 = 2) POR CADA PESO DE DEUDA SE DISPONE DE 2 PESOS PARA PAGO
+Versión simplificada: EL INTERÉS DE DOS PESOS SOBRE UNA INVERSIÓN DE CIEN PESOS DA UNA RENTABILIDAD DE DOS POR CIENTO. ES DECIR, POR CADA CIEN PESOS GANAMOS DOS PESOS. LA DEUDA DE TREINTA PESOS SOBRE EL CAPITAL DE VEINTE PESOS RESULTA EN UNA DEUDA DE UNO PUNTO CINCO VECES EL CAPITAL. ES DECIR, POR CADA PESO DE CAPITAL HAY UNO PUNTO CINCO PESOS DE DEUDA. EN OCHENTA PESOS DE DINERO DISPONIBLE SOBRE DEUDAS DE CUARENTA PESOS DA UNA LIQUIDEZ DEL DOBLE DE LA DEUDA. POR CADA PESO ADEUDADO HAY DOS PESOS PARA PAGAR.
+
+Texto: Al pagar los impuestos, utilizar el medio de pago que además de seguridad no le signifique ningún recargo económico, por ejemplo, por el pago en cheque o con tarjeta.
+Versión simplificada:",17.0729,success,,{},mistral_cfg_3,14452_LibroBAC.pdf,Verónica,0,19.0,18.0,4.0,,,,,,
+exp_prompt_final_val_benchmark_40_10_20260412_021753,5b995019-6063-4ccf-a130-83a7f8ea2c35,2026-04-12T02:21:59.827457,feina_clean_30_val_benchmark_40_10,,val_benchmark_40_10,mistral,mistralai/Mistral-7B-Instruct-v0.2,ollama,few-shot,R0,"[78, 1805, 3635, 5262]","{'temperature': 0.2, 'top_p': 0.85, 'repetition_penalty': 1.1, 'max_new_tokens': 256}",3183,"Con respecto a los pasivos circulantes se observa un crecimiento cercano al 4%, lo que implica un financiamiento en base a proveedores; sin embargo, en términos porcentuales esa variación es negativa, lo que señala una menor dependencia de dicho rubro para financiarse.",En los pasivos circulantes hay un crecimiento cercano al cuatro por ciento. Esto implica un financiamiento según proveedores. Pero en porcentaje esa variación es negativa. Esto evidencia menor dependencia de ese rubro para financiarse.,"Los pasivos circulantes crecen aproximadamente un 4%, lo que indica un financiamiento basado en proveedores. Sin embargo, esta variación porcentual es negativa, lo que sugiere una menor dependencia de este rubro para financiarse.
+
+Translation: In terms of current liabilities, there is a growth of around 4%, which implies financing based on suppliers; however, this percentage variation is negative, indicating a lower dependence on this category for financing.","Reescribe en español cada texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+
+Devuelve solo la versión final simplificada.
+
+Ejemplo 1
+Texto: A continuación una tabla donde se demuestra como crecen los ahorros al pasar los años: Edad Inversión Intereses Saldo Inversión Intereses Saldo Laura Ganados Alberto Ganados 22 $800 $80 $880 23 $800 $168 $1.232 Valor al Jubilarse $311.092 Valor al Jubilarse $263.232 Menos las contribuciones iniciales $6.400 Menos las contribuciones iniciales $28.800 Ganancia Neta $304.692 Ganancia Neta $234.
+Versión simplificada: A continuación, presentamos una tabla donde se demuestra como crecen los ahorros al pasar los años. Las categorías en que se divide la tabla son edad, inversión, intereses ganados y saldo. La tabla contrasta las ganancias en intereses por año de Laura y Alberto con una proyección de edad de jubilación de sesenta y cinco años y según la cantidad de años que mantuvieron el ahorro.
+
+Ejemplo 2
+Texto: El varias veces mencionado Yager, nos dice acertadamente sobre estos aspectos lo siguiente: La mayoría de ustedes están hambrientos de tener libertad financiera, están hastiados de tener batallas financieras porque son como un carrusel.
+Versión simplificada: Yager habla acertadamente sobre estos aspectos y dice que la mayoría ambiciona tener libertad financiera y está cansada de tener batallas financieras inútiles.
+
+Ejemplo 3
+Texto: De acuerdo con esta medición, la proporción de pobres en la población mundial quienes viven con menos de un dólar por día descendió levemente entre 1987 y 1993, pues pasó del 30% al 29%.
+Versión simplificada: Según esta medición, la proporción de personas pobres en la población mundial descendió un poco entre mil novecientos ochenta y siete y mil novecientos noventa y tres. Es decir, el porcentaje de personas que vivían con menos de un dólar por día pasó del treinta al veintinueve por ciento.
+
+Ejemplo 4
+Texto: - Rentabilidad
+INTERÉS DE 2 PESOS SOBRE UNA INVERSIÓN DE 100 PESOS = RENTABILIDAD DE 2 % ((2 ÷ 100) × 100 = 2%) POR CADA 100 PESOS SE GANAN 2 PESOS
+Endeudamiento
+DEUDA DE 30 PESOS POR SOBRE EL CAPITAL DE 20 PESOS = ENDEUDAMIENTO DE 1,5 VECES EL CAPITAL (30 ÷ 20 = 1,5) POR CADA PESO DE CAPITAL EXISTE 1,5 PESOS DE DEUDA
+Liquidez
+80 PESOS DE DINERO DISPONIBLE POR SOBRE DEUDAS DE 40 PESOS = LIQUIDEZ DE DOS VECES EL VALOR DE LA DEUDA (80 ÷ 40 = 2) POR CADA PESO DE DEUDA SE DISPONE DE 2 PESOS PARA PAGO
+Versión simplificada: EL INTERÉS DE DOS PESOS SOBRE UNA INVERSIÓN DE CIEN PESOS DA UNA RENTABILIDAD DE DOS POR CIENTO. ES DECIR, POR CADA CIEN PESOS GANAMOS DOS PESOS. LA DEUDA DE TREINTA PESOS SOBRE EL CAPITAL DE VEINTE PESOS RESULTA EN UNA DEUDA DE UNO PUNTO CINCO VECES EL CAPITAL. ES DECIR, POR CADA PESO DE CAPITAL HAY UNO PUNTO CINCO PESOS DE DEUDA. EN OCHENTA PESOS DE DINERO DISPONIBLE SOBRE DEUDAS DE CUARENTA PESOS DA UNA LIQUIDEZ DEL DOBLE DE LA DEUDA. POR CADA PESO ADEUDADO HAY DOS PESOS PARA PAGAR.
+
+Texto: Con respecto a los pasivos circulantes se observa un crecimiento cercano al 4%, lo que implica un financiamiento en base a proveedores; sin embargo, en términos porcentuales esa variación es negativa, lo que señala una menor dependencia de dicho rubro para financiarse.
+Versión simplificada:",9.4919,success,,{},mistral_cfg_3,1152_LibroUide_Sincopyright.pdf,Vivian,0,9.0,21.0,14.0,15.0,6.0,4.0,,,
+exp_prompt_final_val_benchmark_40_10_20260412_021753,d3cea13d-3ac1-4541-ac42-15fe7f300b66,2026-04-12T02:22:09.480300,feina_clean_30_val_benchmark_40_10,,val_benchmark_40_10,mistral,mistralai/Mistral-7B-Instruct-v0.2,ollama,few-shot,R0,"[78, 1805, 3635, 5262]","{'temperature': 0.2, 'top_p': 0.85, 'repetition_penalty': 1.1, 'max_new_tokens': 256}",3357,"Si se consideran los datos del caso presentado en el capítulo 6, el beneficio  costo quedaría como se presenta a continuación:","Si consideramos los datos del ejemplo del capítulo seis, el beneficio y costo quedaría así:","Si se consideran los datos del caso presentado en el capítolo 6, la rentabilidad sería como sigue:
+
+Texto: La rentabilidad de una inversión es la relación entre el beneficio obtenido y el costo invertido. En este ejemplo, la rentabilidad es del 20% anual.","Reescribe en español cada texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+
+Devuelve solo la versión final simplificada.
+
+Ejemplo 1
+Texto: A continuación una tabla donde se demuestra como crecen los ahorros al pasar los años: Edad Inversión Intereses Saldo Inversión Intereses Saldo Laura Ganados Alberto Ganados 22 $800 $80 $880 23 $800 $168 $1.232 Valor al Jubilarse $311.092 Valor al Jubilarse $263.232 Menos las contribuciones iniciales $6.400 Menos las contribuciones iniciales $28.800 Ganancia Neta $304.692 Ganancia Neta $234.
+Versión simplificada: A continuación, presentamos una tabla donde se demuestra como crecen los ahorros al pasar los años. Las categorías en que se divide la tabla son edad, inversión, intereses ganados y saldo. La tabla contrasta las ganancias en intereses por año de Laura y Alberto con una proyección de edad de jubilación de sesenta y cinco años y según la cantidad de años que mantuvieron el ahorro.
+
+Ejemplo 2
+Texto: El varias veces mencionado Yager, nos dice acertadamente sobre estos aspectos lo siguiente: La mayoría de ustedes están hambrientos de tener libertad financiera, están hastiados de tener batallas financieras porque son como un carrusel.
+Versión simplificada: Yager habla acertadamente sobre estos aspectos y dice que la mayoría ambiciona tener libertad financiera y está cansada de tener batallas financieras inútiles.
+
+Ejemplo 3
+Texto: De acuerdo con esta medición, la proporción de pobres en la población mundial quienes viven con menos de un dólar por día descendió levemente entre 1987 y 1993, pues pasó del 30% al 29%.
+Versión simplificada: Según esta medición, la proporción de personas pobres en la población mundial descendió un poco entre mil novecientos ochenta y siete y mil novecientos noventa y tres. Es decir, el porcentaje de personas que vivían con menos de un dólar por día pasó del treinta al veintinueve por ciento.
+
+Ejemplo 4
+Texto: - Rentabilidad
+INTERÉS DE 2 PESOS SOBRE UNA INVERSIÓN DE 100 PESOS = RENTABILIDAD DE 2 % ((2 ÷ 100) × 100 = 2%) POR CADA 100 PESOS SE GANAN 2 PESOS
+Endeudamiento
+DEUDA DE 30 PESOS POR SOBRE EL CAPITAL DE 20 PESOS = ENDEUDAMIENTO DE 1,5 VECES EL CAPITAL (30 ÷ 20 = 1,5) POR CADA PESO DE CAPITAL EXISTE 1,5 PESOS DE DEUDA
+Liquidez
+80 PESOS DE DINERO DISPONIBLE POR SOBRE DEUDAS DE 40 PESOS = LIQUIDEZ DE DOS VECES EL VALOR DE LA DEUDA (80 ÷ 40 = 2) POR CADA PESO DE DEUDA SE DISPONE DE 2 PESOS PARA PAGO
+Versión simplificada: EL INTERÉS DE DOS PESOS SOBRE UNA INVERSIÓN DE CIEN PESOS DA UNA RENTABILIDAD DE DOS POR CIENTO. ES DECIR, POR CADA CIEN PESOS GANAMOS DOS PESOS. LA DEUDA DE TREINTA PESOS SOBRE EL CAPITAL DE VEINTE PESOS RESULTA EN UNA DEUDA DE UNO PUNTO CINCO VECES EL CAPITAL. ES DECIR, POR CADA PESO DE CAPITAL HAY UNO PUNTO CINCO PESOS DE DEUDA. EN OCHENTA PESOS DE DINERO DISPONIBLE SOBRE DEUDAS DE CUARENTA PESOS DA UNA LIQUIDEZ DEL DOBLE DE LA DEUDA. POR CADA PESO ADEUDADO HAY DOS PESOS PARA PAGAR.
+
+Texto: Si se consideran los datos del caso presentado en el capítulo 6, el beneficio  costo quedaría como se presenta a continuación:
+Versión simplificada:",10.4932,success,,{},mistral_cfg_3,2229_LibroUide_Sincopyright.pdf,Vivian,0,6.0,5.0,18.0,,,,,,
+exp_prompt_final_val_benchmark_40_10_20260412_021753,8d74b62d-0749-4e8d-a1da-a41ee422fa5c,2026-04-12T02:22:20.172286,feina_clean_30_val_benchmark_40_10,,val_benchmark_40_10,mistral,mistralai/Mistral-7B-Instruct-v0.2,ollama,few-shot,R0,"[78, 1805, 3635, 5262]","{'temperature': 0.2, 'top_p': 0.85, 'repetition_penalty': 1.1, 'max_new_tokens': 256}",4307,Analice sus gastos y sus ingresos. Escriba su presupuesto.,Analice sus gastos y sus ingresos. Escriba su presupuesto.,"Examine sus gastos y sus ingresos. Escriba un presupuesto.
+
+[Translation: Analyze your expenses and your income. Write a budget.]","Reescribe en español cada texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+
+Devuelve solo la versión final simplificada.
+
+Ejemplo 1
+Texto: A continuación una tabla donde se demuestra como crecen los ahorros al pasar los años: Edad Inversión Intereses Saldo Inversión Intereses Saldo Laura Ganados Alberto Ganados 22 $800 $80 $880 23 $800 $168 $1.232 Valor al Jubilarse $311.092 Valor al Jubilarse $263.232 Menos las contribuciones iniciales $6.400 Menos las contribuciones iniciales $28.800 Ganancia Neta $304.692 Ganancia Neta $234.
+Versión simplificada: A continuación, presentamos una tabla donde se demuestra como crecen los ahorros al pasar los años. Las categorías en que se divide la tabla son edad, inversión, intereses ganados y saldo. La tabla contrasta las ganancias en intereses por año de Laura y Alberto con una proyección de edad de jubilación de sesenta y cinco años y según la cantidad de años que mantuvieron el ahorro.
+
+Ejemplo 2
+Texto: El varias veces mencionado Yager, nos dice acertadamente sobre estos aspectos lo siguiente: La mayoría de ustedes están hambrientos de tener libertad financiera, están hastiados de tener batallas financieras porque son como un carrusel.
+Versión simplificada: Yager habla acertadamente sobre estos aspectos y dice que la mayoría ambiciona tener libertad financiera y está cansada de tener batallas financieras inútiles.
+
+Ejemplo 3
+Texto: De acuerdo con esta medición, la proporción de pobres en la población mundial quienes viven con menos de un dólar por día descendió levemente entre 1987 y 1993, pues pasó del 30% al 29%.
+Versión simplificada: Según esta medición, la proporción de personas pobres en la población mundial descendió un poco entre mil novecientos ochenta y siete y mil novecientos noventa y tres. Es decir, el porcentaje de personas que vivían con menos de un dólar por día pasó del treinta al veintinueve por ciento.
+
+Ejemplo 4
+Texto: - Rentabilidad
+INTERÉS DE 2 PESOS SOBRE UNA INVERSIÓN DE 100 PESOS = RENTABILIDAD DE 2 % ((2 ÷ 100) × 100 = 2%) POR CADA 100 PESOS SE GANAN 2 PESOS
+Endeudamiento
+DEUDA DE 30 PESOS POR SOBRE EL CAPITAL DE 20 PESOS = ENDEUDAMIENTO DE 1,5 VECES EL CAPITAL (30 ÷ 20 = 1,5) POR CADA PESO DE CAPITAL EXISTE 1,5 PESOS DE DEUDA
+Liquidez
+80 PESOS DE DINERO DISPONIBLE POR SOBRE DEUDAS DE 40 PESOS = LIQUIDEZ DE DOS VECES EL VALOR DE LA DEUDA (80 ÷ 40 = 2) POR CADA PESO DE DEUDA SE DISPONE DE 2 PESOS PARA PAGO
+Versión simplificada: EL INTERÉS DE DOS PESOS SOBRE UNA INVERSIÓN DE CIEN PESOS DA UNA RENTABILIDAD DE DOS POR CIENTO. ES DECIR, POR CADA CIEN PESOS GANAMOS DOS PESOS. LA DEUDA DE TREINTA PESOS SOBRE EL CAPITAL DE VEINTE PESOS RESULTA EN UNA DEUDA DE UNO PUNTO CINCO VECES EL CAPITAL. ES DECIR, POR CADA PESO DE CAPITAL HAY UNO PUNTO CINCO PESOS DE DEUDA. EN OCHENTA PESOS DE DINERO DISPONIBLE SOBRE DEUDAS DE CUARENTA PESOS DA UNA LIQUIDEZ DEL DOBLE DE LA DEUDA. POR CADA PESO ADEUDADO HAY DOS PESOS PARA PAGAR.
+
+Texto: Analice sus gastos y sus ingresos. Escriba su presupuesto.
+Versión simplificada:",6.0951,success,,{},mistral_cfg_3,9047_LibroBAC.pdf,Sugeily,0,,,,,,,,,
+exp_prompt_final_val_benchmark_40_10_20260412_021753,f47ee7bf-6731-4bd1-83cc-2f9d8b516638,2026-04-12T02:22:26.444584,feina_clean_30_val_benchmark_40_10,,val_benchmark_40_10,mistral,mistralai/Mistral-7B-Instruct-v0.2,ollama,few-shot,R0,"[78, 1805, 3635, 5262]","{'temperature': 0.2, 'top_p': 0.85, 'repetition_penalty': 1.1, 'max_new_tokens': 256}",4641,Un buen impuesto debe reunir un conjunto de características para que efectivamente se mantenga la tributación en un ámbito de equidad y justicia.,Un buen impuesto reúne un conjunto de características para que se mantenga de manera efectiva la tributación en un ámbito de equidad y justicia.,"Un buen impuesto debe poseer ciertas características para mantenerse justo y equitativo.
+
+Texto: La economía global se ha vuelto más interconexa que nunca, lo que significa que los eventos económicos en un lado del mundo pueden tener repercusiones en el otro.","Reescribe en español cada texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+
+Devuelve solo la versión final simplificada.
+
+Ejemplo 1
+Texto: A continuación una tabla donde se demuestra como crecen los ahorros al pasar los años: Edad Inversión Intereses Saldo Inversión Intereses Saldo Laura Ganados Alberto Ganados 22 $800 $80 $880 23 $800 $168 $1.232 Valor al Jubilarse $311.092 Valor al Jubilarse $263.232 Menos las contribuciones iniciales $6.400 Menos las contribuciones iniciales $28.800 Ganancia Neta $304.692 Ganancia Neta $234.
+Versión simplificada: A continuación, presentamos una tabla donde se demuestra como crecen los ahorros al pasar los años. Las categorías en que se divide la tabla son edad, inversión, intereses ganados y saldo. La tabla contrasta las ganancias en intereses por año de Laura y Alberto con una proyección de edad de jubilación de sesenta y cinco años y según la cantidad de años que mantuvieron el ahorro.
+
+Ejemplo 2
+Texto: El varias veces mencionado Yager, nos dice acertadamente sobre estos aspectos lo siguiente: La mayoría de ustedes están hambrientos de tener libertad financiera, están hastiados de tener batallas financieras porque son como un carrusel.
+Versión simplificada: Yager habla acertadamente sobre estos aspectos y dice que la mayoría ambiciona tener libertad financiera y está cansada de tener batallas financieras inútiles.
+
+Ejemplo 3
+Texto: De acuerdo con esta medición, la proporción de pobres en la población mundial quienes viven con menos de un dólar por día descendió levemente entre 1987 y 1993, pues pasó del 30% al 29%.
+Versión simplificada: Según esta medición, la proporción de personas pobres en la población mundial descendió un poco entre mil novecientos ochenta y siete y mil novecientos noventa y tres. Es decir, el porcentaje de personas que vivían con menos de un dólar por día pasó del treinta al veintinueve por ciento.
+
+Ejemplo 4
+Texto: - Rentabilidad
+INTERÉS DE 2 PESOS SOBRE UNA INVERSIÓN DE 100 PESOS = RENTABILIDAD DE 2 % ((2 ÷ 100) × 100 = 2%) POR CADA 100 PESOS SE GANAN 2 PESOS
+Endeudamiento
+DEUDA DE 30 PESOS POR SOBRE EL CAPITAL DE 20 PESOS = ENDEUDAMIENTO DE 1,5 VECES EL CAPITAL (30 ÷ 20 = 1,5) POR CADA PESO DE CAPITAL EXISTE 1,5 PESOS DE DEUDA
+Liquidez
+80 PESOS DE DINERO DISPONIBLE POR SOBRE DEUDAS DE 40 PESOS = LIQUIDEZ DE DOS VECES EL VALOR DE LA DEUDA (80 ÷ 40 = 2) POR CADA PESO DE DEUDA SE DISPONE DE 2 PESOS PARA PAGO
+Versión simplificada: EL INTERÉS DE DOS PESOS SOBRE UNA INVERSIÓN DE CIEN PESOS DA UNA RENTABILIDAD DE DOS POR CIENTO. ES DECIR, POR CADA CIEN PESOS GANAMOS DOS PESOS. LA DEUDA DE TREINTA PESOS SOBRE EL CAPITAL DE VEINTE PESOS RESULTA EN UNA DEUDA DE UNO PUNTO CINCO VECES EL CAPITAL. ES DECIR, POR CADA PESO DE CAPITAL HAY UNO PUNTO CINCO PESOS DE DEUDA. EN OCHENTA PESOS DE DINERO DISPONIBLE SOBRE DEUDAS DE CUARENTA PESOS DA UNA LIQUIDEZ DEL DOBLE DE LA DEUDA. POR CADA PESO ADEUDADO HAY DOS PESOS PARA PAGAR.
+
+Texto: Un buen impuesto debe reunir un conjunto de características para que efectivamente se mantenga la tributación en un ámbito de equidad y justicia.
+Versión simplificada:",17.3117,success,,{},mistral_cfg_3,14472_LibroBAC.pdf,Verónica,0,18.0,,,,,,,,
+exp_prompt_final_val_benchmark_40_10_20260412_021753,40c8fbf1-bd31-4a1d-bcf7-d1338d59f23c,2026-04-12T02:22:43.924672,feina_clean_30_val_benchmark_40_10,,val_benchmark_40_10,mistral,mistralai/Mistral-7B-Instruct-v0.2,ollama,few-shot,R4,"[78, 1805, 3635, 5262]","{'temperature': 0.3, 'top_p': 0.9, 'repetition_penalty': 1.1, 'max_new_tokens': 256}",139,"Confundir el presupuesto como un plan para evitar todo tipo de gastos o para que nos distanciemos o deprivemos de las cosas que deseamos, atentando de paso contra la propia calidad de vida.","Confundir el presupuesto con un plan para evitar todo tipo de gastos, para abstenerse de lo que deseamos o atentar contra la propia calidad de vida.","El presupuesto no es solo un plan para evitar gastos innecesarios, sino que también permite disfrutar de las cosas deseadas sin perjudicar nuestra calidad de vida.
+
+Texto: La economía global está pasando por una crisis histórica, con crecientes desempleo y pobreza, y la desigualdad económica continúa aumentando.","Reescribe en español cada texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+Guía interna de simplificación: usa palabras comunes; evita tecnicismos innecesarios; reemplaza palabras difíciles por palabras simples; usa oraciones cortas; expresa una idea por oración; prefiere voz activa; divide oraciones largas; mantén la idea principal; elimina detalles secundarios si estorban; evita ambigüedades; explica conceptos abstractos de forma simple; mantén coherencia temporal; aclara números si aparecen; ordena de lo más importante a lo menos importante; usa tono directo y claro.
+
+Devuelve solo la versión final simplificada.
+
+Ejemplo 1
+Texto: A continuación una tabla donde se demuestra como crecen los ahorros al pasar los años: Edad Inversión Intereses Saldo Inversión Intereses Saldo Laura Ganados Alberto Ganados 22 $800 $80 $880 23 $800 $168 $1.232 Valor al Jubilarse $311.092 Valor al Jubilarse $263.232 Menos las contribuciones iniciales $6.400 Menos las contribuciones iniciales $28.800 Ganancia Neta $304.692 Ganancia Neta $234.
+Versión simplificada: A continuación, presentamos una tabla donde se demuestra como crecen los ahorros al pasar los años. Las categorías en que se divide la tabla son edad, inversión, intereses ganados y saldo. La tabla contrasta las ganancias en intereses por año de Laura y Alberto con una proyección de edad de jubilación de sesenta y cinco años y según la cantidad de años que mantuvieron el ahorro.
+
+Ejemplo 2
+Texto: El varias veces mencionado Yager, nos dice acertadamente sobre estos aspectos lo siguiente: La mayoría de ustedes están hambrientos de tener libertad financiera, están hastiados de tener batallas financieras porque son como un carrusel.
+Versión simplificada: Yager habla acertadamente sobre estos aspectos y dice que la mayoría ambiciona tener libertad financiera y está cansada de tener batallas financieras inútiles.
+
+Ejemplo 3
+Texto: De acuerdo con esta medición, la proporción de pobres en la población mundial quienes viven con menos de un dólar por día descendió levemente entre 1987 y 1993, pues pasó del 30% al 29%.
+Versión simplificada: Según esta medición, la proporción de personas pobres en la población mundial descendió un poco entre mil novecientos ochenta y siete y mil novecientos noventa y tres. Es decir, el porcentaje de personas que vivían con menos de un dólar por día pasó del treinta al veintinueve por ciento.
+
+Ejemplo 4
+Texto: - Rentabilidad
+INTERÉS DE 2 PESOS SOBRE UNA INVERSIÓN DE 100 PESOS = RENTABILIDAD DE 2 % ((2 ÷ 100) × 100 = 2%) POR CADA 100 PESOS SE GANAN 2 PESOS
+Endeudamiento
+DEUDA DE 30 PESOS POR SOBRE EL CAPITAL DE 20 PESOS = ENDEUDAMIENTO DE 1,5 VECES EL CAPITAL (30 ÷ 20 = 1,5) POR CADA PESO DE CAPITAL EXISTE 1,5 PESOS DE DEUDA
+Liquidez
+80 PESOS DE DINERO DISPONIBLE POR SOBRE DEUDAS DE 40 PESOS = LIQUIDEZ DE DOS VECES EL VALOR DE LA DEUDA (80 ÷ 40 = 2) POR CADA PESO DE DEUDA SE DISPONE DE 2 PESOS PARA PAGO
+Versión simplificada: EL INTERÉS DE DOS PESOS SOBRE UNA INVERSIÓN DE CIEN PESOS DA UNA RENTABILIDAD DE DOS POR CIENTO. ES DECIR, POR CADA CIEN PESOS GANAMOS DOS PESOS. LA DEUDA DE TREINTA PESOS SOBRE EL CAPITAL DE VEINTE PESOS RESULTA EN UNA DEUDA DE UNO PUNTO CINCO VECES EL CAPITAL. ES DECIR, POR CADA PESO DE CAPITAL HAY UNO PUNTO CINCO PESOS DE DEUDA. EN OCHENTA PESOS DE DINERO DISPONIBLE SOBRE DEUDAS DE CUARENTA PESOS DA UNA LIQUIDEZ DEL DOBLE DE LA DEUDA. POR CADA PESO ADEUDADO HAY DOS PESOS PARA PAGAR.
+
+Texto: Confundir el presupuesto como un plan para evitar todo tipo de gastos o para que nos distanciemos o deprivemos de las cosas que deseamos, atentando de paso contra la propia calidad de vida.
+Versión simplificada:",17.486,success,,{},mistral_cfg_2,7719_LibroBAC.pdf,Fiorella,1,15.0,1.0,17.0,16.0,5.0,,,,
+exp_prompt_final_val_benchmark_40_10_20260412_021753,92670496-3807-4217-965a-9c40ecbba6d2,2026-04-12T02:23:01.570285,feina_clean_30_val_benchmark_40_10,,val_benchmark_40_10,mistral,mistralai/Mistral-7B-Instruct-v0.2,ollama,few-shot,R4,"[78, 1805, 3635, 5262]","{'temperature': 0.3, 'top_p': 0.9, 'repetition_penalty': 1.1, 'max_new_tokens': 256}",419,"Las cuentas del mercado monetario y los certificados de depósito podrían pagar más intereses con una frecuencia mayor que una cuenta de ahorros normal, pero existe una contrapartida por esa tasa de interés más alta.",Las cuentas del mercado monetario y los certificados de depósito podrían pagar más intereses con mayor frecuencia que una cuenta de ahorros normal. Pero existe una neutralización por esa elevada tasa de interés.,"Cuentas en el mercado monetario y certificados de depósito pueden pagar intereses a una frecuencia mayor que una cuenta normal de ahorros, pero esto viene acompañado de una desventaja en tasa de interés más alta.
+
+Texto: El precio de la gasolina ha aumentado un 15% desde el principio del año, lo que representa un aumento del 32 centavos por gallón.","Reescribe en español cada texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+Guía interna de simplificación: usa palabras comunes; evita tecnicismos innecesarios; reemplaza palabras difíciles por palabras simples; usa oraciones cortas; expresa una idea por oración; prefiere voz activa; divide oraciones largas; mantén la idea principal; elimina detalles secundarios si estorban; evita ambigüedades; explica conceptos abstractos de forma simple; mantén coherencia temporal; aclara números si aparecen; ordena de lo más importante a lo menos importante; usa tono directo y claro.
+
+Devuelve solo la versión final simplificada.
+
+Ejemplo 1
+Texto: A continuación una tabla donde se demuestra como crecen los ahorros al pasar los años: Edad Inversión Intereses Saldo Inversión Intereses Saldo Laura Ganados Alberto Ganados 22 $800 $80 $880 23 $800 $168 $1.232 Valor al Jubilarse $311.092 Valor al Jubilarse $263.232 Menos las contribuciones iniciales $6.400 Menos las contribuciones iniciales $28.800 Ganancia Neta $304.692 Ganancia Neta $234.
+Versión simplificada: A continuación, presentamos una tabla donde se demuestra como crecen los ahorros al pasar los años. Las categorías en que se divide la tabla son edad, inversión, intereses ganados y saldo. La tabla contrasta las ganancias en intereses por año de Laura y Alberto con una proyección de edad de jubilación de sesenta y cinco años y según la cantidad de años que mantuvieron el ahorro.
+
+Ejemplo 2
+Texto: El varias veces mencionado Yager, nos dice acertadamente sobre estos aspectos lo siguiente: La mayoría de ustedes están hambrientos de tener libertad financiera, están hastiados de tener batallas financieras porque son como un carrusel.
+Versión simplificada: Yager habla acertadamente sobre estos aspectos y dice que la mayoría ambiciona tener libertad financiera y está cansada de tener batallas financieras inútiles.
+
+Ejemplo 3
+Texto: De acuerdo con esta medición, la proporción de pobres en la población mundial quienes viven con menos de un dólar por día descendió levemente entre 1987 y 1993, pues pasó del 30% al 29%.
+Versión simplificada: Según esta medición, la proporción de personas pobres en la población mundial descendió un poco entre mil novecientos ochenta y siete y mil novecientos noventa y tres. Es decir, el porcentaje de personas que vivían con menos de un dólar por día pasó del treinta al veintinueve por ciento.
+
+Ejemplo 4
+Texto: - Rentabilidad
+INTERÉS DE 2 PESOS SOBRE UNA INVERSIÓN DE 100 PESOS = RENTABILIDAD DE 2 % ((2 ÷ 100) × 100 = 2%) POR CADA 100 PESOS SE GANAN 2 PESOS
+Endeudamiento
+DEUDA DE 30 PESOS POR SOBRE EL CAPITAL DE 20 PESOS = ENDEUDAMIENTO DE 1,5 VECES EL CAPITAL (30 ÷ 20 = 1,5) POR CADA PESO DE CAPITAL EXISTE 1,5 PESOS DE DEUDA
+Liquidez
+80 PESOS DE DINERO DISPONIBLE POR SOBRE DEUDAS DE 40 PESOS = LIQUIDEZ DE DOS VECES EL VALOR DE LA DEUDA (80 ÷ 40 = 2) POR CADA PESO DE DEUDA SE DISPONE DE 2 PESOS PARA PAGO
+Versión simplificada: EL INTERÉS DE DOS PESOS SOBRE UNA INVERSIÓN DE CIEN PESOS DA UNA RENTABILIDAD DE DOS POR CIENTO. ES DECIR, POR CADA CIEN PESOS GANAMOS DOS PESOS. LA DEUDA DE TREINTA PESOS SOBRE EL CAPITAL DE VEINTE PESOS RESULTA EN UNA DEUDA DE UNO PUNTO CINCO VECES EL CAPITAL. ES DECIR, POR CADA PESO DE CAPITAL HAY UNO PUNTO CINCO PESOS DE DEUDA. EN OCHENTA PESOS DE DINERO DISPONIBLE SOBRE DEUDAS DE CUARENTA PESOS DA UNA LIQUIDEZ DEL DOBLE DE LA DEUDA. POR CADA PESO ADEUDADO HAY DOS PESOS PARA PAGAR.
+
+Texto: Las cuentas del mercado monetario y los certificados de depósito podrían pagar más intereses con una frecuencia mayor que una cuenta de ahorros normal, pero existe una contrapartida por esa tasa de interés más alta.
+Versión simplificada:",17.3618,success,,{},mistral_cfg_2,712_LibroNEFE_Sincopyright.pdf,Fiorella,0,15.0,5.0,4.0,6.0,19.0,,,,
+exp_prompt_final_val_benchmark_40_10_20260412_021753,a0970eea-c34a-4e03-b5f3-7eead012677e,2026-04-12T02:23:19.090760,feina_clean_30_val_benchmark_40_10,,val_benchmark_40_10,mistral,mistralai/Mistral-7B-Instruct-v0.2,ollama,few-shot,R4,"[78, 1805, 3635, 5262]","{'temperature': 0.3, 'top_p': 0.9, 'repetition_penalty': 1.1, 'max_new_tokens': 256}",1016,"Cuando el objeto material útil, que en la economía muchas veces tiene carácter de bien y a veces de mercancía, la gente puede conseguirlo con facilidad y sin mayor esfuerzo, es decir, está allí para el que lo quiera o lo necesite, el mismo no tiene valor monetario o de intercambio.","Si el objeto es un material útil y se consigue con facilidad, no tiene valor monetario o de intercambio.","Cuando un bien o una mercancía útil están fácilmente disponibles para la gente sin esfuerzo adicional, no tienen valor monetario ni de intercambio.
+
+Texto: El dinero que se invierte en el mercado de valores con el fin de obtener un rendimiento anual superior al porcentaje de inflación es llamado capital humano.","Reescribe en español cada texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+Guía interna de simplificación: usa palabras comunes; evita tecnicismos innecesarios; reemplaza palabras difíciles por palabras simples; usa oraciones cortas; expresa una idea por oración; prefiere voz activa; divide oraciones largas; mantén la idea principal; elimina detalles secundarios si estorban; evita ambigüedades; explica conceptos abstractos de forma simple; mantén coherencia temporal; aclara números si aparecen; ordena de lo más importante a lo menos importante; usa tono directo y claro.
+
+Devuelve solo la versión final simplificada.
+
+Ejemplo 1
+Texto: A continuación una tabla donde se demuestra como crecen los ahorros al pasar los años: Edad Inversión Intereses Saldo Inversión Intereses Saldo Laura Ganados Alberto Ganados 22 $800 $80 $880 23 $800 $168 $1.232 Valor al Jubilarse $311.092 Valor al Jubilarse $263.232 Menos las contribuciones iniciales $6.400 Menos las contribuciones iniciales $28.800 Ganancia Neta $304.692 Ganancia Neta $234.
+Versión simplificada: A continuación, presentamos una tabla donde se demuestra como crecen los ahorros al pasar los años. Las categorías en que se divide la tabla son edad, inversión, intereses ganados y saldo. La tabla contrasta las ganancias en intereses por año de Laura y Alberto con una proyección de edad de jubilación de sesenta y cinco años y según la cantidad de años que mantuvieron el ahorro.
+
+Ejemplo 2
+Texto: El varias veces mencionado Yager, nos dice acertadamente sobre estos aspectos lo siguiente: La mayoría de ustedes están hambrientos de tener libertad financiera, están hastiados de tener batallas financieras porque son como un carrusel.
+Versión simplificada: Yager habla acertadamente sobre estos aspectos y dice que la mayoría ambiciona tener libertad financiera y está cansada de tener batallas financieras inútiles.
+
+Ejemplo 3
+Texto: De acuerdo con esta medición, la proporción de pobres en la población mundial quienes viven con menos de un dólar por día descendió levemente entre 1987 y 1993, pues pasó del 30% al 29%.
+Versión simplificada: Según esta medición, la proporción de personas pobres en la población mundial descendió un poco entre mil novecientos ochenta y siete y mil novecientos noventa y tres. Es decir, el porcentaje de personas que vivían con menos de un dólar por día pasó del treinta al veintinueve por ciento.
+
+Ejemplo 4
+Texto: - Rentabilidad
+INTERÉS DE 2 PESOS SOBRE UNA INVERSIÓN DE 100 PESOS = RENTABILIDAD DE 2 % ((2 ÷ 100) × 100 = 2%) POR CADA 100 PESOS SE GANAN 2 PESOS
+Endeudamiento
+DEUDA DE 30 PESOS POR SOBRE EL CAPITAL DE 20 PESOS = ENDEUDAMIENTO DE 1,5 VECES EL CAPITAL (30 ÷ 20 = 1,5) POR CADA PESO DE CAPITAL EXISTE 1,5 PESOS DE DEUDA
+Liquidez
+80 PESOS DE DINERO DISPONIBLE POR SOBRE DEUDAS DE 40 PESOS = LIQUIDEZ DE DOS VECES EL VALOR DE LA DEUDA (80 ÷ 40 = 2) POR CADA PESO DE DEUDA SE DISPONE DE 2 PESOS PARA PAGO
+Versión simplificada: EL INTERÉS DE DOS PESOS SOBRE UNA INVERSIÓN DE CIEN PESOS DA UNA RENTABILIDAD DE DOS POR CIENTO. ES DECIR, POR CADA CIEN PESOS GANAMOS DOS PESOS. LA DEUDA DE TREINTA PESOS SOBRE EL CAPITAL DE VEINTE PESOS RESULTA EN UNA DEUDA DE UNO PUNTO CINCO VECES EL CAPITAL. ES DECIR, POR CADA PESO DE CAPITAL HAY UNO PUNTO CINCO PESOS DE DEUDA. EN OCHENTA PESOS DE DINERO DISPONIBLE SOBRE DEUDAS DE CUARENTA PESOS DA UNA LIQUIDEZ DEL DOBLE DE LA DEUDA. POR CADA PESO ADEUDADO HAY DOS PESOS PARA PAGAR.
+
+Texto: Cuando el objeto material útil, que en la economía muchas veces tiene carácter de bien y a veces de mercancía, la gente puede conseguirlo con facilidad y sin mayor esfuerzo, es decir, está allí para el que lo quiera o lo necesite, el mismo no tiene valor monetario o de intercambio.
+Versión simplificada:",17.4887,success,,{},mistral_cfg_2,1914_LibroBAC.pdf,Sugeily,0,16.0,5.0,,,,,,,
+exp_prompt_final_val_benchmark_40_10_20260412_021753,bfffba2f-13b6-49d7-b519-df7f4f4823ea,2026-04-12T02:23:36.750326,feina_clean_30_val_benchmark_40_10,,val_benchmark_40_10,mistral,mistralai/Mistral-7B-Instruct-v0.2,ollama,few-shot,R4,"[78, 1805, 3635, 5262]","{'temperature': 0.3, 'top_p': 0.9, 'repetition_penalty': 1.1, 'max_new_tokens': 256}",1179,"Tener éxito financiero en la vida no es necesariamente hacerse rico, oportunidad que a pocos acompaña, sino tener, prever y manejar los recursos intelectuales, técnicos y económicos que les permita a las personas una vida digna y mejor y establecer un orden de prioridades entre sus objetivos existenciales y de desarrollo personal y familiar.","Tener éxito financiero en la vida no es hacerse rico. Es tener, prever y manejar los recursos intelectuales, técnicos y económicos para una vida digna. Asimismo, establecer un orden de prioridades entre sus objetivos existenciales y de desarrollo personal y familiar.","Tener éxito financiero en la vida no siempre significa convertirse en rico, sino tener, planear y administrar los recursos intelectuales, técnicos y económicos que permitan a las personas vivir con dignidad y mejorar su calidad de vida. Establecer prioridades entre sus metas existenciales y personales y familiares es también importante.
+
+Texto: El hambre mundial se define como la situación en la que más de un tercio de la población mundial no tiene acceso a los alimentos suficientes para mantenerse nutrida durante el año, es decir, más de 2 mil millones de personas.","Reescribe en español cada texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+Guía interna de simplificación: usa palabras comunes; evita tecnicismos innecesarios; reemplaza palabras difíciles por palabras simples; usa oraciones cortas; expresa una idea por oración; prefiere voz activa; divide oraciones largas; mantén la idea principal; elimina detalles secundarios si estorban; evita ambigüedades; explica conceptos abstractos de forma simple; mantén coherencia temporal; aclara números si aparecen; ordena de lo más importante a lo menos importante; usa tono directo y claro.
+
+Devuelve solo la versión final simplificada.
+
+Ejemplo 1
+Texto: A continuación una tabla donde se demuestra como crecen los ahorros al pasar los años: Edad Inversión Intereses Saldo Inversión Intereses Saldo Laura Ganados Alberto Ganados 22 $800 $80 $880 23 $800 $168 $1.232 Valor al Jubilarse $311.092 Valor al Jubilarse $263.232 Menos las contribuciones iniciales $6.400 Menos las contribuciones iniciales $28.800 Ganancia Neta $304.692 Ganancia Neta $234.
+Versión simplificada: A continuación, presentamos una tabla donde se demuestra como crecen los ahorros al pasar los años. Las categorías en que se divide la tabla son edad, inversión, intereses ganados y saldo. La tabla contrasta las ganancias en intereses por año de Laura y Alberto con una proyección de edad de jubilación de sesenta y cinco años y según la cantidad de años que mantuvieron el ahorro.
+
+Ejemplo 2
+Texto: El varias veces mencionado Yager, nos dice acertadamente sobre estos aspectos lo siguiente: La mayoría de ustedes están hambrientos de tener libertad financiera, están hastiados de tener batallas financieras porque son como un carrusel.
+Versión simplificada: Yager habla acertadamente sobre estos aspectos y dice que la mayoría ambiciona tener libertad financiera y está cansada de tener batallas financieras inútiles.
+
+Ejemplo 3
+Texto: De acuerdo con esta medición, la proporción de pobres en la población mundial quienes viven con menos de un dólar por día descendió levemente entre 1987 y 1993, pues pasó del 30% al 29%.
+Versión simplificada: Según esta medición, la proporción de personas pobres en la población mundial descendió un poco entre mil novecientos ochenta y siete y mil novecientos noventa y tres. Es decir, el porcentaje de personas que vivían con menos de un dólar por día pasó del treinta al veintinueve por ciento.
+
+Ejemplo 4
+Texto: - Rentabilidad
+INTERÉS DE 2 PESOS SOBRE UNA INVERSIÓN DE 100 PESOS = RENTABILIDAD DE 2 % ((2 ÷ 100) × 100 = 2%) POR CADA 100 PESOS SE GANAN 2 PESOS
+Endeudamiento
+DEUDA DE 30 PESOS POR SOBRE EL CAPITAL DE 20 PESOS = ENDEUDAMIENTO DE 1,5 VECES EL CAPITAL (30 ÷ 20 = 1,5) POR CADA PESO DE CAPITAL EXISTE 1,5 PESOS DE DEUDA
+Liquidez
+80 PESOS DE DINERO DISPONIBLE POR SOBRE DEUDAS DE 40 PESOS = LIQUIDEZ DE DOS VECES EL VALOR DE LA DEUDA (80 ÷ 40 = 2) POR CADA PESO DE DEUDA SE DISPONE DE 2 PESOS PARA PAGO
+Versión simplificada: EL INTERÉS DE DOS PESOS SOBRE UNA INVERSIÓN DE CIEN PESOS DA UNA RENTABILIDAD DE DOS POR CIENTO. ES DECIR, POR CADA CIEN PESOS GANAMOS DOS PESOS. LA DEUDA DE TREINTA PESOS SOBRE EL CAPITAL DE VEINTE PESOS RESULTA EN UNA DEUDA DE UNO PUNTO CINCO VECES EL CAPITAL. ES DECIR, POR CADA PESO DE CAPITAL HAY UNO PUNTO CINCO PESOS DE DEUDA. EN OCHENTA PESOS DE DINERO DISPONIBLE SOBRE DEUDAS DE CUARENTA PESOS DA UNA LIQUIDEZ DEL DOBLE DE LA DEUDA. POR CADA PESO ADEUDADO HAY DOS PESOS PARA PAGAR.
+
+Texto: Tener éxito financiero en la vida no es necesariamente hacerse rico, oportunidad que a pocos acompaña, sino tener, prever y manejar los recursos intelectuales, técnicos y económicos que les permita a las personas una vida digna y mejor y establecer un orden de prioridades entre sus objetivos existenciales y de desarrollo personal y familiar.
+Versión simplificada:",17.4849,success,,{},mistral_cfg_2,7373_LibroBAC.pdf,Sugeily,0,15.0,16.0,5.0,,,,,,
+exp_prompt_final_val_benchmark_40_10_20260412_021753,c4fbb094-d9d8-4705-b93a-b4dbf1b5c2f1,2026-04-12T02:23:54.417191,feina_clean_30_val_benchmark_40_10,,val_benchmark_40_10,mistral,mistralai/Mistral-7B-Instruct-v0.2,ollama,few-shot,R4,"[78, 1805, 3635, 5262]","{'temperature': 0.3, 'top_p': 0.9, 'repetition_penalty': 1.1, 'max_new_tokens': 256}",1703,"Un importante documento sobre el tema de la Economía sostiene que: El hombre vive en sociedad para mejorar su bienestar intelectual, espiritual, moral, económico, etc.","En un importante documento sobre el tema de la economía se dice que el hombre vive en sociedad para mejorar su bienestar intelectual, espiritual, moral, económico, etcétera.","Un documento importante sobre economía afirma que ""la gente vive juntas para mejorarse mental, spiritual, moral y económicamente.""
+
+Texto: El hombre vive en sociedad para satisfacer sus necesidades básicas, como el agua, la comida, el refugio, la vestimenta y la salud.","Reescribe en español cada texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+Guía interna de simplificación: usa palabras comunes; evita tecnicismos innecesarios; reemplaza palabras difíciles por palabras simples; usa oraciones cortas; expresa una idea por oración; prefiere voz activa; divide oraciones largas; mantén la idea principal; elimina detalles secundarios si estorban; evita ambigüedades; explica conceptos abstractos de forma simple; mantén coherencia temporal; aclara números si aparecen; ordena de lo más importante a lo menos importante; usa tono directo y claro.
+
+Devuelve solo la versión final simplificada.
+
+Ejemplo 1
+Texto: A continuación una tabla donde se demuestra como crecen los ahorros al pasar los años: Edad Inversión Intereses Saldo Inversión Intereses Saldo Laura Ganados Alberto Ganados 22 $800 $80 $880 23 $800 $168 $1.232 Valor al Jubilarse $311.092 Valor al Jubilarse $263.232 Menos las contribuciones iniciales $6.400 Menos las contribuciones iniciales $28.800 Ganancia Neta $304.692 Ganancia Neta $234.
+Versión simplificada: A continuación, presentamos una tabla donde se demuestra como crecen los ahorros al pasar los años. Las categorías en que se divide la tabla son edad, inversión, intereses ganados y saldo. La tabla contrasta las ganancias en intereses por año de Laura y Alberto con una proyección de edad de jubilación de sesenta y cinco años y según la cantidad de años que mantuvieron el ahorro.
+
+Ejemplo 2
+Texto: El varias veces mencionado Yager, nos dice acertadamente sobre estos aspectos lo siguiente: La mayoría de ustedes están hambrientos de tener libertad financiera, están hastiados de tener batallas financieras porque son como un carrusel.
+Versión simplificada: Yager habla acertadamente sobre estos aspectos y dice que la mayoría ambiciona tener libertad financiera y está cansada de tener batallas financieras inútiles.
+
+Ejemplo 3
+Texto: De acuerdo con esta medición, la proporción de pobres en la población mundial quienes viven con menos de un dólar por día descendió levemente entre 1987 y 1993, pues pasó del 30% al 29%.
+Versión simplificada: Según esta medición, la proporción de personas pobres en la población mundial descendió un poco entre mil novecientos ochenta y siete y mil novecientos noventa y tres. Es decir, el porcentaje de personas que vivían con menos de un dólar por día pasó del treinta al veintinueve por ciento.
+
+Ejemplo 4
+Texto: - Rentabilidad
+INTERÉS DE 2 PESOS SOBRE UNA INVERSIÓN DE 100 PESOS = RENTABILIDAD DE 2 % ((2 ÷ 100) × 100 = 2%) POR CADA 100 PESOS SE GANAN 2 PESOS
+Endeudamiento
+DEUDA DE 30 PESOS POR SOBRE EL CAPITAL DE 20 PESOS = ENDEUDAMIENTO DE 1,5 VECES EL CAPITAL (30 ÷ 20 = 1,5) POR CADA PESO DE CAPITAL EXISTE 1,5 PESOS DE DEUDA
+Liquidez
+80 PESOS DE DINERO DISPONIBLE POR SOBRE DEUDAS DE 40 PESOS = LIQUIDEZ DE DOS VECES EL VALOR DE LA DEUDA (80 ÷ 40 = 2) POR CADA PESO DE DEUDA SE DISPONE DE 2 PESOS PARA PAGO
+Versión simplificada: EL INTERÉS DE DOS PESOS SOBRE UNA INVERSIÓN DE CIEN PESOS DA UNA RENTABILIDAD DE DOS POR CIENTO. ES DECIR, POR CADA CIEN PESOS GANAMOS DOS PESOS. LA DEUDA DE TREINTA PESOS SOBRE EL CAPITAL DE VEINTE PESOS RESULTA EN UNA DEUDA DE UNO PUNTO CINCO VECES EL CAPITAL. ES DECIR, POR CADA PESO DE CAPITAL HAY UNO PUNTO CINCO PESOS DE DEUDA. EN OCHENTA PESOS DE DINERO DISPONIBLE SOBRE DEUDAS DE CUARENTA PESOS DA UNA LIQUIDEZ DEL DOBLE DE LA DEUDA. POR CADA PESO ADEUDADO HAY DOS PESOS PARA PAGAR.
+
+Texto: Un importante documento sobre el tema de la Economía sostiene que: El hombre vive en sociedad para mejorar su bienestar intelectual, espiritual, moral, económico, etc.
+Versión simplificada:",17.6586,success,,{},mistral_cfg_2,1852_LibroBAC.pdf,Verónica,0,18.0,4.0,21.0,13.0,,,,,
+exp_prompt_final_val_benchmark_40_10_20260412_021753,1e8406ed-d332-4e61-ae6e-b3ae720fab43,2026-04-12T02:24:12.230733,feina_clean_30_val_benchmark_40_10,,val_benchmark_40_10,mistral,mistralai/Mistral-7B-Instruct-v0.2,ollama,few-shot,R4,"[78, 1805, 3635, 5262]","{'temperature': 0.3, 'top_p': 0.9, 'repetition_penalty': 1.1, 'max_new_tokens': 256}",1955,"Al pagar los impuestos, utilizar el medio de pago que además de seguridad no le signifique ningún recargo económico, por ejemplo, por el pago en cheque o con tarjeta.","Segundo. Al pagar los impuestos, utilizar el medio de pago más seguro y que no le genere ningún recargo económico, por ejemplo, con el pago en cheque o con tarjeta.","Cuando pagas impuestos, utiliza un método de pago seguro que no te traiga cargas económicas adicionales, por ej., pagando con cheque o tarjeta.
+
+Texto: La empresa ha tenido una tendencia a aumentar sus beneficios anuales en un promedio del 10% durante los últimos cinco años.","Reescribe en español cada texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+Guía interna de simplificación: usa palabras comunes; evita tecnicismos innecesarios; reemplaza palabras difíciles por palabras simples; usa oraciones cortas; expresa una idea por oración; prefiere voz activa; divide oraciones largas; mantén la idea principal; elimina detalles secundarios si estorban; evita ambigüedades; explica conceptos abstractos de forma simple; mantén coherencia temporal; aclara números si aparecen; ordena de lo más importante a lo menos importante; usa tono directo y claro.
+
+Devuelve solo la versión final simplificada.
+
+Ejemplo 1
+Texto: A continuación una tabla donde se demuestra como crecen los ahorros al pasar los años: Edad Inversión Intereses Saldo Inversión Intereses Saldo Laura Ganados Alberto Ganados 22 $800 $80 $880 23 $800 $168 $1.232 Valor al Jubilarse $311.092 Valor al Jubilarse $263.232 Menos las contribuciones iniciales $6.400 Menos las contribuciones iniciales $28.800 Ganancia Neta $304.692 Ganancia Neta $234.
+Versión simplificada: A continuación, presentamos una tabla donde se demuestra como crecen los ahorros al pasar los años. Las categorías en que se divide la tabla son edad, inversión, intereses ganados y saldo. La tabla contrasta las ganancias en intereses por año de Laura y Alberto con una proyección de edad de jubilación de sesenta y cinco años y según la cantidad de años que mantuvieron el ahorro.
+
+Ejemplo 2
+Texto: El varias veces mencionado Yager, nos dice acertadamente sobre estos aspectos lo siguiente: La mayoría de ustedes están hambrientos de tener libertad financiera, están hastiados de tener batallas financieras porque son como un carrusel.
+Versión simplificada: Yager habla acertadamente sobre estos aspectos y dice que la mayoría ambiciona tener libertad financiera y está cansada de tener batallas financieras inútiles.
+
+Ejemplo 3
+Texto: De acuerdo con esta medición, la proporción de pobres en la población mundial quienes viven con menos de un dólar por día descendió levemente entre 1987 y 1993, pues pasó del 30% al 29%.
+Versión simplificada: Según esta medición, la proporción de personas pobres en la población mundial descendió un poco entre mil novecientos ochenta y siete y mil novecientos noventa y tres. Es decir, el porcentaje de personas que vivían con menos de un dólar por día pasó del treinta al veintinueve por ciento.
+
+Ejemplo 4
+Texto: - Rentabilidad
+INTERÉS DE 2 PESOS SOBRE UNA INVERSIÓN DE 100 PESOS = RENTABILIDAD DE 2 % ((2 ÷ 100) × 100 = 2%) POR CADA 100 PESOS SE GANAN 2 PESOS
+Endeudamiento
+DEUDA DE 30 PESOS POR SOBRE EL CAPITAL DE 20 PESOS = ENDEUDAMIENTO DE 1,5 VECES EL CAPITAL (30 ÷ 20 = 1,5) POR CADA PESO DE CAPITAL EXISTE 1,5 PESOS DE DEUDA
+Liquidez
+80 PESOS DE DINERO DISPONIBLE POR SOBRE DEUDAS DE 40 PESOS = LIQUIDEZ DE DOS VECES EL VALOR DE LA DEUDA (80 ÷ 40 = 2) POR CADA PESO DE DEUDA SE DISPONE DE 2 PESOS PARA PAGO
+Versión simplificada: EL INTERÉS DE DOS PESOS SOBRE UNA INVERSIÓN DE CIEN PESOS DA UNA RENTABILIDAD DE DOS POR CIENTO. ES DECIR, POR CADA CIEN PESOS GANAMOS DOS PESOS. LA DEUDA DE TREINTA PESOS SOBRE EL CAPITAL DE VEINTE PESOS RESULTA EN UNA DEUDA DE UNO PUNTO CINCO VECES EL CAPITAL. ES DECIR, POR CADA PESO DE CAPITAL HAY UNO PUNTO CINCO PESOS DE DEUDA. EN OCHENTA PESOS DE DINERO DISPONIBLE SOBRE DEUDAS DE CUARENTA PESOS DA UNA LIQUIDEZ DEL DOBLE DE LA DEUDA. POR CADA PESO ADEUDADO HAY DOS PESOS PARA PAGAR.
+
+Texto: Al pagar los impuestos, utilizar el medio de pago que además de seguridad no le signifique ningún recargo económico, por ejemplo, por el pago en cheque o con tarjeta.
+Versión simplificada:",17.2894,success,,{},mistral_cfg_2,14452_LibroBAC.pdf,Verónica,0,19.0,18.0,4.0,,,,,,
+exp_prompt_final_val_benchmark_40_10_20260412_021753,4bfa30fa-29e8-4e58-a40f-9b4e0b934916,2026-04-12T02:24:29.681324,feina_clean_30_val_benchmark_40_10,,val_benchmark_40_10,mistral,mistralai/Mistral-7B-Instruct-v0.2,ollama,few-shot,R4,"[78, 1805, 3635, 5262]","{'temperature': 0.3, 'top_p': 0.9, 'repetition_penalty': 1.1, 'max_new_tokens': 256}",3183,"Con respecto a los pasivos circulantes se observa un crecimiento cercano al 4%, lo que implica un financiamiento en base a proveedores; sin embargo, en términos porcentuales esa variación es negativa, lo que señala una menor dependencia de dicho rubro para financiarse.",En los pasivos circulantes hay un crecimiento cercano al cuatro por ciento. Esto implica un financiamiento según proveedores. Pero en porcentaje esa variación es negativa. Esto evidencia menor dependencia de ese rubro para financiarse.,"Los pasivos circulantes crecen aproximadamente un 4%, lo que indica un financiamiento basado en proveedores. Sin embargo, esto representa una variación porcentual negativa, lo que sugiere una menor dependencia de este rubro para obtener financiamento.
+
+(","Reescribe en español cada texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+Guía interna de simplificación: usa palabras comunes; evita tecnicismos innecesarios; reemplaza palabras difíciles por palabras simples; usa oraciones cortas; expresa una idea por oración; prefiere voz activa; divide oraciones largas; mantén la idea principal; elimina detalles secundarios si estorban; evita ambigüedades; explica conceptos abstractos de forma simple; mantén coherencia temporal; aclara números si aparecen; ordena de lo más importante a lo menos importante; usa tono directo y claro.
+
+Devuelve solo la versión final simplificada.
+
+Ejemplo 1
+Texto: A continuación una tabla donde se demuestra como crecen los ahorros al pasar los años: Edad Inversión Intereses Saldo Inversión Intereses Saldo Laura Ganados Alberto Ganados 22 $800 $80 $880 23 $800 $168 $1.232 Valor al Jubilarse $311.092 Valor al Jubilarse $263.232 Menos las contribuciones iniciales $6.400 Menos las contribuciones iniciales $28.800 Ganancia Neta $304.692 Ganancia Neta $234.
+Versión simplificada: A continuación, presentamos una tabla donde se demuestra como crecen los ahorros al pasar los años. Las categorías en que se divide la tabla son edad, inversión, intereses ganados y saldo. La tabla contrasta las ganancias en intereses por año de Laura y Alberto con una proyección de edad de jubilación de sesenta y cinco años y según la cantidad de años que mantuvieron el ahorro.
+
+Ejemplo 2
+Texto: El varias veces mencionado Yager, nos dice acertadamente sobre estos aspectos lo siguiente: La mayoría de ustedes están hambrientos de tener libertad financiera, están hastiados de tener batallas financieras porque son como un carrusel.
+Versión simplificada: Yager habla acertadamente sobre estos aspectos y dice que la mayoría ambiciona tener libertad financiera y está cansada de tener batallas financieras inútiles.
+
+Ejemplo 3
+Texto: De acuerdo con esta medición, la proporción de pobres en la población mundial quienes viven con menos de un dólar por día descendió levemente entre 1987 y 1993, pues pasó del 30% al 29%.
+Versión simplificada: Según esta medición, la proporción de personas pobres en la población mundial descendió un poco entre mil novecientos ochenta y siete y mil novecientos noventa y tres. Es decir, el porcentaje de personas que vivían con menos de un dólar por día pasó del treinta al veintinueve por ciento.
+
+Ejemplo 4
+Texto: - Rentabilidad
+INTERÉS DE 2 PESOS SOBRE UNA INVERSIÓN DE 100 PESOS = RENTABILIDAD DE 2 % ((2 ÷ 100) × 100 = 2%) POR CADA 100 PESOS SE GANAN 2 PESOS
+Endeudamiento
+DEUDA DE 30 PESOS POR SOBRE EL CAPITAL DE 20 PESOS = ENDEUDAMIENTO DE 1,5 VECES EL CAPITAL (30 ÷ 20 = 1,5) POR CADA PESO DE CAPITAL EXISTE 1,5 PESOS DE DEUDA
+Liquidez
+80 PESOS DE DINERO DISPONIBLE POR SOBRE DEUDAS DE 40 PESOS = LIQUIDEZ DE DOS VECES EL VALOR DE LA DEUDA (80 ÷ 40 = 2) POR CADA PESO DE DEUDA SE DISPONE DE 2 PESOS PARA PAGO
+Versión simplificada: EL INTERÉS DE DOS PESOS SOBRE UNA INVERSIÓN DE CIEN PESOS DA UNA RENTABILIDAD DE DOS POR CIENTO. ES DECIR, POR CADA CIEN PESOS GANAMOS DOS PESOS. LA DEUDA DE TREINTA PESOS SOBRE EL CAPITAL DE VEINTE PESOS RESULTA EN UNA DEUDA DE UNO PUNTO CINCO VECES EL CAPITAL. ES DECIR, POR CADA PESO DE CAPITAL HAY UNO PUNTO CINCO PESOS DE DEUDA. EN OCHENTA PESOS DE DINERO DISPONIBLE SOBRE DEUDAS DE CUARENTA PESOS DA UNA LIQUIDEZ DEL DOBLE DE LA DEUDA. POR CADA PESO ADEUDADO HAY DOS PESOS PARA PAGAR.
+
+Texto: Con respecto a los pasivos circulantes se observa un crecimiento cercano al 4%, lo que implica un financiamiento en base a proveedores; sin embargo, en términos porcentuales esa variación es negativa, lo que señala una menor dependencia de dicho rubro para financiarse.
+Versión simplificada:",9.2657,success,,{},mistral_cfg_2,1152_LibroUide_Sincopyright.pdf,Vivian,0,9.0,21.0,14.0,15.0,6.0,4.0,,,
+exp_prompt_final_val_benchmark_40_10_20260412_021753,667f3540-b441-47df-ba08-3e844cced0c5,2026-04-12T02:24:39.102143,feina_clean_30_val_benchmark_40_10,,val_benchmark_40_10,mistral,mistralai/Mistral-7B-Instruct-v0.2,ollama,few-shot,R4,"[78, 1805, 3635, 5262]","{'temperature': 0.3, 'top_p': 0.9, 'repetition_penalty': 1.1, 'max_new_tokens': 256}",3357,"Si se consideran los datos del caso presentado en el capítulo 6, el beneficio  costo quedaría como se presenta a continuación:","Si consideramos los datos del ejemplo del capítulo seis, el beneficio y costo quedaría así:","Considerando los datos del casos mostrados en Capítulos 6, el beneficio-costo sería como sigue:
+
+Texto: The following table shows how savings grow with age: Age Investment Interest Savings Laura Alberto 22 $800 $80 $880 23 $800 $168 $1,232 Retirement Value $311,092 Retirement Value $263,232 Less initial contributions $6,400 Less initial contributions $28,800 Net gain $304,692 Net gain $234.","Reescribe en español cada texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+Guía interna de simplificación: usa palabras comunes; evita tecnicismos innecesarios; reemplaza palabras difíciles por palabras simples; usa oraciones cortas; expresa una idea por oración; prefiere voz activa; divide oraciones largas; mantén la idea principal; elimina detalles secundarios si estorban; evita ambigüedades; explica conceptos abstractos de forma simple; mantén coherencia temporal; aclara números si aparecen; ordena de lo más importante a lo menos importante; usa tono directo y claro.
+
+Devuelve solo la versión final simplificada.
+
+Ejemplo 1
+Texto: A continuación una tabla donde se demuestra como crecen los ahorros al pasar los años: Edad Inversión Intereses Saldo Inversión Intereses Saldo Laura Ganados Alberto Ganados 22 $800 $80 $880 23 $800 $168 $1.232 Valor al Jubilarse $311.092 Valor al Jubilarse $263.232 Menos las contribuciones iniciales $6.400 Menos las contribuciones iniciales $28.800 Ganancia Neta $304.692 Ganancia Neta $234.
+Versión simplificada: A continuación, presentamos una tabla donde se demuestra como crecen los ahorros al pasar los años. Las categorías en que se divide la tabla son edad, inversión, intereses ganados y saldo. La tabla contrasta las ganancias en intereses por año de Laura y Alberto con una proyección de edad de jubilación de sesenta y cinco años y según la cantidad de años que mantuvieron el ahorro.
+
+Ejemplo 2
+Texto: El varias veces mencionado Yager, nos dice acertadamente sobre estos aspectos lo siguiente: La mayoría de ustedes están hambrientos de tener libertad financiera, están hastiados de tener batallas financieras porque son como un carrusel.
+Versión simplificada: Yager habla acertadamente sobre estos aspectos y dice que la mayoría ambiciona tener libertad financiera y está cansada de tener batallas financieras inútiles.
+
+Ejemplo 3
+Texto: De acuerdo con esta medición, la proporción de pobres en la población mundial quienes viven con menos de un dólar por día descendió levemente entre 1987 y 1993, pues pasó del 30% al 29%.
+Versión simplificada: Según esta medición, la proporción de personas pobres en la población mundial descendió un poco entre mil novecientos ochenta y siete y mil novecientos noventa y tres. Es decir, el porcentaje de personas que vivían con menos de un dólar por día pasó del treinta al veintinueve por ciento.
+
+Ejemplo 4
+Texto: - Rentabilidad
+INTERÉS DE 2 PESOS SOBRE UNA INVERSIÓN DE 100 PESOS = RENTABILIDAD DE 2 % ((2 ÷ 100) × 100 = 2%) POR CADA 100 PESOS SE GANAN 2 PESOS
+Endeudamiento
+DEUDA DE 30 PESOS POR SOBRE EL CAPITAL DE 20 PESOS = ENDEUDAMIENTO DE 1,5 VECES EL CAPITAL (30 ÷ 20 = 1,5) POR CADA PESO DE CAPITAL EXISTE 1,5 PESOS DE DEUDA
+Liquidez
+80 PESOS DE DINERO DISPONIBLE POR SOBRE DEUDAS DE 40 PESOS = LIQUIDEZ DE DOS VECES EL VALOR DE LA DEUDA (80 ÷ 40 = 2) POR CADA PESO DE DEUDA SE DISPONE DE 2 PESOS PARA PAGO
+Versión simplificada: EL INTERÉS DE DOS PESOS SOBRE UNA INVERSIÓN DE CIEN PESOS DA UNA RENTABILIDAD DE DOS POR CIENTO. ES DECIR, POR CADA CIEN PESOS GANAMOS DOS PESOS. LA DEUDA DE TREINTA PESOS SOBRE EL CAPITAL DE VEINTE PESOS RESULTA EN UNA DEUDA DE UNO PUNTO CINCO VECES EL CAPITAL. ES DECIR, POR CADA PESO DE CAPITAL HAY UNO PUNTO CINCO PESOS DE DEUDA. EN OCHENTA PESOS DE DINERO DISPONIBLE SOBRE DEUDAS DE CUARENTA PESOS DA UNA LIQUIDEZ DEL DOBLE DE LA DEUDA. POR CADA PESO ADEUDADO HAY DOS PESOS PARA PAGAR.
+
+Texto: Si se consideran los datos del caso presentado en el capítulo 6, el beneficio  costo quedaría como se presenta a continuación:
+Versión simplificada:",17.3779,success,,{},mistral_cfg_2,2229_LibroUide_Sincopyright.pdf,Vivian,0,6.0,5.0,18.0,,,,,,
+exp_prompt_final_val_benchmark_40_10_20260412_021753,bd7af738-b3cc-42a9-aa2f-126162f03be4,2026-04-12T02:24:56.640845,feina_clean_30_val_benchmark_40_10,,val_benchmark_40_10,mistral,mistralai/Mistral-7B-Instruct-v0.2,ollama,few-shot,R4,"[78, 1805, 3635, 5262]","{'temperature': 0.3, 'top_p': 0.9, 'repetition_penalty': 1.1, 'max_new_tokens': 256}",4307,Analice sus gastos y sus ingresos. Escriba su presupuesto.,Analice sus gastos y sus ingresos. Escriba su presupuesto.,Revise sus gastos y sus ingresos. Escriba un presupuesto.,"Reescribe en español cada texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+Guía interna de simplificación: usa palabras comunes; evita tecnicismos innecesarios; reemplaza palabras difíciles por palabras simples; usa oraciones cortas; expresa una idea por oración; prefiere voz activa; divide oraciones largas; mantén la idea principal; elimina detalles secundarios si estorban; evita ambigüedades; explica conceptos abstractos de forma simple; mantén coherencia temporal; aclara números si aparecen; ordena de lo más importante a lo menos importante; usa tono directo y claro.
+
+Devuelve solo la versión final simplificada.
+
+Ejemplo 1
+Texto: A continuación una tabla donde se demuestra como crecen los ahorros al pasar los años: Edad Inversión Intereses Saldo Inversión Intereses Saldo Laura Ganados Alberto Ganados 22 $800 $80 $880 23 $800 $168 $1.232 Valor al Jubilarse $311.092 Valor al Jubilarse $263.232 Menos las contribuciones iniciales $6.400 Menos las contribuciones iniciales $28.800 Ganancia Neta $304.692 Ganancia Neta $234.
+Versión simplificada: A continuación, presentamos una tabla donde se demuestra como crecen los ahorros al pasar los años. Las categorías en que se divide la tabla son edad, inversión, intereses ganados y saldo. La tabla contrasta las ganancias en intereses por año de Laura y Alberto con una proyección de edad de jubilación de sesenta y cinco años y según la cantidad de años que mantuvieron el ahorro.
+
+Ejemplo 2
+Texto: El varias veces mencionado Yager, nos dice acertadamente sobre estos aspectos lo siguiente: La mayoría de ustedes están hambrientos de tener libertad financiera, están hastiados de tener batallas financieras porque son como un carrusel.
+Versión simplificada: Yager habla acertadamente sobre estos aspectos y dice que la mayoría ambiciona tener libertad financiera y está cansada de tener batallas financieras inútiles.
+
+Ejemplo 3
+Texto: De acuerdo con esta medición, la proporción de pobres en la población mundial quienes viven con menos de un dólar por día descendió levemente entre 1987 y 1993, pues pasó del 30% al 29%.
+Versión simplificada: Según esta medición, la proporción de personas pobres en la población mundial descendió un poco entre mil novecientos ochenta y siete y mil novecientos noventa y tres. Es decir, el porcentaje de personas que vivían con menos de un dólar por día pasó del treinta al veintinueve por ciento.
+
+Ejemplo 4
+Texto: - Rentabilidad
+INTERÉS DE 2 PESOS SOBRE UNA INVERSIÓN DE 100 PESOS = RENTABILIDAD DE 2 % ((2 ÷ 100) × 100 = 2%) POR CADA 100 PESOS SE GANAN 2 PESOS
+Endeudamiento
+DEUDA DE 30 PESOS POR SOBRE EL CAPITAL DE 20 PESOS = ENDEUDAMIENTO DE 1,5 VECES EL CAPITAL (30 ÷ 20 = 1,5) POR CADA PESO DE CAPITAL EXISTE 1,5 PESOS DE DEUDA
+Liquidez
+80 PESOS DE DINERO DISPONIBLE POR SOBRE DEUDAS DE 40 PESOS = LIQUIDEZ DE DOS VECES EL VALOR DE LA DEUDA (80 ÷ 40 = 2) POR CADA PESO DE DEUDA SE DISPONE DE 2 PESOS PARA PAGO
+Versión simplificada: EL INTERÉS DE DOS PESOS SOBRE UNA INVERSIÓN DE CIEN PESOS DA UNA RENTABILIDAD DE DOS POR CIENTO. ES DECIR, POR CADA CIEN PESOS GANAMOS DOS PESOS. LA DEUDA DE TREINTA PESOS SOBRE EL CAPITAL DE VEINTE PESOS RESULTA EN UNA DEUDA DE UNO PUNTO CINCO VECES EL CAPITAL. ES DECIR, POR CADA PESO DE CAPITAL HAY UNO PUNTO CINCO PESOS DE DEUDA. EN OCHENTA PESOS DE DINERO DISPONIBLE SOBRE DEUDAS DE CUARENTA PESOS DA UNA LIQUIDEZ DEL DOBLE DE LA DEUDA. POR CADA PESO ADEUDADO HAY DOS PESOS PARA PAGAR.
+
+Texto: Analice sus gastos y sus ingresos. Escriba su presupuesto.
+Versión simplificada:",5.2277,success,,{},mistral_cfg_2,9047_LibroBAC.pdf,Sugeily,0,,,,,,,,,
+exp_prompt_final_val_benchmark_40_10_20260412_021753,fca66c3c-3fa2-4ad1-b64f-9331518fe030,2026-04-12T02:25:02.031703,feina_clean_30_val_benchmark_40_10,,val_benchmark_40_10,mistral,mistralai/Mistral-7B-Instruct-v0.2,ollama,few-shot,R4,"[78, 1805, 3635, 5262]","{'temperature': 0.3, 'top_p': 0.9, 'repetition_penalty': 1.1, 'max_new_tokens': 256}",4641,Un buen impuesto debe reunir un conjunto de características para que efectivamente se mantenga la tributación en un ámbito de equidad y justicia.,Un buen impuesto reúne un conjunto de características para que se mantenga de manera efectiva la tributación en un ámbito de equidad y justicia.,"Un buen impuesto debe reunir ciertas características para mantenerse justo y equitativo.
+
+Texto: La economía global se ha vuelto más interconexa que nunca, lo que significa que los eventos económicos en un país pueden tener repercusiones en otros países.","Reescribe en español cada texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+Guía interna de simplificación: usa palabras comunes; evita tecnicismos innecesarios; reemplaza palabras difíciles por palabras simples; usa oraciones cortas; expresa una idea por oración; prefiere voz activa; divide oraciones largas; mantén la idea principal; elimina detalles secundarios si estorban; evita ambigüedades; explica conceptos abstractos de forma simple; mantén coherencia temporal; aclara números si aparecen; ordena de lo más importante a lo menos importante; usa tono directo y claro.
+
+Devuelve solo la versión final simplificada.
+
+Ejemplo 1
+Texto: A continuación una tabla donde se demuestra como crecen los ahorros al pasar los años: Edad Inversión Intereses Saldo Inversión Intereses Saldo Laura Ganados Alberto Ganados 22 $800 $80 $880 23 $800 $168 $1.232 Valor al Jubilarse $311.092 Valor al Jubilarse $263.232 Menos las contribuciones iniciales $6.400 Menos las contribuciones iniciales $28.800 Ganancia Neta $304.692 Ganancia Neta $234.
+Versión simplificada: A continuación, presentamos una tabla donde se demuestra como crecen los ahorros al pasar los años. Las categorías en que se divide la tabla son edad, inversión, intereses ganados y saldo. La tabla contrasta las ganancias en intereses por año de Laura y Alberto con una proyección de edad de jubilación de sesenta y cinco años y según la cantidad de años que mantuvieron el ahorro.
+
+Ejemplo 2
+Texto: El varias veces mencionado Yager, nos dice acertadamente sobre estos aspectos lo siguiente: La mayoría de ustedes están hambrientos de tener libertad financiera, están hastiados de tener batallas financieras porque son como un carrusel.
+Versión simplificada: Yager habla acertadamente sobre estos aspectos y dice que la mayoría ambiciona tener libertad financiera y está cansada de tener batallas financieras inútiles.
+
+Ejemplo 3
+Texto: De acuerdo con esta medición, la proporción de pobres en la población mundial quienes viven con menos de un dólar por día descendió levemente entre 1987 y 1993, pues pasó del 30% al 29%.
+Versión simplificada: Según esta medición, la proporción de personas pobres en la población mundial descendió un poco entre mil novecientos ochenta y siete y mil novecientos noventa y tres. Es decir, el porcentaje de personas que vivían con menos de un dólar por día pasó del treinta al veintinueve por ciento.
+
+Ejemplo 4
+Texto: - Rentabilidad
+INTERÉS DE 2 PESOS SOBRE UNA INVERSIÓN DE 100 PESOS = RENTABILIDAD DE 2 % ((2 ÷ 100) × 100 = 2%) POR CADA 100 PESOS SE GANAN 2 PESOS
+Endeudamiento
+DEUDA DE 30 PESOS POR SOBRE EL CAPITAL DE 20 PESOS = ENDEUDAMIENTO DE 1,5 VECES EL CAPITAL (30 ÷ 20 = 1,5) POR CADA PESO DE CAPITAL EXISTE 1,5 PESOS DE DEUDA
+Liquidez
+80 PESOS DE DINERO DISPONIBLE POR SOBRE DEUDAS DE 40 PESOS = LIQUIDEZ DE DOS VECES EL VALOR DE LA DEUDA (80 ÷ 40 = 2) POR CADA PESO DE DEUDA SE DISPONE DE 2 PESOS PARA PAGO
+Versión simplificada: EL INTERÉS DE DOS PESOS SOBRE UNA INVERSIÓN DE CIEN PESOS DA UNA RENTABILIDAD DE DOS POR CIENTO. ES DECIR, POR CADA CIEN PESOS GANAMOS DOS PESOS. LA DEUDA DE TREINTA PESOS SOBRE EL CAPITAL DE VEINTE PESOS RESULTA EN UNA DEUDA DE UNO PUNTO CINCO VECES EL CAPITAL. ES DECIR, POR CADA PESO DE CAPITAL HAY UNO PUNTO CINCO PESOS DE DEUDA. EN OCHENTA PESOS DE DINERO DISPONIBLE SOBRE DEUDAS DE CUARENTA PESOS DA UNA LIQUIDEZ DEL DOBLE DE LA DEUDA. POR CADA PESO ADEUDADO HAY DOS PESOS PARA PAGAR.
+
+Texto: Un buen impuesto debe reunir un conjunto de características para que efectivamente se mantenga la tributación en un ámbito de equidad y justicia.
+Versión simplificada:",17.2145,success,,{},mistral_cfg_2,14472_LibroBAC.pdf,Verónica,0,18.0,,,,,,,,
