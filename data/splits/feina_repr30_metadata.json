@@ -1,0 +1,41 @@
+{
+  "prefix": "feina_repr30",
+  "clean_base_path": "/home/harielpadillasanchez/Documentos/TT/TT2/data/Dataset_FEINA_clean_base_repr.csv",
+  "sample_frac": 0.3,
+  "target_n": 1586,
+  "random_state": 42,
+  "train_size": 0.7,
+  "val_size": 0.15,
+  "test_size": 0.15,
+  "subset_shape": [
+    1586,
+    32
+  ],
+  "train_shape": [
+    1110,
+    32
+  ],
+  "val_shape": [
+    238,
+    32
+  ],
+  "test_shape": [
+    238,
+    32
+  ],
+  "overlap_train_val": 0,
+  "overlap_train_test": 0,
+  "overlap_val_test": 0,
+  "sampling_stratum_features": [
+    "main_family",
+    "n_rules_bucket",
+    "length_bucket",
+    "has_number",
+    "lex"
+  ],
+  "split_stratum_features": [
+    "main_family",
+    "n_rules_bucket",
+    "length_bucket"
+  ]
+}

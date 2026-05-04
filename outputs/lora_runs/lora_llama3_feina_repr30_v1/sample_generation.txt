@@ -1,0 +1,9 @@
+Reescribe en español el siguiente texto con lenguaje más claro y sencillo.
+Conserva el significado original y no inventes información.
+
+Devuelve solo la versión final simplificada.
+
+Texto:
+Aquí puede terminar también con un saldo negativo, lo cual significa que usted está gastando cada mes más de lo que le entra o recibe.
+
+Versión simplificada:Aquí puede terminar con un saldo negativo, lo que significa que usted gasta más de lo que recibe.

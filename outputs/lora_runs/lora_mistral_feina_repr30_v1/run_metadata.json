@@ -1,0 +1,33 @@
+{
+  "run_name": "lora_mistral_feina_repr30_v1",
+  "model_key": "mistral",
+  "model_id": "mistralai/Mistral-7B-Instruct-v0.2",
+  "dataset_prefix": "feina_repr30",
+  "train_jsonl": "/content/drive/MyDrive/TT2_colab/data/sft_ready/feina_repr30_train_sft.jsonl",
+  "val_jsonl": "/content/drive/MyDrive/TT2_colab/data/sft_ready/feina_repr30_val_sft.jsonl",
+  "test_jsonl": "/content/drive/MyDrive/TT2_colab/data/sft_ready/feina_repr30_test_sft.jsonl",
+  "train_rows": 1110,
+  "val_rows": 238,
+  "test_rows": 238,
+  "max_seq_length": 1024,
+  "lora_r": 16,
+  "lora_alpha": 32,
+  "lora_dropout": 0.05,
+  "target_modules": [
+    "q_proj",
+    "k_proj",
+    "v_proj",
+    "o_proj"
+  ],
+  "learning_rate": 0.0002,
+  "epochs": 2,
+  "per_device_train_batch_size": 1,
+  "per_device_eval_batch_size": 1,
+  "gradient_accumulation_steps": 8,
+  "load_in_4bit": true,
+  "bnb_4bit_quant_type": "nf4",
+  "bnb_4bit_use_double_quant": true,
+  "compute_dtype": "torch.float16",
+  "train_runtime_minutes": 45.206789113949995,
+  "final_adapter_dir": "/content/drive/MyDrive/TT2_colab/outputs/lora_runs/lora_mistral_feina_repr30_v1/final_adapter"
+}
