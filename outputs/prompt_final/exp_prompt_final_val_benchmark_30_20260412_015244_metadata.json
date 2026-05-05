@@ -1,0 +1,20 @@
+{
+  "experiment_id": "exp_prompt_final_val_benchmark_30_20260412_015244",
+  "split_name": "val_benchmark_30",
+  "n_rows_split": 10,
+  "n_candidate_configs": 4,
+  "expected_total_runs": 40,
+  "successful_runs": 40,
+  "prompt_type": "few-shot",
+  "few_shot_example_ids": [
+    78,
+    1805,
+    3635,
+    5262
+  ],
+  "runtime_inference_seconds": 398.8388,
+  "runtime_evaluation_seconds": 4.6534,
+  "raw_path": "/home/harielpadillasanchez/Documentos/TT/TT2/outputs/prompt_final/exp_prompt_final_val_benchmark_30_20260412_015244_raw_results.csv",
+  "evaluated_path": "/home/harielpadillasanchez/Documentos/TT/TT2/outputs/prompt_final/exp_prompt_final_val_benchmark_30_20260412_015244_evaluated.csv",
+  "summary_path": "/home/harielpadillasanchez/Documentos/TT/TT2/outputs/prompt_final/exp_prompt_final_val_benchmark_30_20260412_015244_summary.csv"
+}

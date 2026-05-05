@@ -1,0 +1,11 @@
+{
+  "experiment_id": "exp_ruleset_comparison_zero_20260502_235933",
+  "prompt_type": "zero-shot",
+  "n_configs": 10,
+  "n_rulesets": 5,
+  "n_rows_sample": 20,
+  "expected_total_runs": 1000,
+  "raw_path": "/home/harielpadillasanchez/Documentos/TT/TT2/outputs/ruleset_comparison_zero/exp_ruleset_comparison_zero_20260502_235933_raw_results.csv",
+  "eval_path": "/home/harielpadillasanchez/Documentos/TT/TT2/outputs/ruleset_comparison_zero/exp_ruleset_comparison_zero_20260502_235933_evaluated.csv",
+  "summary_path": "/home/harielpadillasanchez/Documentos/TT/TT2/outputs/ruleset_comparison_zero/exp_ruleset_comparison_zero_20260502_235933_summary_by_ruleset.csv"
+}

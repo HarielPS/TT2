@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-04-24T01:24:43.056569",
+  "partition_name": "feina_clean_30",
+  "val_total_rows": 238,
+  "benchmark_rows": 10,
+  "n_candidate_configs": 4,
+  "benchmark_total_runs": 40,
+  "benchmark_inference_seconds": 183.799,
+  "seconds_per_run": 4.594975,
+  "estimated_full_val_runs": 952,
+  "estimated_full_val_seconds": 4374.4162,
+  "estimated_full_val_minutes": 72.90693666666667,
+  "estimated_full_val_hours": 1.215115611111111
+}

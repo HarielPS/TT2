@@ -1,0 +1,10 @@
+Dataset limpio base: /home/harielpadillasanchez/Documentos/TT/TT2/data/Dataset_FEINA_clean_base.csv
+Random state: 42
+Frac subset: 0.3
+Train size: 0.7
+Val size: 0.15
+Test size: 0.15
+Shape subset: (1586, 15)
+Shape train: (1110, 15)
+Shape val: (238, 15)
+Shape test: (238, 15)

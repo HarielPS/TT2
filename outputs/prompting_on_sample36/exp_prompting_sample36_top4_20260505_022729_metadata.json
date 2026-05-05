@@ -1,0 +1,11 @@
+{
+  "experiment_id": "exp_prompting_sample36_top4_20260505_022729",
+  "sample_size": 36,
+  "n_candidates": 4,
+  "sample_csv": "/home/harielpadillasanchez/Documentos/TT/TT2/outputs/final_sample_36/feina_repr30_test_sample36_representative.csv",
+  "raw_path": "/home/harielpadillasanchez/Documentos/TT/TT2/outputs/prompting_on_sample36/exp_prompting_sample36_top4_20260505_022729_raw_results.csv",
+  "eval_path": "/home/harielpadillasanchez/Documentos/TT/TT2/outputs/prompting_on_sample36/exp_prompting_sample36_top4_20260505_022729_evaluated.csv",
+  "summary_path": "/home/harielpadillasanchez/Documentos/TT/TT2/outputs/prompting_on_sample36/exp_prompting_sample36_top4_20260505_022729_summary.csv",
+  "ranking_path": "/home/harielpadillasanchez/Documentos/TT/TT2/outputs/prompting_on_sample36/exp_prompting_sample36_top4_20260505_022729_ranking.csv",
+  "simplified_texts_path": "/home/harielpadillasanchez/Documentos/TT/TT2/outputs/prompting_on_sample36/exp_prompting_sample36_top4_20260505_022729_simplified_texts_only.csv"
+}
