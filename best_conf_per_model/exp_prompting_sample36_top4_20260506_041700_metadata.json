@@ -1,0 +1,11 @@
+{
+  "experiment_id": "exp_prompting_sample36_top4_20260506_041700",
+  "sample_size": 36,
+  "n_candidates": 4,
+  "sample_csv": "/content/TT2/outputs/final_sample_36/feina_repr30_test_sample36_representative.csv",
+  "raw_path": "/content/TT2/outputs/prompting_on_sample36/exp_prompting_sample36_top4_20260506_041700_raw_results.csv",
+  "eval_path": "/content/TT2/outputs/prompting_on_sample36/exp_prompting_sample36_top4_20260506_041700_evaluated.csv",
+  "summary_path": "/content/TT2/outputs/prompting_on_sample36/exp_prompting_sample36_top4_20260506_041700_summary.csv",
+  "ranking_path": "/content/TT2/outputs/prompting_on_sample36/exp_prompting_sample36_top4_20260506_041700_ranking.csv",
+  "simplified_texts_path": "/content/TT2/outputs/prompting_on_sample36/exp_prompting_sample36_top4_20260506_041700_simplified_texts_only.csv"
+}
