@@ -1,0 +1,2 @@
+﻿n_textos,n_criterios,n_comparaciones,diferencia_promedio_global,diferencia_mediana_global,diferencia_maxima_global,total_casos_con_diferencia,total_casos_sin_diferencia,total_casos_con_regla_cero,textos_con_alguna_regla_cero,puntaje_promedio_final,puntaje_mediano_final,puntaje_minimo_final,puntaje_maximo_final
+144,7,1008,1.0864811133200796,0.0,5.0,315,691,203,29,3.529861111111112,4.5,0.0,5.0

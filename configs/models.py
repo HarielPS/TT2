@@ -1,3 +1,4 @@
+# configs/models.py
 MODELS = {
     "bloomz_small": {
         "model_id": "bigscience/bloomz-560m",
