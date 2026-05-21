@@ -1,5 +1,5 @@
 ﻿sample36_id,texto_eval_id,base_system_name,refined_system_name,source_text,reference_text,generated_text_base,generated_text_refined,self_refine_model_key,self_refine_model_runtime,self_refine_prompt,status,error_message,inference_seconds
-1,1,lora_llama3,lora_llama3_self_refine_llama3,"No tiene incentivos ni motivación, dos elementos esenciales en ambientes de competencia.",No tiene sentido ni motivación. Estos elementos son esenciales para la competencia.,"No tiene incentivos ni motivación, dos elementos esenciales en ambientes de competencia.","No tiene incentivos ni motivación, lo que es fundamental en ambientes competitivos.",llama3,llama3:8b,"Eres un editor de textos en español especializado en simplificación de textos formales.
+1,1,lora_llama3,lora_llama3_self_refine_llama3,"No tiene incentivos ni motivación, dos elementos esenciales en ambientes de competencia.",No tiene sentido ni motivación. Estos elementos son esenciales para la competencia.,"No tiene incentivos ni motivación, dos elementos esenciales en ambientes de competencia.","No tiene motivación ni incentivos, dos cosas clave para competir.",llama3,llama3:8b,"Eres un editor de textos en español especializado en simplificación de textos formales.
 
 Tu tarea es mejorar una simplificación ya generada. No debes rehacerla desde cero.
 
@@ -25,7 +25,7 @@ Instrucciones obligatorias:
 13. Conserva números, fechas, nombres propios y cantidades.
 14. No agregues información que no esté en el texto original.
 
-Texto refinado:",ok,,0.9252181053161621
+Texto refinado:",ok,,0.8131415843963623
 2,2,lora_llama3,lora_llama3_self_refine_llama3,"En los procesos de importaciones y exportaciones intervienen, además de clientes y proveedores, instituciones del Estado y los bancos, tal como se indica en el siguiente recuadro:",Clientes y proveedores intervienen en las importancias y exportaciones. También lo hacen las instituciones estatales y los banco como se indica a continuación:,"En los procesos de importaciones y exportaciones intervienen clientes y proveedores, instituciones del Estado y los bancos.","En los procesos de importaciones y exportaciones intervienen clientes y proveedores, así como instituciones del Estado y bancos.",llama3,llama3:8b,"Eres un editor de textos en español especializado en simplificación de textos formales.
 
 Tu tarea es mejorar una simplificación ya generada. No debes rehacerla desde cero.
@@ -52,7 +52,7 @@ Instrucciones obligatorias:
 13. Conserva números, fechas, nombres propios y cantidades.
 14. No agregues información que no esté en el texto original.
 
-Texto refinado:",ok,,1.4514083862304688
+Texto refinado:",ok,,1.528463363647461
 3,3,lora_llama3,lora_llama3_self_refine_llama3,"El robo de identidad ocurre cuando su información personal, tal como su nombre, número de cuenta, o número de cédula de identidad se usan sin su conocimiento para cometer un fraude o robo.","El robo de identidad ocurre cuando su información personal como su nombre, número de cuenta, o número de cédula de identidad se usan sin su conocimiento para cometer un fraude o robo.",El robo de identidad ocurre cuando su información personal se usa sin su conocimiento para cometer un fraude o robo.,El robo de identidad ocurre cuando se usa su información personal sin su conocimiento para cometer un fraude o robo.,llama3,llama3:8b,"Eres un editor de textos en español especializado en simplificación de textos formales.
 
 Tu tarea es mejorar una simplificación ya generada. No debes rehacerla desde cero.
@@ -79,7 +79,7 @@ Instrucciones obligatorias:
 13. Conserva números, fechas, nombres propios y cantidades.
 14. No agregues información que no esté en el texto original.
 
-Texto refinado:",ok,,1.499316930770874
+Texto refinado:",ok,,1.5864744186401367
 4,4,lora_llama3,lora_llama3_self_refine_llama3,"Los sueños de los niños tienen una gran variedad que va desde Tarzán hasta el Agente 007, pasando por Superman.",Los sueños de los niños son variados y van desde Tarzán hasta el Agente 007 y Superman.,"Los sueños de los niños tienen una gran variedad. Algunos son Tarzán, el Agente 007 o Superman.","Los sueños de los niños tienen una gran variedad. Algunos son Tarzán, Superman o el Agente 007.",llama3,llama3:8b,"Eres un editor de textos en español especializado en simplificación de textos formales.
 
 Tu tarea es mejorar una simplificación ya generada. No debes rehacerla desde cero.
@@ -106,7 +106,7 @@ Instrucciones obligatorias:
 13. Conserva números, fechas, nombres propios y cantidades.
 14. No agregues información que no esté en el texto original.
 
-Texto refinado:",ok,,1.475905418395996
+Texto refinado:",ok,,1.5810327529907227
 5,5,lora_llama3,lora_llama3_self_refine_llama3,Expresiones como soborno y cohecho se refieren a ilícitos vinculados a la compra de la voluntad de un individuo para provecho personal.,Expresiones como soborno y cohecho se refieren a delitos vinculados a comprar la voluntad de alguien para provecho personal.,Expresiones como soborno y cohecho son ilícitos vinculados a la compra de la voluntad de un individuo para provecho personal.,Expresiones como soborno y cohecho son ilícitos que involucran comprar la voluntad de alguien para beneficio personal.,llama3,llama3:8b,"Eres un editor de textos en español especializado en simplificación de textos formales.
 
 Tu tarea es mejorar una simplificación ya generada. No debes rehacerla desde cero.
@@ -133,7 +133,7 @@ Instrucciones obligatorias:
 13. Conserva números, fechas, nombres propios y cantidades.
 14. No agregues información que no esté en el texto original.
 
-Texto refinado:",ok,,1.5258102416992188
+Texto refinado:",ok,,1.6178791522979736
 6,6,lora_llama3,lora_llama3_self_refine_llama3,"DIRECCIÓN DE PRESUPUESTO (DIPRES): ""formula y lleva el control presupuestario de la nación.""",DIRECCIÓN DE PRESUPUESTO: formula y lleva el control presupuestario de la nación.,La Dirección de Presupuesto formula y lleva el control presupuestario de la nación.,La Dirección de Presupuesto formula y controla el presupuesto nacional.,llama3,llama3:8b,"Eres un editor de textos en español especializado en simplificación de textos formales.
 
 Tu tarea es mejorar una simplificación ya generada. No debes rehacerla desde cero.
@@ -160,7 +160,7 @@ Instrucciones obligatorias:
 13. Conserva números, fechas, nombres propios y cantidades.
 14. No agregues información que no esté en el texto original.
 
-Texto refinado:",ok,,0.9587697982788086
+Texto refinado:",ok,,1.0673670768737793
 7,7,lora_llama3,lora_llama3_self_refine_llama3,"Interés compuesto: Es la suma del capital y el interés acumulado, que se va multiplicando según los plazos convenidos. La tasa de interés es el porcentaje que se aplica a un préstamo o inversión realizada.",El interés compuesto es la suma del capital y el interés acumulado. La tasa de interés es el porcentaje aplicado a un préstamo o inversión realizada.,El interés compuesto es la suma del capital y el interés acumulado. Se multiplica según los plazos convenidos. La tasa de interés es el porcentaje que se aplica a un préstamo o inversión realizada.,El interés compuesto es la suma del capital y el interés acumulado. Se multiplica según los plazos convenidos. La tasa de interés es el porcentaje que se aplica a un préstamo o inversión.,llama3,llama3:8b,"Eres un editor de textos en español especializado en simplificación de textos formales.
 
 Tu tarea es mejorar una simplificación ya generada. No debes rehacerla desde cero.
@@ -187,7 +187,7 @@ Instrucciones obligatorias:
 13. Conserva números, fechas, nombres propios y cantidades.
 14. No agregues información que no esté en el texto original.
 
-Texto refinado:",ok,,2.4559426307678223
+Texto refinado:",ok,,2.6280393600463867
 8,8,lora_llama3,lora_llama3_self_refine_llama3,La producción en un país se realiza mediante lo que se conoce como factores de producción y de los cuales nos ocuparemos en detalle más adelante.,A través de los factores de producción se realiza la producción en un país. Más adelante nos ocuparemos en detalle de estos factores.,La producción en un país se realiza mediante los factores de producción.,La producción en un país se hace con los factores de producción.,llama3,llama3:8b,"Eres un editor de textos en español especializado en simplificación de textos formales.
 
 Tu tarea es mejorar una simplificación ya generada. No debes rehacerla desde cero.
@@ -214,7 +214,7 @@ Instrucciones obligatorias:
 13. Conserva números, fechas, nombres propios y cantidades.
 14. No agregues información que no esté en el texto original.
 
-Texto refinado:",ok,,0.9049053192138672
+Texto refinado:",ok,,0.9132766723632812
 9,9,lora_llama3,lora_llama3_self_refine_llama3,"A pesar de que algunos critican al intermediario, se necesita a este individuo en la economía.","Aunque algunas personas critican al intermediario, este individuo es necesario en la economía.","A pesar de que algunos critican al intermediario, se necesita a este individuo en la economía.","A pesar de las críticas, el intermediario es necesario en la economía.",llama3,llama3:8b,"Eres un editor de textos en español especializado en simplificación de textos formales.
 
 Tu tarea es mejorar una simplificación ya generada. No debes rehacerla desde cero.
@@ -241,7 +241,7 @@ Instrucciones obligatorias:
 13. Conserva números, fechas, nombres propios y cantidades.
 14. No agregues información que no esté en el texto original.
 
-Texto refinado:",ok,,1.1096882820129395
+Texto refinado:",ok,,1.1405229568481445
 10,10,lora_llama3,lora_llama3_self_refine_llama3,El impuesto a los réditos es también un buen instrumento para conocer el monto de las rentas y de la riqueza nacional.,El impuesto a las utilidades también es un buen método para conocer el monto de las rentas y de la riqueza nacional.,El impuesto a los réditos es un buen instrumento para conocer el monto de las rentas y de la riqueza nacional.,El impuesto a los réditos es un buen instrumento para conocer la cantidad de rentas y riqueza nacional.,llama3,llama3:8b,"Eres un editor de textos en español especializado en simplificación de textos formales.
 
 Tu tarea es mejorar una simplificación ya generada. No debes rehacerla desde cero.
@@ -268,7 +268,7 @@ Instrucciones obligatorias:
 13. Conserva números, fechas, nombres propios y cantidades.
 14. No agregues información que no esté en el texto original.
 
-Texto refinado:",ok,,1.3896982669830322
+Texto refinado:",ok,,1.4123435020446777
 11,11,lora_llama3,lora_llama3_self_refine_llama3,"También es de mucha ayuda separar las metas en tres períodos de tiempo para los propósitos de planeamiento, y aun cuando esto ya se trató en el capítulo anterior, se reitera tan importante aspecto, centrados en el tema del presente y con la intención de reforzar el manejo del mismo:","También ayuda separar las metas en tres períodos de tiempo para cumplir con los propósitos planteados. Aunque este aspecto ya se trató en el capítulo anterior, reiteramos su importancia:","También es de mucha ayuda separar las metas en tres períodos de tiempo para los propósitos de planeamiento. Aunque ya se trató en el capítulo anterior, se reitera tan importante aspecto centrados en el tema del presente y con la intención de reforzar el manejo del mismo:","También es útil separar las metas en tres períodos de tiempo para planificar. Aunque se ha abordado esto antes, es importante recordarlo para gestionar mejor el tema presente.",llama3,llama3:8b,"Eres un editor de textos en español especializado en simplificación de textos formales.
 
 Tu tarea es mejorar una simplificación ya generada. No debes rehacerla desde cero.
@@ -295,7 +295,7 @@ Instrucciones obligatorias:
 13. Conserva números, fechas, nombres propios y cantidades.
 14. No agregues información que no esté en el texto original.
 
-Texto refinado:",ok,,2.1536006927490234
+Texto refinado:",ok,,2.205686092376709
 12,12,lora_llama3,lora_llama3_self_refine_llama3,Seguridad financiera: Consiste en cumplir con las necesidades que se presentan en el futuro de las personas y al mismo tiempo cumplir con las obligaciones diarias.,"Seguridad financiera, consiste en cumplir con las necesidades económicas que se presentan en el futuro de las personas y también cumplir con las obligaciones financieras diarias.",La seguridad financiera consiste en cumplir con las necesidades que se presentan en el futuro de las personas y al mismo tiempo cumplir con las obligaciones diarias.,La seguridad financiera es cumplir con las necesidades futuras de las personas y pagar las cuentas diarias.,llama3,llama3:8b,"Eres un editor de textos en español especializado en simplificación de textos formales.
 
 Tu tarea es mejorar una simplificación ya generada. No debes rehacerla desde cero.
@@ -322,7 +322,7 @@ Instrucciones obligatorias:
 13. Conserva números, fechas, nombres propios y cantidades.
 14. No agregues información que no esté en el texto original.
 
-Texto refinado:",ok,,1.3039555549621582
+Texto refinado:",ok,,1.3378517627716064
 13,13,lora_llama3,lora_llama3_self_refine_llama3,"La última, pero no menos importante razón, puede ser encontrar un fascinante campo de acción intelectual para comprender el mundo real.",La última es encontrar un campo de acción intelectual para comprender el mundo real.,La última razón es encontrar un campo de acción intelectual para comprender el mundo real.,La última razón es encontrar un campo intelectual interesante para comprender el mundo real.,llama3,llama3:8b,"Eres un editor de textos en español especializado en simplificación de textos formales.
 
 Tu tarea es mejorar una simplificación ya generada. No debes rehacerla desde cero.
@@ -349,7 +349,7 @@ Instrucciones obligatorias:
 13. Conserva números, fechas, nombres propios y cantidades.
 14. No agregues información que no esté en el texto original.
 
-Texto refinado:",ok,,1.1296765804290771
+Texto refinado:",ok,,1.1703295707702637
 14,14,lora_llama3,lora_llama3_self_refine_llama3,"Si el entusiasmo, y esto no es idealismo ramplón, se orienta hacia la salud, la belleza, el éxito, la felicidad, lo más probable es que se obtenga la salud, la belleza, el éxito y la felicidad.","Si el entusiasmo se dirige hacia la salud, la belleza, el éxito, la felicidad es probable que los consigamos.","Si el entusiasmo se orienta hacia la salud, la belleza, el éxito y la felicidad, es probable que se obtenga estos resultados.","Si el entusiasmo se orienta hacia la salud, belleza, éxito y felicidad, es probable obtener estos resultados.",llama3,llama3:8b,"Eres un editor de textos en español especializado en simplificación de textos formales.
 
 Tu tarea es mejorar una simplificación ya generada. No debes rehacerla desde cero.
@@ -376,7 +376,7 @@ Instrucciones obligatorias:
 13. Conserva números, fechas, nombres propios y cantidades.
 14. No agregues información que no esté en el texto original.
 
-Texto refinado:",ok,,1.4807462692260742
+Texto refinado:",ok,,1.5205986499786377
 15,15,lora_llama3,lora_llama3_self_refine_llama3,"En la segunda etapa de programación, se definen los objetivos y se fijan las metas o resultados esperados, que deben ser lo más específicos y precisos posibles, para tener claridad en lo que se trata de alcanzar con las inversiones por realizar; por ejemplo, los tipos de inversión y los montos que se pretenden lograr en un tiempo definido y otros que pueden describirse en términos de logro o resultados que se desean alcanzar.","En la segunda etapa de programación, se definen los objetivos y se fijan las metas específicas.","En la segunda etapa de programación se definen los objetivos y se fijan las metas o resultados esperados. Estos deben ser lo más específicos y precisos posibles para tener claridad en lo que se trata de alcanzar con las inversiones por realizar. Por ejemplo, los tipos de inversión y los montos que se pretenden lograr en un tiempo definido y otros que pueden describirse en términos de logro o resultados que se desean alcanzar.","En la segunda etapa de programación se definen los objetivos y metas claros para saber qué se quiere lograr con las inversiones. Por ejemplo, se establecen tipos de inversión y montos a alcanzar en un plazo determinado.",llama3,llama3:8b,"Eres un editor de textos en español especializado en simplificación de textos formales.
 
 Tu tarea es mejorar una simplificación ya generada. No debes rehacerla desde cero.
@@ -403,7 +403,7 @@ Instrucciones obligatorias:
 13. Conserva números, fechas, nombres propios y cantidades.
 14. No agregues información que no esté en el texto original.
 
-Texto refinado:",ok,,2.63399338722229
+Texto refinado:",ok,,2.7498574256896973
 16,16,lora_llama3,lora_llama3_self_refine_llama3,Estas tarjetas acarrean pocos riesgos y te ayudan a crear buenos antecedentes crediticios al mostrar tu capacidad para usar una tarjeta con responsabilidad.,Estas tarjetas traen pocos riesgos y ayudan a crear buen historial crediticio.,Estas tarjetas acarrean pocos riesgos y te ayudan a crear buenos antecedentes crediticios al mostrar tu capacidad para usar una tarjeta con responsabilidad.,Estas tarjetas acarrean pocos riesgos y te ayudan a crear buenos antecedentes crediticios al demostrar tu capacidad para usar una tarjeta responsablemente.,llama3,llama3:8b,"Eres un editor de textos en español especializado en simplificación de textos formales.
 
 Tu tarea es mejorar una simplificación ya generada. No debes rehacerla desde cero.
@@ -430,7 +430,7 @@ Instrucciones obligatorias:
 13. Conserva números, fechas, nombres propios y cantidades.
 14. No agregues información que no esté en el texto original.
 
-Texto refinado:",ok,,1.9381680488586426
+Texto refinado:",ok,,1.9721131324768066
 17,17,lora_llama3,lora_llama3_self_refine_llama3,"Adicionalmente, el canal móvil (celulares) es de alto potencial para utilizar pagos a través de mensajería de texto SMS permitiendo, desde cualquier lugar donde se tenga acceso al servicio inalámbrico, realizar pagos electrónicos.","Además, los celulares permiten realizar pagos electrónicos desde cualquier lugar con acceso al servicio inalámbrico.","Adicionalmente, el canal móvil es de alto potencial para utilizar pagos a través de mensajería de texto SMS. Esto permite realizar pagos electrónicos desde cualquier lugar donde se tenga acceso al servicio inalámbrico.","Además, el canal móvil es ideal para realizar pagos electrónicos a través de SMS desde cualquier lugar con acceso a internet.",llama3,llama3:8b,"Eres un editor de textos en español especializado en simplificación de textos formales.
 
 Tu tarea es mejorar una simplificación ya generada. No debes rehacerla desde cero.
@@ -457,7 +457,7 @@ Instrucciones obligatorias:
 13. Conserva números, fechas, nombres propios y cantidades.
 14. No agregues información que no esté en el texto original.
 
-Texto refinado:",ok,,1.4885094165802002
+Texto refinado:",ok,,1.529679536819458
 18,18,lora_llama3,lora_llama3_self_refine_llama3,"Existen varias modalidades de cheques, como lo mencionan los mismos Alonso, Brailovsky y Ortiz (1999).","Según Alonso, Brailovsky y Ortiz (mil novecientos noventa y nueve) hay varias modalidades de cheques.","Existen varias modalidades de cheques, como mencionan Alonso, Brailovsky y Ortiz.","Existen varias modalidades de cheques, como mencionan Alonso, Brailovsky y Ortiz.",llama3,llama3:8b,"Eres un editor de textos en español especializado en simplificación de textos formales.
 
 Tu tarea es mejorar una simplificación ya generada. No debes rehacerla desde cero.
@@ -484,7 +484,7 @@ Instrucciones obligatorias:
 13. Conserva números, fechas, nombres propios y cantidades.
 14. No agregues información que no esté en el texto original.
 
-Texto refinado:",ok,,1.171762466430664
+Texto refinado:",ok,,1.234788417816162
 19,19,lora_llama3,lora_llama3_self_refine_llama3,"La mayor ventaja es la flexibilidad que le da al usuario, quien puede pagar sus saldos por completo cada mes o puede pagar en parte.",La mayor ventaja es la flexibilidad para el usuario. Quien puede pagar sus saldos completos o en parte mensualmente.,"La mayor ventaja es la flexibilidad que le da al usuario, quien puede pagar sus saldos por completo cada mes o puede pagar en parte.","La mayor ventaja es la flexibilidad para pagar saldos, ya sea al completo cada mes o en parte.",llama3,llama3:8b,"Eres un editor de textos en español especializado en simplificación de textos formales.
 
 Tu tarea es mejorar una simplificación ya generada. No debes rehacerla desde cero.
@@ -511,7 +511,7 @@ Instrucciones obligatorias:
 13. Conserva números, fechas, nombres propios y cantidades.
 14. No agregues información que no esté en el texto original.
 
-Texto refinado:",ok,,1.252610206604004
+Texto refinado:",ok,,1.2914745807647705
 20,20,lora_llama3,lora_llama3_self_refine_llama3,"El dinero que inviertes inicialmente se denomina ""capital"".",El capital es el dinero invertido inicialmente.,"El dinero que inviertes inicialmente se llama ""capital"".",El dinero que inviertes al principio se llama capital.,llama3,llama3:8b,"Eres un editor de textos en español especializado en simplificación de textos formales.
 
 Tu tarea es mejorar una simplificación ya generada. No debes rehacerla desde cero.
@@ -538,7 +538,7 @@ Instrucciones obligatorias:
 13. Conserva números, fechas, nombres propios y cantidades.
 14. No agregues información que no esté en el texto original.
 
-Texto refinado:",ok,,0.797487735748291
+Texto refinado:",ok,,0.8284661769866943
 21,21,lora_llama3,lora_llama3_self_refine_llama3,"Existen modelos cuantitativos que permiten determinar de manera técnica el valor de la tasa de descuento como el CAPM1 y el WACC2 (Bell, 2016), los cuales no se incluyen en el presente documento; no obstante, la determinación subjetiva de la tasa de descuento exigida por el accionista puede utilizarse ante la falta de información de los mencionados modelos.","Hay modelos cuantitativos para determinar técnicamente el valor de la tasa de descuento, pero no se incluyen en este documento. Sin embargo, la determinación subjetiva de la tasa de descuento exigida por el accionista se puede utilizar ante la falta de información de esos modelos.","Existen modelos cuantitativos para determinar la tasa de descuento. Pero no se incluyen en este documento. Por eso, la tasa de descuento exigida por el accionista puede ser determinada subjetivamente.","Existen modelos para determinar la tasa de descuento. Sin embargo, estos modelos no se incluyen aquí. En su lugar, la tasa de descuento exigida por el accionista puede ser estimada subjetivamente.",llama3,llama3:8b,"Eres un editor de textos en español especializado en simplificación de textos formales.
 
 Tu tarea es mejorar una simplificación ya generada. No debes rehacerla desde cero.
@@ -565,7 +565,7 @@ Instrucciones obligatorias:
 13. Conserva números, fechas, nombres propios y cantidades.
 14. No agregues información que no esté en el texto original.
 
-Texto refinado:",ok,,2.397125244140625
+Texto refinado:",ok,,2.4659371376037598
 22,22,lora_llama3,lora_llama3_self_refine_llama3,"Particularmente, se observa que el escenario 3 es el único que presenta una situación que no sea rentable.",El escenario tres es el único que presenta una situación no rentable.,"Particularmente, el escenario tres es el único que presenta una situación no rentable.","Particularmente, solo el escenario tres presenta una situación no rentable.",llama3,llama3:8b,"Eres un editor de textos en español especializado en simplificación de textos formales.
 
 Tu tarea es mejorar una simplificación ya generada. No debes rehacerla desde cero.
@@ -592,7 +592,7 @@ Instrucciones obligatorias:
 13. Conserva números, fechas, nombres propios y cantidades.
 14. No agregues información que no esté en el texto original.
 
-Texto refinado:",ok,,0.9623622894287109
+Texto refinado:",ok,,0.9952068328857422
 23,23,lora_llama3,lora_llama3_self_refine_llama3,"Obtenga el rendimiento de un bono de $10,000 que paga el 6.",Saque el rendimiento de un bono de diez mil dólares que paga el seis.,Obtenga el rendimiento de un bono de diez mil dólares que paga el seis por ciento.,Obtenga el rendimiento de un bono de diez mil dólares que paga el 6%.,llama3,llama3:8b,"Eres un editor de textos en español especializado en simplificación de textos formales.
 
 Tu tarea es mejorar una simplificación ya generada. No debes rehacerla desde cero.
@@ -619,7 +619,7 @@ Instrucciones obligatorias:
 13. Conserva números, fechas, nombres propios y cantidades.
 14. No agregues información que no esté en el texto original.
 
-Texto refinado:",ok,,1.2947053909301758
+Texto refinado:",ok,,1.3358583450317383
 24,24,lora_llama3,lora_llama3_self_refine_llama3,"De partida, el tema concierne a todos los individuos y durante toda la vida, pues las finanzas explican la procedencia y uso de los ingresos y recursos que se disponen para satisfacer las necesidades particulares de todas y todos.",El tema interesa a todas las personas. Porque las finanzas explican el origen y uso de los ingresos disponibles para satisfacer las necesidades de todos.,"El tema concierne a todos los individuos y durante toda la vida, pues las finanzas explican la procedencia y uso de los ingresos y recursos que se disponen para satisfacer las necesidades particulares de todas y todos.","El tema concierne a todos los individuos y durante toda la vida, ya que las finanzas explican cómo se obtienen y se utilizan los ingresos para satisfacer nuestras necesidades personales.",llama3,llama3:8b,"Eres un editor de textos en español especializado en simplificación de textos formales.
 
 Tu tarea es mejorar una simplificación ya generada. No debes rehacerla desde cero.
@@ -646,7 +646,7 @@ Instrucciones obligatorias:
 13. Conserva números, fechas, nombres propios y cantidades.
 14. No agregues información que no esté en el texto original.
 
-Texto refinado:",ok,,2.142483949661255
+Texto refinado:",ok,,2.1941325664520264
 25,25,lora_llama3,lora_llama3_self_refine_llama3,¿Qué función cumplen las empresas en la sociedad?,¿Qué función tienen las empresas en la sociedad?,¿Qué función cumplen las empresas en la sociedad?,¿Qué papel juegan las empresas en la sociedad?,llama3,llama3:8b,"Eres un editor de textos en español especializado en simplificación de textos formales.
 
 Tu tarea es mejorar una simplificación ya generada. No debes rehacerla desde cero.
@@ -673,7 +673,7 @@ Instrucciones obligatorias:
 13. Conserva números, fechas, nombres propios y cantidades.
 14. No agregues información que no esté en el texto original.
 
-Texto refinado:",ok,,0.7894284725189209
+Texto refinado:",ok,,0.7634005546569824
 26,26,lora_llama3,lora_llama3_self_refine_llama3,Estos principios están diseñados para promover que las firmas de servicios financieros y las organizaciones de consumidores hagan más para educar a los ciudadanos en esta área.,Estos principios están diseñados para promover que las empresas de servicios financieros y las organizaciones de consumidores hagan más para educar a los ciudadanos en esta área.,Estos principios promueven la educación de los ciudadanos en la materia.,Estos principios fomentan la educación de los ciudadanos sobre servicios financieros.,llama3,llama3:8b,"Eres un editor de textos en español especializado en simplificación de textos formales.
 
 Tu tarea es mejorar una simplificación ya generada. No debes rehacerla desde cero.
@@ -700,7 +700,7 @@ Instrucciones obligatorias:
 13. Conserva números, fechas, nombres propios y cantidades.
 14. No agregues información que no esté en el texto original.
 
-Texto refinado:",ok,,1.110746145248413
+Texto refinado:",ok,,1.1105761528015137
 27,27,lora_llama3,lora_llama3_self_refine_llama3,"Hable con ellos, déles la cara, y hágales saber que está haciendo todo lo que puede para pagarles.","Hable con ellos, enfréntelos y comuníqueles que está haciendo lo posible para pagarles.",Hable con ellos y déles la cara. Hágales saber que está haciendo todo lo que puede para pagarles.,"Hable con ellos, déles la cara y explíqueles que está haciendo todo lo posible para pagarles.",llama3,llama3:8b,"Eres un editor de textos en español especializado en simplificación de textos formales.
 
 Tu tarea es mejorar una simplificación ya generada. No debes rehacerla desde cero.
@@ -727,7 +727,7 @@ Instrucciones obligatorias:
 13. Conserva números, fechas, nombres propios y cantidades.
 14. No agregues información que no esté en el texto original.
 
-Texto refinado:",ok,,1.3005435466766357
+Texto refinado:",ok,,1.3275530338287354
 28,28,lora_llama3,lora_llama3_self_refine_llama3,Pero ¿en qué se compite?,Pero ¿en qué se compite?,"Pero, en qué se compite?",Pero ¿qué se compite?,llama3,llama3:8b,"Eres un editor de textos en español especializado en simplificación de textos formales.
 
 Tu tarea es mejorar una simplificación ya generada. No debes rehacerla desde cero.
@@ -754,7 +754,7 @@ Instrucciones obligatorias:
 13. Conserva números, fechas, nombres propios y cantidades.
 14. No agregues información que no esté en el texto original.
 
-Texto refinado:",ok,,0.654921293258667
+Texto refinado:",ok,,0.6429722309112549
 29,29,lora_llama3,lora_llama3_self_refine_llama3,"Por otra parte, algunas personas sostienen que un impuesto de 10 por ciento impondría el mismo sacrificio a ambas familias.","Por otra parte, algunas personas sostienen que un impuesto de diez por ciento impondría el mismo sacrificio a ambas familias.","Por otra parte, algunas personas sostienen que un impuesto de diez por ciento impondría el mismo sacrificio a ambas familias.",Algunas personas creen que un impuesto del 10% impondría el mismo sacrificio a ambas familias.,llama3,llama3:8b,"Eres un editor de textos en español especializado en simplificación de textos formales.
 
 Tu tarea es mejorar una simplificación ya generada. No debes rehacerla desde cero.
@@ -781,7 +781,7 @@ Instrucciones obligatorias:
 13. Conserva números, fechas, nombres propios y cantidades.
 14. No agregues información que no esté en el texto original.
 
-Texto refinado:",ok,,1.4483838081359863
+Texto refinado:",ok,,1.5191054344177246
 30,30,lora_llama3,lora_llama3_self_refine_llama3,"Al principio, como ya vimos en el trueque, adoptó la forma de mercancía, pero con el tiempo se transformó en dinero-papel, cuentas corrientes y otras formas.","Al principio, tuvo la forma de mercancía, pero luego se transformó en dinero-papel, cuentas corrientes y otras formas.","Al principio adoptó la forma de mercancía, pero con el tiempo se transformó en dinero-papel, cuentas corrientes y otras formas.","Al principio, se convirtió en mercancía, pero con el tiempo pasó a ser dinero-papel, cuentas corrientes y otras formas.",llama3,llama3:8b,"Eres un editor de textos en español especializado en simplificación de textos formales.
 
 Tu tarea es mejorar una simplificación ya generada. No debes rehacerla desde cero.
@@ -808,7 +808,7 @@ Instrucciones obligatorias:
 13. Conserva números, fechas, nombres propios y cantidades.
 14. No agregues información que no esté en el texto original.
 
-Texto refinado:",ok,,1.6716036796569824
+Texto refinado:",ok,,1.7091443538665771
 31,31,lora_llama3,lora_llama3_self_refine_llama3,"¿Son estos sólo sueños, o son metas reales?",¿Estos son sólo sueños o son metas reales?,¿Son estos sólo sueños o son metas reales?,¿Son solo sueños o metas reales?,llama3,llama3:8b,"Eres un editor de textos en español especializado en simplificación de textos formales.
 
 Tu tarea es mejorar una simplificación ya generada. No debes rehacerla desde cero.
@@ -835,7 +835,7 @@ Instrucciones obligatorias:
 13. Conserva números, fechas, nombres propios y cantidades.
 14. No agregues información que no esté en el texto original.
 
-Texto refinado:",ok,,0.7782204151153564
+Texto refinado:",ok,,0.7734513282775879
 32,32,lora_llama3,lora_llama3_self_refine_llama3,"En los pueblos donde el principio de la elección se extiende a todo, no hay propiamente hablando carrera pública.",En los pueblos donde el principio de la elección se extiende a todo no existe la carrera pública.,"En los pueblos donde el principio de la elección se extiende a todo, no hay propiamente carrera pública.","En los pueblos donde todos pueden elegir, no hay carrera pública.",llama3,llama3:8b,"Eres un editor de textos en español especializado en simplificación de textos formales.
 
 Tu tarea es mejorar una simplificación ya generada. No debes rehacerla desde cero.
@@ -862,7 +862,7 @@ Instrucciones obligatorias:
 13. Conserva números, fechas, nombres propios y cantidades.
 14. No agregues información que no esté en el texto original.
 
-Texto refinado:",ok,,0.9992387294769287
+Texto refinado:",ok,,1.045720100402832
 33,33,lora_llama3,lora_llama3_self_refine_llama3,"Sin entusiasmo, dijo alguien famoso, nunca se ha podido realizar nada grande.",Sin entusiasmo no se logró nada grande.,"Sin entusiasmo, dijo alguien famoso, nunca se ha podido realizar nada grande.",Nunca se ha logrado algo grande sin entusiasmo.,llama3,llama3:8b,"Eres un editor de textos en español especializado en simplificación de textos formales.
 
 Tu tarea es mejorar una simplificación ya generada. No debes rehacerla desde cero.
@@ -889,7 +889,7 @@ Instrucciones obligatorias:
 13. Conserva números, fechas, nombres propios y cantidades.
 14. No agregues información que no esté en el texto original.
 
-Texto refinado:",ok,,0.8867006301879883
+Texto refinado:",ok,,0.907127857208252
 34,34,lora_llama3,lora_llama3_self_refine_llama3,"Por tanto, este método calcula interés sobre interés.","Por eso, este método calcula interés sobre interés.","Por tanto, este método calcula interés sobre interés.",Este método calcula intereses sobre intereses.,llama3,llama3:8b,"Eres un editor de textos en español especializado en simplificación de textos formales.
 
 Tu tarea es mejorar una simplificación ya generada. No debes rehacerla desde cero.
@@ -916,7 +916,7 @@ Instrucciones obligatorias:
 13. Conserva números, fechas, nombres propios y cantidades.
 14. No agregues información que no esté en el texto original.
 
-Texto refinado:",ok,,0.7068357467651367
+Texto refinado:",ok,,0.7221291065216064
 35,35,lora_llama3,lora_llama3_self_refine_llama3,"El resultado es aproximado a $300,000 en seis años.",El resultado es aproximadamente trescientos mil dólares en seis años.,El resultado es aproximado a trescientos dólares en seis años.,"El resultado es aproximadamente de $300,000 en seis años.",llama3,llama3:8b,"Eres un editor de textos en español especializado en simplificación de textos formales.
 
 Tu tarea es mejorar una simplificación ya generada. No debes rehacerla desde cero.
@@ -943,7 +943,7 @@ Instrucciones obligatorias:
 13. Conserva números, fechas, nombres propios y cantidades.
 14. No agregues información que no esté en el texto original.
 
-Texto refinado:",ok,,0.881890058517456
+Texto refinado:",ok,,0.9017202854156494
 36,36,lora_llama3,lora_llama3_self_refine_llama3,Documente todos sus gastos e ingresos o compárelos con lo que usted planificó que iba a gastar en el mes.,Documente todos sus gastos e ingresos y compárelos con lo que usted planificó que iba a gastar en el mes.,Documente todos sus gastos e ingresos.,Documente todos sus gastos e ingresos para compararlos con lo planeado.,llama3,llama3:8b,"Eres un editor de textos en español especializado en simplificación de textos formales.
 
 Tu tarea es mejorar una simplificación ya generada. No debes rehacerla desde cero.
@@ -970,7 +970,7 @@ Instrucciones obligatorias:
 13. Conserva números, fechas, nombres propios y cantidades.
 14. No agregues información que no esté en el texto original.
 
-Texto refinado:",ok,,1.066075086593628
+Texto refinado:",ok,,1.0873029232025146
 1,37,lora_mistral,lora_mistral_self_refine_llama3,"No tiene incentivos ni motivación, dos elementos esenciales en ambientes de competencia.",No tiene sentido ni motivación. Estos elementos son esenciales para la competencia.,"No tiene incentivos ni motivación, dos elementos esenciales en ambientes de competencia.","No tiene motivación ni incentivos, dos cosas clave para competir.",llama3,llama3:8b,"Eres un editor de textos en español especializado en simplificación de textos formales.
 
 Tu tarea es mejorar una simplificación ya generada. No debes rehacerla desde cero.
@@ -997,7 +997,7 @@ Instrucciones obligatorias:
 13. Conserva números, fechas, nombres propios y cantidades.
 14. No agregues información que no esté en el texto original.
 
-Texto refinado:",ok,,0.9467551708221436
+Texto refinado:",ok,,0.9683036804199219
 2,38,lora_mistral,lora_mistral_self_refine_llama3,"En los procesos de importaciones y exportaciones intervienen, además de clientes y proveedores, instituciones del Estado y los bancos, tal como se indica en el siguiente recuadro:",Clientes y proveedores intervienen en las importancias y exportaciones. También lo hacen las instituciones estatales y los banco como se indica a continuación:,"En los procesos de importaciones y exportaciones intervienen, además de clientes y proveedores, instituciones del Estado y los bancos, como se indica en el siguiente recuadro:","En los procesos de importaciones y exportaciones intervienen clientes, proveedores, instituciones del Estado y bancos, como se indica en el siguiente recuadro.",llama3,llama3:8b,"Eres un editor de textos en español especializado en simplificación de textos formales.
 
 Tu tarea es mejorar una simplificación ya generada. No debes rehacerla desde cero.
@@ -1024,7 +1024,7 @@ Instrucciones obligatorias:
 13. Conserva números, fechas, nombres propios y cantidades.
 14. No agregues información que no esté en el texto original.
 
-Texto refinado:",ok,,1.7670423984527588
+Texto refinado:",ok,,1.8078510761260986
 3,39,lora_mistral,lora_mistral_self_refine_llama3,"El robo de identidad ocurre cuando su información personal, tal como su nombre, número de cuenta, o número de cédula de identidad se usan sin su conocimiento para cometer un fraude o robo.","El robo de identidad ocurre cuando su información personal como su nombre, número de cuenta, o número de cédula de identidad se usan sin su conocimiento para cometer un fraude o robo.",El robo de identidad ocurre cuando su información personal se usa sin su conocimiento para cometer un fraude o robo.,El robo de identidad ocurre cuando se usa su información personal sin su conocimiento para cometer un fraude o robo.,llama3,llama3:8b,"Eres un editor de textos en español especializado en simplificación de textos formales.
 
 Tu tarea es mejorar una simplificación ya generada. No debes rehacerla desde cero.
@@ -1051,7 +1051,7 @@ Instrucciones obligatorias:
 13. Conserva números, fechas, nombres propios y cantidades.
 14. No agregues información que no esté en el texto original.
 
-Texto refinado:",ok,,1.5031366348266602
+Texto refinado:",ok,,1.5262629985809326
 4,40,lora_mistral,lora_mistral_self_refine_llama3,"Los sueños de los niños tienen una gran variedad que va desde Tarzán hasta el Agente 007, pasando por Superman.",Los sueños de los niños son variados y van desde Tarzán hasta el Agente 007 y Superman.,Los sueños de los niños tienen una gran variedad.,"Los sueños de los niños son muy variados, desde Tarzán hasta Superman.",llama3,llama3:8b,"Eres un editor de textos en español especializado en simplificación de textos formales.
 
 Tu tarea es mejorar una simplificación ya generada. No debes rehacerla desde cero.
@@ -1078,7 +1078,7 @@ Instrucciones obligatorias:
 13. Conserva números, fechas, nombres propios y cantidades.
 14. No agregues información que no esté en el texto original.
 
-Texto refinado:",ok,,1.038205623626709
+Texto refinado:",ok,,1.092590093612671
 5,41,lora_mistral,lora_mistral_self_refine_llama3,Expresiones como soborno y cohecho se refieren a ilícitos vinculados a la compra de la voluntad de un individuo para provecho personal.,Expresiones como soborno y cohecho se refieren a delitos vinculados a comprar la voluntad de alguien para provecho personal.,Expresiones como soborno y cohecho se refieren a ilícitos vinculados a la compra de la voluntad de un individuo para provecho personal.,Expresiones como soborno y cohecho se refieren a actos ilícitos que involucran comprar la voluntad de alguien para beneficio personal.,llama3,llama3:8b,"Eres un editor de textos en español especializado en simplificación de textos formales.
 
 Tu tarea es mejorar una simplificación ya generada. No debes rehacerla desde cero.
@@ -1105,7 +1105,7 @@ Instrucciones obligatorias:
 13. Conserva números, fechas, nombres propios y cantidades.
 14. No agregues información que no esté en el texto original.
 
-Texto refinado:",ok,,1.7103946208953857
+Texto refinado:",ok,,1.7708740234375
 6,42,lora_mistral,lora_mistral_self_refine_llama3,"DIRECCIÓN DE PRESUPUESTO (DIPRES): ""formula y lleva el control presupuestario de la nación.""",DIRECCIÓN DE PRESUPUESTO: formula y lleva el control presupuestario de la nación.,La Dirección de Presupuesto formula y lleva el control presupuestario de la nación.,La Dirección de Presupuesto formula y controla el presupuesto nacional.,llama3,llama3:8b,"Eres un editor de textos en español especializado en simplificación de textos formales.
 
 Tu tarea es mejorar una simplificación ya generada. No debes rehacerla desde cero.
@@ -1132,7 +1132,7 @@ Instrucciones obligatorias:
 13. Conserva números, fechas, nombres propios y cantidades.
 14. No agregues información que no esté en el texto original.
 
-Texto refinado:",ok,,0.9623408317565918
+Texto refinado:",ok,,0.9994847774505615
 7,43,lora_mistral,lora_mistral_self_refine_llama3,"Interés compuesto: Es la suma del capital y el interés acumulado, que se va multiplicando según los plazos convenidos. La tasa de interés es el porcentaje que se aplica a un préstamo o inversión realizada.",El interés compuesto es la suma del capital y el interés acumulado. La tasa de interés es el porcentaje aplicado a un préstamo o inversión realizada.,El interés compuesto es la suma del capital y el interés acumulado. La tasa de interés es el porcentaje que se aplica a un préstamo o inversión realizada.,El interés compuesto es la suma del capital y el interés acumulado. La tasa de interés es el porcentaje que se aplica a un préstamo o inversión.,llama3,llama3:8b,"Eres un editor de textos en español especializado en simplificación de textos formales.
 
 Tu tarea es mejorar una simplificación ya generada. No debes rehacerla desde cero.
@@ -1159,7 +1159,7 @@ Instrucciones obligatorias:
 13. Conserva números, fechas, nombres propios y cantidades.
 14. No agregues información que no esté en el texto original.
 
-Texto refinado:",ok,,1.9707965850830078
+Texto refinado:",ok,,2.050752639770508
 8,44,lora_mistral,lora_mistral_self_refine_llama3,La producción en un país se realiza mediante lo que se conoce como factores de producción y de los cuales nos ocuparemos en detalle más adelante.,A través de los factores de producción se realiza la producción en un país. Más adelante nos ocuparemos en detalle de estos factores.,La producción en un país se realiza mediante los factores de producción. Estos se ocuparán en detalle más adelante.,La producción en un país se hace con los factores de producción. Se hablará más sobre ellos después.,llama3,llama3:8b,"Eres un editor de textos en español especializado en simplificación de textos formales.
 
 Tu tarea es mejorar una simplificación ya generada. No debes rehacerla desde cero.
@@ -1186,7 +1186,7 @@ Instrucciones obligatorias:
 13. Conserva números, fechas, nombres propios y cantidades.
 14. No agregues información que no esté en el texto original.
 
-Texto refinado:",ok,,1.2047419548034668
+Texto refinado:",ok,,1.2537031173706055
 9,45,lora_mistral,lora_mistral_self_refine_llama3,"A pesar de que algunos critican al intermediario, se necesita a este individuo en la economía.","Aunque algunas personas critican al intermediario, este individuo es necesario en la economía.","Algunos critican al intermediario, pero se necesita a este individuo en la economía.","Algunos critican al intermediario, pero es necesario para la economía.",llama3,llama3:8b,"Eres un editor de textos en español especializado en simplificación de textos formales.
 
 Tu tarea es mejorar una simplificación ya generada. No debes rehacerla desde cero.
@@ -1213,7 +1213,7 @@ Instrucciones obligatorias:
 13. Conserva números, fechas, nombres propios y cantidades.
 14. No agregues información que no esté en el texto original.
 
-Texto refinado:",ok,,0.9975118637084961
+Texto refinado:",ok,,1.0297720432281494
 10,46,lora_mistral,lora_mistral_self_refine_llama3,El impuesto a los réditos es también un buen instrumento para conocer el monto de las rentas y de la riqueza nacional.,El impuesto a las utilidades también es un buen método para conocer el monto de las rentas y de la riqueza nacional.,El impuesto a los réditos es un buen instrumento para conocer el monto de las rentas y de la riqueza nacional.,El impuesto a los réditos es un buen instrumento para conocer la cantidad de rentas y riqueza nacional.,llama3,llama3:8b,"Eres un editor de textos en español especializado en simplificación de textos formales.
 
 Tu tarea es mejorar una simplificación ya generada. No debes rehacerla desde cero.
@@ -1240,7 +1240,7 @@ Instrucciones obligatorias:
 13. Conserva números, fechas, nombres propios y cantidades.
 14. No agregues información que no esté en el texto original.
 
-Texto refinado:",ok,,1.3754663467407227
+Texto refinado:",ok,,1.413656234741211
 11,47,lora_mistral,lora_mistral_self_refine_llama3,"También es de mucha ayuda separar las metas en tres períodos de tiempo para los propósitos de planeamiento, y aun cuando esto ya se trató en el capítulo anterior, se reitera tan importante aspecto, centrados en el tema del presente y con la intención de reforzar el manejo del mismo:","También ayuda separar las metas en tres períodos de tiempo para cumplir con los propósitos planteados. Aunque este aspecto ya se trató en el capítulo anterior, reiteramos su importancia:","Separe las metas en tres períodos de tiempo para el planeamiento. Aunque esto ya se trató en el capítulo anterior, se reitera tan importante aspecto centrados en el tema del presente y con la intención de reforzar el manejo del mismo:","Separe las metas en tres períodos de tiempo para planificar. Aunque esto se mencionó antes, es importante recordarlo para manejar mejor el tema actual.",llama3,llama3:8b,"Eres un editor de textos en español especializado en simplificación de textos formales.
 
 Tu tarea es mejorar una simplificación ya generada. No debes rehacerla desde cero.
@@ -1267,7 +1267,7 @@ Instrucciones obligatorias:
 13. Conserva números, fechas, nombres propios y cantidades.
 14. No agregues información que no esté en el texto original.
 
-Texto refinado:",ok,,1.8370928764343262
+Texto refinado:",ok,,1.8903636932373047
 12,48,lora_mistral,lora_mistral_self_refine_llama3,Seguridad financiera: Consiste en cumplir con las necesidades que se presentan en el futuro de las personas y al mismo tiempo cumplir con las obligaciones diarias.,"Seguridad financiera, consiste en cumplir con las necesidades económicas que se presentan en el futuro de las personas y también cumplir con las obligaciones financieras diarias.",La seguridad financiera consiste en cumplir con las necesidades del futuro de las personas y con las obligaciones diarias.,La seguridad financiera consiste en cubrir las necesidades futuras de las personas y pagar las cuentas diarias.,llama3,llama3:8b,"Eres un editor de textos en español especializado en simplificación de textos formales.
 
 Tu tarea es mejorar una simplificación ya generada. No debes rehacerla desde cero.
@@ -1294,7 +1294,7 @@ Instrucciones obligatorias:
 13. Conserva números, fechas, nombres propios y cantidades.
 14. No agregues información que no esté en el texto original.
 
-Texto refinado:",ok,,1.3455111980438232
+Texto refinado:",ok,,1.3763515949249268
 13,49,lora_mistral,lora_mistral_self_refine_llama3,"La última, pero no menos importante razón, puede ser encontrar un fascinante campo de acción intelectual para comprender el mundo real.",La última es encontrar un campo de acción intelectual para comprender el mundo real.,La última razón puede ser encontrar un fascinante campo de acción intelectual para comprender el mundo real.,La última razón puede ser encontrar un campo fascinante para comprender el mundo real.,llama3,llama3:8b,"Eres un editor de textos en español especializado en simplificación de textos formales.
 
 Tu tarea es mejorar una simplificación ya generada. No debes rehacerla desde cero.
@@ -1321,7 +1321,7 @@ Instrucciones obligatorias:
 13. Conserva números, fechas, nombres propios y cantidades.
 14. No agregues información que no esté en el texto original.
 
-Texto refinado:",ok,,1.0792453289031982
+Texto refinado:",ok,,1.1488804817199707
 14,50,lora_mistral,lora_mistral_self_refine_llama3,"Si el entusiasmo, y esto no es idealismo ramplón, se orienta hacia la salud, la belleza, el éxito, la felicidad, lo más probable es que se obtenga la salud, la belleza, el éxito y la felicidad.","Si el entusiasmo se dirige hacia la salud, la belleza, el éxito, la felicidad es probable que los consigamos.","Si el entusiasmo se orienta hacia la salud, la belleza, el éxito y la felicidad, se obtendrá la salud, la belleza, el éxito y la felicidad.","Si el entusiasmo se orienta hacia la salud, belleza y éxito, se obtendrá justamente eso.",llama3,llama3:8b,"Eres un editor de textos en español especializado en simplificación de textos formales.
 
 Tu tarea es mejorar una simplificación ya generada. No debes rehacerla desde cero.
@@ -1348,7 +1348,7 @@ Instrucciones obligatorias:
 13. Conserva números, fechas, nombres propios y cantidades.
 14. No agregues información que no esté en el texto original.
 
-Texto refinado:",ok,,1.3902640342712402
+Texto refinado:",ok,,1.453432321548462
 15,51,lora_mistral,lora_mistral_self_refine_llama3,"En la segunda etapa de programación, se definen los objetivos y se fijan las metas o resultados esperados, que deben ser lo más específicos y precisos posibles, para tener claridad en lo que se trata de alcanzar con las inversiones por realizar; por ejemplo, los tipos de inversión y los montos que se pretenden lograr en un tiempo definido y otros que pueden describirse en términos de logro o resultados que se desean alcanzar.","En la segunda etapa de programación, se definen los objetivos y se fijan las metas específicas.","En la segunda etapa de programación se definen los objetivos y se fijan las metas o resultados esperados. Estos deben ser lo más específicos y precisos posibles para tener claridad en lo que se trata de alcanzar con las inversiones por realizar. Por ejemplo, los tipos de inversión y los montos que se pretenden lograr en un tiempo definido. También los que pueden describirse en términos de logro o resultados que se desean alcanzar.","En la segunda etapa de programación se definen los objetivos y se establecen metas claras y precisas para saber qué se quiere lograr con las inversiones. Por ejemplo, se determinan los tipos de inversión y los montos que se desean alcanzar en un plazo definido.",llama3,llama3:8b,"Eres un editor de textos en español especializado en simplificación de textos formales.
 
 Tu tarea es mejorar una simplificación ya generada. No debes rehacerla desde cero.
@@ -1375,7 +1375,7 @@ Instrucciones obligatorias:
 13. Conserva números, fechas, nombres propios y cantidades.
 14. No agregues información que no esté en el texto original.
 
-Texto refinado:",ok,,3.086662530899048
+Texto refinado:",ok,,3.173600673675537
 16,52,lora_mistral,lora_mistral_self_refine_llama3,Estas tarjetas acarrean pocos riesgos y te ayudan a crear buenos antecedentes crediticios al mostrar tu capacidad para usar una tarjeta con responsabilidad.,Estas tarjetas traen pocos riesgos y ayudan a crear buen historial crediticio.,Estas tarjetas acarrean pocos riesgos y te ayudan a crear buenos antecedentes crediticios al mostrar tu capacidad para usar una tarjeta con responsabilidad.,Estas tarjetas acarrean pocos riesgos y te ayudan a crear buenos antecedentes crediticios al demostrar tu capacidad para usar una tarjeta responsablemente.,llama3,llama3:8b,"Eres un editor de textos en español especializado en simplificación de textos formales.
 
 Tu tarea es mejorar una simplificación ya generada. No debes rehacerla desde cero.
@@ -1402,8 +1402,8 @@ Instrucciones obligatorias:
 13. Conserva números, fechas, nombres propios y cantidades.
 14. No agregues información que no esté en el texto original.
 
-Texto refinado:",ok,,1.9199326038360596
-17,53,lora_mistral,lora_mistral_self_refine_llama3,"Adicionalmente, el canal móvil (celulares) es de alto potencial para utilizar pagos a través de mensajería de texto SMS permitiendo, desde cualquier lugar donde se tenga acceso al servicio inalámbrico, realizar pagos electrónicos.","Además, los celulares permiten realizar pagos electrónicos desde cualquier lugar con acceso al servicio inalámbrico.","Además, el canal móvil es de alto potencial para utilizar pagos a través de mensajería de texto SMS. Esto permite realizar pagos electrónicos desde cualquier lugar con acceso al servicio inalámbrico.","Además, el canal móvil es ideal para realizar pagos electrónicos a través de SMS desde cualquier lugar con conexión inalámbrica.",llama3,llama3:8b,"Eres un editor de textos en español especializado en simplificación de textos formales.
+Texto refinado:",ok,,2.0066030025482178
+17,53,lora_mistral,lora_mistral_self_refine_llama3,"Adicionalmente, el canal móvil (celulares) es de alto potencial para utilizar pagos a través de mensajería de texto SMS permitiendo, desde cualquier lugar donde se tenga acceso al servicio inalámbrico, realizar pagos electrónicos.","Además, los celulares permiten realizar pagos electrónicos desde cualquier lugar con acceso al servicio inalámbrico.","Además, el canal móvil es de alto potencial para utilizar pagos a través de mensajería de texto SMS. Esto permite realizar pagos electrónicos desde cualquier lugar con acceso al servicio inalámbrico.","Además, el canal móvil es ideal para realizar pagos electrónicos a través de SMS desde cualquier lugar con acceso a internet.",llama3,llama3:8b,"Eres un editor de textos en español especializado en simplificación de textos formales.
 
 Tu tarea es mejorar una simplificación ya generada. No debes rehacerla desde cero.
 
@@ -1429,7 +1429,7 @@ Instrucciones obligatorias:
 13. Conserva números, fechas, nombres propios y cantidades.
 14. No agregues información que no esté en el texto original.
 
-Texto refinado:",ok,,1.5739490985870361
+Texto refinado:",ok,,1.5138051509857178
 18,54,lora_mistral,lora_mistral_self_refine_llama3,"Existen varias modalidades de cheques, como lo mencionan los mismos Alonso, Brailovsky y Ortiz (1999).","Según Alonso, Brailovsky y Ortiz (mil novecientos noventa y nueve) hay varias modalidades de cheques.",Existen varias modalidades de cheques.,Existen varias modalidades de cheques.,llama3,llama3:8b,"Eres un editor de textos en español especializado en simplificación de textos formales.
 
 Tu tarea es mejorar una simplificación ya generada. No debes rehacerla desde cero.
@@ -1456,7 +1456,7 @@ Instrucciones obligatorias:
 13. Conserva números, fechas, nombres propios y cantidades.
 14. No agregues información que no esté en el texto original.
 
-Texto refinado:",ok,,0.6850700378417969
+Texto refinado:",ok,,0.6862354278564453
 19,55,lora_mistral,lora_mistral_self_refine_llama3,"La mayor ventaja es la flexibilidad que le da al usuario, quien puede pagar sus saldos por completo cada mes o puede pagar en parte.",La mayor ventaja es la flexibilidad para el usuario. Quien puede pagar sus saldos completos o en parte mensualmente.,La mayor ventaja es la flexibilidad que le da al usuario. Quien puede pagar sus saldos por completo cada mes o pagar en parte.,La mayor ventaja es la flexibilidad que le da al usuario. Puede pagar sus saldos por completo cada mes o pagar parte del monto.,llama3,llama3:8b,"Eres un editor de textos en español especializado en simplificación de textos formales.
 
 Tu tarea es mejorar una simplificación ya generada. No debes rehacerla desde cero.
@@ -1483,7 +1483,7 @@ Instrucciones obligatorias:
 13. Conserva números, fechas, nombres propios y cantidades.
 14. No agregues información que no esté en el texto original.
 
-Texto refinado:",ok,,1.5705244541168213
+Texto refinado:",ok,,1.610910415649414
 20,56,lora_mistral,lora_mistral_self_refine_llama3,"El dinero que inviertes inicialmente se denomina ""capital"".",El capital es el dinero invertido inicialmente.,El dinero inicialmente invertido se llama capital.,El dinero inicialmente invertido se llama capital.,llama3,llama3:8b,"Eres un editor de textos en español especializado en simplificación de textos formales.
 
 Tu tarea es mejorar una simplificación ya generada. No debes rehacerla desde cero.
@@ -1510,7 +1510,7 @@ Instrucciones obligatorias:
 13. Conserva números, fechas, nombres propios y cantidades.
 14. No agregues información que no esté en el texto original.
 
-Texto refinado:",ok,,0.7014913558959961
+Texto refinado:",ok,,0.7342314720153809
 21,57,lora_mistral,lora_mistral_self_refine_llama3,"Existen modelos cuantitativos que permiten determinar de manera técnica el valor de la tasa de descuento como el CAPM1 y el WACC2 (Bell, 2016), los cuales no se incluyen en el presente documento; no obstante, la determinación subjetiva de la tasa de descuento exigida por el accionista puede utilizarse ante la falta de información de los mencionados modelos.","Hay modelos cuantitativos para determinar técnicamente el valor de la tasa de descuento, pero no se incluyen en este documento. Sin embargo, la determinación subjetiva de la tasa de descuento exigida por el accionista se puede utilizar ante la falta de información de esos modelos.","Existen modelos cuantitativos que permiten determinar de manera técnica el valor de la tasa de descuento. Sin embargo, la determinación subjetiva de la tasa de descuento exigida por el accionista puede utilizarse ante la falta de información de los mencionados modelos.","Existen modelos cuantitativos que permiten determinar el valor de la tasa de descuento. Sin embargo, si no se dispone de esa información, se puede utilizar una estimación subjetiva para determinar la tasa de descuento exigida por el accionista.",llama3,llama3:8b,"Eres un editor de textos en español especializado en simplificación de textos formales.
 
 Tu tarea es mejorar una simplificación ya generada. No debes rehacerla desde cero.
@@ -1537,7 +1537,7 @@ Instrucciones obligatorias:
 13. Conserva números, fechas, nombres propios y cantidades.
 14. No agregues información que no esté en el texto original.
 
-Texto refinado:",ok,,2.8350653648376465
+Texto refinado:",ok,,2.9142277240753174
 22,58,lora_mistral,lora_mistral_self_refine_llama3,"Particularmente, se observa que el escenario 3 es el único que presenta una situación que no sea rentable.",El escenario tres es el único que presenta una situación no rentable.,"Particularmente, el escenario tres es el único que presenta una situación no rentable.","Particularmente, solo el escenario tres presenta una situación no rentable.",llama3,llama3:8b,"Eres un editor de textos en español especializado en simplificación de textos formales.
 
 Tu tarea es mejorar una simplificación ya generada. No debes rehacerla desde cero.
@@ -1564,7 +1564,7 @@ Instrucciones obligatorias:
 13. Conserva números, fechas, nombres propios y cantidades.
 14. No agregues información que no esté en el texto original.
 
-Texto refinado:",ok,,0.9596500396728516
+Texto refinado:",ok,,0.9948768615722656
 23,59,lora_mistral,lora_mistral_self_refine_llama3,"Obtenga el rendimiento de un bono de $10,000 que paga el 6.",Saque el rendimiento de un bono de diez mil dólares que paga el seis.,Obtenga el rendimiento de un bono de diez mil dólares que paga el seis.,Obtenga el rendimiento de un bono de diez mil dólares que paga el 6%.,llama3,llama3:8b,"Eres un editor de textos en español especializado en simplificación de textos formales.
 
 Tu tarea es mejorar una simplificación ya generada. No debes rehacerla desde cero.
@@ -1591,7 +1591,7 @@ Instrucciones obligatorias:
 13. Conserva números, fechas, nombres propios y cantidades.
 14. No agregues información que no esté en el texto original.
 
-Texto refinado:",ok,,1.2925312519073486
+Texto refinado:",ok,,1.330467939376831
 24,60,lora_mistral,lora_mistral_self_refine_llama3,"De partida, el tema concierne a todos los individuos y durante toda la vida, pues las finanzas explican la procedencia y uso de los ingresos y recursos que se disponen para satisfacer las necesidades particulares de todas y todos.",El tema interesa a todas las personas. Porque las finanzas explican el origen y uso de los ingresos disponibles para satisfacer las necesidades de todos.,El tema de las finanzas concierne a todos los individuos y durante toda la vida. Las finanzas explican la procedencia y uso de los ingresos y recursos para satisfacer las necesidades particulares de todas y todos.,El tema de las finanzas concierne a todos los individuos y durante toda la vida. Las finanzas explican cómo se obtienen y se utilizan los ingresos para satisfacer las necesidades personales.,llama3,llama3:8b,"Eres un editor de textos en español especializado en simplificación de textos formales.
 
 Tu tarea es mejorar una simplificación ya generada. No debes rehacerla desde cero.
@@ -1618,7 +1618,7 @@ Instrucciones obligatorias:
 13. Conserva números, fechas, nombres propios y cantidades.
 14. No agregues información que no esté en el texto original.
 
-Texto refinado:",ok,,2.287169933319092
+Texto refinado:",ok,,2.3542516231536865
 25,61,lora_mistral,lora_mistral_self_refine_llama3,¿Qué función cumplen las empresas en la sociedad?,¿Qué función tienen las empresas en la sociedad?,¿Qué función cumplen las empresas en la sociedad?,¿Qué papel juegan las empresas en la sociedad?,llama3,llama3:8b,"Eres un editor de textos en español especializado en simplificación de textos formales.
 
 Tu tarea es mejorar una simplificación ya generada. No debes rehacerla desde cero.
@@ -1645,7 +1645,7 @@ Instrucciones obligatorias:
 13. Conserva números, fechas, nombres propios y cantidades.
 14. No agregues información que no esté en el texto original.
 
-Texto refinado:",ok,,0.7372663021087646
+Texto refinado:",ok,,0.7735519409179688
 26,62,lora_mistral,lora_mistral_self_refine_llama3,Estos principios están diseñados para promover que las firmas de servicios financieros y las organizaciones de consumidores hagan más para educar a los ciudadanos en esta área.,Estos principios están diseñados para promover que las empresas de servicios financieros y las organizaciones de consumidores hagan más para educar a los ciudadanos en esta área.,Estos principios promueven que las firmas de servicios financieros y las organizaciones de consumidores educen a los ciudadanos en esta área.,Estos principios promueven la educación de los ciudadanos sobre servicios financieros.,llama3,llama3:8b,"Eres un editor de textos en español especializado en simplificación de textos formales.
 
 Tu tarea es mejorar una simplificación ya generada. No debes rehacerla desde cero.
@@ -1672,7 +1672,7 @@ Instrucciones obligatorias:
 13. Conserva números, fechas, nombres propios y cantidades.
 14. No agregues información que no esté en el texto original.
 
-Texto refinado:",ok,,1.092639446258545
+Texto refinado:",ok,,1.1220660209655762
 27,63,lora_mistral,lora_mistral_self_refine_llama3,"Hable con ellos, déles la cara, y hágales saber que está haciendo todo lo que puede para pagarles.","Hable con ellos, enfréntelos y comuníqueles que está haciendo lo posible para pagarles.","Comuníquese con ellos, déles la cara y hágales saber que está haciendo todo lo posible para pagarles.","Comuníquese con ellos, déles la cara y hágales saber que está haciendo todo lo posible para pagarles.",llama3,llama3:8b,"Eres un editor de textos en español especializado en simplificación de textos formales.
 
 Tu tarea es mejorar una simplificación ya generada. No debes rehacerla desde cero.
@@ -1699,7 +1699,7 @@ Instrucciones obligatorias:
 13. Conserva números, fechas, nombres propios y cantidades.
 14. No agregues información que no esté en el texto original.
 
-Texto refinado:",ok,,1.4067199230194092
+Texto refinado:",ok,,1.464937448501587
 28,64,lora_mistral,lora_mistral_self_refine_llama3,Pero ¿en qué se compite?,Pero ¿en qué se compite?,¿En qué se compite?,¿En qué se compete?,llama3,llama3:8b,"Eres un editor de textos en español especializado en simplificación de textos formales.
 
 Tu tarea es mejorar una simplificación ya generada. No debes rehacerla desde cero.
@@ -1726,7 +1726,7 @@ Instrucciones obligatorias:
 13. Conserva números, fechas, nombres propios y cantidades.
 14. No agregues información que no esté en el texto original.
 
-Texto refinado:",ok,,0.5327510833740234
+Texto refinado:",ok,,0.5808854103088379
 29,65,lora_mistral,lora_mistral_self_refine_llama3,"Por otra parte, algunas personas sostienen que un impuesto de 10 por ciento impondría el mismo sacrificio a ambas familias.","Por otra parte, algunas personas sostienen que un impuesto de diez por ciento impondría el mismo sacrificio a ambas familias.",Algunas personas sostienen que un impuesto de diez por ciento impondría el mismo sacrificio a ambas familias.,Algunas personas creen que un impuesto del 10% sería igual de duro para ambas familias.,llama3,llama3:8b,"Eres un editor de textos en español especializado en simplificación de textos formales.
 
 Tu tarea es mejorar una simplificación ya generada. No debes rehacerla desde cero.
@@ -1753,7 +1753,7 @@ Instrucciones obligatorias:
 13. Conserva números, fechas, nombres propios y cantidades.
 14. No agregues información que no esté en el texto original.
 
-Texto refinado:",ok,,1.3562090396881104
+Texto refinado:",ok,,1.3883116245269775
 30,66,lora_mistral,lora_mistral_self_refine_llama3,"Al principio, como ya vimos en el trueque, adoptó la forma de mercancía, pero con el tiempo se transformó en dinero-papel, cuentas corrientes y otras formas.","Al principio, tuvo la forma de mercancía, pero luego se transformó en dinero-papel, cuentas corrientes y otras formas.","Al principio, como vimos en el trueque, adoptó la forma de mercancía. Pero con el tiempo se transformó en dinero-papel, cuentas corrientes y otras formas.","Al principio, adoptó la forma de mercancía. Luego se convirtió en dinero-papel, cuentas corrientes y otras formas.",llama3,llama3:8b,"Eres un editor de textos en español especializado en simplificación de textos formales.
 
 Tu tarea es mejorar una simplificación ya generada. No debes rehacerla desde cero.
@@ -1780,7 +1780,7 @@ Instrucciones obligatorias:
 13. Conserva números, fechas, nombres propios y cantidades.
 14. No agregues información que no esté en el texto original.
 
-Texto refinado:",ok,,1.656282663345337
+Texto refinado:",ok,,1.6897308826446533
 31,67,lora_mistral,lora_mistral_self_refine_llama3,"¿Son estos sólo sueños, o son metas reales?",¿Estos son sólo sueños o son metas reales?,¿Son estos sueños o metas reales?,¿Son estos sueños reales?,llama3,llama3:8b,"Eres un editor de textos en español especializado en simplificación de textos formales.
 
 Tu tarea es mejorar una simplificación ya generada. No debes rehacerla desde cero.
@@ -1807,7 +1807,7 @@ Instrucciones obligatorias:
 13. Conserva números, fechas, nombres propios y cantidades.
 14. No agregues información que no esté en el texto original.
 
-Texto refinado:",ok,,0.6237485408782959
+Texto refinado:",ok,,0.6667580604553223
 32,68,lora_mistral,lora_mistral_self_refine_llama3,"En los pueblos donde el principio de la elección se extiende a todo, no hay propiamente hablando carrera pública.",En los pueblos donde el principio de la elección se extiende a todo no existe la carrera pública.,"En los pueblos donde el principio de la elección se extiende a todo, no hay propiamente hablando carrera pública.","En los pueblos donde todos pueden elegir, no hay una carrera pública como tal.",llama3,llama3:8b,"Eres un editor de textos en español especializado en simplificación de textos formales.
 
 Tu tarea es mejorar una simplificación ya generada. No debes rehacerla desde cero.
@@ -1834,7 +1834,7 @@ Instrucciones obligatorias:
 13. Conserva números, fechas, nombres propios y cantidades.
 14. No agregues información que no esté en el texto original.
 
-Texto refinado:",ok,,1.1574623584747314
+Texto refinado:",ok,,1.2124741077423096
 33,69,lora_mistral,lora_mistral_self_refine_llama3,"Sin entusiasmo, dijo alguien famoso, nunca se ha podido realizar nada grande.",Sin entusiasmo no se logró nada grande.,"Sin entusiasmo, nunca se ha podido realizar nada grande.","Sin entusiasmo, nunca se logra hacer algo grande.",llama3,llama3:8b,"Eres un editor de textos en español especializado en simplificación de textos formales.
 
 Tu tarea es mejorar una simplificación ya generada. No debes rehacerla desde cero.
@@ -1861,7 +1861,7 @@ Instrucciones obligatorias:
 13. Conserva números, fechas, nombres propios y cantidades.
 14. No agregues información que no esté en el texto original.
 
-Texto refinado:",ok,,0.8840584754943848
+Texto refinado:",ok,,0.928062915802002
 34,70,lora_mistral,lora_mistral_self_refine_llama3,"Por tanto, este método calcula interés sobre interés.","Por eso, este método calcula interés sobre interés.","Por eso, este método calcula interés sobre interés.",Este método calcula interés sobre intereses.,llama3,llama3:8b,"Eres un editor de textos en español especializado en simplificación de textos formales.
 
 Tu tarea es mejorar una simplificación ya generada. No debes rehacerla desde cero.
@@ -1888,7 +1888,7 @@ Instrucciones obligatorias:
 13. Conserva números, fechas, nombres propios y cantidades.
 14. No agregues información que no esté en el texto original.
 
-Texto refinado:",ok,,0.7157485485076904
+Texto refinado:",ok,,0.7618253231048584
 35,71,lora_mistral,lora_mistral_self_refine_llama3,"El resultado es aproximado a $300,000 en seis años.",El resultado es aproximadamente trescientos mil dólares en seis años.,El resultado es aproximadamente trescientos mil dólares en seis años.,El resultado es aproximadamente trescientos mil dólares en seis años.,llama3,llama3:8b,"Eres un editor de textos en español especializado en simplificación de textos formales.
 
 Tu tarea es mejorar una simplificación ya generada. No debes rehacerla desde cero.
@@ -1915,7 +1915,7 @@ Instrucciones obligatorias:
 13. Conserva números, fechas, nombres propios y cantidades.
 14. No agregues información que no esté en el texto original.
 
-Texto refinado:",ok,,0.9638540744781494
+Texto refinado:",ok,,0.9974768161773682
 36,72,lora_mistral,lora_mistral_self_refine_llama3,Documente todos sus gastos e ingresos o compárelos con lo que usted planificó que iba a gastar en el mes.,Documente todos sus gastos e ingresos y compárelos con lo que usted planificó que iba a gastar en el mes.,Documente todos sus gastos e ingresos.,Documente todos sus gastos e ingresos para compararlos con lo planeado.,llama3,llama3:8b,"Eres un editor de textos en español especializado en simplificación de textos formales.
 
 Tu tarea es mejorar una simplificación ya generada. No debes rehacerla desde cero.
@@ -1942,4 +1942,4 @@ Instrucciones obligatorias:
 13. Conserva números, fechas, nombres propios y cantidades.
 14. No agregues información que no esté en el texto original.
 
-Texto refinado:",ok,,1.052274227142334
+Texto refinado:",ok,,1.0707643032073975
